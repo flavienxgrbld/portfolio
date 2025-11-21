@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veilles Technologiques - Flavien GARIBALDI</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.php">Accueil</a></li>
+            <li><a href="apropos.php">À propos</a></li>
+            <li><a href="projets.php">Mes Projets</a></li>
+            <li><a href="certifications.php">Certifications</a></li>
+            <li><a href="tcs.php">TCS</a></li>
+            <li><a href="veilles.php">Veilles</a></li>
+            <li><a href="contact.php">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Veilles Section -->
+    <section id="veilles" style="margin-top: 100px;">
+        <h2>Mes Veilles Technologiques</h2>
+        <div class="veilles-content">
+            <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
+                Dans le cadre de ma formation et de mon intérêt pour les nouvelles technologies,<br>
+                je réalise une veille technologique régulière sur plusieurs domaines clés de l'informatique.
+            </p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cybersécurité</h3>
+                        <p>Veille sur les nouvelles menaces, vulnérabilités (CVE), ransomwares, et bonnes pratiques en sécurité informatique. Suivi des alertes de sécurité et des patchs critiques.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Vulnérabilités</span>
+                            <span class="skill-tag">Ransomware</span>
+                            <span class="skill-tag">Zero-Day</span>
+                            <span class="skill-tag">Cryptographie</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources :</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • CERT-FR / ANSSI<br>
+                                • CVE Details<br>
+                                • Krebs on Security<br>
+                                • SecurityWeek
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cloud Computing & Infrastructure</h3>
+                        <p>Surveillance des évolutions dans les technologies cloud (AWS, Azure, GCP), la conteneurisation et les architectures cloud-native.</p>
+                        <div class="skills">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">DevOps</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources :</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • AWS Blog<br>
+                                • Microsoft Azure Blog<br>
+                                • Kubernetes Blog<br>
+                                • DevOps.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Réseaux & Systèmes</h3>
+                        <p>Actualités sur les protocoles réseau, l'administration système, les nouvelles technologies réseau et l'évolution des standards (IPv6, 5G, Wi-Fi 7).</p>
+                        <div class="skills">
+                            <span class="skill-tag">5G</span>
+                            <span class="skill-tag">IPv6</span>
+                            <span class="skill-tag">SD-WAN</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources :</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Cisco Blog<br>
+                                • Network World<br>
+                                • Linux Foundation<br>
+                                • Red Hat Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Intelligence Artificielle & Automatisation</h3>
+                        <p>Suivi des avancées en IA, machine learning, et automatisation IT (Infrastructure as Code, automatisation réseau).</p>
+                        <div class="skills">
+                            <span class="skill-tag">IA</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Automatisation</span>
+                            <span class="skill-tag">Ansible</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources :</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • OpenAI Blog<br>
+                                • Towards Data Science<br>
+                                • Automation Anywhere<br>
+                                • Ansible Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Développement & Nouvelles Technologies</h3>
+                        <p>Veille sur les nouveaux langages, frameworks, et tendances du développement web et logiciel.</p>
+                        <div class="skills">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Rust</span>
+                            <span class="skill-tag">WebAssembly</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources :</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Dev.to<br>
+                                • Stack Overflow Blog<br>
+                                • GitHub Blog<br>
+                                • Mozilla Developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Virtualisation & Conteneurisation</h3>
+                        <p>Évolutions des technologies de virtualisation (VMware, Hyper-V) et de conteneurisation (Docker, Kubernetes).</p>
+                        <div class="skills">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">VMware</span>
+                            <span class="skill-tag">Proxmox</span>
+                            <span class="skill-tag">LXC</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources :</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Docker Blog<br>
+                                • VMware Blog<br>
+                                • Proxmox Forum<br>
+                                • Container Journal
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Méthodologie de veille -->
+            <div class="project-card" style="margin-top: 3rem; background: rgba(99, 102, 241, 0.1);">
+                <div class="project-info">
+                    <h3><i class="fas fa-search"></i> Ma Méthodologie de Veille</h3>
+                    <p style="margin-bottom: 1rem;">Pour rester informé des dernières actualités technologiques, j'utilise plusieurs outils et méthodes :</p>
+                    <ul style="color: var(--text-gray); text-align: left; margin-left: 2rem;">
+                        <li>Agrégateurs RSS (Feedly) pour centraliser les sources</li>
+                        <li>Newsletters spécialisées (TLDR, Hacker News Digest)</li>
+                        <li>Réseaux sociaux professionnels (LinkedIn, Twitter/X)</li>
+                        <li>Podcasts et webinaires techniques</li>
+                        <li>Documentation officielle et blogs d'experts</li>
+                        <li>Participation à des communautés en ligne (Reddit, Discord)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; <?php echo date('Y'); ?> Flavien GARIBALDI. Tous droits réservés.</p>
+    </footer>
+</body>
+
+</html>
