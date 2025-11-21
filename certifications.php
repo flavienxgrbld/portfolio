@@ -40,57 +40,19 @@
         <div class="projects-grid">
             <div class="project-card">
                 <div class="project-image">
-                    <i class="fab fa-microsoft"></i>
+                    <i class="fas fa-shield-alt"></i>
                 </div>
                 <div class="project-info">
-                    <h3>Microsoft Certified: Azure Fundamentals</h3>
-                    <p style="color: var(--primary-color); margin: 0.5rem 0; font-weight: 600;">AZ-900</p>
-                    <p>Certification validant les connaissances de base sur les services cloud et le modèle Azure.</p>
+                    <h3>MOOC Cybersécurité - ANSSI</h3>
+                    <p style="color: var(--primary-color); margin: 0.5rem 0; font-weight: 600;">SecNumacadémie</p>
+                    <p>Formation de sensibilisation à la cybersécurité proposée par l'Agence Nationale de la Sécurité des Systèmes d'Information.</p>
                     <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">Azure</span>
-                        <span class="skill-tag">Cloud Computing</span>
-                        <span class="skill-tag">IaaS/PaaS/SaaS</span>
+                        <span class="skill-tag">Cybersécurité</span>
+                        <span class="skill-tag">ANSSI</span>
+                        <span class="skill-tag">Sécurité SI</span>
                     </div>
                     <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-calendar-alt"></i> Obtenue en : Janvier 2025
-                    </p>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <i class="fab fa-linux"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Linux Professional Institute</h3>
-                    <p style="color: var(--primary-color); margin: 0.5rem 0; font-weight: 600;">LPIC-1</p>
-                    <p>Certification d'administration système Linux niveau 1, couvrant les fondamentaux de Linux.</p>
-                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">Linux</span>
-                        <span class="skill-tag">Administration Système</span>
-                        <span class="skill-tag">Shell</span>
-                    </div>
-                    <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-calendar-alt"></i> Obtenue en : Décembre 2024
-                    </p>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <i class="fas fa-network-wired"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Cisco Certified Network Associate</h3>
-                    <p style="color: var(--primary-color); margin: 0.5rem 0; font-weight: 600;">CCNA</p>
-                    <p>Certification réseau Cisco couvrant les fondamentaux des réseaux, routage et commutation.</p>
-                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">Cisco</span>
-                        <span class="skill-tag">Réseaux</span>
-                        <span class="skill-tag">Routage/Commutation</span>
-                    </div>
-                    <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-calendar-alt"></i> Obtenue en : Novembre 2024
+                        <i class="fas fa-calendar-alt"></i> Obtenue en : 2024
                     </p>
                 </div>
             </div>
@@ -104,113 +66,123 @@
         <div class="projects-grid">
             <div class="project-card" style="border: 2px solid var(--secondary-color);">
                 <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Cisco Certified Network Associate</h3>
+                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CCNA</p>
+                    <p>Certification réseau Cisco couvrant les fondamentaux des réseaux, routage, commutation et sécurité.</p>
+                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Réseaux</span>
+                        <span class="skill-tag">Routage/Commutation</span>
+                    </div>
+                    <p style="font-size: 0.9rem; color: var(--text-gray);">
+                        <i class="fas fa-hourglass-half"></i> En préparation
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card" style="border: 2px solid var(--secondary-color);">
+                <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
+                    <i class="fab fa-cisco"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Cisco Certified Support Technician - Networking</h3>
+                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CCST Networking</p>
+                    <p>Certification de base Cisco validant les compétences en support réseau et dépannage.</p>
+                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Support Réseau</span>
+                        <span class="skill-tag">Dépannage</span>
+                    </div>
+                    <p style="font-size: 0.9rem; color: var(--text-gray);">
+                        <i class="fas fa-hourglass-half"></i> En préparation
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card" style="border: 2px solid var(--secondary-color);">
+                <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
                     <i class="fas fa-shield-alt"></i>
                 </div>
                 <div class="project-info">
-                    <h3>CompTIA Security+</h3>
-                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">SY0-701</p>
-                    <p>Certification en cybersécurité couvrant les menaces, vulnérabilités et solutions de sécurité.</p>
+                    <h3>Cisco Certified Support Technician - Cybersecurity</h3>
+                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CCST Cybersecurity</p>
+                    <p>Certification Cisco de base en cybersécurité couvrant les concepts essentiels de sécurité.</p>
                     <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
                         <span class="skill-tag">Cybersécurité</span>
+                        <span class="skill-tag">Cisco</span>
                         <span class="skill-tag">Sécurité Réseau</span>
-                        <span class="skill-tag">Cryptographie</span>
                     </div>
                     <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-hourglass-half"></i> Prévue pour : Mars 2025
+                        <i class="fas fa-hourglass-half"></i> En préparation
                     </p>
                 </div>
             </div>
 
             <div class="project-card" style="border: 2px solid var(--secondary-color);">
                 <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
-                    <i class="fab fa-aws"></i>
+                    <i class="fas fa-server"></i>
                 </div>
                 <div class="project-info">
-                    <h3>AWS Certified Cloud Practitioner</h3>
-                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CLF-C02</p>
-                    <p>Certification de base AWS validant les connaissances du cloud computing Amazon.</p>
+                    <h3>Cisco Certified Support Technician - Endpoint Security</h3>
+                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CCST Endpoint Security</p>
+                    <p>Certification Cisco sur la sécurité des endpoints et la protection des postes de travail.</p>
                     <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">AWS</span>
-                        <span class="skill-tag">Cloud</span>
-                        <span class="skill-tag">Architecture Cloud</span>
+                        <span class="skill-tag">Endpoint Security</span>
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">Sécurité Poste</span>
                     </div>
                     <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-hourglass-half"></i> Prévue pour : Avril 2025
+                        <i class="fas fa-hourglass-half"></i> En préparation
                     </p>
                 </div>
             </div>
 
             <div class="project-card" style="border: 2px solid var(--secondary-color);">
                 <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
-                    <i class="fab fa-python"></i>
+                    <i class="fas fa-lock"></i>
                 </div>
                 <div class="project-info">
-                    <h3>Python Institute PCAP</h3>
-                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">PCAP-31-03</p>
-                    <p>Certification de programmation Python niveau Associate pour l'automatisation et le scripting.</p>
+                    <h3>Stormshield Network Security Administrator</h3>
+                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CSNA</p>
+                    <p>Certification d'administration des pare-feux Stormshield pour la sécurité réseau.</p>
                     <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">Programmation</span>
-                        <span class="skill-tag">Automatisation</span>
+                        <span class="skill-tag">Stormshield</span>
+                        <span class="skill-tag">Firewall</span>
+                        <span class="skill-tag">Sécurité Réseau</span>
                     </div>
                     <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-hourglass-half"></i> Prévue pour : Mai 2025
+                        <i class="fas fa-hourglass-half"></i> En préparation
+                    </p>
+                </div>
+            </div>
+
+            <div class="project-card" style="border: 2px solid var(--secondary-color);">
+                <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Stormshield Endpoint Security Administrator</h3>
+                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CSEA</p>
+                    <p>Certification sur l'administration des solutions de sécurité endpoint Stormshield.</p>
+                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
+                        <span class="skill-tag">Stormshield</span>
+                        <span class="skill-tag">Endpoint</span>
+                        <span class="skill-tag">Protection</span>
+                    </div>
+                    <p style="font-size: 0.9rem; color: var(--text-gray);">
+                        <i class="fas fa-hourglass-half"></i> En préparation
                     </p>
                 </div>
             </div>
         </div>
 
         <!-- Formations suivies -->
-        <h3 style="color: var(--text-light); margin-top: 4rem; margin-bottom: 2rem; font-size: 1.8rem;">
-            <i class="fas fa-graduation-cap" style="color: var(--primary-color);"></i> Formations Complémentaires
-        </h3>
         
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-info">
-                    <h3><i class="fas fa-code"></i> Développement Web Full Stack</h3>
-                    <p>Formation complète en développement web (HTML, CSS, JavaScript, PHP, MySQL).</p>
-                    <p style="font-size: 0.9rem; color: var(--text-gray); margin-top: 0.5rem;">
-                        <i class="fas fa-building"></i> OpenClassrooms - 2024
-                    </p>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-info">
-                    <h3><i class="fas fa-docker"></i> Conteneurisation avec Docker</h3>
-                    <p>Maîtrise de Docker pour la création et gestion de conteneurs et microservices.</p>
-                    <p style="font-size: 0.9rem; color: var(--text-gray); margin-top: 0.5rem;">
-                        <i class="fas fa-building"></i> Udemy - 2024
-                    </p>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-info">
-                    <h3><i class="fas fa-lock"></i> Ethical Hacking & Pentesting</h3>
-                    <p>Introduction au hacking éthique et aux tests d'intrusion pour la sécurité informatique.</p>
-                    <p style="font-size: 0.9rem; color: var(--text-gray); margin-top: 0.5rem;">
-                        <i class="fas fa-building"></i> Coursera - 2023
-                    </p>
-                </div>
-            </div>
         </div>
 
-        <!-- Objectifs futurs -->
-        <div class="project-card" style="margin-top: 3rem; background: rgba(99, 102, 241, 0.1);">
-            <div class="project-info">
-                <h3><i class="fas fa-bullseye"></i> Objectifs de Certification</h3>
-                <p style="margin-bottom: 1rem;">Je poursuis activement mes certifications pour renforcer mes compétences dans les domaines suivants :</p>
-                <ul style="color: var(--text-gray); text-align: left; margin-left: 2rem; line-height: 2;">
-                    <li><strong>Cybersécurité :</strong> CompTIA Security+, CEH (Certified Ethical Hacker)</li>
-                    <li><strong>Cloud Computing :</strong> AWS Solutions Architect, Azure Administrator</li>
-                    <li><strong>Réseaux :</strong> CCNP, Fortinet NSE</li>
-                    <li><strong>Systèmes :</strong> RHCSA (Red Hat), MCSA (Microsoft)</li>
-                    <li><strong>DevOps :</strong> Kubernetes (CKA), Terraform</li>
-                </ul>
-            </div>
-        </div>
     </section>
 
     <!-- Footer -->
