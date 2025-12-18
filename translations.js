@@ -170,53 +170,74 @@ const translations = {
     }
 };
 
-let currentLang = localStorage.getItem('language') || 'fr';
+(function() {
+    'use strict';
+    
+    const LANG_KEY = 'language';
+    const DEFAULT_LANG = 'fr';
+    
+    window.currentLang = localStorage.getItem(LANG_KEY) || DEFAULT_LANG;
 
-function setLanguage(lang) {
-    currentLang = lang;
-    localStorage.setItem('language', lang);
-    updatePageLanguage();
-    updateTypewriterText();
-}
+    window.setLanguage = function(lang) {
+        if (!translations[lang]) return;
+        
+        window.currentLang = lang;
+        localStorage.setItem(LANG_KEY, lang);
+        updatePageLanguage();
+        updateTypewriterText();
+    };
 
-function updatePageLanguage() {
-    document.querySelectorAll('[data-i18n]').forEach(element => {
-        const key = element.getAttribute('data-i18n');
-        if (translations[currentLang] && translations[currentLang][key]) {
-            if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
-                element.placeholder = translations[currentLang][key];
-            } else {
-                element.textContent = translations[currentLang][key];
+    function updatePageLanguage() {
+        const lang = window.currentLang;
+        const elements = document.querySelectorAll('[data-i18n]');
+        
+        elements.forEach(element => {
+            const key = element.getAttribute('data-i18n');
+            const translation = translations[lang]?.[key];
+            
+            if (translation) {
+                if (element.tagName === 'INPUT' || element.tagName === 'TEXTAREA') {
+                    element.placeholder = translation;
+                } else {
+                    element.textContent = translation;
+                }
+            }
+        });
+        
+        document.documentElement.lang = lang;
+    }
+
+    function updateTypewriterText() {
+        const lang = window.currentLang;
+        const pageTitle = document.getElementById('page-title');
+        const typewriterSubtitle = document.getElementById('typewriter-subtitle');
+        
+        if (pageTitle) {
+            const key = pageTitle.getAttribute('data-i18n-key');
+            if (key && translations[lang]?.[key]) {
+                window.titleText = translations[lang][key];
             }
         }
-    });
-    
-    document.documentElement.lang = currentLang;
-}
-
-function updateTypewriterText() {
-    const pageTitle = document.getElementById('page-title');
-    const typewriterSubtitle = document.getElementById('typewriter-subtitle');
-    const typewriterName = document.getElementById('typewriter-name');
-    
-    if (pageTitle) {
-        const key = pageTitle.getAttribute('data-i18n-key');
-        if (key && translations[currentLang][key]) {
-            window.titleText = translations[currentLang][key];
+        
+        if (typewriterSubtitle && translations[lang]?.hero_subtitle) {
+            window.subtitleText = translations[lang].hero_subtitle;
         }
     }
-    
-    if (typewriterSubtitle) {
-        window.subtitleText = translations[currentLang]['hero_subtitle'];
-    }
-}
 
-document.addEventListener('DOMContentLoaded', () => {
-    updatePageLanguage();
-    
-    document.querySelectorAll('.lang-option').forEach(option => {
-        if (option.getAttribute('data-lang') === currentLang) {
-            option.classList.add('active');
-        }
-    });
-});
+    function initTranslations() {
+        updatePageLanguage();
+        
+        document.querySelectorAll('.lang-option').forEach(option => {
+            const optionLang = option.getAttribute('data-lang');
+            if (optionLang === window.currentLang) {
+                option.classList.add('active');
+            }
+        });
+    }
+
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initTranslations);
+    } else {
+        initTranslations();
+    }
+})();
