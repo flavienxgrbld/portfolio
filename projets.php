@@ -11,23 +11,21 @@
 </head>
 
 <body>
-    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="apropos.php">À propos</a></li>
-            <li><a href="projets.php">Mes Projets</a></li>
-            <li><a href="certifications.php">Certifications</a></li>
-            <li><a href="tcs.php">TCS</a></li>
-            <li><a href="veilles.php">Veilles</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php" data-i18n="nav_home">Accueil</a></li>
+            <li><a href="apropos.php" data-i18n="nav_about">À propos</a></li>
+            <li><a href="projets.php" data-i18n="nav_projects">Mes Projets</a></li>
+            <li><a href="certifications.php" data-i18n="nav_certifications">Certifications</a></li>
+            <li><a href="tcs.php" data-i18n="nav_tcs">TCS</a></li>
+            <li><a href="veilles.php" data-i18n="nav_veilles">Veilles</a></li>
+            <li><a href="contact.php" data-i18n="nav_contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Projects Section -->
     <section id="projets" style="margin-top: 100px;">
-        <h2>Mes Projets</h2>
-        <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
+        <h2 class="fade-up" data-i18n="title_projects">Mes Projets</h2>
+        <p class="fade-up" style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
             Découvrez les différents projets que j'ai réalisés dans le cadre de ma formation et de mes expériences personnelles.
         </p>
         
@@ -100,9 +98,8 @@
                     <h3>Virtualisation & Cloud</h3>
                     <p>Déploiement d'un environnement virtualisé avec gestion des machines virtuelles et allocation des ressources.</p>
                     <div class="skills">
-                        <span class="skill-tag">VMware</span>
+                        <span class="skill-tag">cloud</span>
                         <span class="skill-tag">Hyper-V</span>
-                        <span class="skill-tag">Cloud</span>
                     </div>
                 </div>
             </div>
@@ -117,17 +114,24 @@
                     <div class="skills">
                         <span class="skill-tag">HTML/CSS</span>
                         <span class="skill-tag">PHP</span>
-                        <span class="skill-tag">JavaScript</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
+    <?php include 'lang-selector.php'; ?>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <footer>
         <p>&copy; <?php echo date('Y'); ?> Flavien GARIBALDI. Tous droits réservés.</p>
     </footer>
+
+    <script src="scroll-animations.js"></script>
+    <script src="theme-toggle.js"></script>
 </body>
 
 </html>

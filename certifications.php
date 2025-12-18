@@ -11,28 +11,25 @@
 </head>
 
 <body>
-    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="apropos.php">À propos</a></li>
-            <li><a href="projets.php">Mes Projets</a></li>
-            <li><a href="certifications.php">Certifications</a></li>
-            <li><a href="tcs.php">TCS</a></li>
-            <li><a href="veilles.php">Veilles</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php" data-i18n="nav_home">Accueil</a></li>
+            <li><a href="apropos.php" data-i18n="nav_about">À propos</a></li>
+            <li><a href="projets.php" data-i18n="nav_projects">Mes Projets</a></li>
+            <li><a href="certifications.php" data-i18n="nav_certifications">Certifications</a></li>
+            <li><a href="tcs.php" data-i18n="nav_tcs">TCS</a></li>
+            <li><a href="veilles.php" data-i18n="nav_veilles">Veilles</a></li>
+            <li><a href="contact.php" data-i18n="nav_contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Certifications Section -->
     <section id="certifications" style="margin-top: 100px;">
-        <h2>Mes Certifications</h2>
+        <h2 class="fade-up" data-i18n="title_certifications">Mes Certifications</h2>
         <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
             Retrouvez ici l'ensemble de mes certifications professionnelles et formations suivies.<br>
             Ces certifications attestent de mes compétences et de mon engagement dans l'amélioration continue.
         </p>
 
-        <!-- Certifications obtenues -->
         <h3 style="color: var(--text-light); margin-bottom: 2rem; font-size: 1.8rem;">
             <i class="fas fa-certificate" style="color: var(--primary-color);"></i> Certifications Obtenues
         </h3>
@@ -58,7 +55,6 @@
             </div>
         </div>
 
-        <!-- Certifications en cours -->
         <h3 style="color: var(--text-light); margin-top: 4rem; margin-bottom: 2rem; font-size: 1.8rem;">
             <i class="fas fa-book-reader" style="color: var(--secondary-color);"></i> En cours de préparation
         </h3>
@@ -139,56 +135,24 @@
                     </p>
                 </div>
             </div>
-
-            <div class="project-card" style="border: 2px solid var(--secondary-color);">
-                <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
-                    <i class="fas fa-lock"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Stormshield Network Security Administrator</h3>
-                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CSNA</p>
-                    <p>Certification d'administration des pare-feux Stormshield pour la sécurité réseau.</p>
-                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">Stormshield</span>
-                        <span class="skill-tag">Firewall</span>
-                        <span class="skill-tag">Sécurité Réseau</span>
-                    </div>
-                    <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-hourglass-half"></i> En préparation
-                    </p>
-                </div>
-            </div>
-
-            <div class="project-card" style="border: 2px solid var(--secondary-color);">
-                <div class="project-image" style="background: linear-gradient(135deg, var(--secondary-color), #a78bfa);">
-                    <i class="fas fa-laptop"></i>
-                </div>
-                <div class="project-info">
-                    <h3>Stormshield Endpoint Security Administrator</h3>
-                    <p style="color: var(--secondary-color); margin: 0.5rem 0; font-weight: 600;">CSEA</p>
-                    <p>Certification sur l'administration des solutions de sécurité endpoint Stormshield.</p>
-                    <div class="skills" style="margin-top: 1rem; margin-bottom: 1rem;">
-                        <span class="skill-tag">Stormshield</span>
-                        <span class="skill-tag">Endpoint</span>
-                        <span class="skill-tag">Protection</span>
-                    </div>
-                    <p style="font-size: 0.9rem; color: var(--text-gray);">
-                        <i class="fas fa-hourglass-half"></i> En préparation
-                    </p>
-                </div>
-            </div>
         </div>
 
-        <!-- Formations suivies -->
-        
         </div>
 
     </section>
 
-    <!-- Footer -->
+    <?php include 'lang-selector.php'; ?>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <footer>
         <p>&copy; <?php echo date('Y'); ?> Flavien GARIBALDI. Tous droits réservés.</p>
     </footer>
+
+    <script src="scroll-animations.js"></script>
+    <script src="theme-toggle.js"></script>
 </body>
 
 </html>

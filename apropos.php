@@ -11,22 +11,20 @@
 </head>
 
 <body>
-    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="apropos.php">À propos</a></li>
-            <li><a href="projets.php">Mes Projets</a></li>
-            <li><a href="certifications.php">Certifications</a></li>
-            <li><a href="tcs.php">TCS</a></li>
-            <li><a href="veilles.php">Veilles</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php" data-i18n="nav_home">Accueil</a></li>
+            <li><a href="apropos.php" data-i18n="nav_about">À propos</a></li>
+            <li><a href="projets.php" data-i18n="nav_projects">Mes Projets</a></li>
+            <li><a href="certifications.php" data-i18n="nav_certifications">Certifications</a></li>
+            <li><a href="tcs.php" data-i18n="nav_tcs">TCS</a></li>
+            <li><a href="veilles.php" data-i18n="nav_veilles">Veilles</a></li>
+            <li><a href="contact.php" data-i18n="nav_contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- About Section -->
     <section id="apropos" style="margin-top: 100px;">
-        <h2>À Propos de Moi</h2>
+        <h2 class="fade-up" data-i18n="title_about">À Propos de Moi</h2>
         <div class="about-content">
             <div class="about-text">
                 <p>Je suis un étudiant en BTS SIO option SISR (Solutions d'Infrastructure, Systèmes et Réseaux), passionné par l'informatique et les nouvelles technologies.</p>
@@ -35,9 +33,6 @@
                 
                 <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Mes Compétences</h3>
                 <div class="skills">
-                    <!-- <span class="skill-tag">HTML/CSS</span>
-                    <span class="skill-tag">JavaScript</span> 
-                    <span class="skill-tag">PHP</span>  -->
                     <span class="skill-tag">MySQL</span>
                     <span class="skill-tag">Linux</span>
                     <span class="skill-tag">Windows Server</span>
@@ -61,7 +56,6 @@
             </div>
         </div>
 
-        <!-- Contact rapide -->
         <div class="contact-content" style="margin-top: 4rem;">
             <h3 style="margin-bottom: 2rem;">Me Contacter</h3>
             <a href="mailto:flavien.garibaldi@gmail.com" class="btn">
@@ -74,10 +68,18 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <?php include 'lang-selector.php'; ?>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <footer>
         <p>&copy; <?php echo date('Y'); ?> Flavien GARIBALDI. Tous droits réservés.</p>
     </footer>
+
+    <script src="scroll-animations.js"></script>
+    <script src="theme-toggle.js"></script>
 </body>
 
 </html>

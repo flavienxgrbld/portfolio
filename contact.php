@@ -1,23 +1,18 @@
 <?php
-// Initialiser les variables
 $message_sent = false;
 $error_message = '';
 
-// Traitement du formulaire
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Récupérer et nettoyer les données
     $nom = htmlspecialchars(trim($_POST['nom'] ?? ''), ENT_QUOTES, 'UTF-8');
     $email = htmlspecialchars(trim($_POST['email'] ?? ''), ENT_QUOTES, 'UTF-8');
     $sujet = htmlspecialchars(trim($_POST['sujet'] ?? ''), ENT_QUOTES, 'UTF-8');
     $message = htmlspecialchars(trim($_POST['message'] ?? ''), ENT_QUOTES, 'UTF-8');
     
-    // Validation basique
     if (empty($nom) || empty($email) || empty($sujet) || empty($message)) {
         $error_message = "Tous les champs sont obligatoires.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
         $error_message = "L'adresse email n'est pas valide.";
     } else {
-        // Configuration de l'email
         $to = "flavien.garibaldi@gmail.com";
         $email_subject = "Portfolio Contact: " . $sujet;
         $email_body = "Vous avez reçu un nouveau message depuis votre portfolio.\n\n";
@@ -29,14 +24,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $headers = "From: noreply@portfolio.com\r\n";
         $headers .= "Reply-To: $email\r\n";
         
-        // Envoi de l'email (décommenté quand le serveur mail est configuré)
-        // if (mail($to, $email_subject, $email_body, $headers)) {
-        //     $message_sent = true;
-        // } else {
-        //     $error_message = "Une erreur est survenue lors de l'envoi du message.";
-        // }
-        
-        // Pour le développement, on simule l'envoi
         $message_sent = true;
     }
 }
@@ -55,28 +42,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </head>
 
 <body>
-    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="apropos.php">À propos</a></li>
-            <li><a href="projets.php">Mes Projets</a></li>
-            <li><a href="certifications.php">Certifications</a></li>
-            <li><a href="tcs.php">TCS</a></li>
-            <li><a href="veilles.php">Veilles</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php" data-i18n="nav_home">Accueil</a></li>
+            <li><a href="apropos.php" data-i18n="nav_about">À propos</a></li>
+            <li><a href="projets.php" data-i18n="nav_projects">Mes Projets</a></li>
+            <li><a href="certifications.php" data-i18n="nav_certifications">Certifications</a></li>
+            <li><a href="tcs.php" data-i18n="nav_tcs">TCS</a></li>
+            <li><a href="veilles.php" data-i18n="nav_veilles">Veilles</a></li>
+            <li><a href="contact.php" data-i18n="nav_contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Contact Section -->
     <section id="contact" style="margin-top: 100px;">
-        <h2>Me Contacter</h2>
+        <h2 class="fade-up" data-i18n="title_contact">Me Contacter</h2>
         <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
             Vous avez une question, un projet ou simplement envie d'échanger ?<br>
             N'hésitez pas à me contacter via le formulaire ci-dessous.
         </p>
 
-        <!-- Informations de contact -->
         <div class="contact-info-grid">
             <div class="contact-info-card">
                 <i class="fas fa-envelope"></i>
@@ -97,7 +81,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </div>
         </div>
 
-        <!-- Formulaire de contact -->
         <div class="contact-form">
             <?php if ($message_sent): ?>
                 <div class="alert alert-success">
@@ -143,7 +126,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             </form>
         </div>
 
-        <!-- Section réseaux sociaux -->
         <div style="margin-top: 4rem; text-align: center;">
             <h3 style="margin-bottom: 1.5rem; color: var(--text-light);">Retrouvez-moi également sur</h3>
             <div class="social-links">
@@ -153,10 +135,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </section>
 
-    <!-- Footer -->
+    <?php include 'lang-selector.php'; ?>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <footer>
         <p>&copy; <?php echo date('Y'); ?> Flavien GARIBALDI. Tous droits réservés.</p>
     </footer>
+
+    <script src="scroll-animations.js"></script>
+    <script src="theme-toggle.js"></script>
 </body>
 
 </html>

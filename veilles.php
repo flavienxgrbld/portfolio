@@ -11,22 +11,20 @@
 </head>
 
 <body>
-    <!-- Navigation -->
     <nav>
         <ul>
-            <li><a href="index.php">Accueil</a></li>
-            <li><a href="apropos.php">À propos</a></li>
-            <li><a href="projets.php">Mes Projets</a></li>
-            <li><a href="certifications.php">Certifications</a></li>
-            <li><a href="tcs.php">TCS</a></li>
-            <li><a href="veilles.php">Veilles</a></li>
-            <li><a href="contact.php">Contact</a></li>
+            <li><a href="index.php" data-i18n="nav_home">Accueil</a></li>
+            <li><a href="apropos.php" data-i18n="nav_about">À propos</a></li>
+            <li><a href="projets.php" data-i18n="nav_projects">Mes Projets</a></li>
+            <li><a href="certifications.php" data-i18n="nav_certifications">Certifications</a></li>
+            <li><a href="tcs.php" data-i18n="nav_tcs">TCS</a></li>
+            <li><a href="veilles.php" data-i18n="nav_veilles">Veilles</a></li>
+            <li><a href="contact.php" data-i18n="nav_contact">Contact</a></li>
         </ul>
     </nav>
 
-    <!-- Veilles Section -->
     <section id="veilles" style="margin-top: 100px;">
-        <h2>Mes Veilles Technologiques</h2>
+        <h2 class="fade-up" data-i18n="title_veilles">Mes Veilles Technologiques</h2>
         <div class="veilles-content">
             <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
                 Dans le cadre de ma formation et de mon intérêt pour les nouvelles technologies,<br>
@@ -185,7 +183,6 @@
                 </div>
             </div>
 
-            <!-- Méthodologie de veille -->
             <div class="project-card" style="margin-top: 3rem; background: rgba(99, 102, 241, 0.1);">
                 <div class="project-info">
                     <h3><i class="fas fa-search"></i> Ma Méthodologie de Veille</h3>
@@ -203,10 +200,18 @@
         </div>
     </section>
 
-    <!-- Footer -->
+    <?php include 'lang-selector.php'; ?>
+
+    <button class="theme-toggle" id="themeToggle" aria-label="Changer de thème">
+        <i class="fas fa-moon"></i>
+    </button>
+
     <footer>
         <p>&copy; <?php echo date('Y'); ?> Flavien GARIBALDI. Tous droits réservés.</p>
     </footer>
+
+    <script src="scroll-animations.js"></script>
+    <script src="theme-toggle.js"></script>
 </body>
 
 </html>
