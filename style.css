@@ -110,11 +110,11 @@ nav a {
     font-weight: 500;
     font-size: 0.85rem;
     letter-spacing: 1px;
-    text-transfoopacity 0.2s ease;
-    will-change: opacity;
+    text-transform: uppercase;
     position: relative;
     padding: 0.5rem 0;
-    transition: all 0.2s ease;
+    transition: opacity 0.2s ease;
+    will-change: opacity;
 }
 
 nav a::after {
