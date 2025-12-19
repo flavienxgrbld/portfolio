@@ -1,0 +1,184 @@
+<?php
+    $pageTitle = '技术观察 - Flavien GARIBALDI';
+    $currentPage = 'tech-watch.php';
+    include '../includes/header.php';
+?>
+
+    <section id="veilles" style="margin-top: 100px;">
+        <h2 class="fade-up">我的技术观察</h2>
+        <div class="veilles-content">
+            <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
+                作为我培训的一部分以及我对新技术的兴趣，<br>
+                我定期对信息技术的几个关键领域进行技术观察。
+            </p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>网络安全</h3>
+                        <p>关于新威胁、漏洞（CVE）、勒索软件和信息安全最佳实践的观察。跟踪安全警报和关键补丁。</p>
+                        <div class="skills">
+                            <span class="skill-tag">Vulnérabilités</span>
+                            <span class="skill-tag">Ransomware</span>
+                            <span class="skill-tag">Zero-Day</span>
+                            <span class="skill-tag">Cryptographie</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">信息来源：</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • CERT-FR / ANSSI<br>
+                                • CVE Details<br>
+                                • Krebs on Security<br>
+                                • SecurityWeek
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>云计算与基础设施</h3>
+                        <p>监控云技术（AWS、Azure、GCP）、容器化和云原生架构的发展。</p>
+                        <div class="skills">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">DevOps</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">信息来源：</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • AWS Blog<br>
+                                • Microsoft Azure Blog<br>
+                                • Kubernetes Blog<br>
+                                • DevOps.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>网络与系统</h3>
+                        <p>关于网络协议、系统管理、新网络技术和标准演进（IPv6、5G、Wi-Fi 7）的新闻。</p>
+                        <div class="skills">
+                            <span class="skill-tag">5G</span>
+                            <span class="skill-tag">IPv6</span>
+                            <span class="skill-tag">SD-WAN</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">信息来源：</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Cisco Blog<br>
+                                • Network World<br>
+                                • Linux Foundation<br>
+                                • Red Hat Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>人工智能与自动化</h3>
+                        <p>跟踪AI、机器学习和IT自动化（基础设施即代码、网络自动化）的进展。</p>
+                        <div class="skills">
+                            <span class="skill-tag">IA</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Automatisation</span>
+                            <span class="skill-tag">Ansible</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">信息来源：</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • OpenAI Blog<br>
+                                • Towards Data Science<br>
+                                • Automation Anywhere<br>
+                                • Ansible Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>开发与新技术</h3>
+                        <p>关于新语言、框架和Web与软件开发趋势的观察。</p>
+                        <div class="skills">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Rust</span>
+                            <span class="skill-tag">WebAssembly</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">信息来源：</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Dev.to<br>
+                                • Stack Overflow Blog<br>
+                                • GitHub Blog<br>
+                                • Mozilla Developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>虚拟化与容器化</h3>
+                        <p>虚拟化技术（VMware、Hyper-V）和容器化技术（Docker、Kubernetes）的发展。</p>
+                        <div class="skills">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">VMware</span>
+                            <span class="skill-tag">Proxmox</span>
+                            <span class="skill-tag">LXC</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">信息来源：</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Docker Blog<br>
+                                • VMware Blog<br>
+                                • Proxmox Forum<br>
+                                • Container Journal
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" style="margin-top: 3rem; background: rgba(99, 102, 241, 0.1);">
+                <div class="project-info">
+                    <h3><i class="fas fa-search"></i> 我的观察方法</h3>
+                    <p style="margin-bottom: 1rem;">为了了解最新的技术新闻，我使用了几种工具和方法：</p>
+                    <ul style="color: var(--text-gray); text-align: left; margin-left: 2rem;">
+                        <li>RSS聚合器（Feedly）来集中信息源</li>
+                        <li>专业新闻通讯（TLDR、Hacker News Digest）</li>
+                        <li>专业社交网络（LinkedIn、Twitter/X）</li>
+                        <li>技术播客和网络研讨会</li>
+                        <li>官方文档和专家博客</li>
+                        <li>参与在线社区（Reddit、Discord）</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php include '../includes/footer.php'; ?>

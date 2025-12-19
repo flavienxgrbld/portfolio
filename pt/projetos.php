@@ -1,0 +1,104 @@
+<?php
+    $pageTitle = 'Os Meus Projetos - Flavien GARIBALDI';
+    $currentPage = 'projetos.php';
+    include '../includes/header.php';
+?>
+
+    <section id="projets" style="margin-top: 100px;">
+        <h2 class="fade-up">Os Meus Projetos</h2>
+        <p class="fade-up" style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
+            Descubra os diferentes projetos que realizei no âmbito da minha formação e das minhas experiências pessoais.
+        </p>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-network-wired"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Infraestrutura de Rede Empresarial</h3>
+                    <p>Implementação de uma infraestrutura de rede completa com VLAN, encaminhamento inter-VLAN e servidor DHCP para uma empresa fictícia.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Cisco</span>
+                        <span class="skill-tag">VLAN</span>
+                        <span class="skill-tag">Routage</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-server"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Servidor Web Linux</h3>
+                    <p>Instalação e configuração de um servidor web seguro em Linux com Apache, PHP e MySQL.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Apache</span>
+                        <span class="skill-tag">MySQL</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-shield-alt"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Segurança de Infraestrutura</h3>
+                    <p>Auditoria de segurança e implementação de medidas de proteção (firewall, VPN, autenticação).</p>
+                    <div class="skills">
+                        <span class="skill-tag">Sécurité</span>
+                        <span class="skill-tag">Firewall</span>
+                        <span class="skill-tag">VPN</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-database"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Backup e Restauração</h3>
+                    <p>Sistema de backup automatizado com estratégia de restauração para garantir a continuidade de serviço.</p>
+                    <div class="skills">
+                        <span class="skill-tag">Backup</span>
+                        <span class="skill-tag">Scripts</span>
+                        <span class="skill-tag">Windows Server</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-cloud"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Virtualização e Cloud</h3>
+                    <p>Implementação de um ambiente virtualizado com gestão de máquinas virtuais e alocação de recursos.</p>
+                    <div class="skills">
+                        <span class="skill-tag">cloud</span>
+                        <span class="skill-tag">Hyper-V</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Portfolio Pessoal</h3>
+                    <p>Criação deste portfolio para apresentar as minhas competências, projetos e vigilâncias tecnológicas.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">PHP</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php include '../includes/footer.php'; ?>

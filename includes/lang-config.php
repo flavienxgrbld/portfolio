@@ -70,6 +70,104 @@ $languages = [
             'veilles' => 'tech-uberwachung.php',
             'contact' => 'kontakt.php'
         ]
+    ],
+    'nl' => [
+        'code' => 'nl',
+        'name' => 'Nederlands',
+        'flag' => '🇳🇱',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'over-mij.php',
+            'projects' => 'projecten.php',
+            'certifications' => 'certificeringen.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'tech-updates.php',
+            'contact' => 'contact.php'
+        ]
+    ],
+    'pl' => [
+        'code' => 'pl',
+        'name' => 'Polski',
+        'flag' => '🇵🇱',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'o-mnie.php',
+            'projects' => 'projekty.php',
+            'certifications' => 'certyfikaty.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'nadzor-tech.php',
+            'contact' => 'kontakt.php'
+        ]
+    ],
+    'pt' => [
+        'code' => 'pt',
+        'name' => 'Português',
+        'flag' => '🇵🇹',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'sobre-mim.php',
+            'projects' => 'projetos.php',
+            'certifications' => 'certificacoes.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'vigilancia-tech.php',
+            'contact' => 'contato.php'
+        ]
+    ],
+    'pt-BR' => [
+        'code' => 'pt-BR',
+        'name' => 'Português (BR)',
+        'flag' => '🇧🇷',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'sobre-mim.php',
+            'projects' => 'projetos.php',
+            'certifications' => 'certificacoes.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'vigilancia-tech.php',
+            'contact' => 'contato.php'
+        ]
+    ],
+    'ja' => [
+        'code' => 'ja',
+        'name' => '日本語',
+        'flag' => '🇯🇵',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'about.php',
+            'projects' => 'projects.php',
+            'certifications' => 'certifications.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'tech-watch.php',
+            'contact' => 'contact.php'
+        ]
+    ],
+    'zh' => [
+        'code' => 'zh',
+        'name' => '中文',
+        'flag' => '🇨🇳',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'about.php',
+            'projects' => 'projects.php',
+            'certifications' => 'certifications.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'tech-watch.php',
+            'contact' => 'contact.php'
+        ]
+    ],
+    'ar' => [
+        'code' => 'ar',
+        'name' => 'العربية',
+        'flag' => '🇸🇦',
+        'pages' => [
+            'home' => 'index.php',
+            'about' => 'about.php',
+            'projects' => 'projects.php',
+            'certifications' => 'certifications.php',
+            'tcs' => 'tcs.php',
+            'veilles' => 'tech-watch.php',
+            'contact' => 'contact.php'
+        ]
     ]
 ];
 

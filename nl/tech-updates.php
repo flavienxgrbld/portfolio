@@ -1,0 +1,184 @@
+<?php
+    $pageTitle = 'Technologische Updates - Flavien GARIBALDI';
+    $currentPage = 'tech-updates.php';
+    include '../includes/header.php';
+?>
+
+    <section id="veilles" style="margin-top: 100px;">
+        <h2 class="fade-up">Mijn Technologische Updates</h2>
+        <div class="veilles-content">
+            <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
+                In het kader van mijn opleiding en mijn interesse in nieuwe technologieën,<br>
+                voer ik regelmatig een technologische update uit op verschillende sleutelgebieden van IT.
+            </p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cyberbeveiliging</h3>
+                        <p>Update over nieuwe bedreigingen, kwetsbaarheden (CVE), ransomware en best practices in computerbeveiliging. Monitoring van beveiligingswaarschuwingen en kritieke patches.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Kwetsbaarheden</span>
+                            <span class="skill-tag">Ransomware</span>
+                            <span class="skill-tag">Zero-Day</span>
+                            <span class="skill-tag">Cryptografie</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Bronnen:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • CERT-FR / ANSSI<br>
+                                • CVE Details<br>
+                                • Krebs on Security<br>
+                                • SecurityWeek
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cloud Computing & Infrastructuur</h3>
+                        <p>Monitoring van ontwikkelingen in cloudtechnologieën (AWS, Azure, GCP), containerisatie en cloud-native architecturen.</p>
+                        <div class="skills">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">DevOps</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Bronnen:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • AWS Blog<br>
+                                • Microsoft Azure Blog<br>
+                                • Kubernetes Blog<br>
+                                • DevOps.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Netwerken & Systemen</h3>
+                        <p>Nieuws over netwerkprotocollen, systeembeheer, nieuwe netwerktechnologieën en evolutie van standaarden (IPv6, 5G, Wi-Fi 7).</p>
+                        <div class="skills">
+                            <span class="skill-tag">5G</span>
+                            <span class="skill-tag">IPv6</span>
+                            <span class="skill-tag">SD-WAN</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Bronnen:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Cisco Blog<br>
+                                • Network World<br>
+                                • Linux Foundation<br>
+                                • Red Hat Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Kunstmatige Intelligentie & Automatisering</h3>
+                        <p>Monitoring van vooruitgang in AI, machine learning en IT-automatisering (Infrastructure as Code, netwerkautomatisering).</p>
+                        <div class="skills">
+                            <span class="skill-tag">AI</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Automatisering</span>
+                            <span class="skill-tag">Ansible</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Bronnen:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • OpenAI Blog<br>
+                                • Towards Data Science<br>
+                                • Automation Anywhere<br>
+                                • Ansible Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Ontwikkeling & Nieuwe Technologieën</h3>
+                        <p>Update over nieuwe talen, frameworks en trends in web- en softwareontwikkeling.</p>
+                        <div class="skills">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Rust</span>
+                            <span class="skill-tag">WebAssembly</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Bronnen:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Dev.to<br>
+                                • Stack Overflow Blog<br>
+                                • GitHub Blog<br>
+                                • Mozilla Developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Virtualisatie & Containerisatie</h3>
+                        <p>Ontwikkelingen in virtualisatietechnologieën (VMware, Hyper-V) en containerisatie (Docker, Kubernetes).</p>
+                        <div class="skills">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">VMware</span>
+                            <span class="skill-tag">Proxmox</span>
+                            <span class="skill-tag">LXC</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Bronnen:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Docker Blog<br>
+                                • VMware Blog<br>
+                                • Proxmox Forum<br>
+                                • Container Journal
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" style="margin-top: 3rem; background: rgba(99, 102, 241, 0.1);">
+                <div class="project-info">
+                    <h3><i class="fas fa-search"></i> Mijn Update-Methodologie</h3>
+                    <p style="margin-bottom: 1rem;">Om op de hoogte te blijven van het laatste technologienieuws, gebruik ik verschillende tools en methoden:</p>
+                    <ul style="color: var(--text-gray); text-align: left; margin-left: 2rem;">
+                        <li>RSS-aggregators (Feedly) om bronnen te centraliseren</li>
+                        <li>Gespecialiseerde nieuwsbrieven (TLDR, Hacker News Digest)</li>
+                        <li>Professionele sociale netwerken (LinkedIn, Twitter/X)</li>
+                        <li>Technische podcasts en webinars</li>
+                        <li>Officiële documentatie en expertblogs</li>
+                        <li>Deelname aan online communities (Reddit, Discord)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php include '../includes/footer.php'; ?>
