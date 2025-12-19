@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 function loadHeader() {
-    fetch('/includes/header.html')
+    fetch('../includes/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header-placeholder').innerHTML = data;
@@ -15,7 +15,7 @@ function loadHeader() {
 }
 
 function loadFooter() {
-    fetch('/includes/footer.html')
+    fetch('../includes/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-placeholder').innerHTML = data;
@@ -107,7 +107,7 @@ function changeLanguage(targetLang) {
     
     // Obtenir la page équivalente dans la langue cible
     const targetPage = languages[targetLang].pages[pageType];
-    const newUrl = `/${targetLang}/${targetPage}`;
+    const newUrl = `../${targetLang}/${targetPage}`;
     window.location.href = newUrl;
 }
 
