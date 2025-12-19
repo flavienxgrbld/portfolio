@@ -52,6 +52,69 @@ $navConfig = [
         ['href' => 'tcs.php', 'text' => 'TCS'],
         ['href' => 'tech-uberwachung.php', 'text' => 'Tech-Überwachung'],
         ['href' => 'kontakt.php', 'text' => 'Kontakt']
+    ],
+    'nl' => [
+        ['href' => 'index.php', 'text' => 'Home'],
+        ['href' => 'over-mij.php', 'text' => 'Over mij'],
+        ['href' => 'projecten.php', 'text' => 'Mijn Projecten'],
+        ['href' => 'certificeringen.php', 'text' => 'Certificeringen'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'tech-updates.php', 'text' => 'Tech Updates'],
+        ['href' => 'contact.php', 'text' => 'Contact']
+    ],
+    'pl' => [
+        ['href' => 'index.php', 'text' => 'Strona główna'],
+        ['href' => 'o-mnie.php', 'text' => 'O mnie'],
+        ['href' => 'projekty.php', 'text' => 'Moje Projekty'],
+        ['href' => 'certyfikaty.php', 'text' => 'Certyfikaty'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'nadzor-tech.php', 'text' => 'Nadzór Tech'],
+        ['href' => 'kontakt.php', 'text' => 'Kontakt']
+    ],
+    'pt' => [
+        ['href' => 'index.php', 'text' => 'Início'],
+        ['href' => 'sobre-mim.php', 'text' => 'Sobre mim'],
+        ['href' => 'projetos.php', 'text' => 'Os meus Projetos'],
+        ['href' => 'certificacoes.php', 'text' => 'Certificações'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'vigilancia-tech.php', 'text' => 'Vigilância Tech'],
+        ['href' => 'contato.php', 'text' => 'Contacto']
+    ],
+    'pt-BR' => [
+        ['href' => 'index.php', 'text' => 'Início'],
+        ['href' => 'sobre-mim.php', 'text' => 'Sobre mim'],
+        ['href' => 'projetos.php', 'text' => 'Meus Projetos'],
+        ['href' => 'certificacoes.php', 'text' => 'Certificações'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'vigilancia-tech.php', 'text' => 'Vigilância Tech'],
+        ['href' => 'contato.php', 'text' => 'Contato']
+    ],
+    'ja' => [
+        ['href' => 'index.php', 'text' => 'ホーム'],
+        ['href' => 'about.php', 'text' => '私について'],
+        ['href' => 'projects.php', 'text' => 'プロジェクト'],
+        ['href' => 'certifications.php', 'text' => '資格'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'tech-watch.php', 'text' => '技術動向'],
+        ['href' => 'contact.php', 'text' => 'お問い合わせ']
+    ],
+    'zh' => [
+        ['href' => 'index.php', 'text' => '首页'],
+        ['href' => 'about.php', 'text' => '关于我'],
+        ['href' => 'projects.php', 'text' => '我的项目'],
+        ['href' => 'certifications.php', 'text' => '认证'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'tech-watch.php', 'text' => '技术观察'],
+        ['href' => 'contact.php', 'text' => '联系']
+    ],
+    'ar' => [
+        ['href' => 'index.php', 'text' => 'الرئيسية'],
+        ['href' => 'about.php', 'text' => 'عني'],
+        ['href' => 'projects.php', 'text' => 'مشاريعي'],
+        ['href' => 'certifications.php', 'text' => 'الشهادات'],
+        ['href' => 'tcs.php', 'text' => 'TCS'],
+        ['href' => 'tech-watch.php', 'text' => 'المراقبة التقنية'],
+        ['href' => 'contact.php', 'text' => 'اتصل']
     ]
 ];
 
