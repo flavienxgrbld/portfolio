@@ -1,29 +1,52 @@
 <?php
-    if (! empty($_GET['q'])) {
-        $query = htmlspecialchars($_GET['q'], ENT_QUOTES, 'UTF-8');
+/**
+ * Redirection automatique vers la version localisée du site
+ * Détecte la langue du navigateur et redirige vers le dossier approprié
+ */
 
-        switch ($query) {
-            case 'info':
-                phpinfo();
-                exit;
-            default:
-                header("HTTP/1.0 404 Not Found");
-                echo "Invalid query parameter.";
-                exit;
+// Si on accède à ?q=info, afficher phpinfo
+if (!empty($_GET['q']) && $_GET['q'] === 'info') {
+    phpinfo();
+    exit;
+}
+
+// Fonction pour détecter la langue préférée du navigateur
+function getBrowserLanguage() {
+    $langs = [];
+    
+    if (isset($_SERVER['HTTP_ACCEPT_LANGUAGE'])) {
+        // Parser l'en-tête Accept-Language
+        preg_match_all('/([a-z]{1,8}(-[a-z]{1,8})?)\s*(;\s*q\s*=\s*(1|0\.[0-9]+))?/i', 
+                       $_SERVER['HTTP_ACCEPT_LANGUAGE'], $lang_parse);
+        
+        if (count($lang_parse[1])) {
+            $langs = array_combine($lang_parse[1], $lang_parse[4]);
+            
+            foreach ($langs as $lang => $val) {
+                if ($val === '') $langs[$lang] = 1;
+            }
+            
+            arsort($langs, SORT_NUMERIC);
         }
     }
-    $pageTitle = 'Portfolio - Flavien GARIBALDI';
-    include 'includes/header.php';
+    
+    // Langues supportées
+    $supported = ['fr', 'en', 'it', 'es', 'de'];
+    
+    // Chercher une correspondance
+    foreach ($langs as $lang => $val) {
+        $lang = strtolower(substr($lang, 0, 2));
+        if (in_array($lang, $supported)) {
+            return $lang;
+        }
+    }
+    
+    // Par défaut, français
+    return 'fr';
+}
+
+// Détecter la langue et rediriger
+$lang = getBrowserLanguage();
+header("Location: /$lang/index.php");
+exit;
 ?>
-
-    <section id="accueil" class="hero">
-        <div class="hero-content">
-            <h1 class="fade-up">Flavien GARIBALDI</h1>
-            <p class="fade-up" data-i18n="hero_subtitle">étudiant en BTS SIO SISR</p>
-            <a href="contact.php" class="btn fade-up" data-i18n="btn_contact">Me Contacter</a>
-            <a href="apropos.php" class="btn fade-up" data-i18n="btn_about">À propos de moi</a>
-            <a href="projets.php" class="btn fade-up" data-i18n="btn_projects">parcourir mes projets</a>
-        </div>
-    </section>
-
-<?php include 'includes/footer.php'; ?>

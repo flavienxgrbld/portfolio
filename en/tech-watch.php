@@ -1,0 +1,184 @@
+<?php
+    $pageTitle = 'Tech Watch - Flavien GARIBALDI';
+    $currentPage = 'tech-watch.php';
+    include '../includes/header.php';
+?>
+
+    <section id="veilles" style="margin-top: 100px;">
+        <h2 class="fade-up">My Technological Watch</h2>
+        <div class="veilles-content">
+            <p style="color: var(--text-gray); font-size: 1.1rem; margin-bottom: 3rem; text-align: center;">
+                As part of my training and my interest in new technologies,<br>
+                I carry out regular technological monitoring on several key areas of computing.
+            </p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cybersecurity</h3>
+                        <p>Watch on new threats, vulnerabilities (CVE), ransomware, and best practices in computer security. Monitoring security alerts and critical patches.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Vulnerabilities</span>
+                            <span class="skill-tag">Ransomware</span>
+                            <span class="skill-tag">Zero-Day</span>
+                            <span class="skill-tag">Cryptography</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • CERT-FR / ANSSI<br>
+                                • CVE Details<br>
+                                • Krebs on Security<br>
+                                • SecurityWeek
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Cloud Computing & Infrastructure</h3>
+                        <p>Monitoring of developments in cloud technologies (AWS, Azure, GCP), containerization and cloud-native architectures.</p>
+                        <div class="skills">
+                            <span class="skill-tag">AWS</span>
+                            <span class="skill-tag">Azure</span>
+                            <span class="skill-tag">Kubernetes</span>
+                            <span class="skill-tag">DevOps</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • AWS Blog<br>
+                                • Microsoft Azure Blog<br>
+                                • Kubernetes Blog<br>
+                                • DevOps.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Networks & Systems</h3>
+                        <p>News on network protocols, system administration, new network technologies and evolution of standards (IPv6, 5G, Wi-Fi 7).</p>
+                        <div class="skills">
+                            <span class="skill-tag">5G</span>
+                            <span class="skill-tag">IPv6</span>
+                            <span class="skill-tag">SD-WAN</span>
+                            <span class="skill-tag">Linux</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Cisco Blog<br>
+                                • Network World<br>
+                                • Linux Foundation<br>
+                                • Red Hat Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Artificial Intelligence & Automation</h3>
+                        <p>Monitoring advances in AI, machine learning, and IT automation (Infrastructure as Code, network automation).</p>
+                        <div class="skills">
+                            <span class="skill-tag">AI</span>
+                            <span class="skill-tag">Machine Learning</span>
+                            <span class="skill-tag">Automation</span>
+                            <span class="skill-tag">Ansible</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • OpenAI Blog<br>
+                                • Towards Data Science<br>
+                                • Automation Anywhere<br>
+                                • Ansible Blog
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Development & New Technologies</h3>
+                        <p>Watch on new languages, frameworks, and trends in web and software development.</p>
+                        <div class="skills">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Rust</span>
+                            <span class="skill-tag">WebAssembly</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Dev.to<br>
+                                • Stack Overflow Blog<br>
+                                • GitHub Blog<br>
+                                • Mozilla Developer
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-server"></i>
+                    </div>
+                    <div class="project-info">
+                        <h3>Virtualization & Containerization</h3>
+                        <p>Developments in virtualization (VMware, Hyper-V) and containerization (Docker, Kubernetes) technologies.</p>
+                        <div class="skills">
+                            <span class="skill-tag">Docker</span>
+                            <span class="skill-tag">VMware</span>
+                            <span class="skill-tag">Proxmox</span>
+                            <span class="skill-tag">LXC</span>
+                        </div>
+                        <div style="margin-top: 1rem;">
+                            <h4 style="font-size: 0.9rem; margin-bottom: 0.5rem;">Sources:</h4>
+                            <p style="font-size: 0.85rem; color: var(--text-gray);">
+                                • Docker Blog<br>
+                                • VMware Blog<br>
+                                • Proxmox Forum<br>
+                                • Container Journal
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card" style="margin-top: 3rem; background: rgba(99, 102, 241, 0.1);">
+                <div class="project-info">
+                    <h3><i class="fas fa-search"></i> My Watch Methodology</h3>
+                    <p style="margin-bottom: 1rem;">To stay informed of the latest technological news, I use several tools and methods:</p>
+                    <ul style="color: var(--text-gray); text-align: left; margin-left: 2rem;">
+                        <li>RSS aggregators (Feedly) to centralize sources</li>
+                        <li>Specialized newsletters (TLDR, Hacker News Digest)</li>
+                        <li>Professional social networks (LinkedIn, Twitter/X)</li>
+                        <li>Technical podcasts and webinars</li>
+                        <li>Official documentation and expert blogs</li>
+                        <li>Participation in online communities (Reddit, Discord)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<?php include '../includes/footer.php'; ?>

@@ -1,0 +1,52 @@
+<?php
+    $pageTitle = 'About - Flavien GARIBALDI';
+    $currentPage = 'about.php';
+    include '../includes/header.php';
+?>
+
+    <section id="apropos" style="margin-top: 100px;">
+        <h2 class="fade-up">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>I am a student in BTS SIO option SISR (Infrastructure Solutions, Systems and Networks), passionate about computing and new technologies.</p>
+                <p>My academic path allows me to acquire skills in systems and network administration, cybersecurity, and IT infrastructure management.</p>
+                <p>I am constantly monitoring technology to stay up to date on the latest innovations in the field of IT and computer security.</p>
+                
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;">My Skills</h3>
+                <div class="skills">
+                    <span class="skill-tag">MySQL</span>
+                    <span class="skill-tag">Linux</span>
+                    <span class="skill-tag">Windows Server</span>
+                    <span class="skill-tag">Networks</span>
+                    <span class="skill-tag">Cybersecurity</span>
+                    <span class="skill-tag">Virtualization</span>
+                    <span class="skill-tag">Git</span>
+                </div>
+
+                <h3 style="margin-top: 2rem; margin-bottom: 1rem;">Education</h3>
+                <div class="project-card" style="margin-top: 1rem;">
+                    <div class="project-info">
+                        <h3>BTS SIO SISR</h3>
+                        <p style="color: var(--primary-color); margin: 0.5rem 0;">2024 - 2026</p>
+                        <p>Training in Infrastructure Solutions, Systems and Networks, focused on systems administration, network management and cybersecurity.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <i class="fas fa-user-graduate" style="font-size: 15rem; color: var(--primary-color); opacity: 0.2;"></i>
+            </div>
+        </div>
+
+        <div class="contact-content" style="margin-top: 4rem;">
+            <h3 style="margin-bottom: 2rem;">Contact Me</h3>
+            <a href="mailto:flavien.garibaldi@gmail.com" class="btn">
+                <i class="fas fa-envelope"></i> flavien.garibaldi@gmail.com
+            </a>
+            <div class="social-links">
+                <a href="https://github.com/flavienxgrbld" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/flavien-garibaldi-b81b87350/" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+<?php include '../includes/footer.php'; ?>
