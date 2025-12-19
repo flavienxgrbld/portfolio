@@ -1,9 +1,9 @@
 // Gestion du formulaire de contact avec EmailJS
 // Configuration EmailJS (à remplacer par vos propres clés)
 const EMAILJS_CONFIG = {
-    serviceId: 'YOUR_SERVICE_ID',     // À remplacer
-    templateId: 'YOUR_TEMPLATE_ID',   // À remplacer
-    publicKey: 'YOUR_PUBLIC_KEY'      // À remplacer
+    serviceId: 'service_1vwjc9r',     // À remplacer
+    templateId: 'template_ao10fbf',   // À remplacer
+    publicKey: '1A0XKIUdhqJPkfY5C'      // À remplacer
 };
 
 // Initialisation EmailJS
