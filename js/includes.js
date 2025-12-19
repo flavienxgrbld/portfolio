@@ -70,10 +70,16 @@ function initThemeToggle() {
         localStorage.setItem(THEME_KEY, theme);
     }
 
-    // Charger le thème sauvegardé
-    const currentTheme = localStorage.getItem(THEME_KEY) || DARK_THEME;
+    // Charger le thème sauvegardé (par défaut: dark)
+    const currentTheme = localStorage.getItem(THEME_KEY);
     if (currentTheme === LIGHT_THEME) {
         setTheme(LIGHT_THEME);
+    } else {
+        // Thème sombre par défaut (pas besoin de classe)
+        icon.classList.add('fa-moon');
+        if (currentTheme === null) {
+            localStorage.setItem(THEME_KEY, DARK_THEME);
+        }
     }
 
     // Écouter les clics sur le bouton
