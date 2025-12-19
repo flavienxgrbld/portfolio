@@ -1,0 +1,42 @@
+<footer>
+    <div class="footer-content">
+        <div class="footer-section">
+            <h3>Flavien GARIBALDI</h3>
+            <p>Étudiant en BTS SIO SISR</p>
+            <p>Passionné par l'informatique et les nouvelles technologies</p>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Navigation</h4>
+            <ul id="footer-nav">
+                <!-- Navigation générée dynamiquement -->
+            </ul>
+        </div>
+        
+        <div class="footer-section">
+            <h4>Contact</h4>
+            <p><i class="fas fa-envelope"></i> <a href="mailto:flavien.garibaldi@gmail.com">flavien.garibaldi@gmail.com</a></p>
+            <div class="social-links">
+                <a href="https://github.com/flavienxgrbld" target="_blank" title="GitHub" rel="noopener noreferrer">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/flavien-garibaldi-b81b87350/" target="_blank" title="LinkedIn" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer-bottom">
+        <p>&copy; <span id="year"></span> Flavien GARIBALDI. Tous droits réservés.</p>
+    </div>
+</footer>
+
+<script>
+    // Année dynamique
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+
+<script src="/js/includes.js"></script>
+<script src="/theme-toggle.js"></script>
+<script src="/scroll-animations.js"></script>

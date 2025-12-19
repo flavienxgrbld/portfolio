@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Flavien GARIBALDI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script>
+        // Détection automatique de la langue du navigateur
+        function getBrowserLanguage() {
+            const supported = ['fr', 'en', 'it', 'es', 'de', 'nl', 'pl', 'pt', 'ja', 'zh', 'ar'];
+            const browserLang = navigator.language || navigator.userLanguage;
+            const lang = browserLang.substring(0, 2).toLowerCase();
+            
+            // Si pt-BR, rediriger vers pt-BR
+            if (browserLang.toLowerCase() === 'pt-br') {
+                return 'pt-BR';
+            }
+            
+            // Si la langue est supportée, l'utiliser
+            if (supported.includes(lang)) {
+                return lang;
+            }
+            
+            // Par défaut, français
+            return 'fr';
+        }
+        
+        // Rediriger vers la langue appropriée
+        const lang = getBrowserLanguage();
+        window.location.href = `/${lang}/index.html`;
+    </script>
+</head>
+<body>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh; background: var(--bg-dark); color: var(--text-light);">
+        <div style="text-align: center;">
+            <i class="fas fa-spinner fa-spin" style="font-size: 3rem; color: var(--primary-color);"></i>
+            <p style="margin-top: 1rem; font-size: 1.2rem;">Redirection en cours...</p>
+        </div>
+    </div>
+</body>
+</html>
