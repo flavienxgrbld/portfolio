@@ -115,24 +115,31 @@ function getMessages() {
 }
 
 function showMessage(message, type) {
-    const alertDiv = document.getElementById('contact-alert');
-    if (!alertDiv) return;
+    const successDiv = document.querySelector('.alert-success');
+    const errorDiv = document.querySelector('.alert-error');
     
-    alertDiv.className = `alert alert-${type}`;
-    alertDiv.innerHTML = `
-        <i class="fas fa-${type === 'success' ? 'check-circle' : 'exclamation-circle'}"></i>
-        ${message}
-    `;
-    alertDiv.style.display = 'block';
+    if (!successDiv || !errorDiv) return;
     
-    // Scroll vers le message
-    alertDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    // Masquer les deux d'abord
+    successDiv.style.display = 'none';
+    errorDiv.style.display = 'none';
     
-    // Masquer après 5 secondes pour les succès
+    // Afficher le bon message
     if (type === 'success') {
+        successDiv.style.display = 'block';
+        successDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        
+        // Masquer après 5 secondes
         setTimeout(() => {
-            alertDiv.style.display = 'none';
+            successDiv.style.display = 'none';
         }, 5000);
+    } else {
+        errorDiv.innerHTML = `
+            <i class="fas fa-exclamation-circle"></i>
+            <strong>Erreur :</strong> ${message}
+        `;
+        errorDiv.style.display = 'block';
+        errorDiv.scrollIntoView({ behavior: 'smooth', block: 'center' });
     }
 }
 
