@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="../style.css">
     <script>
-        // Détection automatique de la langue du navigateur
+        // DÉtection automatique de la langue du navigateur
         function getBrowserLanguage() {
             const supported = ['fr', 'en', 'it', 'es', 'de', 'nl', 'pl', 'pt', 'ja', 'zh', 'ar'];
             const browserLang = navigator.language || navigator.userLanguage;
@@ -20,16 +20,16 @@
                 return 'pt-BR';
             }
             
-            // Si la langue est supportée, l'utiliser
+            // Si la langue est supportÉe, l'utiliser
             if (supported.includes(lang)) {
                 return lang;
             }
             
-            // Par défaut, français
+            // Par dÉfaut, français
             return 'fr';
         }
         
-        // Rediriger vers la langue appropriée
+        // Rediriger vers la langue appropriÉe
         const lang = getBrowserLanguage();
         window.location.href = `./${lang}/index.html`;
     </script>

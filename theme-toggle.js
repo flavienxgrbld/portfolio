@@ -1,7 +1,7 @@
 (function() {
     'use strict';
     
-    const themeToggle = document.getElementById('themeToggle');
+    const themeToggle = document.getElementById('theme-toggle');
     if (!themeToggle) return;
     
     const body = document.body;
