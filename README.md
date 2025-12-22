@@ -23,7 +23,7 @@ Portfolio professionnel statique en HTML/CSS/JavaScript présentant mes compéte
 - **Design**: Responsive, Dark theme par défaut avec basculement Light
 - **Formulaire**: EmailJS pour l'envoi de messages (200 emails/mois gratuits)
 - **Internationalisation**: 12 langues avec système de navigation dynamique
-- **Hébergement**: Compatible GitHub Pages / Netlify / Vercel (gratuit)
+- **Hébergement**: GitHub Pages
 
 ## 📦 Architecture du projet
 
