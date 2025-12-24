@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="keywords" content="contact, Flavien GARIBALDI, BTS SIO, SISR" />
+<meta name="description" content="Contactez Flavien GARIBALDI - Étudiant en BTS SIO SISR" />
+<title>Contact - PORTFOLIO Flavien GARIBALDI</title>
+<link rel="canonical" href="#" />
+<link rel="icon" href="images/logo10.png" type="image/png">
+<link rel="stylesheet" href="css/layui.css" id="layui">
+<link id="layuicss-layer" rel="stylesheet" href="css/layer.css" media="all">
+<link rel="stylesheet" type="text/css" href="css/reset.css" />
+<link rel="stylesheet" type="text/css" href="css/public06a2.css?v=2.64" />
+<link rel="stylesheet" href="css/swiper-bundle.min.css">
+<link rel="stylesheet" href="css/animation.css">
+<link href="css/animate.min.css" rel="stylesheet" type="text/css"/>
+<script src="js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<style>
+.contact-form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid rgba(99, 102, 241, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #fff;
+    font-size: 16px;
+    transition: all 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #6366f1;
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.form-group textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+}
+
+.submit-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+    transform: none;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    display: none;
+}
+
+.message.success {
+    background: rgba(16, 185, 129, 0.2);
+    border: 2px solid #10b981;
+    color: #10b981;
+}
+
+.message.error {
+    background: rgba(239, 68, 68, 0.2);
+    border: 2px solid #ef4444;
+    color: #ef4444;
+}
+
+.contact-info {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.contact-card {
+    background: rgba(99, 102, 241, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    border: 2px solid rgba(99, 102, 241, 0.3);
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    border-color: #6366f1;
+}
+
+.contact-card-icon {
+    font-size: 40px;
+    margin-bottom: 1rem;
+}
+
+.contact-card-title {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+
+.contact-card-text {
+    font-size: 16px;
+    color: #9ca3af;
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+    <div class="clearfix">
+        <div class="logo fl"><a href="index.html"><img src="images/logo.svg" alt=""></a></div>
+        <div class="header-r fl">
+            <div class="clearfix">
+                <div class="navr fr mb">
+                    <span class="navBtn mobile-menu navBtnA">
+                        <i class="menu-i menu-i-1"></i>
+                        <i class="menu-i menu-i-2"></i>
+                        <i class="menu-i menu-i-3"></i>
+                    </span>
+                </div>
+                <div class="header-r1 fl">
+                    <ul class="clearfix">
+                        <li><a href="apropos.html" class="sub">À PROPOS</a></li>
+                        <li><a href="projets.html" class="sub">PROJETS</a></li>
+                        <li><a href="certifications.html" class="sub">CERTIFICATIONS</a></li>
+                        <li><a href="tcs.html" class="sub">TCS</a></li>
+                        <li><a href="veille.html" class="sub">VEILLE TECH</a></li>
+                    </ul>
+                </div>
+                <div class="header-r2 fr">
+                    <div class="r2-l fl"><a href="contact.html"><span>CONTACT</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="nav_box nav_box_6" id="testNav">
+    <div class="box">
+        <div class="navlist">
+            <ul class="clearfix">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="apropos.html">À PROPOS</a></li>
+                <li><a href="projets.html">PROJETS</a></li>
+                <li><a href="certifications.html">CERTIFICATIONS</a></li>
+                <li><a href="tcs.html">TCS</a></li>
+                <li><a href="veille.html">VEILLE TECH</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="uniquebanner commonbanner">
+    <div class="img">
+        <div class="Uniqueback pc" style="background: url(images/banner105.jpg)no-repeat center center/cover;"></div>
+        <img src="images/bannermo504.png" alt="" class="mb">
+    </div>
+    <div class="text text-a">
+        <div class="container clearfix wow fadeInUp1">
+            <div class="text-l fl">
+                <div class="title font80"><span>CONTACTEZ-MOI</span></div>
+                <div class="title-a font18 colorWhite">N'hésitez pas à me contacter pour toute question<br>ou opportunité professionnelle</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative; padding: 80px 0;">
+    <div class="container">
+        <div class="Titletotal Titletotalc wow fadeInUp1">
+            <div class="treetop font16 colorWhite">FORMULAIRE</div>
+            <div class="subject font66 colorWhite">
+                <div class="t2">ENVOYEZ-MOI<br>UN MESSAGE</div>    
+            </div>
+        </div>
+        
+        <div class="contact-form wow fadeInUp1">
+            <div id="message" class="message"></div>
+            
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="user_name">Nom complet *</label>
+                    <input type="text" id="user_name" name="user_name" required placeholder="Votre nom">
+                </div>
+                
+                <div class="form-group">
+                    <label for="user_email">Email *</label>
+                    <input type="email" id="user_email" name="user_email" required placeholder="votre.email@exemple.com">
+                </div>
+                
+                <div class="form-group">
+                    <label for="subject">Sujet *</label>
+                    <input type="text" id="subject" name="subject" required placeholder="Sujet de votre message">
+                </div>
+                
+                <div class="form-group">
+                    <label for="message_content">Message *</label>
+                    <textarea id="message_content" name="message_content" required placeholder="Votre message..."></textarea>
+                </div>
+                
+                <button type="submit" class="submit-btn" id="submit-btn">
+                    Envoyer le message
+                </button>
+            </form>
+        </div>
+
+        <div class="contact-info wow fadeInUp1">
+            <div class="contact-card">
+                <div class="contact-card-icon">📧</div>
+                <div class="contact-card-title">Email</div>
+                <div class="contact-card-text">flavien.garibaldi@gmail.com</div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-card-icon">💼</div>
+                <div class="contact-card-title">LinkedIn</div>
+                <div class="contact-card-text">Flavien GARIBALDI</div>
+            </div>
+            
+            <div class="contact-card">
+                <div class="contact-card-icon">💻</div>
+                <div class="contact-card-title">GitHub</div>
+                <div class="contact-card-text">@flavienxgrbld</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="clearfix">
+                <div class="logo fl"><a href="#"><img src="images/footer-logo.svg" alt=""></a></div>
+                <div class="footer-r fr">
+                    <div class="clearfix">
+                        <div class="rl fl">
+                            <div class="rla font16"><a href="#">Menu</a></div>
+                            <div class="rlb">
+                                <div class="lb-a font22"><a href="apropos.html">À PROPOS</a></div>
+                                <div class="lb-a font22"><a href="projets.html">PROJETS</a></div>
+                                <div class="lb-a font22"><a href="certifications.html">CERTIFICATIONS</a></div>
+                                <div class="lb-a font22"><a href="tcs.html">TCS</a></div>
+                                <div class="lb-a font22"><a href="veille.html">VEILLE TECH</a></div>
+                                <div class="lb-a font22"><a href="contact.html">CONTACT</a></div>
+                            </div>
+                        </div>
+                        <div class="rr fl">
+                            <div class="rr-top">
+                                <div class="rla font16"><a href="contact.html">Contact</a></div>
+                                <div class="top-a font16 colorWhite">Flavien GARIBALDI</div>
+                                <div class="top-b font16 colorWhite">
+                                    <p>Étudiant BTS SIO SISR</p>
+                                    <p>Administration Systèmes & Réseaux</p>
+                                    <p>Email: flavien.garibaldi@gmail.com</p>
+                                    <p>GitHub: @flavienxgrbld</p>
+                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="clearfix">
+                <div class="ter-bottoml fl font16 color9">Copyright © 2025 Flavien GARIBALDI. Tous droits réservés.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
+<script src="js/layui.js"></script>
+
+<script type="text/javascript">
+    // Initialiser EmailJS avec votre clé publique
+    // IMPORTANT: Remplacez 'YOUR_PUBLIC_KEY' par votre vraie clé publique EmailJS
+    emailjs.init('1A0XKIUdhqJPkfY5C');
+
+    // Configuration EmailJS
+    // IMPORTANT: Remplacez ces valeurs par vos vrais identifiants EmailJS
+    const SERVICE_ID = 'service_1vwjc9r';
+    const TEMPLATE_ID = 'template_ao10fbf';
+
+    // Gestion du formulaire
+    document.getElementById('contact-form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        
+        const submitBtn = document.getElementById('submit-btn');
+        const messageDiv = document.getElementById('message');
+        
+        // Désactiver le bouton pendant l'envoi
+        submitBtn.disabled = true;
+        submitBtn.textContent = 'Envoi en cours...';
+        
+        // Cacher les messages précédents
+        messageDiv.style.display = 'none';
+        messageDiv.className = 'message';
+        
+        // Envoyer l'email via EmailJS
+        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this)
+            .then(function(response) {
+                console.log('SUCCESS!', response.status, response.text);
+                
+                // Afficher le message de succès
+                messageDiv.textContent = '✓ Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.';
+                messageDiv.classList.add('success');
+                messageDiv.style.display = 'block';
+                
+                // Réinitialiser le formulaire
+                document.getElementById('contact-form').reset();
+                
+                // Réactiver le bouton
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Envoyer le message';
+                
+                // Masquer le message après 5 secondes
+                setTimeout(function() {
+                    messageDiv.style.display = 'none';
+                }, 5000);
+                
+            }, function(error) {
+                console.log('FAILED...', error);
+                
+                // Afficher le message d'erreur
+                messageDiv.textContent = '✗ Erreur lors de l\'envoi du message. Veuillez réessayer ou me contacter directement par email.';
+                messageDiv.classList.add('error');
+                messageDiv.style.display = 'block';
+                
+                // Réactiver le bouton
+                submitBtn.disabled = false;
+                submitBtn.textContent = 'Envoyer le message';
+                
+                // Masquer le message après 5 secondes
+                setTimeout(function() {
+                    messageDiv.style.display = 'none';
+                }, 5000);
+            });
+    });
+</script>
+
+</body>
+</html>
