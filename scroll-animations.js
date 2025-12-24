@@ -1,1 +1,0 @@
-// Animations désactivées - affichage normal
