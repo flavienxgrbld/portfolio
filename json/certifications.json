@@ -1,0 +1,56 @@
+{
+  "obtenues": [
+    {
+      "titre": "MOOC Cybersécurité",
+      "sousTitre": "ANSSI",
+      "nomComplet": "SecNumacadémie",
+      "description": "Formation de sensibilisation à la cybersécurité proposée par l'Agence Nationale de la Sécurité des Systèmes d'Information.",
+      "tags": ["Cybersécurité", "ANSSI", "Sécurité SI"],
+      "annee": "2024",
+      "couleur": "#10b981",
+      "icone": "images/aboutA1.svg"
+    }
+  ],
+  "enPreparation": [
+    {
+      "titre": "Cisco Certified Network",
+      "sousTitre": "Associate",
+      "nomComplet": "CCNA",
+      "description": "Certification réseau Cisco couvrant les fondamentaux des réseaux, routage, commutation et sécurité.",
+      "tags": ["Cisco", "Réseaux", "Routage"],
+      "statut": "En préparation",
+      "couleur": "#a78bfa",
+      "icone": "images/aboutA3.svg"
+    },
+    {
+      "titre": "CCST",
+      "sousTitre": "Networking",
+      "nomComplet": "Cisco Certified Support Technician",
+      "description": "Certification de base Cisco validant les compétences en support réseau et dépannage.",
+      "tags": ["Cisco", "Support Réseau", "Dépannage"],
+      "statut": "En préparation",
+      "couleur": "#a78bfa",
+      "icone": "images/aboutA2.svg"
+    },
+    {
+      "titre": "CCST",
+      "sousTitre": "Cybersecurity",
+      "nomComplet": "Cisco Certified Support Technician",
+      "description": "Certification Cisco de base en cybersécurité couvrant les concepts essentiels de sécurité.",
+      "tags": ["Cybersécurité", "Cisco", "Sécurité Réseau"],
+      "statut": "En préparation",
+      "couleur": "#a78bfa",
+      "icone": "images/aboutA1.svg"
+    },
+    {
+      "titre": "CCST Endpoint",
+      "sousTitre": "Security",
+      "nomComplet": "Cisco Certified Support Technician",
+      "description": "Certification Cisco sur la sécurité des endpoints et la protection des postes de travail.",
+      "tags": ["Endpoint Security", "Cisco", "Protection Poste"],
+      "statut": "En préparation",
+      "couleur": "#a78bfa",
+      "icone": "images/aboutA3.svg"
+    }
+  ]
+}
