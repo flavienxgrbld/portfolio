@@ -1,0 +1,68 @@
+{
+  "domaines": [
+    {
+      "titre": "Cybersécurité",
+      "description": "Veille sur les nouvelles menaces, vulnérabilités (CVE), ransomwares, et bonnes pratiques en sécurité informatique. Suivi des alertes de sécurité et des patchs critiques.",
+      "tags": ["Vulnérabilités", "Ransomware", "Zero-Day"],
+      "sources": [
+        "CERT-FR / ANSSI",
+        "CVE Details",
+        "Krebs on Security",
+        "SecurityWeek"
+      ],
+      "icone": "images/aboutA1.svg"
+    },
+    {
+      "titre": "Cloud Computing & Infrastructure",
+      "sousTitre": "",
+      "description": "Surveillance des évolutions dans les technologies cloud (AWS, Azure, GCP), la conteneurisation et les architectures cloud-native.",
+      "tags": ["AWS", "Azure", "Kubernetes"],
+      "sources": [
+        "AWS Blog",
+        "Microsoft Azure Blog",
+        "Kubernetes Blog",
+        "DevOps.com"
+      ],
+      "icone": "images/aboutA2.svg"
+    },
+    {
+      "titre": "Réseaux & Systèmes",
+      "sousTitre": "",
+      "description": "Actualités sur les protocoles réseau, l'administration système, les nouvelles technologies réseau et l'évolution des standards (IPv6, 5G, Wi-Fi 7).",
+      "tags": ["5G", "IPv6", "SD-WAN"],
+      "sources": [
+        "Cisco Blog",
+        "Network World",
+        "Linux Foundation",
+        "Red Hat Blog"
+      ],
+      "icone": "images/aboutA3.svg"
+    },
+    {
+      "titre": "Intelligence Artificielle & Automatisation",
+      "sousTitre": "",
+      "description": "Suivi des avancées en IA, machine learning, et automatisation IT (Infrastructure as Code, automatisation réseau).",
+      "tags": ["IA", "Machine Learning", "Automatisation"],
+      "sources": [
+        "OpenAI Blog",
+        "Towards Data Science",
+        "Automation Anywhere",
+        "Ansible Blog"
+      ],
+      "icone": "images/aboutA2.svg"
+    },
+    {
+      "titre": "Développement & Nouvelles Technologies",
+      "sousTitre": "",
+      "description": "Veille sur les nouveaux langages, frameworks, et tendances du développement web et logiciel.",
+      "tags": ["JavaScript", "Python", "Rust"],
+      "sources": [
+        "Dev.to",
+        "Stack Overflow Blog",
+        "GitHub Blog",
+        "Mozilla Developer"
+      ],
+      "icone": "images/aboutA1.svg"
+    }
+  ]
+}
