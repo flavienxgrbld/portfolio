@@ -24,9 +24,9 @@
         overlay.className = 'konami-overlay';
         overlay.innerHTML = `
             <div class="konami-message">
-                <h1 class="konami-title">🎮 CODE ACTIVÉ ! 🎮</h1>
-                <p class="konami-text">Bravo ! Vous avez découvert l'easter egg !</p>
-                <p class="konami-subtitle">Le Konami Code est un classique du gaming 🕹️</p>
+                <h1 class="konami-title">CODE VALIDE !</h1>
+                <p class="konami-text">Bravo ! Vous avez trouvé l'easter egg !</p>
+                <p class="konami-subtitle">Le Konami Code est un classique du gaming</p>
                 <button class="konami-close" onclick="this.parentElement.parentElement.remove()">Fermer</button>
             </div>
         `;
@@ -74,7 +74,7 @@
         if (activated) return;
         activated = true;
         
-        console.log('🎮 KONAMI CODE ACTIVÉ ! 🎮');
+        //console.log('🎮 KONAMI CODE ACTIVÉ ! 🎮');
         
         // Effets visuels
         shakeScreen();
@@ -103,7 +103,7 @@
         // Vérifier si la touche correspond à la position actuelle dans le code
         if (key === konamiCode[konamiPosition]) {
             konamiPosition++;
-            console.log('✓ Bonne touche ! Progression:', konamiPosition + '/' + konamiCode.length);
+            //console.log('✓ Bonne touche ! Progression:', konamiPosition + '/' + konamiCode.length);
             
             // Si toute la séquence est complète
             if (konamiPosition === konamiCode.length) {
@@ -113,17 +113,17 @@
         } else {
             // Réinitialiser si mauvaise touche (sauf si c'est le début de la séquence)
             if (key === konamiCode[0]) {
-                console.log('↻ Redémarrage de la séquence');
+                //console.log('↻ Redémarrage de la séquence');
                 konamiPosition = 1;
             } else {
                 if (konamiPosition > 0) {
-                    console.log('✗ Mauvaise touche, réinitialisation');
+                    //  console.log('✗ Mauvaise touche, réinitialisation');
                 }
                 konamiPosition = 0;
             }
         }
     });
 
-    console.log('🕹️ Easter egg chargé ! Essayez le Konami Code : ↑↑↓↓←→←→BA');
-    console.log('📋 Séquence attendue:', konamiCode);
+    //console.log('🕹️ Easter egg chargé ! Essayez le Konami Code : ↑↑↓↓←→←→BA');
+    //console.log('📋 Séquence attendue:', konamiCode);
 })();
