@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.emailjs.com;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="contact, Flavien GARIBALDI, BTS SIO, SISR" />
 <meta name="description" content="Contactez Flavien GARIBALDI - Étudiant en BTS SIO SISR" />
@@ -34,7 +36,7 @@
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" integrity="sha384-TlQahpp6M5JE8bQeP1KPhjYELf5+KJqR4Ȃ0IgL7z1o6yqwPsYZyYv4N9JVc7L6gXJ" crossorigin="anonymous" defer></script>
 </head>
 <body>
 
@@ -206,12 +208,9 @@
 <script src="../js/layui.js"></script>
 
 <script type="text/javascript">
-    // Initialiser EmailJS avec votre clé publique
-    // IMPORTANT: Remplacez 'YOUR_PUBLIC_KEY' par votre vraie clé publique EmailJS
+    // Initialiser EmailJS
     emailjs.init('1A0XKIUdhqJPkfY5C');
 
-    // Configuration EmailJS
-    // IMPORTANT: Remplacez ces valeurs par vos vrais identifiants EmailJS
     const SERVICE_ID = 'service_1vwjc9r';
     const TEMPLATE_ID = 'template_ao10fbf';
 

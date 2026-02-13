@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="veille technologique, cybersécurité, cloud, IA, Flavien GARIBALDI" />
 <meta name="description" content="Veille technologique de Flavien GARIBALDI sur la cybersécurité, le cloud et l'IA" />
@@ -111,28 +113,138 @@
     </div>
 </div>
 
+<div class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="clearfix">
+                <div class="logo fl"><a href="#"><img src="../images/footer-logo.svg" alt="Logo Flavien Garibaldi"></a></div>
+                <div class="footer-r fr">
+                    <div class="clearfix">
+                        <div class="rl fl">
+                            <div class="rla font16"><a href="#">Menu</a></div>
+                            <div class="rlb">
+                                <div class="lb-a font22"><a href="apropos.html">À PROPOS</a></div>
+                                <div class="lb-a font22"><a href="projets.html">PROJETS</a></div>
+                                <div class="lb-a font22"><a href="certifications.html">CERTIFICATIONS</a></div>
+                                <div class="lb-a font22"><a href="tcs.html">TCS</a></div>
+                                <div class="lb-a font22"><a href="veille.html">VEILLES</a></div>
+                                <div class="lb-a font22"><a href="procedures.html">PROCÉDURES</a></div>
+                                <div class="lb-a font22"><a href="contact.html">CONTACT</a></div>
+                            </div>
+                        </div>
+                        <div class="rr fl">
+                            <div class="rr-top">
+                                <div class="rla font16"><a href="contact.html">Contact</a></div>
+                                <div class="top-a font16 colorWhite">Flavien GARIBALDI</div>
+                                <div class="top-b font16 colorWhite">
+                                    <p>Étudiant BTS SIO SISR</p>
+                                    <p>Administration Systèmes & Réseaux</p>
+                                    <p>Email: flavien.garibaldi@gmail.com</p>
+                                    <p>GitHub: @flavienxgrbld</p>
+                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="clearfix">
+                <div class="ter-bottoml fl font16 color9">Copyright © 2026 Flavien GARIBALDI. Tous droits réservés.</div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
 <script src="../js/layui.js"></script>
 <script>
 function creerCarteDomaine(domaine) {
     const li = document.createElement('li');
     li.style.listStyle = 'none';
-    const tagsHTML = domaine.tags.map(tag => `<span style="display:inline-block;padding:0.3rem 0.8rem;margin:0.3rem;background:rgba(99, 102, 241, 0.2);border-radius:20px;font-size:14px;color:#6366f1;">${tag}</span>`).join('');
-    const sourcesHTML = domaine.sources.map(source => `• ${source}`).join('<br>');
-    const titreHTML = domaine.titre.includes('&') ? domaine.titre.replace('&', '&<br>') : domaine.titre;
-    li.innerHTML = `
-        <div class="passthrough">
-            <div class="icon"><img src="${domaine.icone}" alt="Icône domaine ${domaine.titre}"></div>
-            <div class="text font30 colorWhite bold">${titreHTML}</div>
-            <div class="text-a">
-                <div class="a font16 colorWhite">${domaine.description}</div>
-                <div style="margin-top:1rem;">${tagsHTML}</div>
-                <div style="margin-top:1.5rem;">
-                    <div style="font-size:16px;font-weight:600;color:#9ca3af;margin-bottom:0.5rem;">Sources :</div>
-                    <div style="font-size:14px;color:#9ca3af;">${sourcesHTML}</div>
-                </div>
-            </div>
-        </div>`;
+    
+    // Créer la structure DOM de manière sécurisée
+    const passthrough = document.createElement('div');
+    passthrough.className = 'passthrough';
+    
+    // Icône
+    const iconDiv = document.createElement('div');
+    iconDiv.className = 'icon';
+    const img = document.createElement('img');
+    img.src = domaine.icone;
+    img.alt = 'Icône domaine ' + domaine.titre;
+    iconDiv.appendChild(img);
+    
+    // Titre
+    const titleDiv = document.createElement('div');
+    titleDiv.className = 'text font30 colorWhite bold';
+    if (domaine.titre.includes('&')) {
+        const parts = domaine.titre.split('&');
+        titleDiv.textContent = parts[0] + '&';
+        titleDiv.appendChild(document.createElement('br'));
+        const span = document.createTextNode(parts[1]);
+        titleDiv.appendChild(span);
+    } else {
+        titleDiv.textContent = domaine.titre;
+    }
+    
+    // Container de contenu
+    const textA = document.createElement('div');
+    textA.className = 'text-a';
+    
+    // Description
+    const desc = document.createElement('div');
+    desc.className = 'a font16 colorWhite';
+    desc.textContent = domaine.description;
+    textA.appendChild(desc);
+    
+    // Tags
+    const tagsContainer = document.createElement('div');
+    tagsContainer.style.marginTop = '1rem';
+    domaine.tags.forEach(tag => {
+        const tagSpan = document.createElement('span');
+        tagSpan.style.display = 'inline-block';
+        tagSpan.style.padding = '0.3rem 0.8rem';
+        tagSpan.style.margin = '0.3rem';
+        tagSpan.style.background = 'rgba(99, 102, 241, 0.2)';
+        tagSpan.style.borderRadius = '20px';
+        tagSpan.style.fontSize = '14px';
+        tagSpan.style.color = '#6366f1';
+        tagSpan.textContent = tag;
+        tagsContainer.appendChild(tagSpan);
+    });
+    textA.appendChild(tagsContainer);
+    
+    // Sources
+    const sourcesContainer = document.createElement('div');
+    sourcesContainer.style.marginTop = '1.5rem';
+    
+    const sourcesTitle = document.createElement('div');
+    sourcesTitle.style.fontSize = '16px';
+    sourcesTitle.style.fontWeight = '600';
+    sourcesTitle.style.color = '#9ca3af';
+    sourcesTitle.style.marginBottom = '0.5rem';
+    sourcesTitle.textContent = 'Sources :';
+    sourcesContainer.appendChild(sourcesTitle);
+    
+    const sourcesList = document.createElement('div');
+    sourcesList.style.fontSize = '14px';
+    sourcesList.style.color = '#9ca3af';
+    domaine.sources.forEach((source, index) => {
+        if (index > 0) sourcesList.appendChild(document.createElement('br'));
+        sourcesList.appendChild(document.createTextNode('• ' + source));
+    });
+    sourcesContainer.appendChild(sourcesList);
+    
+    textA.appendChild(sourcesContainer);
+    
+    // Assembler tout
+    passthrough.appendChild(iconDiv);
+    passthrough.appendChild(titleDiv);
+    passthrough.appendChild(textA);
+    li.appendChild(passthrough);
+    
     return li;
 }
 

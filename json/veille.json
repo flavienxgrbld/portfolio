@@ -10,7 +10,7 @@
         "Krebs on Security",
         "SecurityWeek"
       ],
-      "icone": "images/aboutA1.svg"
+      "icone": "../images/aboutA1.svg"
     },
     {
       "titre": "Cloud Computing & Infrastructure",
@@ -23,7 +23,7 @@
         "Kubernetes Blog",
         "DevOps.com"
       ],
-      "icone": "images/aboutA2.svg"
+      "icone": "../images/aboutA2.svg"
     },
     {
       "titre": "Réseaux & Systèmes",
@@ -36,7 +36,7 @@
         "Linux Foundation",
         "Red Hat Blog"
       ],
-      "icone": "images/aboutA3.svg"
+      "icone": "../images/aboutA3.svg"
     },
     {
       "titre": "Intelligence Artificielle & Automatisation",
@@ -49,7 +49,7 @@
         "Automation Anywhere",
         "Ansible Blog"
       ],
-      "icone": "images/aboutA2.svg"
+      "icone": "../images/aboutA2.svg"
     },
     {
       "titre": "Développement & Nouvelles Technologies",
@@ -62,7 +62,7 @@
         "GitHub Blog",
         "Mozilla Developer"
       ],
-      "icone": "images/aboutA1.svg"
+      "icone": "../images/aboutA1.svg"
     }
   ]
 }

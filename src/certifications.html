@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="certifications, Cisco, CCNA, cybersécurité, Flavien GARIBALDI" />
 <meta name="description" content="Certifications professionnelles de Flavien GARIBALDI" />
@@ -175,30 +177,81 @@ function creerCarteCertification(cert, type) {
     const li = document.createElement('li');
     li.style.listStyle = 'none';
     
-    const rgbaColor = type === 'obtenue' 
-        ? cert.couleur.replace('#', '').match(/.{2}/g).map(hex => parseInt(hex, 16)).join(', ')
-        : cert.couleur.replace('#', '').match(/.{2}/g).map(hex => parseInt(hex, 16)).join(', ');
+    const rgbaColor = cert.couleur.replace('#', '').match(/.{2}/g).map(hex => parseInt(hex, 16)).join(', ');
     
-    const tagsHTML = cert.tags.map(tag => 
-        `<span style="display: inline-block; padding: 0.3rem 0.8rem; margin: 0.3rem; background: rgba(${rgbaColor}, 0.2); border-radius: 20px; font-size: 14px; color: ${cert.couleur};">${tag}</span>`
-    ).join('');
+    // Créer la structure DOM de manière sécurisée
+    const passthrough = document.createElement('div');
+    passthrough.className = 'passthrough';
+    passthrough.style.border = '2px solid ' + cert.couleur;
     
-    const dateInfo = type === 'obtenue' 
-        ? `<div style="margin-top: 1rem; font-size: 16px; color: #9ca3af;">📅 Obtenue en : ${cert.annee}</div>`
-        : `<div style="margin-top: 1rem; font-size: 16px; color: #9ca3af;">⏳ ${cert.statut}</div>`;
+    // Icône
+    const iconDiv = document.createElement('div');
+    iconDiv.className = 'icon';
+    const img = document.createElement('img');
+    img.src = cert.icone;
+    img.alt = 'Icône certification ' + cert.titre;
+    iconDiv.appendChild(img);
     
-    li.innerHTML = `
-        <div class="passthrough" style="border: 2px solid ${cert.couleur};">
-            <div class="icon"><img src="${cert.icone}" alt="Icône certification ${cert.titre}"></div>
-            <div class="text font30 colorWhite bold">${cert.titre}<br>${cert.sousTitre}</div>
-            <div style="font-size: 20px; color: ${cert.couleur}; margin: 0.5rem 0; font-weight: 600;">${cert.nomComplet}</div>
-            <div class="text-a">
-                <div class="a font16 colorWhite">${cert.description}</div>
-                <div style="margin-top: 1rem;">${tagsHTML}</div>
-                ${dateInfo}
-            </div>
-        </div>
-    `;
+    // Titre
+    const titleDiv = document.createElement('div');
+    titleDiv.className = 'text font30 colorWhite bold';
+    titleDiv.textContent = cert.titre;
+    titleDiv.appendChild(document.createElement('br'));
+    titleDiv.appendChild(document.createTextNode(cert.sousTitre));
+    
+    // Nom complet
+    const nomComplet = document.createElement('div');
+    nomComplet.style.fontSize = '20px';
+    nomComplet.style.color = cert.couleur;
+    nomComplet.style.margin = '0.5rem 0';
+    nomComplet.style.fontWeight = '600';
+    nomComplet.textContent = cert.nomComplet;
+    
+    // Container de contenu
+    const textA = document.createElement('div');
+    textA.className = 'text-a';
+    
+    // Description
+    const desc = document.createElement('div');
+    desc.className = 'a font16 colorWhite';
+    desc.textContent = cert.description;
+    textA.appendChild(desc);
+    
+    // Tags
+    const tagsContainer = document.createElement('div');
+    tagsContainer.style.marginTop = '1rem';
+    cert.tags.forEach(tag => {
+        const tagSpan = document.createElement('span');
+        tagSpan.style.display = 'inline-block';
+        tagSpan.style.padding = '0.3rem 0.8rem';
+        tagSpan.style.margin = '0.3rem';
+        tagSpan.style.background = 'rgba(' + rgbaColor + ', 0.2)';
+        tagSpan.style.borderRadius = '20px';
+        tagSpan.style.fontSize = '14px';
+        tagSpan.style.color = cert.couleur;
+        tagSpan.textContent = tag;
+        tagsContainer.appendChild(tagSpan);
+    });
+    textA.appendChild(tagsContainer);
+    
+    // Date info
+    const dateInfo = document.createElement('div');
+    dateInfo.style.marginTop = '1rem';
+    dateInfo.style.fontSize = '16px';
+    dateInfo.style.color = '#9ca3af';
+    if (type === 'obtenue') {
+        dateInfo.textContent = '📅 Obtenue en : ' + cert.annee;
+    } else {
+        dateInfo.textContent = '⏳ ' + cert.statut;
+    }
+    textA.appendChild(dateInfo);
+    
+    // Assembler tout
+    passthrough.appendChild(iconDiv);
+    passthrough.appendChild(titleDiv);
+    passthrough.appendChild(nomComplet);
+    passthrough.appendChild(textA);
+    li.appendChild(passthrough);
     
     return li;
 }

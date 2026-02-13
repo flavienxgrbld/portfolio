@@ -1,13 +1,13 @@
 
 <!DOCTYPE html>
 <html lang="fr">
-
-<!-- Mirrored from www.skyv.ai/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Dec 2025 21:16:23 GMT -->
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.emailjs.com https://api.github.com;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="portfolio, BTS SIO, SISR, infrastructure, réseaux, cybersécurité, Flavien GARIBALDI" />
 <meta name="description" content="Portfolio de Flavien GARIBALDI - Étudiant BTS SIO SISR spécialisé en administration systèmes et réseaux" />
@@ -106,7 +106,7 @@
                 <li><a href="apropos.html">\u00c0 PROPOS</a></li>
                 <li><a href="projets.html">PROJETS</a></li>
                 <li class="drop-down">
-                    <a class="sub" href="javascript:void(0)">COMP\u00c9TENCES</a>
+                    <button type="button" class="sub" style="background:none;border:none;color:inherit;font:inherit;cursor:pointer;">COMPÉTENCES</button>
                     <div class="navlist4">
                         <div class="nomsjkxks">
                             <div class="nomsjkxks-a"><a href="projets.html">COMP\u00c9TENCES TECHNIQUES</a></div>
@@ -116,7 +116,7 @@
                 </li>
                 <li><a href="veille.html">VEILLES</a></li>
                 <li class="drop-down">
-                    <a class="sub" href="javascript:void(0)">RESSOURCES</a>
+                    <button type="button" class="sub" style="background:none;border:none;color:inherit;font:inherit;cursor:pointer;">RESSOURCES</button>
                     <div class="navlist4">
                         <div class="nomsjkxks">
                             <div class="nomsjkxks-a"><a href="projets.html">Mes Projets</a></div>
@@ -146,7 +146,7 @@
                     <div class="container">
                         <div class="headline font80 colorWhite">
                             <div class="headline-a"><span>FLAVIEN GARIBALDI</span></div>
-                            <div class="headline-a">Étudiant BTS SIO SISR</span></div>
+                            <div class="headline-a"><span>Étudiant BTS SIO SISR</span></div>
                         </div>
                         <a href="apropos.html" class="more"><span>Découvrir mon parcours</span></a>
                     </div>
@@ -162,7 +162,7 @@
                         <div class="subheading font18 colorWhite">Systèmes & Réseaux</div>
                         <div class="headline font80 colorWhite">
                             <div class="headline-a"><span>ADMINISTRATION SYSTÈMES</span></div>
-                            <div class="headline-a">& RESEAU</span></div>
+                            <div class="headline-a"><span>& RESEAU</span></div>
                         </div>
                         <a href="projets.html" class="more"><span>Voir mes projets</span></a>
                     </div>
@@ -178,7 +178,7 @@
                         <div class="subheading font18 colorWhite">Veille Technologique</div>
                         <div class="headline font80 colorWhite">
                             <div class="headline-a"><span>INNOVATION & </span></div>
-                            <div class="headline-a">NOUVELLES TECHNOLOGIES</span></div>
+                            <div class="headline-a"><span>NOUVELLES TECHNOLOGIES</span></div>
                         </div>
                         <a href="veille.html" class="more"><span>Découvrir mes veilles</span></a>
                     </div>
@@ -650,10 +650,10 @@
             el: ".indexbanner .swiper-pagination",
             clickable: true,
         },
-        // autoplay: {
-        //     delay: 5000,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
         on: {
             init: function (swiper) {
                 $(".indexbanner .swiper-pagination .swiper-pagination-bullet-active").addClass("cur").siblings().removeClass("cur");
@@ -784,11 +784,11 @@
     
     
     function setMaxHeight() {
-        // 获取所有 .new-banner .swiper-slide 元素
+        // Récupérer tous les éléments .indexE .indexe-bottom .swiper-container .swiper-slide a
         const slides = document.querySelectorAll('.indexE .indexe-bottom .swiper-container .swiper-slide a');
         let maxHeight = 0;
     
-        // 计算最高高度
+        // Calculer la hauteur maximale
         slides.forEach(slide => {
             const height = slide.offsetHeight;
             if (height > maxHeight) {
@@ -796,21 +796,19 @@
             }
         });
     
-        // 将最高高度应用到所有 slide
+        // Appliquer la hauteur maximale à tous les slides
         slides.forEach(slide => {
             slide.style.height = maxHeight + 'px';
         });
     }
     
-    // 页面加载完成后执行
+    // Exécuter après le chargement complet de la page
     document.addEventListener('DOMContentLoaded', setMaxHeight);
     
-    // 窗口大小改变时执行
+    // Exécuter lors du redimensionnement de la fenêtre
     window.addEventListener('resize', setMaxHeight);
 </script>
 </body>
-
-<!-- Mirrored from www.skyv.ai/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 24 Dec 2025 21:16:39 GMT -->
 </html>
 
 

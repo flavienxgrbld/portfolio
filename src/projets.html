@@ -6,6 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="projets, BTS SIO, SISR, infrastructure, Flavien GARIBALDI" />
 <meta name="description" content="Projets réalisés par Flavien GARIBALDI en BTS SIO SISR" />
@@ -168,21 +170,63 @@ function creerCarteProjet(projet) {
         return parseInt(hex, 16);
     }).join(', ');
 
-    const tagsHTML = (projet.tags || []).map(function(tag) {
-        return '<span style="display: inline-block; padding: 0.3rem 0.8rem; margin: 0.3rem; background: rgba(' + rgbaColor + ', 0.2); border-radius: 20px; font-size: 14px; color: ' + couleur + ';">' + tag + '</span>';
-    }).join('');
-
-    const titre = (projet.titre || 'Projet').replace(' & ', ' &<br>');
-
-    li.innerHTML =
-        '<div class="passthrough">' +
-            '<div class="icon"><img src="' + (projet.icone || '../images/aboutA1.svg') + '" alt="Icône du projet ' + (projet.titre || 'Projet') + '"></div>' +
-            '<div class="text font30 colorWhite bold">' + titre + '</div>' +
-            '<div class="text-a">' +
-                '<div class="a font16 colorWhite">' + (projet.description || '') + '</div>' +
-                '<div style="margin-top: 1rem;">' + tagsHTML + '</div>' +
-            '</div>' +
-        '</div>';
+    // Créer la structure DOM de manière sécurisée
+    const passthrough = document.createElement('div');
+    passthrough.className = 'passthrough';
+    
+    // Icône
+    const iconDiv = document.createElement('div');
+    iconDiv.className = 'icon';
+    const img = document.createElement('img');
+    img.src = projet.icone || '../images/aboutA1.svg';
+    img.alt = 'Icône du projet ' + (projet.titre || 'Projet');
+    iconDiv.appendChild(img);
+    
+    // Titre
+    const titleDiv = document.createElement('div');
+    titleDiv.className = 'text font30 colorWhite bold';
+    const titre = (projet.titre || 'Projet');
+    if (titre.includes(' & ')) {
+        const parts = titre.split(' & ');
+        titleDiv.textContent = parts[0] + ' &';
+        titleDiv.appendChild(document.createElement('br'));
+        titleDiv.appendChild(document.createTextNode(parts[1]));
+    } else {
+        titleDiv.textContent = titre;
+    }
+    
+    // Container de contenu
+    const textA = document.createElement('div');
+    textA.className = 'text-a';
+    
+    // Description
+    const desc = document.createElement('div');
+    desc.className = 'a font16 colorWhite';
+    desc.textContent = projet.description || '';
+    textA.appendChild(desc);
+    
+    // Tags
+    const tagsContainer = document.createElement('div');
+    tagsContainer.style.marginTop = '1rem';
+    (projet.tags || []).forEach(function(tag) {
+        const tagSpan = document.createElement('span');
+        tagSpan.style.display = 'inline-block';
+        tagSpan.style.padding = '0.3rem 0.8rem';
+        tagSpan.style.margin = '0.3rem';
+        tagSpan.style.background = 'rgba(' + rgbaColor + ', 0.2)';
+        tagSpan.style.borderRadius = '20px';
+        tagSpan.style.fontSize = '14px';
+        tagSpan.style.color = couleur;
+        tagSpan.textContent = tag;
+        tagsContainer.appendChild(tagSpan);
+    });
+    textA.appendChild(tagsContainer);
+    
+    // Assembler tout
+    passthrough.appendChild(iconDiv);
+    passthrough.appendChild(titleDiv);
+    passthrough.appendChild(textA);
+    li.appendChild(passthrough);
 
     return li;
 }
