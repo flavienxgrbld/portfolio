@@ -24,18 +24,37 @@
     outline-offset: 2px;
 }
 
-/* ── Fix header visibility ── */
+/* ── Fix HTML5 semantic elements ── */
 header {
-    height: auto !important;
     display: block !important;
+    width: 100%;
+    visibility: visible !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    min-height: 70px;
+    position: relative;
+}
+
+main,
+footer,
+nav {
+    display: block !important;
+    width: 100%;
     visibility: visible !important;
     opacity: 1 !important;
 }
 
 .header {
-    height: auto !important;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    height: 70px !important;
+    z-index: 9 !important;
     display: block !important;
     visibility: visible !important;
+    opacity: 1 !important;
 }
 
 /* ── Page active dans la navigation ── */

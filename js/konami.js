@@ -27,10 +27,23 @@
                 <h1 class="konami-title">CODE VALIDE !</h1>
                 <p class="konami-text">Bravo ! Vous avez trouvé l'easter egg !</p>
                 <p class="konami-subtitle">Le Konami Code est un classique du gaming</p>
-                <button class="konami-close" onclick="this.parentElement.parentElement.remove()">Fermer</button>
+                <button class="konami-close">Fermer</button>
             </div>
         `;
         document.body.appendChild(overlay);
+        
+        // Ajouter l'event listener au bouton Fermer
+        const closeButton = overlay.querySelector('.konami-close');
+        closeButton.addEventListener('click', function() {
+            overlay.remove();
+        });
+        
+        // Fermer aussi en cliquant sur l'overlay (background)
+        overlay.addEventListener('click', function(e) {
+            if (e.target === overlay) {
+                overlay.remove();
+            }
+        });
         
         // Retirer automatiquement après 10 secondes
         setTimeout(() => {
