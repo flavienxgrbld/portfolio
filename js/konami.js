@@ -98,7 +98,7 @@
         const key = e.key.startsWith('Arrow') ? e.key : e.key.toLowerCase();
         
         // Debug: afficher la touche pressée
-        console.log('Touche pressée:', key, '| Position actuelle:', konamiPosition, '| Attendu:', konamiCode[konamiPosition]);
+        //console.log('Touche pressée:', key, '| Position actuelle:', konamiPosition, '| Attendu:', konamiCode[konamiPosition]);
         
         // Vérifier si la touche correspond à la position actuelle dans le code
         if (key === konamiCode[konamiPosition]) {
