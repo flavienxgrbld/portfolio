@@ -1,0 +1,58 @@
+[
+  {
+    "icone": "images/aboutA3.svg",
+    "titre": "Infrastructure Réseau d'Entreprise",
+    "description": "Mise en place d'une infrastructure réseau complète avec VLAN, routage inter-VLAN et serveur DHCP pour une entreprise fictive.",
+    "tags": ["Cisco", "VLAN", "Routage"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA2.svg",
+    "titre": "Serveur Web Linux",
+    "description": "Installation et configuration d'un serveur web sécurisé sous Linux avec Apache, PHP et MySQL.",
+    "tags": ["Linux", "Apache", "MySQL"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA1.svg",
+    "titre": "Sécurisation d'Infrastructure",
+    "description": "Audit de sécurité et mise en place de mesures de protection (pare-feu, VPN, authentification).",
+    "tags": ["Sécurité", "Firewall", "VPN"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA3.svg",
+    "titre": "Sauvegarde & Restauration",
+    "description": "Système de sauvegarde automatisé avec stratégie de restauration pour assurer la continuité de service.",
+    "tags": ["Backup", "Scripts", "Windows Server"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA2.svg",
+    "titre": "Virtualisation & Cloud",
+    "description": "Déploiement d'un environnement virtualisé avec gestion des machines virtuelles et allocation des ressources.",
+    "tags": ["VMware", "Hyper-V"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA1.svg",
+    "titre": "Portfolio Personnel",
+    "description": "Création de ce portfolio pour présenter mes compétences, projets et veilles technologiques.",
+    "tags": ["HTML/CSS", "JavaScript"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA3.svg",
+    "titre": "Automatisation de Tâches",
+    "description": "Développement de scripts pour automatiser des tâches répétitives et améliorer l'efficacité opérationnelle.",
+    "tags": ["shell", "PowerShell"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "images/aboutA2.svg",
+    "titre": "création d'un cloud professionnel",
+    "description": "Mise en place d'un cloud privé avec Nextcloud pour le stockage et le partage sécurisé de fichiers au sein d'un centre de formation.",
+    "tags": ["cloud", "SN", "Nextcloud"],
+    "couleur": "#6366f1"
+  }
+]

@@ -95,7 +95,7 @@
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">MON PARCOURS</div>
             <div class="subject font66 colorWhite">
-                <div class="t2">COMPÉTENCES<br>& FORMATION</div>    
+                <div class="t2">COMPÉTENCES</div>    
             </div>
         </div>
         <div class="aboutA-a wow fadeInUp1">
@@ -205,17 +205,12 @@
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">FORMATION</div>
             <div class="subject font66 colorWhite">
-                <div class="t2">BTS SIO SISR</div>    
+                <div class="t2">MES FORMATIONS</div>
             </div>
         </div>
         <div class="aboutC-a wow fadeInUp1">
-            <div class="clearfix">
-                <div class="formationBox">
-                    <div class="font36 colorWhite bold">BTS SIO SISR</div>
-                    <div class="font22 colorC" style="margin: 1rem 0;">2024 - 2026</div>
-                    <div class="font18 colorC">Formation en Solutions d'Infrastructure, Systèmes et Réseaux, axée sur l'administration des systèmes, la gestion des réseaux et la cybersécurité.</div>
-                </div>
-            </div>
+            <div id="formations-message" class="font18 colorC">Chargement des formations...</div>
+            <div id="formations-list" class="clearfix" style="display: grid; gap: 1.5rem; margin-top: 1.5rem;"></div>
         </div>
     </div>
 </div>
@@ -266,6 +261,70 @@
 
 <script src="js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
 <script src="js/layui.js"></script>
+
+<script>
+function creerCarteFormation(formation) {
+    const container = document.createElement('div');
+    container.className = 'clearfix';
+
+    const box = document.createElement('div');
+    box.className = 'formationBox';
+
+    const titre = document.createElement('div');
+    titre.className = 'font36 colorWhite bold';
+    titre.textContent = formation.titre || 'Formation';
+
+    const periode = document.createElement('div');
+    periode.className = 'font22 colorC';
+    periode.style.margin = '1rem 0';
+    periode.textContent = formation.periode || '';
+
+    const description = document.createElement('div');
+    description.className = 'font18 colorC';
+    description.textContent = formation.description || '';
+
+    box.appendChild(titre);
+    box.appendChild(periode);
+    box.appendChild(description);
+    container.appendChild(box);
+
+    return container;
+}
+
+async function chargerFormations() {
+    const message = document.getElementById('formations-message');
+    const list = document.getElementById('formations-list');
+
+    try {
+        const response = await fetch('json/formations.json');
+
+        if (!response.ok) {
+            throw new Error('Erreur HTTP ' + response.status);
+        }
+
+        const formations = await response.json();
+        const items = Array.isArray(formations) ? formations : [];
+
+        list.innerHTML = '';
+
+        if (items.length === 0) {
+            message.textContent = 'Aucune formation disponible pour le moment.';
+            return;
+        }
+
+        items.forEach(function(formation) {
+            list.appendChild(creerCarteFormation(formation));
+        });
+
+        message.style.display = 'none';
+    } catch (error) {
+        console.error(error);
+        message.textContent = 'Impossible de charger les formations (json/formations.json).';
+    }
+}
+
+chargerFormations();
+</script>
 
 </body>
 </html>
