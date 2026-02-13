@@ -7,9 +7,9 @@
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<meta name="keywords" content="TCS, BTS SIO, SISR, compétences, Flavien GARIBALDI" />
-<meta name="description" content="Tableaux de Compétences et Synthèse - Flavien GARIBALDI" />
-<title>TCS - PORTFOLIO Flavien GARIBALDI</title>
+<meta name="keywords" content="procédures, portfolio, Flavien GARIBALDI, BTS SIO, SISR" />
+<meta name="description" content="Procédures techniques - Portfolio de Flavien GARIBALDI" />
+<title>Procédures - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="canonical" href="#" />
 <link rel="icon" href="images/logo10.png" type="image/png">
 <link rel="stylesheet" href="css/layui.css" id="layui">
@@ -22,7 +22,6 @@
 <script src="js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/swiper-bundle.min.js"></script>
-
 </head>
 <body>
 
@@ -75,47 +74,30 @@
 
 <div class="uniquebanner commonbanner">
     <div class="img">
-        <div class="Uniqueback pc" style="background: url(images/photo305.png)no-repeat center center/cover;"></div>
-        <img src="images/photo305.png" alt="" class="mb">
+        <div class="Uniqueback pc" style="background: url(images/banner105.jpg)no-repeat center center/cover;"></div>
+        <img src="images/bannermo504.png" alt="" class="mb">
     </div>
     <div class="text text-a">
         <div class="container clearfix wow fadeInUp1">
             <div class="text-l fl">
-                <div class="title font80"><span>TABLEAUX DE COMPÉTENCES</span><br><span>ET SYNTHÈSE</span></div>
-                <div class="title-a font18 colorWhite">Documentation de mes acquis professionnels<br>dans le cadre du BTS SIO option SISR</div>
+                <div class="title font80"><span>PROCÉDURES</span></div>
+                <div class="title-a font18 colorWhite">Documentation des procédures techniques<br>et méthodes d'exploitation</div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative;">
+<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative; padding: 80px 0;">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
-            <div class="treetop font16 colorWhite">MES TCS</div>
+            <div class="treetop font16 colorWhite">DOCUMENTATION</div>
             <div class="subject font66 colorWhite">
-                <div class="t2">COMPÉTENCES<br>& RÉALISATIONS</div>    
+                <div class="t2">MES PROCÉDURES<br>TECHNIQUES</div>
             </div>
         </div>
-        <div class="aboutA-a wow fadeInUp1">
-            <div class="font20 colorC" style="text-align: center;">
-                <p>Les Tableaux de Compétences et Synthèse (TCS) présentent mes acquis professionnels et mes réalisations dans le cadre de ma formation BTS SIO option SISR.</p>
-                <p style="margin-top: 1.5rem;">Ces documents sont mis à jour régulièrement au fur et à mesure de l'acquisition de nouvelles compétences durant ma formation.</p>
-            </div>
-        </div>
-        <div class="aboutC-a wow fadeInUp1" style="margin-top: 3rem;">
-            <div class="clearfix">
-                <div class="formationBox" style="background: rgba(99, 102, 241, 0.1); padding: 2rem; border-radius: 10px;">
-                    <div class="font36 colorWhite bold">Information</div>
-                    <div class="font18 colorC" style="margin-top: 1rem;">Les documents TCS seront disponibles prochainement. Ils documenteront les compétences acquises dans les domaines suivants :</div>
-                    <ul style="margin-top: 1.5rem; list-style: none;">
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Administration des systèmes et réseaux</li>
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Cybersécurité des infrastructures</li>
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Virtualisation et cloud computing</li>
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Support et assistance aux utilisateurs</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+
+        <div id="procedures-message" class="font18 colorWhite" style="margin-top: 40px;">Chargement des procédures...</div>
+        <div id="procedures-list" class="clearfix" style="margin-top: 24px; display: flex; flex-wrap: wrap; gap: 24px;"></div>
     </div>
 </div>
 
@@ -165,6 +147,96 @@
 
 <script src="js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
 <script src="js/layui.js"></script>
+<script>
+const GITHUB_OWNER = 'flavienxgrbld';
+const GITHUB_REPO = 'procedures';
+const GITHUB_PATH = '';
 
+function formatProcedureName(name) {
+    return name
+        .replace(/\.[^/.]+$/, '')
+        .replace(/[-_]/g, ' ')
+        .replace(/\b\w/g, function(char) { return char.toUpperCase(); });
+}
+
+function createProcedureCard(item) {
+    const card = document.createElement('div');
+    card.style.flex = '1 1 300px';
+    card.style.border = '1px solid rgba(255,255,255,0.2)';
+    card.style.borderRadius = '12px';
+    card.style.padding = '24px';
+
+    const title = document.createElement('div');
+    title.className = 'font30 colorWhite';
+    title.style.marginBottom = '12px';
+    title.textContent = formatProcedureName(item.name);
+
+    const info = document.createElement('div');
+    info.className = 'font16 colorWhite';
+    info.style.opacity = '0.85';
+    info.style.marginBottom = '16px';
+    info.textContent = item.type === 'dir' ? 'Dossier de procédures' : 'Fichier de procédure';
+
+    const link = document.createElement('a');
+    link.href = item.html_url;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.className = 'font16 colorWhite';
+    link.textContent = 'Voir sur GitHub →';
+    link.style.textDecoration = 'underline';
+
+    card.appendChild(title);
+    card.appendChild(info);
+    card.appendChild(link);
+    return card;
+}
+
+async function loadProceduresFromGitHub() {
+    const message = document.getElementById('procedures-message');
+    const list = document.getElementById('procedures-list');
+    const normalizedPath = (GITHUB_PATH || '').trim().replace(/^\/+|\/+$/g, '');
+    const encodedPath = normalizedPath
+        ? '/' + normalizedPath.split('/').map(function(part) { return encodeURIComponent(part); }).join('/')
+        : '';
+    const apiUrl = 'https://api.github.com/repos/' + encodeURIComponent(GITHUB_OWNER) + '/' + encodeURIComponent(GITHUB_REPO) + '/contents' + encodedPath;
+
+    if (GITHUB_OWNER === 'TON_USERNAME_GITHUB' || GITHUB_REPO === 'TON_REPO') {
+        message.textContent = 'Configure GITHUB_OWNER et GITHUB_REPO dans procedures.html pour afficher tes procédures.';
+        return;
+    }
+
+    try {
+        const response = await fetch(apiUrl);
+
+        if (!response.ok) {
+            throw new Error('Erreur GitHub API: ' + response.status);
+        }
+
+        const items = await response.json();
+        const visibleItems = items.filter(function(item) {
+            if (item.type === 'dir') return true;
+            return /\.(md|pdf|doc|docx|txt)$/i.test(item.name);
+        });
+
+        list.innerHTML = '';
+
+        if (visibleItems.length === 0) {
+            message.textContent = 'Aucune procédure trouvée dans ce dossier GitHub.';
+            return;
+        }
+
+        visibleItems.forEach(function(item) {
+            list.appendChild(createProcedureCard(item));
+        });
+
+        message.textContent = visibleItems.length + ' procédure(s) trouvée(s) sur GitHub.';
+    } catch (error) {
+        console.error(error);
+        message.textContent = 'Impossible de charger les procédures depuis GitHub. Vérifie le repo, le dossier et sa visibilité publique.';
+    }
+}
+
+loadProceduresFromGitHub();
+</script>
 </body>
 </html>
