@@ -24,6 +24,20 @@
     outline-offset: 2px;
 }
 
+/* ── Fix header visibility ── */
+header {
+    height: auto !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+.header {
+    height: auto !important;
+    display: block !important;
+    visibility: visible !important;
+}
+
 /* ── Page active dans la navigation ── */
 .header-r1 ul li a.active-link {
     color: #6366f1 !important;

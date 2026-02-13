@@ -13,7 +13,7 @@ em { font-style:normal; }
 .header:before { position:absolute; top:0; left:0; content:""; height:100%; width:100%;  backdrop-filter: blur(30px); background: rgba(23, 22, 29, 0.8); display:none; }
 .header:hover:before { display:block; }
 .fixed-head:before { display:block; }
-.header { position: fixed; top: 0; left: 0; width: 100%; z-index: 9; transition: all .5s; }
+.header { position: fixed; top: 0; left: 0; width: 100%; height: 70px; z-index: 9; transition: all .5s; }
 
 .header:after { position:absolute; left:0; content:""; width:100%; height:1px; bottom:0; background:#35383d; }
 .header .logo { border-right:1px solid #35383d; width: 315px; }
