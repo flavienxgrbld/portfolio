@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.emailjs.com https://api.github.com;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.emailjs.com https://api.github.com;">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="portfolio, BTS SIO, SISR, infrastructure, réseaux, cybersécurité, Flavien GARIBALDI" />
@@ -17,11 +17,11 @@
 <meta property="og:title" content="PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="Portfolio de Flavien GARIBALDI - Étudiant BTS SIO SISR spécialisé en administration systèmes et réseaux" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/index.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="Portfolio de Flavien GARIBALDI - Étudiant BTS SIO SISR spécialisé en administration systèmes et réseaux" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>PORTFOLIO Flavien GARIBALDI</title>
 <script type="application/ld+json">
 
@@ -60,6 +60,7 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <!-- include jquery -->
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
@@ -69,13 +70,16 @@
 </head>
 <body>
 
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
+
+<header>
 <div class="header indexheader">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
-                    <span class="navBtn mobile-menu navBtnA">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
                         <i class="menu-i menu-i-1"></i>
                         <i class="menu-i menu-i-2"></i>
                         <i class="menu-i menu-i-3"></i>
@@ -100,41 +104,29 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav">
     <div class="box">
         <div class="navlist">
             <ul class="clearfix">
                 <li><a href="index.html">ACCUEIL</a></li>
-                <li><a href="apropos.html">\u00c0 PROPOS</a></li>
+                <li><a href="apropos.html">À PROPOS</a></li>
                 <li><a href="projets.html">PROJETS</a></li>
-                <li class="drop-down">
-                    <button type="button" class="sub" style="background:none;border:none;color:inherit;font:inherit;cursor:pointer;">COMPÉTENCES</button>
-                    <div class="navlist4">
-                        <div class="nomsjkxks">
-                            <div class="nomsjkxks-a"><a href="projets.html">COMP\u00c9TENCES TECHNIQUES</a></div>
-                            <div class="nomsjkxks-a"><a href="certifications.html">CERTIFICATIONS</a></div>
-                        </div>
-                    </div>
-                </li>
+                <li><a href="certifications.html">CERTIFICATIONS</a></li>
+                <li><a href="tcs.html">TCS</a></li>
                 <li><a href="veille.html">VEILLES</a></li>
-                <li class="drop-down">
-                    <button type="button" class="sub" style="background:none;border:none;color:inherit;font:inherit;cursor:pointer;">RESSOURCES</button>
-                    <div class="navlist4">
-                        <div class="nomsjkxks">
-                            <div class="nomsjkxks-a"><a href="projets.html">Mes Projets</a></div>
-                            <div class="nomsjkxks-a"><a href="veille.html">Veilles</a></div>
-                        </div>
-                    </div>
-                </li>
                 <li><a href="procedures.html">PROCÉDURES</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
             </ul>
         </div>
     </div>
 </div>
+</nav>
+</header>
 
 
 
+<main id="main-content">
 <div class="indexbanner relative">
     <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -208,8 +200,8 @@
         <div class="container clearfix">
             <div class="swiper-a fr">
                 <div class="clearfix">
-                    <div class="swiper-button-prev common fl"></div>
-                    <div class="swiper-button-next common fl"></div>
+                    <div class="swiper-button-prev common fl" aria-label="Slide précédent"></div>
+                    <div class="swiper-button-next common fl" aria-label="Slide suivant"></div>
                 </div>
             </div>
             <div class="swiper-pagination fl"></div>
@@ -235,7 +227,7 @@
                 <li class="wow fadeInLeft4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo301.png" alt="Administration systèmes Linux">
+                            <img src="../images/photo301.png" alt="Administration systèmes Linux" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Administration et configuration de serveurs Linux, gestion des services et des utilisateurs.</div>
@@ -248,7 +240,7 @@
                       <li class="wow fadeInLeft4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo302.png" alt="Infrastructure réseaux">
+                            <img src="../images/photo302.png" alt="Infrastructure réseaux" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Configuration de réseaux d'entreprise, VLAN, routage et services réseaux (DHCP, DNS).</div>
@@ -261,7 +253,7 @@
                 <li class="wow fadeInRight4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo304.png" alt="Virtualisation et cloud">
+                            <img src="../images/photo304.png" alt="Virtualisation et cloud" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Déploiement d'environnements virtualisés avec VMware et Hyper-V, gestion des ressources.</div>
@@ -274,7 +266,7 @@
                 <li class="wow fadeInRight4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo303.png" alt="Cybersécurité et protection">
+                            <img src="../images/photo303.png" alt="Cybersécurité et protection" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Mise en place de pare-feu, VPN, audit de sécurité et sécurisation d'infrastructures.</div>
@@ -575,7 +567,9 @@
     </div>
     <div class="indexF-a"></div>
 </div>
+</main>
 
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -602,21 +596,10 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
-                            </div>
-                            <div class="rr-bottom" style="display: none">
-                                <div class="rla font16 color6">Follow us</div>
-                                <ul class="clearfix">
-                                    <li><a href="#"><img src="../images/footer1.svg" alt="Icône réseau social 1"></a></li>
-                                    <li><a href="#"><img src="../images/footer2.svg" alt="Icône réseau social 2"></a></li>
-                                    <li><a href="#"><img src="../images/footer3.svg" alt="Icône réseau social 3"></a></li>
-                                    <li><a href="#"><img src="../images/footer4.svg" alt="Icône réseau social 4"></a></li>
-                                    <li><a href="#"><img src="../images/footer5.svg" alt="Icône réseau social 5"></a></li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -625,191 +608,18 @@
         <div class="footer-bottom">
             <div class="clearfix">
                 <div class="ter-bottoml fl font16 color9">Copyright © 2026 Flavien GARIBALDI. Tous droits réservés.</div>
-                <div class="ter-bottomr fr">
-                    <!--<ul class="clearfix">-->
-                    <!--    <li><a href="#" class="font16">Privacy Policy</a></li>-->
-                    <!--    <li><a href="#" class="font16">Legal Statement</a></li>-->
-                    <!--</ul>-->
-                </div>
+
             </div>
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
 
-<script>
-    new WOW().init();
-
-    var swiper = new Swiper(".indexbanner .swiper-container", {
-        speed:800,
-        navigation: {
-            nextEl: ".indexbanner .swiper-button-next",
-            prevEl: ".indexbanner .swiper-button-prev",
-        },
-        pagination: {
-            el: ".indexbanner .swiper-pagination",
-            clickable: true,
-        },
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
-        on: {
-            init: function (swiper) {
-                $(".indexbanner .swiper-pagination .swiper-pagination-bullet-active").addClass("cur").siblings().removeClass("cur");
-            },
-            slideChangeTransitionEnd: function () {
-                $(".indexbanner .swiper-pagination .swiper-pagination-bullet-active").addClass("cur").siblings().removeClass("cur");
-            },
-        },
-    });
-    
-    
-
-    $(window).scroll(function(e){
-        npos    = $(window).scrollTop();
-        mHei    = $(".subject").offset().top;
-        TextHei = $(".subject").height();
-        SH      = $(window).height();
-        SW      = $(window).width();
-        if(npos > (mHei - SH*0.5)){
-            var num = ((npos - mHei + SH*0.5)/TextHei)*80;
-            if(num <= 0){
-                num = 0;
-            }else if(num > 100){
-                num = 100;
-            }
-            $(".subject .t1").css("background-size", num+"% 100%");
-        }else{
-            $(".subject .t1").css("background-size", "0% 100%");
-        }
-
-        mHei2   = $(".addCaseC-c").offset().top;
-        if(npos > (mHei2 - SH*0.5)){
-            var wyHei   = (npos - mHei2 + SH*0.5)*0.6;
-            var wyHeia  = wyHei - 0;
-            var wyHeib  = wyHei - 260;
-            if(SW < 1100){
-                wyHeia = wyHeia*0.5;
-                wyHeib = wyHeib*0.5;
-            }
-            $(".subject").css("bottom",wyHeib+"px");
-        }
-    });
-
-    var swiperB = new Swiper(".indexB .indexb-top .swiper-container", {
-        speed:800,
-        spaceBetween: 150,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        },
-        on: {
-            init: function (swiper) {
-                var activeIndex = swiper.activeIndex;
-                $(".indexb-bottom li").eq(activeIndex).addClass("cur").siblings().removeClass("cur");
-            },
-            slideChangeTransitionEnd: function () {
-                var activeIndex = this.activeIndex;
-                $(".indexb-bottom li").eq(activeIndex).addClass("cur").siblings().removeClass("cur");
-            },
-        },
-    });
-
-    $('body').addClass("hide");
-
-    var swiper = new Swiper(".indexE .swiper-container", {
-        speed:800,
-        slidesPerView: 1,
-        spaceBetween: 10,
-        navigation: {
-            nextEl: ".indexE .swiper-button-next",
-            prevEl: ".indexE .swiper-button-prev",
-        },
-        breakpoints: {
-            1101: {
-                slidesPerView: 3,
-                spaceBetween: 10,
-            },
-        },
-    });
-    var swiper = new Swiper(".two-a1", {
-        loop:true,
-        speed: 80000,
-        simulateTouch : false,
-        slidesPerView :1,
-        freeMode: true,
-        spaceBetween : 0,
-        slidesPerGroup: 1,
-        grabCursor: true,
-        autoplay: {
-            delay: 1,
-            disableOnInteraction: false,
-        },
-    });
-        var swiper = new Swiper(".two-a2", {
-        loop:true,
-        speed: 80000,
-        simulateTouch : false,
-        slidesPerView :1,
-        freeMode: true,
-        spaceBetween : 0,
-        slidesPerGroup: 1,
-        grabCursor: true,
-        autoplay: {
-            delay: 1,
-            disableOnInteraction: false,
-            reverseDirection: true,
-        },
-    });
-    
-    document.addEventListener('DOMContentLoaded', function() {
-      // 获取所有swiper-slide元素
-      const slides = document.querySelectorAll('.indexbanner .swiper-slide');
-      let maxHeight = 0;
-    
-      // 计算最高高度
-      slides.forEach(slide => {
-        const height = slide.offsetHeight;
-        if (height > maxHeight) {
-          maxHeight = height;
-        }
-      });
-    
-      // 将最高高度应用到所有slide
-      slides.forEach(slide => {
-        slide.style.height = maxHeight + 'px';
-      });
-    });
-    
-    
-    function setMaxHeight() {
-        // Récupérer tous les éléments .indexE .indexe-bottom .swiper-container .swiper-slide a
-        const slides = document.querySelectorAll('.indexE .indexe-bottom .swiper-container .swiper-slide a');
-        let maxHeight = 0;
-    
-        // Calculer la hauteur maximale
-        slides.forEach(slide => {
-            const height = slide.offsetHeight;
-            if (height > maxHeight) {
-                maxHeight = height;
-            }
-        });
-    
-        // Appliquer la hauteur maximale à tous les slides
-        slides.forEach(slide => {
-            slide.style.height = maxHeight + 'px';
-        });
-    }
-    
-    // Exécuter après le chargement complet de la page
-    document.addEventListener('DOMContentLoaded', setMaxHeight);
-    
-    // Exécuter lors du redimensionnement de la fenêtre
-    window.addEventListener('resize', setMaxHeight);
-</script>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
+<script src="../js/index-init.js"></script>
 </body>
 </html>
 

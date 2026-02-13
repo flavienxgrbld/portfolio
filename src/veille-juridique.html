@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="veille juridique, RGPD, conformité, cybersécurité, Flavien GARIBALDI" />
@@ -16,11 +16,11 @@
 <meta property="og:title" content="Veille Juridique - PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="Veille juridique sur la conformité numérique, le RGPD et la cybersécurité" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/veille-juridique.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Veille Juridique - PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="Veille juridique sur la conformité numérique, le RGPD et la cybersécurité" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>Veille Juridique - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/veille-juridique.html" />
 <link rel="icon" href="../images/logo10.png" type="image/png">
@@ -32,18 +32,21 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
 <script src="../js/konami.js" defer></script>
 </head>
 <body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
+<header>
 <div class="header">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
-                <div class="navr fr mb"><span class="navBtn mobile-menu navBtnA"><i class="menu-i menu-i-1"></i><i class="menu-i menu-i-2"></i><i class="menu-i menu-i-3"></i></span></div>
+                <div class="navr fr mb"><span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0"><i class="menu-i menu-i-1"></i><i class="menu-i menu-i-2"></i><i class="menu-i menu-i-3"></i></span></div>
                 <div class="header-r1 fl">
                     <ul class="clearfix">
                         <li><a href="apropos.html" class="sub">À PROPOS</a></li>
@@ -60,8 +63,12 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav"><div class="box"><div class="navlist"><ul class="clearfix"><li><a href="index.html">ACCUEIL</a></li><li><a href="apropos.html">À PROPOS</a></li><li><a href="projets.html">PROJETS</a></li><li><a href="certifications.html">CERTIFICATIONS</a></li><li><a href="tcs.html">TCS</a></li><li><a href="veille.html">VEILLES</a></li><li><a href="procedures.html">PROCÉDURES</a></li><li><a href="contact.html">CONTACT</a></li></ul></div></div></div>
+</nav>
+</header>
 
+<main id="main-content">
 <div class="uniquebanner commonbanner">
     <div class="img">
         <div class="Uniqueback pc" style="background: url(../images/banner105.jpg)no-repeat center center/cover;"></div>
@@ -77,27 +84,27 @@
     </div>
 </div>
 
-<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative;">
+<div class="aboutA section-gradient-1">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">THÈMES SUIVIS</div>
             <div class="subject font66 colorWhite"><div class="t2">CADRE LÉGAL<br>& CONFORMITÉ</div></div>
         </div>
 
-        <ul class="clearfix wow fadeInUp1" style="display:grid;grid-template-columns:repeat(auto-fit, minmax(320px,1fr));gap:2rem;padding:0;">
-            <li style="list-style:none;">
+        <ul class="clearfix wow fadeInUp1 dynamic-grid-lg">
+            <li>
                 <div class="passthrough">
                     <div class="text font30 colorWhite bold">RGPD & Données personnelles</div>
                     <div class="text-a"><div class="a font16 colorWhite">Suivi des obligations de collecte, conservation, sécurité et droits des personnes.</div><div class="a font16 colorWhite">Sources: CNIL, EDPB, textes européens.</div></div>
                 </div>
             </li>
-            <li style="list-style:none;">
+            <li>
                 <div class="passthrough">
                     <div class="text font30 colorWhite bold">Cybersécurité & Réglementation</div>
                     <div class="text-a"><div class="a font16 colorWhite">Veille sur NIS2, obligations de notification d’incidents et mesures de sécurité.</div><div class="a font16 colorWhite">Sources: ANSSI, EUR-Lex, institutions nationales.</div></div>
                 </div>
             </li>
-            <li style="list-style:none;">
+            <li>
                 <div class="passthrough">
                     <div class="text font30 colorWhite bold">Contrats & Responsabilités IT</div>
                     <div class="text-a"><div class="a font16 colorWhite">Suivi des clauses contractuelles (SLA, sous-traitance, responsabilité, preuves).</div><div class="a font16 colorWhite">Sources: jurisprudence, doctrine, guides pratiques.</div></div>
@@ -107,6 +114,8 @@
     </div>
 </div>
 
+</main>
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -133,9 +142,9 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -150,8 +159,10 @@
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
 </body>
 </html>

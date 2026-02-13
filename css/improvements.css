@@ -1,0 +1,197 @@
+/* ═══════════════════════════════════════════
+   Portfolio Flavien GARIBALDI — Améliorations UX
+   ═══════════════════════════════════════════ */
+
+/* ── Skip-to-content (accessibilité) ── */
+.skip-to-content {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #6366f1;
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 0 0 8px 8px;
+    z-index: 10000;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: top 0.3s ease;
+}
+.skip-to-content:focus {
+    top: 0;
+    outline: 2px solid #fff;
+    outline-offset: 2px;
+}
+
+/* ── Page active dans la navigation ── */
+.header-r1 ul li a.active-link {
+    color: #6366f1 !important;
+}
+.header-r1 ul li a.active-link::before {
+    display: block !important;
+    background: #6366f1 !important;
+}
+.nav_box .navlist ul li a.active-link {
+    color: #6366f1 !important;
+    font-weight: 700;
+}
+
+/* ── Bouton retour en haut ── */
+.backTop {
+    display: none;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    border: none;
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    transition: all 0.3s ease;
+    align-items: center;
+    justify-content: center;
+}
+.backTop:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+}
+.backTop::before {
+    content: "";
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-top: 3px solid #fff;
+    border-right: 3px solid #fff;
+    transform: rotate(-45deg);
+    margin: 18px auto 0;
+}
+
+/* ── Focus visible pour accessibilité clavier ── */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+    outline: 2px solid #6366f1;
+    outline-offset: 2px;
+}
+
+/* ── Liens sociaux dans le footer ── */
+.footer .top-b a.social-link {
+    color: #6366f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.footer .top-b a.social-link:hover {
+    color: #8b5cf6;
+    text-decoration: underline;
+}
+
+/* ── Message d'erreur pour les pages dynamiques ── */
+.load-error {
+    color: #ef4444;
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid rgba(239, 68, 68, 0.3);
+    border-radius: 10px;
+    background: rgba(239, 68, 68, 0.1);
+    margin-top: 2rem;
+}
+
+/* ── Sections dynamiques (grid de cartes) ── */
+.dynamic-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+}
+.dynamic-grid-lg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+/* ── Section backgrounds (remplacement des inline styles) ── */
+.section-gradient-1 {
+    background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%);
+    position: relative;
+}
+.section-gradient-2 {
+    background: linear-gradient(180deg, #16213e 0%, #0f1419 100%);
+    position: relative;
+}
+.section-gradient-3 {
+    background: linear-gradient(180deg, #0f1419 0%, #1a1a2e 100%);
+    position: relative;
+}
+.section-padding {
+    padding: 80px 0;
+}
+
+/* ── Informations de contenu placeholder ── */
+.info-box {
+    background: rgba(99, 102, 241, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.info-box .info-item {
+    margin: 0.5rem 0;
+    font-size: 18px;
+    color: #9ca3af;
+}
+.info-box .info-item .info-bullet {
+    color: #6366f1;
+}
+
+/* ── Procédure cards ── */
+.procedure-card {
+    flex: 1 1 300px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 24px;
+    transition: border-color 0.3s ease, transform 0.3s ease;
+}
+.procedure-card:hover {
+    border-color: rgba(99, 102, 241, 0.5);
+    transform: translateY(-2px);
+}
+
+/* ── Smooth scroll ── */
+html {
+    scroll-behavior: smooth;
+}
+
+/* ── honeypot anti-spam ── */
+.hp-field {
+    position: absolute !important;
+    left: -9999px !important;
+    top: -9999px !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    z-index: -1 !important;
+    pointer-events: none;
+    tab-index: -1;
+}
+
+/* ── Responsive back-to-top ── */
+@media (max-width: 768px) {
+    .backTop {
+        bottom: 20px;
+        right: 20px;
+        width: 42px;
+        height: 42px;
+    }
+    .backTop::before {
+        width: 10px;
+        height: 10px;
+        margin-top: 16px;
+    }
+}

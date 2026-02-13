@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta name="robots" content="noindex, nofollow">
 <title>Page non trouvée - 404</title>
@@ -150,26 +150,27 @@
 </style>
 </head>
 <body>
-    <div class="container">
+    <main class="container">
         <div class="error-code">404</div>
         <h1>Page non trouvée</h1>
         <p>Désolé, la page que vous recherchez n'existe pas ou a été déplacée. Veuillez vérifier l'URL ou retourner à la page d'accueil.</p>
         
         <div class="buttons">
             <a href="src/index.html" class="btn btn-primary">Retour à l'accueil</a>
-            <button onclick="history.back()" class="btn btn-secondary">Page précédente</button>
+            <a href="#" id="btn-back" class="btn btn-secondary" aria-label="Retourner à la page précédente">Page précédente</a>
         </div>
         
         <div class="links">
             <h2>Liens utiles</h2>
-            <div class="link-list">
+            <nav class="link-list" aria-label="Liens utiles">
                 <a href="src/apropos.html">À propos</a>
                 <a href="src/projets.html">Projets</a>
                 <a href="src/certifications.html">Certifications</a>
                 <a href="src/veille.html">Veilles</a>
                 <a href="src/contact.html">Contact</a>
-            </div>
+            </nav>
         </div>
-    </div>
+    </main>
+<script src="js/404.js" defer></script>
 </body>
 </html>

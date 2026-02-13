@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="TCS, BTS SIO, SISR, compétences, Flavien GARIBALDI" />
@@ -17,11 +17,11 @@
 <meta property="og:title" content="TCS - PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="Tableaux de Compétences et Synthèse - Flavien GARIBALDI" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/tcs.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="TCS - PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="Tableaux de Compétences et Synthèse - Flavien GARIBALDI" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>TCS - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/tcs.html" />
 <link rel="icon" href="../images/logo10.png" type="image/png">
@@ -33,20 +33,24 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
+<script src="../js/konami.js" defer></script>
 
 </head>
 <body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
 
+<header>
 <div class="header">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
-                    <span class="navBtn mobile-menu navBtnA">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
                         <i class="menu-i menu-i-1"></i>
                         <i class="menu-i menu-i-2"></i>
                         <i class="menu-i menu-i-3"></i>
@@ -70,6 +74,7 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav">
     <div class="box">
         <div class="navlist">
@@ -86,7 +91,10 @@
         </div>
     </div>
 </div>
+</nav>
+</header>
 
+<main id="main-content">
 <div class="uniquebanner commonbanner">
     <div class="img">
         <div class="Uniqueback pc" style="background: url(../images/photo305.png)no-repeat center center/cover;"></div>
@@ -102,7 +110,7 @@
     </div>
 </div>
 
-<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative;">
+<div class="aboutA section-gradient-1">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">MES TCS</div>
@@ -118,21 +126,23 @@
         </div>
         <div class="aboutC-a wow fadeInUp1" style="margin-top: 3rem;">
             <div class="clearfix">
-                <div class="formationBox" style="background: rgba(99, 102, 241, 0.1); padding: 2rem; border-radius: 10px;">
+                <div class="formationBox info-box">
                     <div class="font36 colorWhite bold">Information</div>
                     <div class="font18 colorC" style="margin-top: 1rem;">Les documents TCS seront disponibles prochainement. Ils documenteront les compétences acquises dans les domaines suivants :</div>
                     <ul style="margin-top: 1.5rem; list-style: none;">
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Administration des systèmes et réseaux</li>
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Cybersécurité des infrastructures</li>
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Virtualisation et cloud computing</li>
-                        <li style="margin: 0.5rem 0; font-size: 18px; color: #9ca3af;"><span style="color: #6366f1;">▸</span> Support et assistance aux utilisateurs</li>
+                        <li class="info-item"><span class="info-bullet">▸</span> Administration des systèmes et réseaux</li>
+                        <li class="info-item"><span class="info-bullet">▸</span> Cybersécurité des infrastructures</li>
+                        <li class="info-item"><span class="info-bullet">▸</span> Virtualisation et cloud computing</li>
+                        <li class="info-item"><span class="info-bullet">▸</span> Support et assistance aux utilisateurs</li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
 </div>
+</main>
 
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -159,9 +169,9 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -176,9 +186,11 @@
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
 
 </body>
 </html>

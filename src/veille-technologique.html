@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="veille technologique, cybersécurité, cloud, IA, Flavien GARIBALDI" />
@@ -17,11 +17,11 @@
 <meta property="og:title" content="Veille Technologique - PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="Veille technologique de Flavien GARIBALDI sur la cybersécurité, le cloud et l'IA" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/veille-technologique.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Veille Technologique - PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="Veille technologique de Flavien GARIBALDI sur la cybersécurité, le cloud et l'IA" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>Veille Technologique - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/veille-technologique.html" />
 <link rel="icon" href="../images/logo10.png" type="image/png">
@@ -33,20 +33,23 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
 <script src="../js/konami.js" defer></script>
 </head>
 <body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
 
+<header>
 <div class="header">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
-                    <span class="navBtn mobile-menu navBtnA">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
                         <i class="menu-i menu-i-1"></i>
                         <i class="menu-i menu-i-2"></i>
                         <i class="menu-i menu-i-3"></i>
@@ -70,6 +73,7 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav">
     <div class="box">
         <div class="navlist">
@@ -86,7 +90,10 @@
         </div>
     </div>
 </div>
+</nav>
+</header>
 
+<main id="main-content">
 <div class="uniquebanner commonbanner">
     <div class="img">
         <div class="Uniqueback pc" style="background: url(../images/photo313.png)no-repeat center center/cover;"></div>
@@ -102,7 +109,7 @@
     </div>
 </div>
 
-<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative;">
+<div class="aboutA section-gradient-1">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">DOMAINES DE VEILLE</div>
@@ -110,11 +117,13 @@
                 <div class="t2">TECHNOLOGIES<br>& INNOVATIONS</div>
             </div>
         </div>
-        <ul id="veille-domaines" class="clearfix wow fadeInUp1" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 0;">
+        <ul id="veille-domaines" class="clearfix wow fadeInUp1 dynamic-grid-lg">
         </ul>
     </div>
 </div>
+</main>
 
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -141,9 +150,9 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -158,105 +167,11 @@
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
-<script>
-function creerCarteDomaine(domaine) {
-    const li = document.createElement('li');
-    li.style.listStyle = 'none';
-    
-    // Créer la structure DOM de manière sécurisée
-    const passthrough = document.createElement('div');
-    passthrough.className = 'passthrough';
-    
-    // Icône
-    const iconDiv = document.createElement('div');
-    iconDiv.className = 'icon';
-    const img = document.createElement('img');
-    img.src = domaine.icone;
-    img.alt = 'Icône domaine ' + domaine.titre;
-    iconDiv.appendChild(img);
-    
-    // Titre
-    const titleDiv = document.createElement('div');
-    titleDiv.className = 'text font30 colorWhite bold';
-    if (domaine.titre.includes('&')) {
-        const parts = domaine.titre.split('&');
-        titleDiv.textContent = parts[0] + '&';
-        titleDiv.appendChild(document.createElement('br'));
-        const span = document.createTextNode(parts[1]);
-        titleDiv.appendChild(span);
-    } else {
-        titleDiv.textContent = domaine.titre;
-    }
-    
-    // Container de contenu
-    const textA = document.createElement('div');
-    textA.className = 'text-a';
-    
-    // Description
-    const desc = document.createElement('div');
-    desc.className = 'a font16 colorWhite';
-    desc.textContent = domaine.description;
-    textA.appendChild(desc);
-    
-    // Tags
-    const tagsContainer = document.createElement('div');
-    tagsContainer.style.marginTop = '1rem';
-    domaine.tags.forEach(tag => {
-        const tagSpan = document.createElement('span');
-        tagSpan.style.display = 'inline-block';
-        tagSpan.style.padding = '0.3rem 0.8rem';
-        tagSpan.style.margin = '0.3rem';
-        tagSpan.style.background = 'rgba(99, 102, 241, 0.2)';
-        tagSpan.style.borderRadius = '20px';
-        tagSpan.style.fontSize = '14px';
-        tagSpan.style.color = '#6366f1';
-        tagSpan.textContent = tag;
-        tagsContainer.appendChild(tagSpan);
-    });
-    textA.appendChild(tagsContainer);
-    
-    // Sources
-    const sourcesContainer = document.createElement('div');
-    sourcesContainer.style.marginTop = '1.5rem';
-    
-    const sourcesTitle = document.createElement('div');
-    sourcesTitle.style.fontSize = '16px';
-    sourcesTitle.style.fontWeight = '600';
-    sourcesTitle.style.color = '#9ca3af';
-    sourcesTitle.style.marginBottom = '0.5rem';
-    sourcesTitle.textContent = 'Sources :';
-    sourcesContainer.appendChild(sourcesTitle);
-    
-    const sourcesList = document.createElement('div');
-    sourcesList.style.fontSize = '14px';
-    sourcesList.style.color = '#9ca3af';
-    domaine.sources.forEach((source, index) => {
-        if (index > 0) sourcesList.appendChild(document.createElement('br'));
-        sourcesList.appendChild(document.createTextNode('• ' + source));
-    });
-    sourcesContainer.appendChild(sourcesList);
-    
-    textA.appendChild(sourcesContainer);
-    
-    // Assembler tout
-    passthrough.appendChild(iconDiv);
-    passthrough.appendChild(titleDiv);
-    passthrough.appendChild(textA);
-    li.appendChild(passthrough);
-    
-    return li;
-}
-
-fetch('../json/veille.json')
-  .then(response => response.json())
-  .then(data => {
-      const conteneur = document.getElementById('veille-domaines');
-      data.domaines.forEach(domaine => conteneur.appendChild(creerCarteDomaine(domaine)));
-  })
-  .catch(error => console.error('Erreur chargement veille technologique:', error));
-</script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
+<script src="../js/veille-techno-loader.js" defer></script>
 </body>
 </html>

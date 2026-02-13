@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.emailjs.com;">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.emailjs.com;">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="contact, Flavien GARIBALDI, BTS SIO, SISR" />
@@ -17,11 +17,11 @@
 <meta property="og:title" content="Contact - PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="Contactez Flavien GARIBALDI - Étudiant en BTS SIO SISR" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/contact.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Contact - PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="Contactez Flavien GARIBALDI - Étudiant en BTS SIO SISR" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>Contact - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/contact.html" />
 <link rel="icon" href="../images/logo10.png" type="image/png">
@@ -33,20 +33,25 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/contact.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <link rel="stylesheet" href="../css/konami.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" integrity="sha384-TlQahpp6M5JE8bQeP1KPhjYELf5+KJqR4Ȃ0IgL7z1o6yqwPsYZyYv4N9JVc7L6gXJ" crossorigin="anonymous" defer></script><script src="../js/konami.js" defer></script></head>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js" defer></script>
+<script src="../js/konami.js" defer></script>
+</head>
 <body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
 
+<header>
 <div class="header">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
-                    <span class="navBtn mobile-menu navBtnA">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
                         <i class="menu-i menu-i-1"></i>
                         <i class="menu-i menu-i-2"></i>
                         <i class="menu-i menu-i-3"></i>
@@ -70,6 +75,7 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav">
     <div class="box">
         <div class="navlist">
@@ -86,7 +92,10 @@
         </div>
     </div>
 </div>
+</nav>
+</header>
 
+<main id="main-content">
 <div class="uniquebanner commonbanner">
     <div class="img">
         <div class="Uniqueback pc" style="background: url(../images/banner105.jpg)no-repeat center center/cover;"></div>
@@ -102,7 +111,7 @@
     </div>
 </div>
 
-<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative; padding: 80px 0;">
+<div class="aboutA section-gradient-1 section-padding">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">FORMULAIRE</div>
@@ -117,25 +126,28 @@
             <form id="contact-form">
                 <div class="form-group">
                     <label for="user_name">Nom complet *</label>
-                    <input type="text" id="user_name" name="user_name" required placeholder="Votre nom">
+                    <input type="text" id="user_name" name="user_name" required aria-required="true" placeholder="Votre nom">
                 </div>
                 
                 <div class="form-group">
                     <label for="user_email">Email *</label>
-                    <input type="email" id="user_email" name="user_email" required placeholder="votre.email@exemple.com">
+                    <input type="email" id="user_email" name="user_email" required aria-required="true" placeholder="votre.email@exemple.com">
                 </div>
                 
                 <div class="form-group">
                     <label for="subject">Sujet *</label>
-                    <input type="text" id="subject" name="subject" required placeholder="Sujet de votre message">
+                    <input type="text" id="subject" name="subject" required aria-required="true" placeholder="Sujet de votre message">
                 </div>
                 
                 <div class="form-group">
                     <label for="message_content">Message *</label>
-                    <textarea id="message_content" name="message_content" required placeholder="Votre message..."></textarea>
+                    <textarea id="message_content" name="message_content" required aria-required="true" placeholder="Votre message..."></textarea>
                 </div>
-                
-                <button type="submit" class="submit-btn" id="submit-btn">
+                                <div class="hp-field" aria-hidden="true">
+                    <label for="website">Ne pas remplir</label>
+                    <input type="text" id="website" name="website" tabindex="-1" autocomplete="off">
+                </div>
+                                <button type="submit" class="submit-btn" id="submit-btn">
                     Envoyer le message
                 </button>
             </form>
@@ -159,7 +171,9 @@
         </div>
     </div>
 </div>
+</main>
 
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -186,9 +200,9 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -203,73 +217,12 @@
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
-
-<script type="text/javascript">
-    // Initialiser EmailJS
-    emailjs.init('1A0XKIUdhqJPkfY5C');
-
-    const SERVICE_ID = 'service_1vwjc9r';
-    const TEMPLATE_ID = 'template_ao10fbf';
-
-    // Gestion du formulaire
-    document.getElementById('contact-form').addEventListener('submit', function(event) {
-        event.preventDefault();
-        
-        const submitBtn = document.getElementById('submit-btn');
-        const messageDiv = document.getElementById('message');
-        
-        // Désactiver le bouton pendant l'envoi
-        submitBtn.disabled = true;
-        submitBtn.textContent = 'Envoi en cours...';
-        
-        // Cacher les messages précédents
-        messageDiv.style.display = 'none';
-        messageDiv.className = 'message';
-        
-        // Envoyer l'email via EmailJS
-        emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, this)
-            .then(function(response) {
-                console.log('SUCCESS!', response.status, response.text);
-                
-                // Afficher le message de succès
-                messageDiv.textContent = '✓ Message envoyé avec succès ! Je vous répondrai dans les plus brefs délais.';
-                messageDiv.classList.add('success');
-                messageDiv.style.display = 'block';
-                
-                // Réinitialiser le formulaire
-                document.getElementById('contact-form').reset();
-                
-                // Réactiver le bouton
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Envoyer le message';
-                
-                // Masquer le message après 5 secondes
-                setTimeout(function() {
-                    messageDiv.style.display = 'none';
-                }, 5000);
-                
-            }, function(error) {
-                console.log('FAILED...', error);
-                
-                // Afficher le message d'erreur
-                messageDiv.textContent = '✗ Erreur lors de l\'envoi du message. Veuillez réessayer ou me contacter directement par email.';
-                messageDiv.classList.add('error');
-                messageDiv.style.display = 'block';
-                
-                // Réactiver le bouton
-                submitBtn.disabled = false;
-                submitBtn.textContent = 'Envoyer le message';
-                
-                // Masquer le message après 5 secondes
-                setTimeout(function() {
-                    messageDiv.style.display = 'none';
-                }, 5000);
-            });
-    });
-</script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
+<script src="../js/contact-form.js" defer></script>
 
 </body>
 </html>

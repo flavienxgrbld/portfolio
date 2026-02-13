@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="certifications, Cisco, CCNA, cybersécurité, Flavien GARIBALDI" />
@@ -17,11 +17,11 @@
 <meta property="og:title" content="Certifications - PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="Certifications professionnelles de Flavien GARIBALDI" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/certifications.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Certifications - PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="Certifications professionnelles de Flavien GARIBALDI" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>Certifications - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/certifications.html" />
 <link rel="icon" href="../images/logo10.png" type="image/png">
@@ -33,20 +33,23 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
 <script src="../js/konami.js" defer></script>
 </head>
 <body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
 
+<header>
 <div class="header">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
-                    <span class="navBtn mobile-menu navBtnA">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
                         <i class="menu-i menu-i-1"></i>
                         <i class="menu-i menu-i-2"></i>
                         <i class="menu-i menu-i-3"></i>
@@ -70,6 +73,7 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav">
     <div class="box">
         <div class="navlist">
@@ -86,7 +90,10 @@
         </div>
     </div>
 </div>
+</nav>
+</header>
 
+<main id="main-content">
 <div class="uniquebanner commonbanner">
     <div class="img">
         <div class="Uniqueback pc" style="background: url(../images/photo304.png)no-repeat center center/cover;"></div>
@@ -102,7 +109,7 @@
     </div>
 </div>
 
-<div class="aboutA" style="background: linear-gradient(180deg, #1a1a2e 0%, #16213e 100%); position: relative;">
+<div class="aboutA section-gradient-1">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">CERTIFICATIONS OBTENUES</div>
@@ -110,7 +117,7 @@
                 <div class="t2">MES QUALIFICATIONS</div>    
             </div>
         </div>
-        <ul id="certifications-obtenues" class="clearfix wow fadeInUp1" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 0; margin-bottom: 4rem;">
+        <ul id="certifications-obtenues" class="clearfix wow fadeInUp1 dynamic-grid-lg">
             <!-- Les certifications obtenues seront chargées dynamiquement -->
         </ul>
 
@@ -120,12 +127,14 @@
                 <div class="t2">PROCHAINES CERTIFICATIONS</div>    
             </div>
         </div>
-        <ul id="certifications-preparation" class="clearfix wow fadeInUp1" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; padding: 0;">
+        <ul id="certifications-preparation" class="clearfix wow fadeInUp1 dynamic-grid-lg">
             <!-- Les certifications en préparation seront chargées dynamiquement -->
         </ul>
     </div>
 </div>
+</main>
 
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -152,9 +161,9 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -169,116 +178,12 @@
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
-
-<script>
-// Fonction pour créer une carte de certification
-function creerCarteCertification(cert, type) {
-    const li = document.createElement('li');
-    li.style.listStyle = 'none';
-    
-    const rgbaColor = cert.couleur.replace('#', '').match(/.{2}/g).map(hex => parseInt(hex, 16)).join(', ');
-    
-    // Créer la structure DOM de manière sécurisée
-    const passthrough = document.createElement('div');
-    passthrough.className = 'passthrough';
-    passthrough.style.border = '2px solid ' + cert.couleur;
-    
-    // Icône
-    const iconDiv = document.createElement('div');
-    iconDiv.className = 'icon';
-    const img = document.createElement('img');
-    img.src = cert.icone;
-    img.alt = 'Icône certification ' + cert.titre;
-    iconDiv.appendChild(img);
-    
-    // Titre
-    const titleDiv = document.createElement('div');
-    titleDiv.className = 'text font30 colorWhite bold';
-    titleDiv.textContent = cert.titre;
-    titleDiv.appendChild(document.createElement('br'));
-    titleDiv.appendChild(document.createTextNode(cert.sousTitre));
-    
-    // Nom complet
-    const nomComplet = document.createElement('div');
-    nomComplet.style.fontSize = '20px';
-    nomComplet.style.color = cert.couleur;
-    nomComplet.style.margin = '0.5rem 0';
-    nomComplet.style.fontWeight = '600';
-    nomComplet.textContent = cert.nomComplet;
-    
-    // Container de contenu
-    const textA = document.createElement('div');
-    textA.className = 'text-a';
-    
-    // Description
-    const desc = document.createElement('div');
-    desc.className = 'a font16 colorWhite';
-    desc.textContent = cert.description;
-    textA.appendChild(desc);
-    
-    // Tags
-    const tagsContainer = document.createElement('div');
-    tagsContainer.style.marginTop = '1rem';
-    cert.tags.forEach(tag => {
-        const tagSpan = document.createElement('span');
-        tagSpan.style.display = 'inline-block';
-        tagSpan.style.padding = '0.3rem 0.8rem';
-        tagSpan.style.margin = '0.3rem';
-        tagSpan.style.background = 'rgba(' + rgbaColor + ', 0.2)';
-        tagSpan.style.borderRadius = '20px';
-        tagSpan.style.fontSize = '14px';
-        tagSpan.style.color = cert.couleur;
-        tagSpan.textContent = tag;
-        tagsContainer.appendChild(tagSpan);
-    });
-    textA.appendChild(tagsContainer);
-    
-    // Date info
-    const dateInfo = document.createElement('div');
-    dateInfo.style.marginTop = '1rem';
-    dateInfo.style.fontSize = '16px';
-    dateInfo.style.color = '#9ca3af';
-    if (type === 'obtenue') {
-        dateInfo.textContent = '📅 Obtenue en : ' + cert.annee;
-    } else {
-        dateInfo.textContent = '⏳ ' + cert.statut;
-    }
-    textA.appendChild(dateInfo);
-    
-    // Assembler tout
-    passthrough.appendChild(iconDiv);
-    passthrough.appendChild(titleDiv);
-    passthrough.appendChild(nomComplet);
-    passthrough.appendChild(textA);
-    li.appendChild(passthrough);
-    
-    return li;
-}
-
-// Charger et afficher les certifications
-fetch('../json/certifications.json')
-    .then(response => response.json())
-    .then(data => {
-        const conteneurObtenues = document.getElementById('certifications-obtenues');
-        const conteneurPreparation = document.getElementById('certifications-preparation');
-        
-        // Charger les certifications obtenues
-        data.obtenues.forEach(cert => {
-            conteneurObtenues.appendChild(creerCarteCertification(cert, 'obtenue'));
-        });
-        
-        // Charger les certifications en préparation
-        data.enPreparation.forEach(cert => {
-            conteneurPreparation.appendChild(creerCarteCertification(cert, 'preparation'));
-        });
-    })
-    .catch(error => {
-        console.error('Erreur lors du chargement des certifications:', error);
-    });
-</script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
+<script src="../js/certifications-loader.js" defer></script>
 
 </body>
 </html>

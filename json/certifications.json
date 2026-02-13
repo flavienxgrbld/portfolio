@@ -8,7 +8,7 @@
       "tags": ["Cybersécurité", "ANSSI", "Sécurité SI"],
       "annee": "2024",
       "couleur": "#10b981",
-      "icone": "images/aboutA1.svg"
+      "icone": "../images/aboutA1.svg"
     }
   ],
   "enPreparation": [
@@ -20,7 +20,7 @@
       "tags": ["Cisco", "Réseaux", "Routage"],
       "statut": "En préparation",
       "couleur": "#a78bfa",
-      "icone": "images/aboutA3.svg"
+      "icone": "../images/aboutA3.svg"
     },
     {
       "titre": "CCST",
@@ -30,7 +30,7 @@
       "tags": ["Cisco", "Support Réseau", "Dépannage"],
       "statut": "En préparation",
       "couleur": "#a78bfa",
-      "icone": "images/aboutA2.svg"
+      "icone": "../images/aboutA2.svg"
     },
     {
       "titre": "CCST",
@@ -40,7 +40,7 @@
       "tags": ["Cybersécurité", "Cisco", "Sécurité Réseau"],
       "statut": "En préparation",
       "couleur": "#a78bfa",
-      "icone": "images/aboutA1.svg"
+      "icone": "../images/aboutA1.svg"
     },
     {
       "titre": "CCST Endpoint",
@@ -50,7 +50,7 @@
       "tags": ["Endpoint Security", "Cisco", "Protection Poste"],
       "statut": "En préparation",
       "couleur": "#a78bfa",
-      "icone": "images/aboutA3.svg"
+      "icone": "../images/aboutA3.svg"
     }
   ]
 }

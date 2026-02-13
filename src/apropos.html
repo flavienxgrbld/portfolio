@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="portfolio, BTS SIO, SISR, Flavien GARIBALDI, à propos" />
@@ -17,11 +17,11 @@
 <meta property="og:title" content="À Propos - PORTFOLIO Flavien GARIBALDI" />
 <meta property="og:description" content="À propos de Flavien GARIBALDI - Étudiant en BTS SIO SISR" />
 <meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/apropos.html" />
-<meta property="og:image" content="../images/logo10.png" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="À Propos - PORTFOLIO Flavien GARIBALDI" />
 <meta name="twitter:description" content="À propos de Flavien GARIBALDI - Étudiant en BTS SIO SISR" />
-<meta name="twitter:image" content="../images/logo10.png" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <title>À Propos - PORTFOLIO Flavien GARIBALDI</title>
 <!-- include main css -->
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/apropos.html" />
@@ -34,6 +34,7 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
 <!-- include jquery -->
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
@@ -42,14 +43,16 @@
 
 </head>
 <body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
 
+<header>
 <div class="header">
     <div class="clearfix">
         <div class="logo fl"><a href="index.html"><img src="../images/logo.svg" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
-                    <span class="navBtn mobile-menu navBtnA">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
                         <i class="menu-i menu-i-1"></i>
                         <i class="menu-i menu-i-2"></i>
                         <i class="menu-i menu-i-3"></i>
@@ -73,6 +76,7 @@
     </div>
 </div>
 
+<nav aria-label="Menu mobile">
 <div class="nav_box nav_box_6" id="testNav">
     <div class="box">
         <div class="navlist">
@@ -89,7 +93,10 @@
         </div>
     </div>
 </div>
+</nav>
+</header>
 
+<main id="main-content">
 <div class="uniquebanner commonbanner">
     <div class="img">
         <div class="Uniqueback pc" style="background: url(../images/banner105.jpg)no-repeat center center/cover;"></div>
@@ -123,7 +130,7 @@
         <ul class="clearfix wow fadeInUp1">
             <li>
                 <div class="passthrough">
-                    <div class="icon"><img src="../images/aboutA3.svg" alt="Icône administration systèmes"></div>
+                    <div class="icon"><img src="../images/aboutA3.svg" alt="Icône administration systèmes" loading="lazy"></div>
                     <div class="text font30 colorWhite bold">Administration<br>Systèmes</div>
                     <div class="text-a">
                         <div class="a font16 colorWhite">Configuration et gestion de serveurs Linux et Windows Server</div>
@@ -133,7 +140,7 @@
             </li>
             <li>
                 <div class="passthrough">
-                    <div class="icon"><img src="../images/aboutA2.svg" alt="Icône infrastructure réseaux"></div>
+                    <div class="icon"><img src="../images/aboutA2.svg" alt="Icône infrastructure réseaux" loading="lazy"></div>
                     <div class="text font30 colorWhite bold">Infrastructure<br>Réseaux</div>
                     <div class="text-a">
                         <div class="a font16 colorWhite">Configuration de réseaux d'entreprise (VLAN, routage)</div>
@@ -143,7 +150,7 @@
             </li>
             <li>
                 <div class="passthrough">
-                    <div class="icon"><img src="../images/aboutA1.svg" alt="Icône cybersécurité"></div>
+                    <div class="icon"><img src="../images/aboutA1.svg" alt="Icône cybersécurité" loading="lazy"></div>
                     <div class="text font30 colorWhite bold">Cybersécurité<br>& Protection</div>
                     <div class="text-a">
                         <div class="a font16 colorWhite">Sécurisation d'infrastructures IT</div>
@@ -230,6 +237,8 @@
     </div>
 </div>
 
+</main>
+<footer>
 <div class="footer">
     <div class="container">
         <div class="footer-top">
@@ -256,9 +265,9 @@
                                 <div class="top-b font16 colorWhite">
                                     <p>Étudiant BTS SIO SISR</p>
                                     <p>Administration Systèmes & Réseaux</p>
-                                    <p>Email: flavien.garibaldi@gmail.com</p>
-                                    <p>GitHub: @flavienxgrbld</p>
-                                    <p>LinkedIn: Flavien GARIBALDI</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
                                 </div>
                             </div>
                         </div>
@@ -273,73 +282,12 @@
         </div>
     </div>
 </div>
+</footer>
 
-<script src="../js/publicf9e3.js?v=1.1" type="text/javascript" charset="utf-8"></script>
-<script src="../js/layui.js"></script>
-
-<script>
-function creerCarteFormation(formation) {
-    const container = document.createElement('div');
-    container.className = 'clearfix';
-
-    const box = document.createElement('div');
-    box.className = 'formationBox';
-
-    const titre = document.createElement('div');
-    titre.className = 'font36 colorWhite bold';
-    titre.textContent = formation.titre || 'Formation';
-
-    const periode = document.createElement('div');
-    periode.className = 'font22 colorC';
-    periode.style.margin = '1rem 0';
-    periode.textContent = formation.periode || '';
-
-    const description = document.createElement('div');
-    description.className = 'font18 colorC';
-    description.textContent = formation.description || '';
-
-    box.appendChild(titre);
-    box.appendChild(periode);
-    box.appendChild(description);
-    container.appendChild(box);
-
-    return container;
-}
-
-async function chargerFormations() {
-    const message = document.getElementById('formations-message');
-    const list = document.getElementById('formations-list');
-
-    try {
-        const response = await fetch('../json/formations.json');
-
-        if (!response.ok) {
-            throw new Error('Erreur HTTP ' + response.status);
-        }
-
-        const formations = await response.json();
-        const items = Array.isArray(formations) ? formations : [];
-
-        list.innerHTML = '';
-
-        if (items.length === 0) {
-            message.textContent = 'Aucune formation disponible pour le moment.';
-            return;
-        }
-
-        items.forEach(function(formation) {
-            list.appendChild(creerCarteFormation(formation));
-        });
-
-        message.style.display = 'none';
-    } catch (error) {
-        console.error(error);
-        message.textContent = 'Impossible de charger les formations (json/formations.json).';
-    }
-}
-
-chargerFormations();
-</script>
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
+<script src="../js/apropos-formations.js" defer></script>
 
 </body>
 </html>
