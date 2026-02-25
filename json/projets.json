@@ -54,5 +54,19 @@
     "description": "Mise en place d'un cloud privé avec Nextcloud pour le stockage et le partage sécurisé de fichiers au sein d'un centre de formation.",
     "tags": ["Cloud", "SN", "Nextcloud"],
     "couleur": "#6366f1"
+  },
+  {
+    "icone": "../images/aboutA2.svg",
+    "titre": "Serveur Zabbix Linux",
+    "description": "Installation et configuration d'un serveur de surveillance Zabbix sous Linux.",
+    "tags": ["Linux", "Zabbix"],
+    "couleur": "#6366f1"
+  },
+  {
+    "icone": "../images/aboutA2.svg",
+    "titre": "Service de streaming Jellyfin",
+    "description": "Installation et configuration d'un serveur de streaming Jellyfin sous Linux disponible sur media.skyvault.ovh.",
+    "tags": ["Linux", "Jellyfin"],
+    "couleur": "#6366f1"
   }
 ]
