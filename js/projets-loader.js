@@ -62,6 +62,31 @@
         });
         textA.appendChild(tagsContainer);
 
+        // Optional external link
+        if (projet.lien) {
+            var lienDiv = document.createElement('div');
+            lienDiv.style.marginTop = '1.2rem';
+
+            var lienA = document.createElement('a');
+            lienA.href = projet.lien;
+            lienA.target = '_blank';
+            lienA.rel = 'noopener noreferrer';
+            lienA.textContent = '\uD83D\uDD17 Voir le projet';
+            lienA.style.display = 'inline-block';
+            lienA.style.padding = '0.5rem 1.2rem';
+            lienA.style.background = 'rgba(' + rgbaColor + ', 0.2)';
+            lienA.style.color = couleur;
+            lienA.style.borderRadius = '8px';
+            lienA.style.textDecoration = 'none';
+            lienA.style.fontSize = '15px';
+            lienA.style.fontWeight = '600';
+            lienA.style.border = '1px solid ' + couleur;
+            lienA.style.transition = 'all 0.3s ease';
+
+            lienDiv.appendChild(lienA);
+            textA.appendChild(lienDiv);
+        }
+
         passthrough.appendChild(iconDiv);
         passthrough.appendChild(titleDiv);
         passthrough.appendChild(textA);

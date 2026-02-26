@@ -46,21 +46,23 @@
     "titre": "Portfolio Personnel",
     "description": "Création de ce portfolio pour présenter mes compétences, projets et veilles technologiques.",
     "tags": ["HTML/CSS", "JavaScript"],
-    "couleur": "#6366f1"
+    "couleur": "#6366f1",
+    "lien": "https://flavienxgrbld.github.io/portfolio"
   },
   {
     "icone": "../images/aboutA3.svg",
     "titre": "Automatisation de Tâches",
     "description": "Développement de scripts pour automatiser des tâches répétitives et améliorer l'efficacité opérationnelle.",
-    "tags": ["Shell", "PowerShell"],
+    "tags": ["Shell", "PowerShell", "n8n"],
     "couleur": "#6366f1"
   },
   {
     "icone": "../images/aboutA2.svg",
-    "titre": "Création d'un Cloud Professionnel",
-    "description": "Mise en place d'un cloud privé avec Nextcloud pour le stockage et le partage sécurisé de fichiers au sein d'un centre de formation.",
+    "titre": "Création d'un Cloud Personnel",
+    "description": "Mise en place d'un cloud privé avec Nextcloud pour le stockage et le partage sécurisé de fichiers.",
     "tags": ["Cloud", "SN", "Nextcloud"],
-    "couleur": "#6366f1"
+    "couleur": "#6366f1",
+    "lien": "https://cloud.skyvault.ovh"
   },
   {
     "icone": "../images/aboutA2.svg",
@@ -72,8 +74,9 @@
   {
     "icone": "../images/aboutA2.svg",
     "titre": "Service de streaming Jellyfin",
-    "description": "Installation et configuration d'un serveur de streaming Jellyfin sous Linux disponible sur media.skyvault.ovh.",
+    "description": "Installation et configuration d'un serveur de streaming Jellyfin sous Linux pour la diffusion de médias",
     "tags": ["Linux", "Jellyfin"],
-    "couleur": "#6366f1"
+    "couleur": "#6366f1",
+    "lien": "https://media.skyvault.ovh"
   }
 ]
