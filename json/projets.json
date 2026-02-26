@@ -69,7 +69,8 @@
     "titre": "Serveur Zabbix Linux",
     "description": "Installation et configuration d'un serveur de surveillance Zabbix sous Linux.",
     "tags": ["Linux", "Zabbix"],
-    "couleur": "#6366f1"
+    "couleur": "#6366f1",
+    "lien": "https://zabbix.skyvault.ovh"
   },
   {
     "icone": "../images/aboutA2.svg",
