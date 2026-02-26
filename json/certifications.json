@@ -8,7 +8,8 @@
       "tags": ["Cybersécurité", "ANSSI", "Sécurité SI"],
       "annee": "2024",
       "couleur": "#10b981",
-      "icone": "../images/aboutA1.svg"
+      "icone": "../images/aboutA1.svg",
+      "attestation": "../images/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
     }
   ],
   "enPreparation": [

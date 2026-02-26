@@ -76,6 +76,49 @@
         }
         textA.appendChild(dateInfo);
 
+        // Attestation buttons (view + download)
+        if (cert.attestation) {
+            var attestDiv = document.createElement('div');
+            attestDiv.style.marginTop = '1.2rem';
+            attestDiv.style.display = 'flex';
+            attestDiv.style.gap = '0.8rem';
+            attestDiv.style.flexWrap = 'wrap';
+
+            var viewLink = document.createElement('a');
+            viewLink.href = cert.attestation;
+            viewLink.target = '_blank';
+            viewLink.rel = 'noopener noreferrer';
+            viewLink.textContent = '\uD83D\uDD0D Voir l\u2019attestation';
+            viewLink.style.display = 'inline-block';
+            viewLink.style.padding = '0.5rem 1.2rem';
+            viewLink.style.background = 'rgba(' + rgbaColor + ', 0.2)';
+            viewLink.style.color = cert.couleur;
+            viewLink.style.borderRadius = '8px';
+            viewLink.style.textDecoration = 'none';
+            viewLink.style.fontSize = '15px';
+            viewLink.style.fontWeight = '600';
+            viewLink.style.transition = 'all 0.3s ease';
+            viewLink.style.border = '1px solid ' + cert.couleur;
+
+            var dlLink = document.createElement('a');
+            dlLink.href = cert.attestation;
+            dlLink.setAttribute('download', '');
+            dlLink.textContent = '\u2B07 T\u00e9l\u00e9charger';
+            dlLink.style.display = 'inline-block';
+            dlLink.style.padding = '0.5rem 1.2rem';
+            dlLink.style.background = cert.couleur;
+            dlLink.style.color = '#1a1a2e';
+            dlLink.style.borderRadius = '8px';
+            dlLink.style.textDecoration = 'none';
+            dlLink.style.fontSize = '15px';
+            dlLink.style.fontWeight = '600';
+            dlLink.style.transition = 'all 0.3s ease';
+
+            attestDiv.appendChild(viewLink);
+            attestDiv.appendChild(dlLink);
+            textA.appendChild(attestDiv);
+        }
+
         passthrough.appendChild(iconDiv);
         passthrough.appendChild(titleDiv);
         passthrough.appendChild(nomComplet);
