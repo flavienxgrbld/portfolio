@@ -21,6 +21,13 @@
     "couleur": "#6366f1"
   },
   {
+    "icone": "../images/aboutA1.svg",
+    "titre": "VPN inter-sites et cloud",
+    "description": "Mise en place d'un VPN sécurisé Tailscale avec failover entre plusieurs sites et intégration avec des services cloud.",
+    "tags": ["Sécurité", "VPN", "Cloud"],
+    "couleur": "#6366f1"
+  },
+  {
     "icone": "../images/aboutA3.svg",
     "titre": "Sauvegarde & Restauration",
     "description": "Système de sauvegarde automatisé avec stratégie de restauration pour assurer la continuité de service.",
