@@ -2,6 +2,11 @@
 (function() {
     'use strict';
 
+    console.log('Script certifications-loader.js chargé');
+
+    function chargerCertifications() {
+        console.log('Fonction chargerCertifications() appelée');
+
     function creerCarteCertification(cert, type) {
         var li = document.createElement('li');
         li.style.listStyle = 'none';
@@ -128,11 +133,24 @@
         return li;
     }
 
+    console.log('Chargement des certifications depuis:', '../json/certifications.json');
     fetch('../json/certifications.json')
-        .then(function(response) { return response.json(); })
+        .then(function(response) {
+            console.log('Réponse reçue:', response.status, response.statusText);
+            if (!response.ok) {
+                throw new Error('HTTP ' + response.status + ': ' + response.statusText);
+            }
+            return response.json();
+        })
         .then(function(data) {
+            console.log('Données chargées:', data);
             var conteneurObtenues = document.getElementById('certifications-obtenues');
             var conteneurPreparation = document.getElementById('certifications-preparation');
+
+            if (!conteneurObtenues || !conteneurPreparation) {
+                console.error('Conteneurs non trouvés!');
+                return;
+            }
 
             data.obtenues.forEach(function(cert) {
                 conteneurObtenues.appendChild(creerCarteCertification(cert, 'obtenue'));
@@ -141,10 +159,26 @@
             data.enPreparation.forEach(function(cert) {
                 conteneurPreparation.appendChild(creerCarteCertification(cert, 'preparation'));
             });
+            console.log('Certifications affichées avec succès');
         })
         .catch(function(error) {
             console.error('Erreur lors du chargement des certifications:', error);
-            document.getElementById('certifications-obtenues').innerHTML = '<li class="load-error font18">Impossible de charger les certifications.</li>';
-            document.getElementById('certifications-preparation').innerHTML = '';
+            var conteneur = document.getElementById('certifications-obtenues');
+            if (conteneur) {
+                conteneur.innerHTML = '<li class="load-error font18">Impossible de charger les certifications. Erreur: ' + error.message + '</li>';
+            }
+            var conteneurPrep = document.getElementById('certifications-preparation');
+            if (conteneurPrep) {
+                conteneurPrep.innerHTML = '';
+            }
         });
+    }
+
+    // Attendre que le DOM soit chargé
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', chargerCertifications);
+    } else {
+        // Le DOM est déjà chargé
+        chargerCertifications();
+    }
 })();
