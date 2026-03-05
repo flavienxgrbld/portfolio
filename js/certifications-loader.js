@@ -10,6 +10,8 @@
     function creerCarteCertification(cert, type) {
         var li = document.createElement('li');
         li.style.listStyle = 'none';
+        li.setAttribute('data-category', cert.categorie || 'Autre');
+        li.className = 'certification-item certification-visible';
 
         var rgbaColor = cert.couleur.replace('#', '').match(/.{2}/g).map(function(hex) {
             return parseInt(hex, 16);
@@ -160,6 +162,12 @@
                 conteneurPreparation.appendChild(creerCarteCertification(cert, 'preparation'));
             });
             console.log('Certifications affichées avec succès');
+
+            // Générer les catégories dynamiquement
+            genererCategories(data);
+            
+            // Initialiser les filtres
+            initialiserFiltres();
         })
         .catch(function(error) {
             console.error('Erreur lors du chargement des certifications:', error);
@@ -170,6 +178,93 @@
             var conteneurPrep = document.getElementById('certifications-preparation');
             if (conteneurPrep) {
                 conteneurPrep.innerHTML = '';
+            }
+        });
+    }
+
+    // Fonction pour générer dynamiquement les catégories
+    function genererCategories(data) {
+        console.log('Génération des catégories dynamiques');
+        
+        var dropdown = document.getElementById('category-filter');
+        if (!dropdown) {
+            console.error('Dropdown non trouvé!');
+            return;
+        }
+        
+        // Extraire toutes les catégories uniques
+        var categories = new Set();
+        
+        data.obtenues.forEach(function(cert) {
+            if (cert.categorie) {
+                categories.add(cert.categorie);
+            }
+        });
+        
+        data.enPreparation.forEach(function(cert) {
+            if (cert.categorie) {
+                categories.add(cert.categorie);
+            }
+        });
+        
+        // Convertir en tableau et trier par ordre alphabétique
+        var categoriesArray = Array.from(categories).sort();
+        
+        console.log('Catégories trouvées:', categoriesArray);
+        
+        // Effacer les options existantes
+        dropdown.innerHTML = '';
+        
+        // Ajouter l'option "Toutes"
+        var optionToutes = document.createElement('option');
+        optionToutes.value = 'toutes';
+        optionToutes.textContent = 'Toutes les catégories';
+        dropdown.appendChild(optionToutes);
+        
+        // Ajouter chaque catégorie
+        categoriesArray.forEach(function(categorie) {
+            var option = document.createElement('option');
+            option.value = categorie;
+            option.textContent = categorie;
+            dropdown.appendChild(option);
+        });
+        
+        console.log('Options générées:', dropdown.options.length);
+    }
+
+    // Fonction pour initialiser les filtres
+    function initialiserFiltres() {
+        var dropdown = document.getElementById('category-filter');
+        
+        if (dropdown) {
+            dropdown.addEventListener('change', function() {
+                var categorie = this.value;
+                console.log('Catégorie sélectionnée:', categorie);
+                
+                // Filtrer les certifications
+                filtrerCertifications(categorie);
+            });
+        } else {
+            console.error('Dropdown de filtrage non trouvé!');
+        }
+    }
+
+    // Fonction pour filtrer les certifications
+    function filtrerCertifications(categorie) {
+        console.log('Filtrage par catégorie:', categorie);
+        
+        var toutesLesCertifications = document.querySelectorAll('.certification-item');
+        
+        toutesLesCertifications.forEach(function(item) {
+            var itemCategorie = item.getAttribute('data-category');
+            
+            if (categorie === 'toutes' || itemCategorie === categorie) {
+                item.classList.remove('certification-hidden');
+                item.classList.add('certification-visible');
+                item.style.display = '';
+            } else {
+                item.classList.remove('certification-visible');
+                item.classList.add('certification-hidden');
             }
         });
     }
