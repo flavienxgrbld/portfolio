@@ -6,7 +6,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
+<!-- CSP temporairement désactivée pour débogage GitHub Pages -->
+<!--<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">-->
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="certifications, Cisco, CCNA, cybersécurité, Flavien GARIBALDI" />
@@ -114,9 +115,18 @@
         <div class="Titletotal Titletotalc wow fadeInUp1">
             <div class="treetop font16 colorWhite">CERTIFICATIONS OBTENUES</div>
             <div class="subject font66 colorWhite">
-                <div class="t2">MES QUALIFICATIONS</div>    
+                <div class="t2">MES CERTIFICATIONS ET BADGES</div>    
             </div>
         </div>
+
+        <!-- Filtres par catégorie -->
+        <div class="certifications-filters wow fadeInUp1" style="text-align: center; margin: 2rem 0;">
+            <label for="category-filter" class="filter-label">Filtrer par catégorie :</label>
+            <select id="category-filter" class="category-dropdown" aria-label="Sélectionner une catégorie">
+                <!-- Les catégories seront chargées dynamiquement -->
+            </select>
+        </div>
+
         <ul id="certifications-obtenues" class="clearfix wow fadeInUp1 dynamic-grid-lg">
             <!-- Les certifications obtenues seront chargées dynamiquement -->
         </ul>

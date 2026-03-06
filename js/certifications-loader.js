@@ -2,9 +2,16 @@
 (function() {
     'use strict';
 
+    console.log('Script certifications-loader.js chargé');
+
+    function chargerCertifications() {
+        console.log('Fonction chargerCertifications() appelée');
+
     function creerCarteCertification(cert, type) {
         var li = document.createElement('li');
         li.style.listStyle = 'none';
+        li.setAttribute('data-category', cert.categorie || 'Autre');
+        li.className = 'certification-item certification-visible';
 
         var rgbaColor = cert.couleur.replace('#', '').match(/.{2}/g).map(function(hex) {
             return parseInt(hex, 16);
@@ -128,11 +135,24 @@
         return li;
     }
 
+    console.log('Chargement des certifications depuis:', '../json/certifications.json');
     fetch('../json/certifications.json')
-        .then(function(response) { return response.json(); })
+        .then(function(response) {
+            console.log('Réponse reçue:', response.status, response.statusText);
+            if (!response.ok) {
+                throw new Error('HTTP ' + response.status + ': ' + response.statusText);
+            }
+            return response.json();
+        })
         .then(function(data) {
+            console.log('Données chargées:', data);
             var conteneurObtenues = document.getElementById('certifications-obtenues');
             var conteneurPreparation = document.getElementById('certifications-preparation');
+
+            if (!conteneurObtenues || !conteneurPreparation) {
+                console.error('Conteneurs non trouvés!');
+                return;
+            }
 
             data.obtenues.forEach(function(cert) {
                 conteneurObtenues.appendChild(creerCarteCertification(cert, 'obtenue'));
@@ -141,10 +161,119 @@
             data.enPreparation.forEach(function(cert) {
                 conteneurPreparation.appendChild(creerCarteCertification(cert, 'preparation'));
             });
+            console.log('Certifications affichées avec succès');
+
+            // Générer les catégories dynamiquement
+            genererCategories(data);
+            
+            // Initialiser les filtres
+            initialiserFiltres();
         })
         .catch(function(error) {
             console.error('Erreur lors du chargement des certifications:', error);
-            document.getElementById('certifications-obtenues').innerHTML = '<li class="load-error font18">Impossible de charger les certifications.</li>';
-            document.getElementById('certifications-preparation').innerHTML = '';
+            var conteneur = document.getElementById('certifications-obtenues');
+            if (conteneur) {
+                conteneur.innerHTML = '<li class="load-error font18">Impossible de charger les certifications. Erreur: ' + error.message + '</li>';
+            }
+            var conteneurPrep = document.getElementById('certifications-preparation');
+            if (conteneurPrep) {
+                conteneurPrep.innerHTML = '';
+            }
         });
+    }
+
+    // Fonction pour générer dynamiquement les catégories
+    function genererCategories(data) {
+        console.log('Génération des catégories dynamiques');
+        
+        var dropdown = document.getElementById('category-filter');
+        if (!dropdown) {
+            console.error('Dropdown non trouvé!');
+            return;
+        }
+        
+        // Extraire toutes les catégories uniques
+        var categories = new Set();
+        
+        data.obtenues.forEach(function(cert) {
+            if (cert.categorie) {
+                categories.add(cert.categorie);
+            }
+        });
+        
+        data.enPreparation.forEach(function(cert) {
+            if (cert.categorie) {
+                categories.add(cert.categorie);
+            }
+        });
+        
+        // Convertir en tableau et trier par ordre alphabétique
+        var categoriesArray = Array.from(categories).sort();
+        
+        console.log('Catégories trouvées:', categoriesArray);
+        
+        // Effacer les options existantes
+        dropdown.innerHTML = '';
+        
+        // Ajouter l'option "Toutes"
+        var optionToutes = document.createElement('option');
+        optionToutes.value = 'toutes';
+        optionToutes.textContent = 'Toutes les catégories';
+        dropdown.appendChild(optionToutes);
+        
+        // Ajouter chaque catégorie
+        categoriesArray.forEach(function(categorie) {
+            var option = document.createElement('option');
+            option.value = categorie;
+            option.textContent = categorie;
+            dropdown.appendChild(option);
+        });
+        
+        console.log('Options générées:', dropdown.options.length);
+    }
+
+    // Fonction pour initialiser les filtres
+    function initialiserFiltres() {
+        var dropdown = document.getElementById('category-filter');
+        
+        if (dropdown) {
+            dropdown.addEventListener('change', function() {
+                var categorie = this.value;
+                console.log('Catégorie sélectionnée:', categorie);
+                
+                // Filtrer les certifications
+                filtrerCertifications(categorie);
+            });
+        } else {
+            console.error('Dropdown de filtrage non trouvé!');
+        }
+    }
+
+    // Fonction pour filtrer les certifications
+    function filtrerCertifications(categorie) {
+        console.log('Filtrage par catégorie:', categorie);
+        
+        var toutesLesCertifications = document.querySelectorAll('.certification-item');
+        
+        toutesLesCertifications.forEach(function(item) {
+            var itemCategorie = item.getAttribute('data-category');
+            
+            if (categorie === 'toutes' || itemCategorie === categorie) {
+                item.classList.remove('certification-hidden');
+                item.classList.add('certification-visible');
+                item.style.display = '';
+            } else {
+                item.classList.remove('certification-visible');
+                item.classList.add('certification-hidden');
+            }
+        });
+    }
+
+    // Attendre que le DOM soit chargé
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', chargerCertifications);
+    } else {
+        // Le DOM est déjà chargé
+        chargerCertifications();
+    }
 })();
