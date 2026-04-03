@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<title>Schéma 1 - Infrastructure LAN - PORTFOLIO Flavien GARIBALDI</title>
+<title>Schéma 1 - Infrastructure personnel - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="icon" href="../images/logo10.png" type="image/png">
 <link rel="stylesheet" href="../css/layui.css" id="layui">
 <link id="layuicss-layer" rel="stylesheet" href="../css/layer.css" media="all">
@@ -212,95 +212,38 @@
 (function () {
   'use strict';
 
-  /* ═══════════════════════════════════════════════
-     DATA — Noeuds & Liens
-  ═══════════════════════════════════════════════ */
-  var NODES = [
-    {
-      id: 'firewall', label: 'Pare-feu', icon: '🔥', color: '#f87171',
-      x: 0.5, y: 0.07,
-      role: 'Sécurité périmétrique',
-      info: { 'Hostname': 'fw-01', 'IP WAN': '203.0.113.1', 'IP LAN': '192.168.1.1', 'OS': 'pfSense 2.7', 'Règles actives': '42' },
-      tags: ['Pare-feu', 'NAT', 'VPN', 'IDS']
-    },
-    {
-      id: 'switch', label: 'Switch Cœur', icon: '🔀', color: '#60a5fa',
-      x: 0.5, y: 0.22,
-      role: 'Switch L3 cœur de réseau',
-      info: { 'Modèle': 'Cisco Catalyst 2960', 'VLANs': 'VLAN 10, 20, 30, 99', 'Uplink': '1 Gbps', 'Spanning Tree': 'RSTP activé' },
-      tags: ['Switching', 'VLAN', 'L3', 'QoS']
-    },
-    {
-      id: 'hypervisor', label: 'Hyperviseur', icon: '🖥️', color: '#a78bfa',
-      x: 0.2, y: 0.42,
-      role: 'Hôte de virtualisation',
-      info: { 'Hostname': 'esxi-01', 'IP': '192.168.1.10', 'OS': 'VMware ESXi 8.0', 'CPU': '2× Xeon E5-2680', 'RAM': '128 Go', 'VMs actives': '5' },
-      tags: ['VMware', 'ESXi', 'Virtualisation']
-    },
-    {
-      id: 'nas', label: 'NAS', icon: '💾', color: '#34d399',
-      x: 0.8, y: 0.42,
-      role: 'Stockage réseau partagé',
-      info: { 'Hostname': 'nas-01', 'IP': '192.168.1.20', 'OS': 'TrueNAS SCALE', 'Capacité': '24 To (RAID-Z2)', 'Protocoles': 'NFS, SMB, iSCSI' },
-      tags: ['NAS', 'RAID', 'NFS', 'SMB']
-    },
-    {
-      id: 'vm-web', label: 'Serveur Web', icon: '🌐', color: '#34d399',
-      x: 0.08, y: 0.65,
-      role: 'VM — Serveur web Apache',
-      info: { 'Hostname': 'vm-web-01', 'IP': '192.168.1.101', 'OS': 'Debian 12', 'Services': 'Apache 2.4, PHP 8.2', 'vCPU': '2', 'RAM': '4 Go' },
-      tags: ['VM', 'Apache', 'PHP', 'HTTP']
-    },
-    {
-      id: 'vm-db', label: 'Base de données', icon: '🗄️', color: '#34d399',
-      x: 0.25, y: 0.65,
-      role: 'VM — Serveur MariaDB',
-      info: { 'Hostname': 'vm-db-01', 'IP': '192.168.1.102', 'OS': 'Debian 12', 'Services': 'MariaDB 10.11', 'vCPU': '4', 'RAM': '8 Go' },
-      tags: ['VM', 'MariaDB', 'SQL', 'BDD']
-    },
-    {
-      id: 'vm-dns', label: 'DNS / DHCP', icon: '📡', color: '#60a5fa',
-      x: 0.42, y: 0.65,
-      role: 'VM — DNS & DHCP interne',
-      info: { 'Hostname': 'vm-dns-01', 'IP': '192.168.1.103', 'OS': 'Ubuntu 22.04', 'Services': 'BIND9, ISC DHCP', 'Zone DNS': 'lan.local', 'vCPU': '1', 'RAM': '2 Go' },
-      tags: ['VM', 'DNS', 'DHCP', 'BIND9']
-    },
-    {
-      id: 'vm-monitor', label: 'Supervision', icon: '📊', color: '#a78bfa',
-      x: 0.58, y: 0.65,
-      role: 'VM — Supervision réseau',
-      info: { 'Hostname': 'vm-monitor-01', 'IP': '192.168.1.104', 'OS': 'Ubuntu 22.04', 'Services': 'Zabbix 6.4, Grafana 10', 'vCPU': '2', 'RAM': '4 Go' },
-      tags: ['VM', 'Zabbix', 'Grafana', 'SNMP']
-    },
-    {
-      id: 'client1', label: 'Poste Admin', icon: '💻', color: '#f59e0b',
-      x: 0.73, y: 0.65,
-      role: 'Poste administrateur',
-      info: { 'IP': '192.168.1.200', 'OS': 'Windows 11 Pro', 'Domaine': 'lan.local', 'VLAN': '10 — Admin' },
-      tags: ['Client', 'Admin', 'Windows']
-    },
-    {
-      id: 'client2', label: 'Poste Utilisateur', icon: '🖱️', color: '#f59e0b',
-      x: 0.88, y: 0.65,
-      role: 'Poste utilisateur standard',
-      info: { 'IP': 'DHCP 192.168.2.x', 'OS': 'Windows 11', 'Domaine': 'lan.local', 'VLAN': '20 — Users' },
-      tags: ['Client', 'DHCP', 'Windows']
-    }
-  ];
+  var NODES = [];
+  var LINKS = [];
+  var ICON_IMAGES = {};
+  var COLOR_MAP = {};
+  var TILE_BOUNDS = { minX: 0, maxX: 1, minY: 0, maxY: 1 };
 
-  var LINKS = [
-    { from: 'firewall',    to: 'switch',     label: 'VLAN trunk' },
-    { from: 'switch',      to: 'hypervisor', label: 'Gbps' },
-    { from: 'switch',      to: 'nas',        label: 'iSCSI' },
-    { from: 'switch',      to: 'client1',    label: 'VLAN 10' },
-    { from: 'switch',      to: 'client2',    label: 'VLAN 20' },
-    { from: 'hypervisor',  to: 'vm-web',     label: 'virtio' },
-    { from: 'hypervisor',  to: 'vm-db',      label: 'virtio' },
-    { from: 'hypervisor',  to: 'vm-dns',     label: 'virtio' },
-    { from: 'hypervisor',  to: 'vm-monitor', label: 'virtio' },
-    { from: 'nas',         to: 'vm-db',      label: 'NFS' },
-    { from: 'nas',         to: 'vm-monitor', label: 'NFS' }
-  ];
+  var ROLE_BY_ICON = {
+    'router': 'Routage',
+    'firewall': 'Securite perimetrique',
+    'server': 'Serveur',
+    'storage': 'Stockage',
+    'cloud': 'Acces externe',
+    'switch-module': 'Commutation reseau'
+  };
+
+  var NODE_COLOR_BY_ICON = {
+    'router': '#f59e0b',
+    'firewall': '#f87171',
+    'server': '#34d399',
+    'storage': '#a78bfa',
+    'cloud': '#60a5fa',
+    'switch-module': '#38bdf8'
+  };
+
+  var FALLBACK_ICON = {
+    'router': 'R',
+    'firewall': 'F',
+    'server': 'S',
+    'storage': 'D',
+    'cloud': 'C',
+    'switch-module': 'SW'
+  };
 
   /* ═══════════════════════════════════════════════
      CANVAS ENGINE
@@ -312,9 +255,10 @@
   var camX = 0, camY = 0, scale = 1;
   var isDragging = false, lastMX = 0, lastMY = 0;
   var hoveredNode = null;
+  var hasMoved = false;
 
   var NODE_R  = 38;   // circle radius
-  var ICON_SZ = 22;
+  var ICON_SZ = 18;
   var LABEL_Y = 15;
 
   function resizeCanvas() {
@@ -325,9 +269,18 @@
 
   /* ── World coords for each node ── */
   function nodePos(n) {
+    var padX = 120;
+    var padY = 100;
+    var spanX = Math.max(1, TILE_BOUNDS.maxX - TILE_BOUNDS.minX);
+    var spanY = Math.max(1, TILE_BOUNDS.maxY - TILE_BOUNDS.minY);
+    var usableW = Math.max(120, canvas.width - (padX * 2));
+    var usableH = Math.max(120, canvas.height - (padY * 2));
+    var nx = (n.tx - TILE_BOUNDS.minX) / spanX;
+    var ny = (n.ty - TILE_BOUNDS.minY) / spanY;
+
     return {
-      x: n.x * canvas.width,
-      y: n.y * canvas.height
+      x: padX + (nx * usableW),
+      y: padY + (ny * usableH)
     };
   }
 
@@ -387,9 +340,9 @@
 
       // Line
       ctx.save();
-      ctx.strokeStyle = 'rgba(167,139,250,0.35)';
+      ctx.strokeStyle = lk.color || 'rgba(167,139,250,0.35)';
       ctx.lineWidth = 2;
-      ctx.setLineDash([6, 4]);
+      ctx.setLineDash(lk.style === 'DASHED' ? [8, 6] : [6, 4]);
       ctx.beginPath();
       ctx.moveTo(fp.x, fp.y);
       ctx.lineTo(tp.x, tp.y);
@@ -397,16 +350,18 @@
       ctx.setLineDash([]);
 
       // Label on link
-      var mx = (fp.x + tp.x) / 2;
-      var my = (fp.y + tp.y) / 2;
-      ctx.fillStyle = 'rgba(15,17,41,0.85)';
-      var tw = ctx.measureText(lk.label).width + 10;
-      ctx.fillRect(mx - tw / 2, my - 10, tw, 18);
-      ctx.fillStyle = '#9ca3af';
-      ctx.font = '11px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(lk.label, mx, my);
+      if (lk.label) {
+        var mx = (fp.x + tp.x) / 2;
+        var my = (fp.y + tp.y) / 2;
+        ctx.fillStyle = 'rgba(15,17,41,0.85)';
+        ctx.font = '11px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        var tw = ctx.measureText(lk.label).width + 10;
+        ctx.fillRect(mx - tw / 2, my - 10, tw, 18);
+        ctx.fillStyle = '#9ca3af';
+        ctx.fillText(lk.label, mx, my);
+      }
       ctx.restore();
     });
   }
@@ -447,10 +402,15 @@
     ctx.shadowBlur = 0;
 
     // Icon
-    ctx.font = ICON_SZ + 'px serif';
-    ctx.textAlign    = 'center';
-    ctx.textBaseline = 'middle';
-    ctx.fillText(n.icon, p.x, p.y - 4);
+    if (n.image && n.image.complete) {
+      ctx.drawImage(n.image, p.x - 18, p.y - 22, 36, 36);
+    } else {
+      ctx.font = 'bold ' + ICON_SZ + 'px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#ffffff';
+      ctx.fillText(n.iconText || '?', p.x, p.y - 4);
+    }
 
     // Label below
     ctx.font = 'bold 12px sans-serif';
@@ -471,7 +431,12 @@
   /* ─── Info panel ─── */
   function showPanel(n) {
     var panel = document.getElementById('info-panel');
-    document.getElementById('info-icon').textContent  = n.icon;
+    var iconEl = document.getElementById('info-icon');
+    if (n.image && n.image.src) {
+      iconEl.innerHTML = '<img src="' + n.image.src + '" alt="" style="width:52px;height:52px;object-fit:contain;">';
+    } else {
+      iconEl.textContent = n.iconText || '?';
+    }
     document.getElementById('info-name').textContent  = n.label;
     document.getElementById('info-role').textContent  = n.role;
 
@@ -515,10 +480,12 @@
 
   canvas.addEventListener('mousedown', function (e) {
     isDragging = true;
+    hasMoved = false;
     lastMX = e.clientX; lastMY = e.clientY;
   });
   canvas.addEventListener('mousemove', function (e) {
     if (isDragging) {
+      if (Math.abs(e.clientX - lastMX) > 1 || Math.abs(e.clientY - lastMY) > 1) hasMoved = true;
       camX += (e.clientX - lastMX);
       camY += (e.clientY - lastMY);
       lastMX = e.clientX; lastMY = e.clientY;
@@ -537,7 +504,8 @@
   canvas.addEventListener('mouseup',   function (e) {
     if (!isDragging) return;
     isDragging = false;
-    // Click detection: if barely moved
+    if (hasMoved) return;
+    // Click detection
     var pos = getCanvasXY(e);
     var w   = toWorld(pos.x, pos.y);
     var hit = hitNode(w.x, w.y);
@@ -563,7 +531,7 @@
   canvas.addEventListener('touchend', function (e) {
     e.preventDefault();
     var pos = getCanvasXY({ clientX: e.changedTouches[0].clientX, clientY: e.changedTouches[0].clientY });
-    var w   = toWorld(pos.x * (canvas.width / wrapper.clientWidth), pos.y * (canvas.height / 680));
+    var w   = toWorld(pos.x, pos.y);
     var hit = hitNode(w.x, w.y);
     if (hit) showPanel(hit);
   }, { passive: false });
@@ -589,8 +557,141 @@
   document.getElementById('btn-close-panel').addEventListener('click', hidePanel);
   document.getElementById('info-close').addEventListener('click',       hidePanel);
 
+  function isHexColor(v) {
+    return typeof v === 'string' && /^#[0-9a-f]{6}$/i.test(v);
+  }
+
+  function colorFromConnector(connector) {
+    if (isHexColor(connector.customColor)) return connector.customColor;
+    if (connector.color && COLOR_MAP[connector.color]) return COLOR_MAP[connector.color];
+    return 'rgba(167,139,250,0.35)';
+  }
+
+  function iconImageFromId(iconId) {
+    return ICON_IMAGES[iconId] || null;
+  }
+
+  function updateBounds(nodes) {
+    if (!nodes.length) {
+      TILE_BOUNDS = { minX: 0, maxX: 1, minY: 0, maxY: 1 };
+      return;
+    }
+    var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+    nodes.forEach(function (n) {
+      if (n.tx < minX) minX = n.tx;
+      if (n.tx > maxX) maxX = n.tx;
+      if (n.ty < minY) minY = n.ty;
+      if (n.ty > maxY) maxY = n.ty;
+    });
+    TILE_BOUNDS = {
+      minX: minX,
+      maxX: maxX,
+      minY: minY,
+      maxY: maxY
+    };
+  }
+
+  function mapDiagram(diagram) {
+    var view = (diagram.views && diagram.views[0]) ? diagram.views[0] : { items: [], connectors: [] };
+    var byId = {};
+
+    (diagram.colors || []).forEach(function (c) {
+      if (c && c.id && c.value) COLOR_MAP[c.id] = c.value;
+    });
+
+    (diagram.icons || []).forEach(function (iconDef) {
+      if (!iconDef || !iconDef.id || !iconDef.url) return;
+      var img = new Image();
+      img.src = iconDef.url;
+      ICON_IMAGES[iconDef.id] = img;
+    });
+
+    (diagram.items || []).forEach(function (item) {
+      byId[item.id] = item;
+    });
+
+    NODES = (view.items || []).map(function (placed) {
+      var source = byId[placed.id] || { id: placed.id, name: placed.id, icon: '' };
+      var iconId = source.icon || '';
+      var tx = placed.tile && typeof placed.tile.x === 'number' ? placed.tile.x : 0;
+      var ty = placed.tile && typeof placed.tile.y === 'number' ? placed.tile.y : 0;
+      return {
+        id: source.id,
+        label: source.name || source.id,
+        iconId: iconId,
+        iconText: FALLBACK_ICON[iconId] || 'N',
+        color: NODE_COLOR_BY_ICON[iconId] || '#a78bfa',
+        role: ROLE_BY_ICON[iconId] || 'Equipement reseau',
+        tx: tx,
+        ty: ty,
+        image: iconImageFromId(iconId),
+        info: {
+          'ID': source.id,
+          'Type': iconId || 'inconnu',
+          'Position': 'x: ' + tx + ', y: ' + ty
+        },
+        tags: ['Fossflow', iconId || 'item']
+      };
+    });
+
+    LINKS = (view.connectors || []).map(function (connector) {
+      var itemAnchors = (connector.anchors || []).filter(function (anchor) {
+        return anchor && anchor.ref && anchor.ref.item;
+      });
+
+      if (itemAnchors.length < 2) return null;
+
+      var from = itemAnchors[0].ref.item;
+      var to = itemAnchors[itemAnchors.length - 1].ref.item;
+      if (from === to) return null;
+
+      return {
+        from: from,
+        to: to,
+        color: colorFromConnector(connector),
+        style: connector.style || 'SOLID',
+        label: connector.description || connector.startLabel || connector.endLabel || ''
+      };
+    }).filter(Boolean);
+
+    updateBounds(NODES);
+  }
+
+  function setFallbackModel() {
+    NODES = [
+      { id: 'n1', label: 'Routeur', iconText: 'R', color: '#f59e0b', role: 'Routage', tx: 0, ty: 0, image: null, info: { 'Source': 'Fallback' }, tags: ['local'] },
+      { id: 'n2', label: 'Pare-feu', iconText: 'F', color: '#f87171', role: 'Securite', tx: 2, ty: 0, image: null, info: { 'Source': 'Fallback' }, tags: ['local'] },
+      { id: 'n3', label: 'Serveur', iconText: 'S', color: '#34d399', role: 'Service', tx: 4, ty: 1, image: null, info: { 'Source': 'Fallback' }, tags: ['local'] }
+    ];
+    LINKS = [{ from: 'n1', to: 'n2', color: '#60a5fa', style: 'SOLID', label: '' }, { from: 'n2', to: 'n3', color: '#60a5fa', style: 'SOLID', label: '' }];
+    updateBounds(NODES);
+  }
+
+  async function loadDiagram() {
+    try {
+      var response = await fetch('../json/schema_infra_perso.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      var diagram = await response.json();
+
+      mapDiagram(diagram);
+      if (!NODES.length) throw new Error('Diagramme vide');
+
+      var subtitle = document.querySelector('.schema-hero p');
+      if (subtitle && diagram.title) {
+        subtitle.textContent = 'Schema charge depuis Fossflow: ' + diagram.title;
+      }
+
+      draw();
+    } catch (err) {
+      console.error('Impossible de charger le schema exporte:', err);
+      setFallbackModel();
+      draw();
+    }
+  }
+
   window.addEventListener('resize', resizeCanvas);
   resizeCanvas();
+  loadDiagram();
 })();
 </script>
 </body>
