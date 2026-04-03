@@ -3,7 +3,7 @@
     'use strict';
 
     console.log('Script certifications-loader.js chargé');
-<
+
     function chargerCertifications() {
         console.log('Fonction chargerCertifications() appelée');
 
