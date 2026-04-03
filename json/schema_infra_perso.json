@@ -62,7 +62,8 @@
       "name": "dns",
       "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjMuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzhfY29weSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IgoJIHk9IjBweCIgd2lkdGg9IjEzNHB4IiBoZWlnaHQ9IjEyMi40cHgiIHZpZXdCb3g9IjAgMCAxMzQgMTIyLjQiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDEzNCAxMjIuNCIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnIGlkPSJMYXllcl83X2NvcHkiPgo8L2c+CjxwYXRoIG9wYWNpdHk9IjAuNCIgZmlsbD0iIzAwMDAwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAgICAiIGQ9Ik03Ni4xLDY1LjRjLTIuOCwwLTUuNiwwLjEtOC4yLDAuM3Y0OS4xYzIuNywwLjEsNS40LDAuMyw4LjIsMC4zCgljMzIsMCw1Ny45LTExLjEsNTcuOS0yNC44QzEzNCw3Ni41LDEwOC4xLDY1LjQsNzYuMSw2NS40eiIvPgo8Y2lyY2xlIGZpbGw9IiNEQUUxRUQiIGN4PSI2Ni42IiBjeT0iNjEuMiIgcj0iNTMuMSIvPgo8cGF0aCBmaWxsPSIjNzE4NEEyIiBkPSJNMTE2LDU5LjJjMC0yNy44LTIyLTUwLjMtNDkuNi01MS4xYy0yOCwwLjgtNTAuNiwyMi42LTUyLjgsNTAuMmMwLDAuMywwLDAuNiwwLDAuOQoJYzAsMjguMywyMi45LDUxLjIsNTEuMiw1MS4yUzExNiw4Ny41LDExNiw1OS4yeiIvPgo8cGF0aCBmaWxsPSIjQjlDNEQ3IiBkPSJNMTA0LjcsNDguNmMwLTExLjYtNC4yLTIyLjMtMTEuMi0zMC41Yy04LTYtMTcuOC05LjctMjguNS0xMEM1MS40LDguNSwzOS4xLDE0LDI5LjksMjIuOGwwLDAKCWMtOS4yLDguOC0xNS4yLDIwLjktMTYuMywzNC4zbDAsMGMwLDAuMywwLDAuNiwwLDAuOGMwLDMuNSwwLjQsNi44LDEsMTAuMUMyMiw4NC40LDM4LjQsOTUuNyw1Ny41LDk1LjcKCUM4My42LDk1LjcsMTA0LjcsNzQuNiwxMDQuNyw0OC42eiIvPgo8cGF0aCBmaWxsPSIjRDBEOEU5IiBkPSJNMjkuOSwyMi44TDI5LjksMjIuOEMyMi43LDI5LjYsMTcuNSwzOC40LDE1LDQ4LjNjNywxMi4xLDIwLjEsMjAuMSwzNSwyMC4xYzIyLjQsMCw0MC41LTE4LjEsNDAuNS00MC41CgljMC00LjctMC44LTkuMS0yLjMtMTMuM0M4MS40LDEwLjYsNzMuNSw4LjIsNjUsOEM1MS40LDguNSwzOS4xLDE0LDI5LjksMjIuOHoiLz4KPGNpcmNsZSBpZD0iT3V0bGluZSIgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjMiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgY3g9IjY2LjYiIGN5PSI2MS4yIiByPSI1My4xIi8+CjxlbGxpcHNlIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNDNTA2RCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSI2Ni41IiBjeT0iNDYuMSIgcng9IjUwLjQiIHJ5PSIyMi4yIi8+CjxlbGxpcHNlIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNDNTA2RCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSI2Ni41IiBjeT0iNzYuMyIgcng9IjUwLjQiIHJ5PSIyMi4yIi8+CjxlbGxpcHNlIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzNDNTA2RCIgc3Ryb2tlLXdpZHRoPSIyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIGN4PSI2Ni41IiBjeT0iNjEuMiIgcng9IjIzLjUiIHJ5PSI1My4yIi8+CjxwYXRoIG9wYWNpdHk9IjAuNCIgZmlsbD0iIzAwMDAwMCIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAgICAiIGQ9Ik05MS43LDg1LjhINDFjLTcuMiwwLTEzLTUuOC0xMy0xM3YtNS45YzAtNy4yLDUuOC0xMywxMy0xM2g1MC43CgljNy4yLDAsMTMsNS44LDEzLDEzdjUuOUMxMDQuNyw4MCw5OC45LDg1LjgsOTEuNyw4NS44eiIvPgo8Zz4KCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik05Ni44LDc5LjRjLTIwLjIsMi4yLTQwLjYsMi4yLTYwLjksMGMtNy4yLTAuOS0xMy03LjgtMTMtMTQuOGMwLTEuOSwwLTMuOSwwLTUuOGMwLTcsNS44LTEzLjgsMTMtMTQuOAoJCWMyMC4yLTIuMiw0MC42LTIuMiw2MC45LDBjNy4yLDAuOSwxMyw3LjgsMTMsMTQuOGMwLDEuOSwwLDMuOSwwLDUuOEMxMDkuNyw3MS43LDEwMy45LDc4LjUsOTYuOCw3OS40eiIvPgoJPHBhdGggZmlsbD0ibm9uZSIgc3Ryb2tlPSIjMDAwMDAwIiBzdHJva2Utd2lkdGg9IjIiIHN0cm9rZS1taXRlcmxpbWl0PSIxMCIgZD0iTTk2LjgsNzkuNGMtMjAuMiwyLjItNDAuNiwyLjItNjAuOSwwCgkJYy03LjItMC45LTEzLTcuOC0xMy0xNC44YzAtMS45LDAtMy45LDAtNS44YzAtNyw1LjgtMTMuOCwxMy0xNC44YzIwLjItMi4yLDQwLjYtMi4yLDYwLjksMGM3LjIsMC45LDEzLDcuOCwxMywxNC44CgkJYzAsMS45LDAsMy45LDAsNS44QzEwOS43LDcxLjcsMTAzLjksNzguNSw5Ni44LDc5LjR6Ii8+CjwvZz4KPGc+Cgk8Zz4KCQk8cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNMzMsNzNjMC03LjQsMC0xNC45LDAtMjIuM2MyLjctMC40LDUuNC0wLjgsOC4xLTEuMWMyLjItMC4zLDQuMiwwLDYsMC45czMuMiwyLjMsNC4yLDQuMnMxLjUsNC4xLDEuNSw2LjUKCQkJYzAsMC40LDAsMC44LDAsMS4yYzAsMi40LTAuNSw0LjYtMS41LDYuNXMtMi40LDMuMy00LjEsNC4yYy0xLjgsMC45LTMuOCwxLjItNiwxQzM4LjUsNzMuOCwzNS43LDczLjQsMzMsNzN6IE0zOSw1NC4zCgkJCWMwLDUsMCwxMC4xLDAsMTUuMWMwLjcsMC4xLDEuNCwwLjEsMi4xLDAuMmMxLjcsMC4xLDMuMS0wLjQsNC0xLjZzMS40LTMuMSwxLjQtNS42YzAtMC40LDAtMC43LDAtMS4xYzAtMi41LTAuNS00LjMtMS40LTUuNQoJCQlzLTIuMy0xLjctNC4xLTEuNkM0MC40LDU0LjIsMzkuNyw1NC4yLDM5LDU0LjN6Ii8+CgkJPHBhdGggZmlsbD0iIzAwMDAwMCIgZD0iTTc3LjIsNzUuM2MtMiwwLjEtNC4xLDAuMi02LjEsMC4yYy0zLTUuNi02LTExLjQtOS0xN2MwLDUuNywwLDExLjQsMCwxN2MtMiwwLTQuMS0wLjEtNi4xLTAuMmMwLTksMC0xOCwwLTI3CgkJCWMyLTAuMSw0LjEtMC4yLDYuMS0wLjJjMyw1LjYsNiwxMS40LDksMTdjMC01LjcsMC0xMS40LDAtMTdjMiwwLDQuMSwwLjEsNi4xLDAuMkM3Ny4yLDU3LjMsNzcuMiw2Ni4zLDc3LjIsNzUuM3oiLz4KCQk8cGF0aCBmaWxsPSIjMDAwMDAwIiBkPSJNOTQuMiw2Ny41YzAtMC44LTAuMy0xLjUtMC45LTEuOWMtMC42LTAuNS0xLjctMC45LTMuMy0xLjRjLTEuNi0wLjUtMi45LTEtMy45LTEuNWMtMy4zLTEuNi00LjktNC00LjktNi45CgkJCWMwLTEuNSwwLjQtMi44LDEuMi0zLjhjMC44LTEuMSwyLTEuOSwzLjUtMi4zYzEuNS0wLjUsMy4yLTAuNiw1LTAuNGMxLjgsMC4yLDMuNCwwLjcsNC45LDEuNWMxLjQsMC44LDIuNiwxLjgsMy4zLDIuOQoJCQljMC44LDEuMiwxLjIsMi40LDEuMiwzLjhjLTItMC4xLTQtMC4yLTYuMS0wLjNjMC0xLTAuMy0xLjgtMC45LTIuM2MtMC42LTAuNi0xLjUtMC45LTIuNi0xcy0xLjksMC4xLTIuNiwwLjUKCQkJYy0wLjYsMC40LTAuOSwxLTAuOSwxLjhjMCwwLjcsMC4zLDEuMywxLDEuOGMwLjcsMC42LDEuOSwxLjEsMy43LDEuN2MxLjcsMC42LDMuMiwxLjIsNC4zLDEuOGMyLjcsMS41LDQuMSwzLjMsNC4xLDUuOAoJCQljMCwxLjktMC44LDMuNi0yLjUsNC45Yy0xLjcsMS40LTMuOSwyLjMtNi44LDIuNmMtMiwwLjItMy45LDAuMS01LjYtMC42Yy0xLjctMC42LTIuOS0xLjYtMy44LTIuOWMtMC44LTEuMy0xLjMtMi44LTEuMy00LjYKCQkJYzIsMCw0LjEtMC4xLDYuMS0wLjJjMCwxLjQsMC40LDIuNCwxLjEsM3MxLjgsMC45LDMuNCwwLjdjMS0wLjEsMS44LTAuMywyLjQtMC44QzkzLjksNjguOCw5NC4yLDY4LjIsOTQuMiw2Ny41eiIvPgoJPC9nPgo8L2c+Cjwvc3ZnPgo=",
       "isIsometric": true,
-      "collection": "isoflow"
+      "collection": "isoflow",
+      "scale": 0.8
     },
     {
       "id": "document",
@@ -216,7 +217,8 @@
       "name": "storage",
       "url": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDI1LjMuMSwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPgo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IgoJIHdpZHRoPSI1NjcuMTE3OThweCIgaGVpZ2h0PSI1NTQuNTg2cHgiIHZpZXdCb3g9IjAgMCA1NjcuMTE3OTggNTU0LjU4NiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTY3LjExNzk4IDU1NC41ODYiCgkgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+CjxnPgoJPGc+CgkJPHBhdGggb3BhY2l0eT0iMC40IiBmaWxsPSIjMDAwMDAwIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3ICAgICIgZD0iTTUyNy44NjEwMiwzNjcuMjYxOTljLTAuMzYyOTgsNjQuMjQzOTktOTAuNjE3OTgsMTE1LjY3My0yMDEuNTkxLDExNC44NwoJCQljLTExMC45NzQtMC44MDItMjAwLjY0MTAxLTUzLjUzMjAxLTIwMC4yNzkwMS0xMTcuNzc2YzAuMzYzLTY0LjI0Miw5MC42MTgtMTE1LjY3MDk5LDIwMS41OTItMTE0Ljg2OQoJCQlDNDM4LjU1NiwyNTAuMjkxLDUyOC4yMjMwMiwzMDMuMDE5OTksNTI3Ljg2MTAyLDM2Ny4yNjE5OXoiLz4KCQk8cGF0aCBmaWxsPSIjNjg4NUE5IiBkPSJNMjgyLjc0MiwzOTEuMDQzYy05NC44MzgtMC42MDU5OS0xNzEuNS0zNS40MDI5OC0xNzEuMjMtNzcuNzIxMDFsLTAuNDU5LDcxLjg2MzAxCgkJCWMtMC4zMSw0OC41MTQwMSw3Ni4zMjAwMSw4OC4zMzMwMSwxNzEuMTU3OTksODguOTM5Yzk0LjgzNzAxLDAuNjA1OTksMTcxLjk3LTM4LjIzMDk5LDE3Mi4yNzg5OS04Ni43NDVsMC40NTkwMS03MS44NjMwMQoJCQlDNDU0LjY3OTk5LDM1Ny44MzMwMSwzNzcuNTc5OTksMzkxLjY0ODAxLDI4Mi43NDIsMzkxLjA0M3oiLz4KCQk8cGF0aCBmaWxsPSIjQzNENUVBIiBkPSJNMjAzLjI5MSw0NjMuNzkxOTljNy40MDQwMSwyLjAxNywxNS4xMjUsMy43NjU5OSwyMy4xMTcsNS4yMjRsMC41MjY5OS04Mi40NzUwMQoJCQljLTcuOTkzLTEuMjc4OTktMTUuNzE1LTIuODEyMDEtMjMuMTIxLTQuNTc3TDIwMy4yOTEsNDYzLjc5MTk5eiIvPgoJCTxwYXRoIGZpbGw9IiNDM0Q1RUEiIGQ9Ik0xMTEuNTEzLDMxMy4zMjEwMWwtMC40NTksNzEuODYzMDFjLTAuMTk4LDMxLjAzOSwzMS4xMDAwMSw1OC41MTgwMSw3OC41MTEsNzQuNDQ2OTlsMC41MTktODEuMzA2CgkJCUMxNDIuNjYxLDM2NC4zOTIsMTExLjM0LDM0MC4zOTcsMTExLjUxMywzMTMuMzIxMDF6Ii8+CgkJPHBhdGggZmlsbD0iIzY4ODVBOSIgZD0iTTI4My40MjU5OSwyODMuOTcyOTljLTk0LjgzOC0wLjYwNTk5LTE3MS41LTM1LjQwMy0xNzEuMjMtNzcuNzIxMDFsLTAuNDU5LDcxLjg2MzAxCgkJCWMtMC4zMSw0OC41MTQwMSw3Ni4zMjAwMSw4OC4zMzYsMTcxLjE1ODAyLDg4Ljk0MTAxYzk0LjgzNzAxLDAuNjA1OTksMTcxLjk3LTM4LjIzMywxNzIuMjc4OTktODYuNzQ3MDFsMC40NTkwMS03MS44NjMwMQoJCQlDNDU1LjM2NDAxLDI1MC43NjQwMSwzNzguMjY0MDEsMjg0LjU3OTAxLDI4My40MjU5OSwyODMuOTcyOTl6Ii8+CgkJPHBhdGggZmlsbD0iI0MzRDVFQSIgZD0iTTE5MC4yNDg5OSwzNTIuNTYyMDFsMC41MTktODEuMzA3MDFjLTQ3LjQyMy0xMy45MzEtNzguNzQ0LTM3LjkyODAxLTc4LjU3MS02NS4wMDI5OWwtMC40NTksNzEuODYzMDEKCQkJQzExMS41MzksMzA5LjE1NSwxNDIuODM4LDMzNi42MzMsMTkwLjI0ODk5LDM1Mi41NjIwMXoiLz4KCQk8cGF0aCBmaWxsPSIjQzNENUVBIiBkPSJNMjAzLjk3NTAxLDM1Ni43MjE5OGM3LjQwNDAxLDIuMDE3LDE1LjEyNSwzLjc2NTk5LDIzLjExNyw1LjIyNGwwLjUyNjk5LTgyLjQ3NjAxCgkJCWMtNy45OTMtMS4yNzgwMi0xNS43MTUtMi44MTEtMjMuMTIxLTQuNTc1OTlMMjAzLjk3NTAxLDM1Ni43MjE5OHoiLz4KCQk8cGF0aCBmaWxsPSIjQ0REOUVFIiBkPSJNNDU2LjM1MDAxLDk2LjMyYy0wLjMxLDQ4LjUxNC03Ny40NDE5OSw4Ny4zNTA5OS0xNzIuMjc5MDIsODYuNzQ1CgkJCWMtOTQuODM4LTAuNjA2LTE3MS40NjgtNDAuNDI1LTE3MS4xNTgtODguOTM5YzAuMzEtNDguNTEzLDc3LjQ0Mi04Ny4zNSwxNzIuMjgwMDEtODYuNzQ0CgkJCUMzODAuMDMxMDEsNy45ODgsNDU2LjY2LDQ3LjgwNyw0NTYuMzUwMDEsOTYuMzJ6Ii8+CgkJPHBhdGggZmlsbD0iIzM2NUU3RiIgZD0iTTI4My41OTYwMSwyNTcuNDg4MDFjLTgxLjI5My0wLjUxOTAxLTE0OS4yLTI5Ljg1MS0xNjYuNzQ2OTktNjguNzczMDEKCQkJYy0zLjAwMiw1LjYyMTk5LTQuNjE0LDExLjQ5Mi00LjY1MiwxNy41MzZjLTAuMjcsNDIuMzE4MDEsNzYuMzkxLDc3LjExNjAxLDE3MS4yMjk5OCw3Ny43MjA5OQoJCQljOTQuODM3MDEsMC42MDU5OSwxNzEuOTM3MDEtMzMuMjA5LDE3Mi4yMDgwMS03NS41MjhjMC4wMzktNi4wNDQwMS0xLjQ5Nzk5LTExLjkzNDAxLTQuNDI4MDEtMTcuNTkzOTkKCQkJQzQzMy4xNjQsMjI5LjU0NSwzNjQuODg2OTksMjU4LjAwNjk5LDI4My41OTYwMSwyNTcuNDg4MDF6Ii8+CgkJPHBhdGggZmlsbD0iIzM2NUU3RiIgZD0iTTI4Mi44OTAwMSwzNjcuOTdjLTgyLjU1ODk5LTAuNTI3MDEtMTUxLjMwOTAxLTMwLjc3MzAxLTE2Ny41MjYtNzAuNjAwOTgKCQkJYy0yLjQ4Myw1LjEzOC0zLjgxNiwxMC40NzI5OS0zLjg1MSwxNS45NTJjLTAuMjcsNDIuMzE3OTksNzYuMzkxMDEsNzcuMTE2LDE3MS4yMyw3Ny43MjEwMQoJCQljOTQuODM3MDEsMC42MDU5OSwxNzEuOTM2OTgtMzMuMjA5MDEsMTcyLjIwNzk4LTc1LjUyNzk4YzAuMDM1LTUuNDc5LTEuMjMwMDEtMTAuODMwOTktMy42NDctMTYKCQkJQzQzNC41NzgsMzM5LjEzMywzNjUuNDQ4LDM2OC40OTc5OSwyODIuODkwMDEsMzY3Ljk3eiIvPgoJCTxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik0zMDMuMzE5LDE4MS4wMTgwMWM0LjY5Njk5LDAuMDMsOS4yMzk5OSwwLjIxNCwxMy44Mzg5OSwwLjA0NQoJCQljLTgzLjk1My00LjE1Ny0xNDkuNjYxLTQyLjY5Mi0xNDkuMzgxLTg2LjU4NmMwLjI4LTQzLjg5Myw2Ni40NzMwMS04MS4yNTYsMTUwLjQ3MzAxLTg0LjM0CgkJCWMtNC41OTYwMS0wLjIyOS05LjI0Ni0wLjA1OS0xMy45NDE5OS0wLjA4OWMtMTAuNTY1LTAuMTMzLTIwLjk5MzAxLDAuMzM3LTMxLjE2NTk5LDEuMzQKCQkJYzYuNTQxOTktMC42ODQsMTMuMjIyOTktMS4xNjIsMjAuMDIzMDEtMS40MTFjLTQuNTk2MDEtMC4yMjktOS4yNDYtMC4wNTktMTMuOTQxOTktMC4wODkKCQkJYy04Ni41NDEtMS4wODYtMTY0LjEyMSwzNy45NTQtMTY0LjQxNzAxLDg0LjI1MWMtMC4yOTYsNDYuMjk4LDc2LjU0Mzk5LDg2LjE2NCwxNjMuNDI3OTksODYuNzE4OTkKCQkJYzQuNjk2OTksMC4wMyw5LjIzOTk5LDAuMjE0LDEzLjgzODk5LDAuMDQ1Ii8+CgkJPHBhdGggZmlsbD0iIzY4ODVBOSIgZD0iTTI4NC4wNzEwMSwxODMuMDY1OTljLTk0LjgzOC0wLjYwNi0xNzEuNDY4LTQwLjQyNS0xNzEuMTU4LTg4LjkzOWwtMC40NzksNzQuOTA2CgkJCWMtMC4zMSw0OC41MTQwMSw3Ni4zMiw4OC4zMzQwMSwxNzEuMTU3OTksODguOTRjOTQuODM3MDEsMC42MDU5OSwxNzEuOTctMzguMjMxOTksMTcyLjI3OTAyLTg2Ljc0NmwwLjQ3OC03NC45MDYKCQkJQzQ1Ni4wNDAwMSwxNDQuODM0LDM3OC45MDc5OSwxODMuNjcxMDEsMjg0LjA3MTAxLDE4My4wNjU5OXoiLz4KCQk8cGF0aCBmaWxsPSIjQzNENUVBIiBkPSJNMTkwLjk0NTAxLDI0My40NzlsMC40NzktNzQuOTA2MDFjLTQ3LjQxMS0xNS45Mjc5OS03OC43MDktNDMuNDA3LTc4LjUxMS03NC40NDdsLTAuNDc5LDc0LjkwNgoJCQlDMTEyLjIzNiwyMDAuMDcyMDEsMTQzLjUzNSwyMjcuNTUwOTksMTkwLjk0NTAxLDI0My40Nzl6Ii8+CgkJPHBhdGggZmlsbD0iI0MzRDVFQSIgZD0iTTIyNy43ODc5OSwyNTIuODYybDAuNDc5LTc0LjkwNjAxYy03Ljk5Mi0xLjQ1Nzk5LTE1LjcxMjAxLTMuMjA3LTIzLjExNy01LjIyMzAxbC0wLjQ3OSw3NC45MDU5OQoJCQlDMjEyLjA3NiwyNDkuNjU1LDIxOS43OTcsMjUxLjQwNDAxLDIyNy43ODc5OSwyNTIuODYyeiIvPgoJCTxwYXRoIGZpbGw9Im5vbmUiIGQ9Ik0xOTAuNzY4MDEsMjcxLjI1NWM0LjQzOSwxLjMwNDk5LDkuMDIyLDIuNTE5OTksMTMuNzMsMy42NDAwMWwwLjE3NC0yNy4yNTYKCQkJYy00LjcwNy0xLjI4My05LjI4OS0yLjY2OTAxLTEzLjcyNzAxLTQuMTZMMTkwLjc2ODAxLDI3MS4yNTV6Ii8+CgkJPHBhdGggZmlsbD0ibm9uZSIgZD0iTTE5MC4wODQsMzc4LjMyNTk5YzQuNDM5LDEuMzAzOTksOS4wMjIsMi41MTcsMTMuNzMsMy42MzkwMWwwLjE2MS0yNS4yNDMwMQoJCQljLTQuNzA3LTEuMjgyMDEtOS4yODktMi42NjgtMTMuNzI3MDEtNC4xNkwxOTAuMDg0LDM3OC4zMjU5OXoiLz4KCQk8cGF0aCBmaWxsPSIjMjMxRjIwIiBkPSJNNDU5LjA3NDAxLDE5MC45Njg5OWMzLjg2Mi03LjY0NSwzLjcxMzAxLTE5LjIyNzAxLDMuNzA0MDEtMTkuNjk5MDFsMC40NzgtNzQuODMyCgkJCWMwLjI1NS0yLjE0NiwyLjk4ODAxLTMyLjAwNS0zNy4yMTc5OS01OS42NTNDMzgyLjkxLDcuMTI4LDMyMy41MTE5OSwwLjMxNCwzMDQuMjkwOTksMC4xOTEKCQkJQzMwNC4yMzAwMSwwLjE4OSwyOTguODQsMC4wMDMsMjg1LjE5MTk5LDBjLTEzLjY0Ni0wLjE3MS0xOS4wMzIwMS0wLjA1NC0xOS4wNzE5OS0wLjA1MwoJCQljLTE5LjI0OC0wLjEyMy03OC43MjgsNS45MzItMTIyLjIzMSwzNS4wMzZjLTQwLjU1NiwyNy4xMzItMzguMjA1LDU3LjAyNC0zNy45NzcwMSw1OS4xNzNsLTAuNDc4LDc0LjgwMjAxCgkJCWMtMC4wMTUsMC41MDEwMS0wLjMxMywxMi4wODA5OSwzLjQ1MiwxOS43NzQ5OWMtNC4yMDEsOS4yNTEwMS0zLjcxMSwxNy4yMjUwMS0zLjY5LDE3LjQ3NGwtMC40NTksNzEuODYzMDEKCQkJYy0wLjA2OCwxMC42MjM5OSwyLjI1MSwxNi43OTMsMy4wNzMsMTguNjQwMDFjLTAuODU3LDEuODY0MDEtMy4yNDUsOC4yMDMtMy4zMjYsMjFsLTAuNDE2LDY1LjQ2MzAxCgkJCWMtMC4wNjEsMC45MzIwMS0xLjMwMywyMy4wNiwxNS44MjgsNDIuNTAyOTljMjcuOTE2LDMxLjY4MSw3Ni4wNTcwMSw1MC4zOTk5OSwxNDMuMTE2LDU1LjYzOAoJCQljMC4wOTY5OCwwLjAwNSw2LjUyODk5LDAuMjc2LDE0LjUxOTAxLDAuMzI3YzEuNDgwOTksMC4wMDksMy4wMjM5OSwwLjAwOCw0LjU4MzAxLTAuMDAxMDEKCQkJYzEuNTU3MDEsMC4wMywzLjEwMDAxLDAuMDQ5OTksNC41ODIsMC4wNmM3Ljk5NSwwLjA1MDk5LDE0LjQ0MTAxLTAuMTQwMDEsMTQuNTU4MDEtMC4xNDMwMQoJCQljNjcuMDktNC4zNzksMTE1LjQ2Ni0yMi40ODE5OSwxNDMuNzg0LTUzLjgwNDAyYzE3LjM3OS0xOS4yMjE5OCwxNi40MTkwMS00MS4zNjQ5OSwxNi4zNzIwMS00Mi4yMjI5OWwwLjQxOTAxLTY1LjUzNzAyCgkJCWMwLjA4Mi0xMi43OTgtMi4yMjUwMS0xOS4xNjYwMi0zLjA1ODAxLTIxLjA0MTAyYzAuODQ2MDEtMS44MzYsMy4yNDMwMS03Ljk3NTAxLDMuMzExLTE4LjU5OWwwLjQ1NDAxLTcxLjc2OQoJCQlDNDYyLjU2NCwyMDguMjQyLDQ2My4xNTYwMSwyMDAuMjcyOTksNDU5LjA3NDAxLDE5MC45Njg5OXogTTExMi45NDYsMzg1LjE5NjAxbDAuMzUxLTU0Ljk5NgoJCQljNi45MTMsMTQuOTcsMjMuMTQ5OTksMjguNjg5LDQ3LjQxMSwzOS43MDAwMWMzMi41Njk5OSwxNC43ODQsNzUuOTA0MDEsMjMuMDg3MDEsMTIyLjAyLDIzLjM4MTk5CgkJCWM0Ni4xMTQ5OSwwLjI5NTAxLDg5LjU1MDk5LTcuNDU0MDEsMTIyLjMwNzAxLTIxLjgyMTAxYzI0LjM5OTk5LTEwLjcwMDAxLDQwLjgxMS0yNC4yMTEsNDcuOTE1MDEtMzkuMDkyMDFsLTAuMzUxMDEsNTQuOTk1CgkJCWMtMC4zMDIsNDcuMjY3LTc2LjczMTAyLDg1LjIzNTAyLTE3MC4zNzI5OSw4NC42MzY5OUMxODguNTgyLDQ3MS40MDUsMTEyLjY0NCw0MzIuNDYzMDEsMTEyLjk0NiwzODUuMTk2MDF6IE0yODUuMTc4OTksOS42MjMKCQkJYzkzLjU4MiwwLjU5OCwxNjkuNDcyOTksMzkuNDg1LDE2OS4xNzIsODYuNjg1Yy0wLjMwMiw0Ny4yMDEtNzYuNjgzMDEsODUuMTE1MDEtMTcwLjI2NDk4LDg0LjUxNzk5CgkJCWMtOTMuNTgzMDEtMC41OTgwMS0xNjkuNDc0LTM5LjQ4NS0xNjkuMTczLTg2LjY4NkMxMTUuMjE0LDQ2LjkzOSwxOTEuNTk1LDkuMDI1LDI4NS4xNzg5OSw5LjYyM3ogTTE2MS45NjgsMTU4LjU5NQoJCQljMzIuNTgyLDE2LjkyOTk5LDc1Ljk0MDk5LDI2LjQxNjk5LDEyMi4wODksMjYuNzExYzQ2LjE0ODAxLDAuMjk1LDg5LjYyMzk5LTguNjM2OTksMTIyLjQxOTAxLTI1LjE0OTk5CgkJCWMyNC4zNjQ5OS0xMi4yNjgwMSw0MC43NTI5OS0yNy42OTgsNDcuODU5MDEtNDQuNjVsLTAuMzU1OTksNTUuNzA3MDFjLTAuMDMyOTksNS4xODMtMC45ODMsMTAuMjU1LTIuNzY5MDEsMTUuMTc1OTkKCQkJbC0wLjA5NS0wLjE4MjAxbC0xLjY4MjAxLDMuNjA4Yy04LjU3OTAxLDE4LjM5OTk5LTI5LjUyNzk4LDM1LjA3NDAxLTU4Ljk4ODk4LDQ2Ljk1MgoJCQljLTMwLjE3NDAxLDEyLjE2NC02OC4xMTYsMTguNzI4LTEwNi44MzQ5OSwxOC40OGMtMzguNzItMC4yNDY5OS03Ni41NzUtNy4yOTUtMTA2LjU5MS0xOS44NDM5OQoJCQljLTI5LjMwNzAxLTEyLjI1MzAxLTUwLjA0Mi0yOS4xOTMwMS01OC4zODQ5OS00Ny43MDFsLTEuNjM2LTMuNjI5bC0wLjA5NywwLjE4MWMtMS43MjMtNC45NDI5OS0yLjYwOC0xMC4wMjcwMS0yLjU3NS0xNS4yMTAwMQoJCQlsMC4zNTYtNTUuNzA3QzEyMS41NzIsMTMwLjM3ODAxLDEzNy43NjEsMTQ2LjAxNjAxLDE2MS45NjgsMTU4LjU5NXogTTQ1My42MzQsMjA4LjQzMjAxCgkJCWMtMC4xMjUsMTkuNDg4MDEtMTcuNjU3MDEsMzcuODc5LTQ5LjM2ODAxLDUxLjc4Njk5QzM3MS45NywyNzQuMzgzLDMyOS4wNiwyODIuMDIzMDEsMjgzLjQ0LDI4MS43MzE5OQoJCQljLTQ1LjYyMS0wLjI5MDk5LTg4LjQyOTk5LTguNDc5LTEyMC41NDE5OS0yMy4wNTQwMmMtMzEuNTMtMTQuMzEyLTQ4LjgyNi0zMi45MjU5OS00OC43MDItNTIuNDE0CgkJCWMwLjAyNy00LjI1MzAxLDAuOTEtOC41MDUsMi42MjEtMTIuNjg3YzcuOTA0LDE0LjkyLDIzLjEwODk5LDI4LjU4Niw0NC43MTcsMzkuODEzCgkJCWMzMi41NjcsMTYuOTI0LDc1LjkxMSwyNi40MDcwMSwxMjIuMDQzOTksMjYuNzAyczg5LjU5Mzk5LTguNjM0LDEyMi4zNzUtMjUuMTQKCQkJYzIxLjc0ODk5LTEwLjk1LDM3LjEyNzAxLTI0LjQyMTAxLDQ1LjIyMTAxLTM5LjIzNzk5QzQ1Mi44MzMwMSwxOTkuOTE0OTksNDUzLjY2MTAxLDIwNC4xNzksNDUzLjYzNCwyMDguNDMyMDF6CgkJCSBNMTYxLjM5MzAxLDI2Mi44MzA5OWMzMi41NzAwMSwxNC43ODI5OSw3NS45MDUsMjMuMDg4MDEsMTIyLjAxOTk5LDIzLjM4MTk5CgkJCWM0Ni4xMTQ5OSwwLjI5NTAxLDg5LjU1MDk5LTcuNDU1OTksMTIyLjMwNzAxLTIxLjgyMTAxYzI0LjM5OTk5LTEwLjcwMSw0MC44MTEtMjQuMjExLDQ3LjkxNTAxLTM5LjA5MWwtMC4zNTEwMSw1NC45OTUKCQkJYy0wLjMwMiw0Ny4yNjkwMS03Ni43MzEwMiw4NS4yMzctMTcwLjM3Mjk5LDg0LjYzOTAxYy05My42NDMwMS0wLjU5Nzk5LTE2OS41ODA5OS0zOS41NDAwMS0xNjkuMjc5MDEtODYuODA4OTlsMC4zNTEtNTQuOTk1CgkJCUMxMjAuODk1LDIzOC4xMDEsMTM3LjEzMSwyNTEuODE5LDE2MS4zOTMwMSwyNjIuODMwOTl6IE00NTIuOTUwMDEsMzE1LjUwMjAxYy0wLjEyNSwxOS40ODctMTcuNjU3MDEsMzcuODc5LTQ5LjM2ODAxLDUxLjc4NjAxCgkJCWMtMzIuMjk1MDEsMTQuMTY0LTc1LjIwNTk5LDIxLjgwNDk5LTEyMC44MjU5OSwyMS41MTNjLTQ1LjYyMS0wLjI5MDk5LTg4LjQyOTk5LTguNDgwMDEtMTIwLjU0MTk5LTIzLjA1NDk5CgkJCWMtMzEuNTMtMTQuMzExLTQ4LjgyNi0zMi45MjU5OS00OC43MDItNTIuNDEyOTljMC4wMjMtMy42MzE5OSwwLjY3Mi03LjI3MzAxLDEuOTMxLTEwLjg2ODAxCgkJCWM5LjI2MSwxOC4zMzA5OSwyOS42NzcsMzQuOTA3OTksNTguMDkxLDQ3LjAzNWMzMC42OTI5OSwxMy4xMDAwMSw2OS41MjQ5OSwyMC40NTU5OSwxMDkuMzQxLDIwLjcwOTk5CgkJCXM3OC43Mzg5OC02LjYwNTAxLDEwOS41OTYwMS0xOS4zMTIwMWMyOC41NjY5OS0xMS43NjMsNDkuMTkyOTktMjguMDc3LDU4LjY4NzAxLTQ2LjI4OQoJCQlDNDUyLjM3MjAxLDMwOC4yMjEwMSw0NTIuOTcyOTksMzExLjg3LDQ1Mi45NTAwMSwzMTUuNTAyMDF6Ii8+Cgk8L2c+CjwvZz4KPC9zdmc+Cg==",
       "isIsometric": true,
-      "collection": "isoflow"
+      "collection": "isoflow",
+      "scale": 1
     },
     {
       "id": "switch-module",
@@ -309,7 +311,7 @@
     },
     {
       "id": "dd19c304-638c-4d46-9ffa-0491c7e36e6c",
-      "name": "Untitled",
+      "name": "DAS/NAS",
       "icon": "storage"
     },
     {
@@ -326,6 +328,51 @@
       "id": "d37bf8f2-3c07-48b3-ac98-ea94e0646133",
       "name": "SRV-MGT-02",
       "icon": "server"
+    },
+    {
+      "id": "a21b9fbe-ffcb-4d2d-be51-579d10b11ec9",
+      "name": "BDD",
+      "icon": "queue"
+    },
+    {
+      "id": "59528e87-61b9-4479-b5fc-3abd644b5053",
+      "name": "Untitled",
+      "icon": "block"
+    },
+    {
+      "id": "a418e6d8-9f0e-4201-b553-cb417640a970",
+      "name": "DHCP/DNS/AD",
+      "icon": "dns"
+    },
+    {
+      "id": "5e22491b-5630-4664-ad74-fdb6543b13bd",
+      "name": "SRV-MEDIA",
+      "icon": "vm"
+    },
+    {
+      "id": "734cdc33-b426-4d27-9523-860b172f44b7",
+      "name": "SRV-NGINX-PM",
+      "icon": "vm"
+    },
+    {
+      "id": "412be414-672d-4f01-8d1d-3613645b7f78",
+      "name": "SRV-CLOUD",
+      "icon": "vm"
+    },
+    {
+      "id": "02f3e4f1-d5c6-44a4-b876-8dffd91d6eba",
+      "name": "DOCKER",
+      "icon": "vm"
+    },
+    {
+      "id": "29bbf739-adfd-4d41-8f07-8b5a6720e6f5",
+      "name": "Untitled",
+      "icon": "vm"
+    },
+    {
+      "id": "a09deeef-753d-4366-8342-46b80e2a0a83",
+      "name": "",
+      "icon": "dns"
     }
   ],
   "views": [
@@ -334,10 +381,50 @@
       "items": [
         {
           "labelHeight": 80,
+          "id": "412be414-672d-4f01-8d1d-3613645b7f78",
+          "tile": {
+            "x": 11,
+            "y": -5
+          }
+        },
+        {
+          "labelHeight": 80,
+          "id": "734cdc33-b426-4d27-9523-860b172f44b7",
+          "tile": {
+            "x": 11,
+            "y": -3
+          }
+        },
+        {
+          "labelHeight": 80,
+          "id": "5e22491b-5630-4664-ad74-fdb6543b13bd",
+          "tile": {
+            "x": 11,
+            "y": -1
+          }
+        },
+        {
+          "labelHeight": 80,
+          "id": "a418e6d8-9f0e-4201-b553-cb417640a970",
+          "tile": {
+            "x": 9,
+            "y": 0
+          }
+        },
+        {
+          "labelHeight": 80,
+          "id": "a21b9fbe-ffcb-4d2d-be51-579d10b11ec9",
+          "tile": {
+            "x": 10,
+            "y": 4
+          }
+        },
+        {
+          "labelHeight": 60,
           "id": "d37bf8f2-3c07-48b3-ac98-ea94e0646133",
           "tile": {
             "x": 7,
-            "y": 2
+            "y": 4
           }
         },
         {
@@ -357,11 +444,11 @@
           }
         },
         {
-          "labelHeight": 80,
+          "labelHeight": 60,
           "id": "dd19c304-638c-4d46-9ffa-0491c7e36e6c",
           "tile": {
-            "x": 9,
-            "y": -4
+            "x": 8,
+            "y": -6
           }
         },
         {
@@ -369,7 +456,7 @@
           "id": "f21794c3-678e-4729-bc9a-5207ae61f680",
           "tile": {
             "x": 7,
-            "y": -2
+            "y": -4
           }
         },
         {
@@ -390,6 +477,542 @@
         }
       ],
       "connectors": [
+        {
+          "id": "197f7ba2-b2e6-44f6-a840-9860248119e9",
+          "color": "gray",
+          "anchors": [
+            {
+              "id": "d1988e50-9e94-43f1-aa4d-0521f47b2705",
+              "ref": {
+                "item": "f21794c3-678e-4729-bc9a-5207ae61f680"
+              },
+              "ordering": 0
+            },
+            {
+              "id": "3d0036c1-55b4-41d4-ba49-b0f1f6e51162",
+              "ref": {
+                "tile": {
+                  "x": 8,
+                  "y": -1
+                }
+              },
+              "ordering": 2
+            },
+            {
+              "id": "7604a59c-559b-4558-becd-9494fd6215b4",
+              "ref": {
+                "tile": {
+                  "x": 9,
+                  "y": 0
+                }
+              },
+              "ordering": 4
+            },
+            {
+              "id": "3dcef9f1-5244-42a8-ad32-50cc1da7a662",
+              "ref": {
+                "item": "a418e6d8-9f0e-4201-b553-cb417640a970"
+              },
+              "ordering": 6
+            }
+          ],
+          "width": 10,
+          "description": "",
+          "startLabel": "",
+          "endLabel": "",
+          "startLabelHeight": 0,
+          "centerLabelHeight": 0,
+          "endLabelHeight": 0,
+          "labels": [],
+          "customColor": "",
+          "style": "SOLID",
+          "lineType": "SINGLE",
+          "showArrow": true,
+          "path": {
+            "tiles": [
+              {
+                "x": 4,
+                "y": 5
+              },
+              {
+                "x": 3,
+                "y": 4
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "rectangle": {
+              "from": {
+                "x": 11,
+                "y": 1
+              },
+              "to": {
+                "x": 6,
+                "y": -5
+              }
+            }
+          }
+        },
+        {
+          "id": "6819dc0e-0c46-4f88-a1d7-2f34dc2688b6",
+          "color": "green",
+          "anchors": [
+            {
+              "id": "837859b7-d447-4ad2-affa-29ad53e7d1e0",
+              "ref": {
+                "item": "dd19c304-638c-4d46-9ffa-0491c7e36e6c"
+              },
+              "ordering": 0
+            },
+            {
+              "id": "67ef81b6-daff-40a9-a82a-2e91f7b5f054",
+              "ref": {
+                "tile": {
+                  "x": 10,
+                  "y": -5
+                }
+              },
+              "ordering": 2
+            },
+            {
+              "id": "1ae01244-19f6-4e0a-a2d5-29ff5dc56866",
+              "ref": {
+                "item": "412be414-672d-4f01-8d1d-3613645b7f78"
+              },
+              "ordering": 3
+            }
+          ],
+          "width": 10,
+          "description": "",
+          "startLabel": "",
+          "endLabel": "",
+          "startLabelHeight": 0,
+          "centerLabelHeight": 0,
+          "endLabelHeight": 0,
+          "labels": [],
+          "customColor": "",
+          "style": "SOLID",
+          "lineType": "SINGLE",
+          "showArrow": true,
+          "path": {
+            "tiles": [
+              {
+                "x": 4,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 2,
+                "y": 1
+              },
+              {
+                "x": 1,
+                "y": 2
+              }
+            ],
+            "rectangle": {
+              "from": {
+                "x": 12,
+                "y": -3
+              },
+              "to": {
+                "x": 7,
+                "y": -7
+              }
+            }
+          }
+        },
+        {
+          "id": "126641e1-3744-421d-b750-70ae1331a10c",
+          "color": "green",
+          "anchors": [
+            {
+              "id": "a2241088-45c8-42ee-87fb-2a9841a38100",
+              "ref": {
+                "item": "dd19c304-638c-4d46-9ffa-0491c7e36e6c"
+              },
+              "ordering": 0
+            },
+            {
+              "id": "d4d5aa13-58b0-4a08-8294-2db8132ad789",
+              "ref": {
+                "tile": {
+                  "x": 9,
+                  "y": -5
+                }
+              },
+              "ordering": 1
+            },
+            {
+              "id": "030b345a-7e21-491d-a654-5dee4282ce8c",
+              "ref": {
+                "tile": {
+                  "x": 9,
+                  "y": -4
+                }
+              },
+              "ordering": 3
+            },
+            {
+              "id": "d7d40387-41b7-421d-a2d8-40462f742648",
+              "ref": {
+                "tile": {
+                  "x": 10,
+                  "y": -3
+                }
+              },
+              "ordering": 5
+            },
+            {
+              "id": "f30c6b87-3c8c-44b4-a1d0-72e7fcb15518",
+              "ref": {
+                "item": "734cdc33-b426-4d27-9523-860b172f44b7"
+              },
+              "ordering": 6
+            }
+          ],
+          "width": 10,
+          "description": "",
+          "startLabel": "",
+          "endLabel": "",
+          "startLabelHeight": 0,
+          "centerLabelHeight": 0,
+          "endLabelHeight": 0,
+          "labels": [],
+          "customColor": "",
+          "style": "SOLID",
+          "lineType": "SINGLE",
+          "showArrow": true,
+          "path": {
+            "tiles": [
+              {
+                "x": 4,
+                "y": 4
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "rectangle": {
+              "from": {
+                "x": 12,
+                "y": -2
+              },
+              "to": {
+                "x": 7,
+                "y": -7
+              }
+            }
+          }
+        },
+        {
+          "id": "a9e35284-07d5-4879-9716-61d082ae8f0a",
+          "color": "green",
+          "anchors": [
+            {
+              "id": "c2d0900e-688e-42e9-bee8-e871375437c4",
+              "ref": {
+                "item": "dd19c304-638c-4d46-9ffa-0491c7e36e6c"
+              },
+              "ordering": 0
+            },
+            {
+              "id": "4442174e-2e75-42be-9ff7-16b797cec863",
+              "ref": {
+                "tile": {
+                  "x": 9,
+                  "y": -3
+                }
+              },
+              "ordering": 2
+            },
+            {
+              "id": "d52c34d9-1486-4dd1-8348-7496bfe6d663",
+              "ref": {
+                "item": "5e22491b-5630-4664-ad74-fdb6543b13bd"
+              },
+              "ordering": 5
+            }
+          ],
+          "width": 10,
+          "description": "",
+          "startLabel": "",
+          "endLabel": "",
+          "startLabelHeight": 0,
+          "centerLabelHeight": 0,
+          "endLabelHeight": 0,
+          "labels": [],
+          "customColor": "",
+          "style": "SOLID",
+          "lineType": "SINGLE",
+          "showArrow": true,
+          "path": {
+            "tiles": [
+              {
+                "x": 4,
+                "y": 5
+              },
+              {
+                "x": 3,
+                "y": 4
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "rectangle": {
+              "from": {
+                "x": 12,
+                "y": -1
+              },
+              "to": {
+                "x": 7,
+                "y": -7
+              }
+            }
+          }
+        },
+        {
+          "id": "2dec1271-44fe-4409-b969-9493cb7bc8b6",
+          "color": "gray",
+          "anchors": [
+            {
+              "id": "1b3113f4-f885-4d30-adbc-85634cb588a0",
+              "ref": {
+                "item": "f21794c3-678e-4729-bc9a-5207ae61f680"
+              }
+            },
+            {
+              "id": "c0951fbd-9499-4733-bc9a-34fdf241e3d5",
+              "ref": {
+                "item": "412be414-672d-4f01-8d1d-3613645b7f78"
+              }
+            }
+          ],
+          "customColor": ""
+        },
+        {
+          "id": "808c903d-6a28-4fc3-ab5f-1098ac61e590",
+          "color": "gray",
+          "anchors": [
+            {
+              "id": "1ccd8bb8-4c8d-46a7-b712-f0631f8dce3f",
+              "ref": {
+                "item": "f21794c3-678e-4729-bc9a-5207ae61f680"
+              }
+            },
+            {
+              "id": "a0079e28-3873-4952-bd4a-8c920e784739",
+              "ref": {
+                "item": "734cdc33-b426-4d27-9523-860b172f44b7"
+              }
+            }
+          ],
+          "customColor": ""
+        },
+        {
+          "id": "8aa0134d-6485-4a53-b681-68f169dacfb4",
+          "color": "gray",
+          "anchors": [
+            {
+              "id": "df68163c-c356-4a08-871f-adbc7a1934c8",
+              "ref": {
+                "item": "f21794c3-678e-4729-bc9a-5207ae61f680"
+              }
+            },
+            {
+              "id": "bf7520a7-fac0-4ca0-9f9f-640107ec2c75",
+              "ref": {
+                "item": "5e22491b-5630-4664-ad74-fdb6543b13bd"
+              }
+            }
+          ],
+          "customColor": ""
+        },
+        {
+          "id": "d8c11484-d569-4c88-9990-398d74d41ac9",
+          "color": "gray",
+          "anchors": [
+            {
+              "id": "e6d0aa6f-d274-474b-bb8f-8caff79ba633",
+              "ref": {
+                "item": "d37bf8f2-3c07-48b3-ac98-ea94e0646133"
+              },
+              "ordering": 0
+            },
+            {
+              "id": "0bc44198-eb9b-4428-9d7b-b8d29c591a37",
+              "ref": {
+                "tile": {
+                  "x": 8,
+                  "y": 1
+                }
+              },
+              "ordering": 2
+            },
+            {
+              "id": "1695e70f-467e-44db-970e-9942925321d9",
+              "ref": {
+                "item": "a418e6d8-9f0e-4201-b553-cb417640a970"
+              },
+              "ordering": 3
+            }
+          ],
+          "customColor": "",
+          "width": 10,
+          "description": "",
+          "startLabel": "",
+          "endLabel": "",
+          "startLabelHeight": 0,
+          "centerLabelHeight": 0,
+          "endLabelHeight": 0,
+          "labels": [],
+          "style": "SOLID",
+          "lineType": "SINGLE",
+          "showArrow": true,
+          "path": {
+            "tiles": [
+              {
+                "x": 4,
+                "y": 1
+              },
+              {
+                "x": 3,
+                "y": 2
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 3,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 4
+              },
+              {
+                "x": 1,
+                "y": 4
+              }
+            ],
+            "rectangle": {
+              "from": {
+                "x": 11,
+                "y": 5
+              },
+              "to": {
+                "x": 6,
+                "y": 0
+              }
+            }
+          }
+        },
+        {
+          "id": "26b039f7-df9f-4e39-bd1e-c30d7e62657b",
+          "color": "blue",
+          "anchors": [
+            {
+              "id": "0c98fc3e-500a-4d66-a1d2-e1a1cff3a801",
+              "ref": {
+                "item": "d37bf8f2-3c07-48b3-ac98-ea94e0646133"
+              }
+            },
+            {
+              "id": "79ae65d2-1750-489b-9925-e501dad61a72",
+              "ref": {
+                "item": "d37bf8f2-3c07-48b3-ac98-ea94e0646133"
+              }
+            }
+          ]
+        },
+        {
+          "id": "8a4cab01-3496-4892-a616-2076d5658a61",
+          "color": "gray",
+          "anchors": [
+            {
+              "id": "81f4ba56-3f86-4e3d-92d0-8cfdfd247d93",
+              "ref": {
+                "item": "d37bf8f2-3c07-48b3-ac98-ea94e0646133"
+              }
+            },
+            {
+              "id": "69419c4d-b3d3-4adc-9d88-2d18d596e525",
+              "ref": {
+                "item": "a21b9fbe-ffcb-4d2d-be51-579d10b11ec9"
+              }
+            }
+          ],
+          "customColor": ""
+        },
         {
           "id": "f42892f4-25e4-4f9f-b595-87359a0f9b9f",
           "color": "blue",
@@ -416,25 +1039,87 @@
         },
         {
           "id": "a7476e5e-1d46-4b71-8189-6c17f5fd43ab",
-          "color": "blue",
+          "color": "purple",
           "anchors": [
             {
               "id": "35b92ad4-fa5e-4d32-bf90-cc728af59188",
               "ref": {
                 "item": "81a87752-c8e2-479c-abec-1093d21e365f"
-              }
+              },
+              "ordering": 0
+            },
+            {
+              "id": "348760ba-4966-48c9-a57e-91447be11591",
+              "ref": {
+                "tile": {
+                  "x": 7,
+                  "y": 3
+                }
+              },
+              "ordering": 3
             },
             {
               "id": "69fbfea0-a4ff-4cb9-b77b-f99dea1295b3",
               "ref": {
                 "item": "d37bf8f2-3c07-48b3-ac98-ea94e0646133"
+              },
+              "ordering": 4
+            }
+          ],
+          "customColor": "",
+          "width": 10,
+          "description": "",
+          "startLabel": "",
+          "endLabel": "",
+          "startLabelHeight": 0,
+          "centerLabelHeight": 0,
+          "endLabelHeight": 0,
+          "labels": [],
+          "style": "SOLID",
+          "lineType": "SINGLE",
+          "showArrow": true,
+          "path": {
+            "tiles": [
+              {
+                "x": 4,
+                "y": 5
+              },
+              {
+                "x": 3,
+                "y": 4
+              },
+              {
+                "x": 2,
+                "y": 3
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 2
+              },
+              {
+                "x": 1,
+                "y": 1
+              }
+            ],
+            "rectangle": {
+              "from": {
+                "x": 8,
+                "y": 5
+              },
+              "to": {
+                "x": 3,
+                "y": -1
               }
             }
-          ]
+          }
         },
         {
           "id": "0a709065-6b2b-490e-a4c7-79684ebb5e85",
-          "color": "blue",
+          "color": "purple",
           "anchors": [
             {
               "id": "f2e7a9af-6cf9-46d3-90b0-fa44549bb308",
@@ -448,11 +1133,12 @@
                 "item": "f21794c3-678e-4729-bc9a-5207ae61f680"
               }
             }
-          ]
+          ],
+          "customColor": ""
         },
         {
           "id": "8b6b3bb5-080d-46a9-9b9f-8671c70fc467",
-          "color": "blue",
+          "color": "purple",
           "anchors": [
             {
               "id": "df472773-4814-4846-bbde-365746aa1e05",
@@ -466,7 +1152,8 @@
                 "item": "81a87752-c8e2-479c-abec-1093d21e365f"
               }
             }
-          ]
+          ],
+          "customColor": ""
         },
         {
           "id": "0268353f-15f4-4e52-b159-b016358ce491",
@@ -513,7 +1200,7 @@
         },
         {
           "id": "565714ca-a699-4f9c-9127-7dce3a08d8d7",
-          "color": "blue",
+          "color": "green",
           "anchors": [
             {
               "id": "8c5091eb-79a6-4090-a1a8-03feafd4b87d",
@@ -526,8 +1213,8 @@
               "id": "1643c178-4697-4e3b-99a9-72dc6c564970",
               "ref": {
                 "tile": {
-                  "x": 8,
-                  "y": -3
+                  "x": 7,
+                  "y": -6
                 }
               },
               "ordering": 1
@@ -541,13 +1228,15 @@
             }
           ],
           "width": 10,
-          "description": "",
-          "startLabel": "",
-          "endLabel": "",
-          "startLabelHeight": 0,
-          "centerLabelHeight": 0,
-          "endLabelHeight": 0,
-          "labels": [],
+          "labels": [
+            {
+              "id": "01b3fb01-0d76-4cb7-905d-291c87be2c2a",
+              "text": "",
+              "position": 50,
+              "height": 0,
+              "line": "1"
+            }
+          ],
           "customColor": "",
           "style": "SOLID",
           "lineType": "SINGLE",
@@ -555,30 +1244,34 @@
           "path": {
             "tiles": [
               {
-                "x": 3,
-                "y": 1
-              },
-              {
                 "x": 2,
                 "y": 1
               },
               {
                 "x": 2,
-                "y": 1
+                "y": 2
+              },
+              {
+                "x": 2,
+                "y": 2
               },
               {
                 "x": 1,
-                "y": 1
+                "y": 3
+              },
+              {
+                "x": 1,
+                "y": 4
               }
             ],
             "rectangle": {
               "from": {
-                "x": 10,
-                "y": -1
+                "x": 9,
+                "y": -3
               },
               "to": {
                 "x": 6,
-                "y": -3
+                "y": -8
               }
             }
           }
@@ -603,10 +1296,36 @@
           "customColor": ""
         }
       ],
-      "rectangles": [],
+      "rectangles": [
+        {
+          "id": "03288f71-93e4-43da-9a75-71c7fe947ad9",
+          "color": "blue",
+          "from": {
+            "x": 11,
+            "y": 6
+          },
+          "to": {
+            "x": 5,
+            "y": 1
+          },
+          "customColor": ""
+        },
+        {
+          "id": "1f240551-4cac-4fbe-9453-183e74faaba4",
+          "color": "blue",
+          "from": {
+            "x": 12,
+            "y": -1
+          },
+          "to": {
+            "x": 5,
+            "y": -7
+          }
+        }
+      ],
       "textBoxes": [],
       "id": "1d4589d1-558d-48cf-affe-beb7f5678ea1",
-      "lastUpdated": "2026-04-03T17:51:53.675Z"
+      "lastUpdated": "2026-04-03T19:17:08.944Z"
     }
   ],
   "fitToScreen": true
