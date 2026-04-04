@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
-<title>Schéma 2 - Architecture Cloud/DMZ - PORTFOLIO Flavien GARIBALDI</title>
+<title>Schéma 1 - Infrastructure personnel - PORTFOLIO Flavien GARIBALDI</title>
 <link rel="icon" href="../images/logo10.png" type="image/png">
 <link rel="stylesheet" href="../css/layui.css" id="layui">
 <link id="layuicss-layer" rel="stylesheet" href="../css/layer.css" media="all">
@@ -16,90 +16,9 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/improvements.css">
+<link rel="stylesheet" href="../css/schema-pages.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
-<style>
-  body { background: #0f1129; color: #e2e8f0; font-family: inherit; }
-  .schema-page { min-height: 100vh; padding-bottom: 4rem; }
-
-  .schema-hero {
-    background: linear-gradient(135deg, #0f1129 0%, #1a2a3e 50%, #0f1129 100%);
-    padding: 3rem 0 2rem;
-    border-bottom: 1px solid rgba(52,211,153,0.2);
-  }
-  .schema-hero .container { text-align: center; }
-  .schema-hero .back-btn {
-    display: inline-block; margin-bottom: 1.5rem;
-    padding: 0.5rem 1.4rem; border: 1px solid #34d399;
-    color: #34d399; border-radius: 30px; text-decoration: none;
-    font-size: 14px; font-weight: 600; letter-spacing: 0.05em;
-    transition: background .3s, color .3s;
-  }
-  .schema-hero .back-btn:hover { background: #34d399; color: #0f1129; }
-  .schema-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; color: #fff; margin-bottom: .5rem; }
-  .schema-hero p { color: #9ca3af; font-size: 1rem; }
-
-  .schema-controls {
-    display: flex; gap: .6rem; justify-content: center;
-    flex-wrap: wrap; padding: 1.5rem 1rem;
-  }
-  .ctrl-btn {
-    padding: .45rem 1.1rem; border-radius: 8px; border: 1px solid rgba(52,211,153,.4);
-    background: rgba(52,211,153,.1); color: #34d399;
-    font-size: 14px; font-weight: 600; cursor: pointer;
-    transition: background .2s;
-  }
-  .ctrl-btn:hover { background: rgba(52,211,153,.25); }
-  .ctrl-btn.danger { border-color: rgba(239,68,68,.4); background: rgba(239,68,68,.1); color: #f87171; }
-  .ctrl-btn.danger:hover { background: rgba(239,68,68,.25); }
-
-  .canvas-wrapper {
-    position: relative; margin: 0 auto;
-    width: calc(100% - 2rem); max-width: 1300px;
-    background: rgba(255,255,255,.03);
-    border: 1px solid rgba(52,211,153,.2);
-    border-radius: 16px; overflow: hidden;
-    box-shadow: 0 0 60px rgba(52,211,153,.06);
-    cursor: grab;
-  }
-  .canvas-wrapper:active { cursor: grabbing; }
-  #schema-canvas { display: block; width: 100%; }
-
-  .info-panel {
-    display: none; position: fixed; top: 50%; right: 2rem;
-    transform: translateY(-50%);
-    width: 300px; background: #0f2a1e;
-    border: 1px solid #34d399; border-radius: 16px;
-    padding: 1.5rem; z-index: 9999;
-    box-shadow: 0 0 40px rgba(52,211,153,.25);
-    animation: slideIn .25s ease;
-  }
-  @keyframes slideIn { from { opacity:0; transform: translateY(-50%) translateX(20px); } to { opacity:1; transform: translateY(-50%) translateX(0); } }
-  .info-panel.active { display: block; }
-  .info-panel .close-btn {
-    position: absolute; top: .75rem; right: .75rem;
-    background: none; border: none; color: #9ca3af;
-    font-size: 1.2rem; cursor: pointer; line-height: 1;
-  }
-  .info-panel .close-btn:hover { color: #fff; }
-  .info-panel .node-icon { font-size: 2.5rem; text-align: center; margin-bottom: .75rem; }
-  .info-panel h3 { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: .4rem; }
-  .info-panel .node-role { font-size: .85rem; color: #34d399; font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: .06em; }
-  .info-panel .info-row { display: flex; justify-content: space-between; align-items: flex-start; padding: .4rem 0; border-bottom: 1px solid rgba(255,255,255,.07); font-size: .9rem; }
-  .info-panel .info-row:last-child { border-bottom: none; }
-  .info-panel .info-key { color: #9ca3af; }
-  .info-panel .info-val { color: #e2e8f0; font-weight: 600; text-align: right; max-width: 60%; }
-  .info-panel .tag-list { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .75rem; }
-  .info-panel .tag { padding: .2rem .7rem; background: rgba(52,211,153,.15); color: #34d399; border-radius: 20px; font-size: .75rem; font-weight: 600; }
-
-  .legend {
-    display: flex; flex-wrap: wrap; gap: 1.2rem;
-    justify-content: center; padding: 1.5rem 1rem;
-    max-width: 900px; margin: 0 auto;
-  }
-  .legend-item { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: #9ca3af; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
-</style>
 </head>
 <body>
 <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
@@ -152,8 +71,8 @@
   <div class="schema-hero">
     <div class="container">
       <a href="projets.html" class="back-btn">← Retour aux projets</a>
-      <h1>SCHÉMA 2 — Architecture Cloud / DMZ</h1>
-      <p>Infrastructure hybride : zone DMZ, services cloud et connexion VPN site-à-site</p>
+      <h1>SCHÉMA 2 — Infrastructure en formation</h1>
+      <p>Architecture réseau locale : serveurs, VMs et services </p>
     </div>
   </div>
 
@@ -165,17 +84,11 @@
   </div>
 
   <div class="canvas-wrapper" id="canvas-wrapper">
-    <canvas id="schema-canvas" height="700"></canvas>
+    <canvas id="schema-canvas" height="680"></canvas>
   </div>
 
-  <div class="legend">
-    <div class="legend-item"><div class="legend-dot" style="background:#f87171"></div>Pare-feu / Sécurité</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div>Zone DMZ</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#34d399"></div>Cloud / VPS</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div>VPN / Tunnel</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Réseau interne</div>
-  </div>
 
+  <!-- Info panel -->
   <div class="info-panel" id="info-panel">
     <button class="close-btn" id="info-close">✕</button>
     <div class="node-icon" id="info-icon"></div>
@@ -206,160 +119,104 @@
 (function () {
   'use strict';
 
-  /* ═══════════════════════════════════════════════
-     DATA
-  ═══════════════════════════════════════════════ */
-  var NODES = [
-    /* Internet */
-    {
-      id: 'internet', label: 'Internet', icon: '🌍', color: '#9ca3af',
-      x: 0.5, y: 0.05,
-      role: 'Réseau public',
-      info: { 'Type': 'WAN / Internet public', 'Protocole': 'TCP/IP' },
-      tags: ['Internet', 'WAN', 'Public']
-    },
-    /* Firewall Edge */
-    {
-      id: 'fw-edge', label: 'FW Edge', icon: '🔥', color: '#f87171',
-      x: 0.5, y: 0.18,
-      role: 'Pare-feu de bordure',
-      info: { 'Hostname': 'fw-edge-01', 'IP WAN': '203.0.113.10', 'IP DMZ': '10.0.0.1', 'IP LAN': '192.168.1.1', 'OS': 'pfSense 2.7', 'Anti-DDoS': 'Activé' },
-      tags: ['Pare-feu', 'BGP', 'NAT', 'IPS', 'Anti-DDoS']
-    },
-    /* DMZ */
-    {
-      id: 'reverse-proxy', label: 'Reverse Proxy', icon: '🔄', color: '#60a5fa',
-      x: 0.2, y: 0.35,
-      role: 'Reverse proxy / Load balancer',
-      info: { 'Hostname': 'proxy-01', 'IP DMZ': '10.0.0.10', 'Service': 'Nginx 1.25', 'TLS': 'Let\'s Encrypt', 'Backends': 'web-01, web-02' },
-      tags: ['DMZ', 'Nginx', 'TLS', 'Load Balancer']
-    },
-    {
-      id: 'smtp', label: 'Serveur Mail', icon: '📧', color: '#60a5fa',
-      x: 0.5, y: 0.35,
-      role: 'Serveur SMTP/IMAP — DMZ',
-      info: { 'Hostname': 'mail-01', 'IP DMZ': '10.0.0.20', 'Service': 'Postfix + Dovecot', 'Anti-spam': 'SpamAssassin', 'Protocoles': 'SMTP, IMAPS, POP3S' },
-      tags: ['DMZ', 'SMTP', 'Dovecot', 'Mail']
-    },
-    {
-      id: 'ids', label: 'IDS/IPS', icon: '🛡️', color: '#f87171',
-      x: 0.8, y: 0.35,
-      role: 'Détection / prévention intrusion',
-      info: { 'Hostname': 'ids-01', 'IP': '10.0.0.30', 'Logiciel': 'Suricata 7.0', 'Mode': 'Inline IPS', 'Règles': 'Emerging Threats Pro' },
-      tags: ['DMZ', 'Suricata', 'IDS', 'IPS', 'Sécurité']
-    },
-    /* Cloud */
-    {
-      id: 'vps-web', label: 'VPS Web', icon: '☁️', color: '#34d399',
-      x: 0.15, y: 0.57,
-      role: 'Serveur web cloud (VPS)',
-      info: { 'Provider': 'OVHcloud VPS', 'IP Publique': '51.x.x.x', 'OS': 'Debian 12', 'Service': 'Apache 2.4, PHP 8.2', 'vCPU': '4', 'RAM': '8 Go' },
-      tags: ['Cloud', 'VPS', 'Apache', 'OVH']
-    },
-    {
-      id: 'vps-ci', label: 'CI/CD Pipeline', icon: '⚙️', color: '#34d399',
-      x: 0.38, y: 0.57,
-      role: 'Serveur intégration continue',
-      info: { 'Provider': 'GitHub Actions + Runner', 'OS': 'Ubuntu 22.04', 'Service': 'GitLab Runner / Docker', 'Déploiement': 'Auto sur push main' },
-      tags: ['Cloud', 'CI/CD', 'Docker', 'GitHub']
-    },
-    /* VPN */
-    {
-      id: 'vpn', label: 'Tunnel VPN', icon: '🔐', color: '#a78bfa',
-      x: 0.62, y: 0.57,
-      role: 'VPN site-à-site chiffré',
-      info: { 'Protocole': 'WireGuard', 'Chiffrement': 'ChaCha20-Poly1305', 'Endpoint A': '203.0.113.10:51820', 'Endpoint B': '51.x.x.x:51820', 'MTU': '1420' },
-      tags: ['VPN', 'WireGuard', 'Chiffrement', 'Site-à-site']
-    },
-    /* LAN interne */
-    {
-      id: 'ad', label: 'Active Directory', icon: '🏢', color: '#f59e0b',
-      x: 0.82, y: 0.57,
-      role: 'Contrôleur de domaine',
-      info: { 'Hostname': 'srv-ad-01', 'IP': '192.168.1.10', 'OS': 'Windows Server 2022', 'Rôles': 'AD DS, DNS, DHCP', 'Domaine': 'corp.local', 'Comptes': '85 utilisateurs' },
-      tags: ['LAN', 'AD DS', 'DNS', 'DHCP', 'Windows Server']
-    },
-    /* SIEM */
-    {
-      id: 'siem', label: 'SIEM', icon: '📋', color: '#a78bfa',
-      x: 0.35, y: 0.78,
-      role: 'Centralisation des logs',
-      info: { 'Hostname': 'siem-01', 'IP': '192.168.1.50', 'Logiciel': 'Wazuh 4.7 + ELK', 'Sources': 'FW, IDS, AD, VPS', 'Rétention': '90 jours' },
-      tags: ['SIEM', 'Wazuh', 'ELK', 'SOC', 'Logs']
-    },
-    {
-      id: 'backup', label: 'Sauvegarde', icon: '💿', color: '#f59e0b',
-      x: 0.65, y: 0.78,
-      role: 'Serveur de sauvegarde',
-      info: { 'Hostname': 'backup-01', 'IP': '192.168.1.60', 'Logiciel': 'Veeam Backup', 'Cible': 'NAS + Cloud S3', 'RPO': '24 h', 'RTO': '4 h' },
-      tags: ['Backup', 'Veeam', 'S3', 'Disaster Recovery']
-    }
-  ];
+  var NODES = [];
+  var LINKS = [];
+  var ICON_IMAGES = {};
+  var COLOR_MAP = {};
+  var TILE_BOUNDS = { minX: 0, maxX: 1, minY: 0, maxY: 1 };
 
-  var LINKS = [
-    { from: 'internet',      to: 'fw-edge',       label: 'HTTPS / SMTP' },
-    { from: 'fw-edge',       to: 'reverse-proxy', label: 'DMZ' },
-    { from: 'fw-edge',       to: 'smtp',          label: 'DMZ' },
-    { from: 'fw-edge',       to: 'ids',           label: 'Miroir trafic' },
-    { from: 'fw-edge',       to: 'vpn',           label: 'WireGuard' },
-    { from: 'fw-edge',       to: 'ad',            label: 'LAN' },
-    { from: 'reverse-proxy', to: 'vps-web',       label: 'Backend HTTP' },
-    { from: 'vps-web',       to: 'vps-ci',        label: 'Deploy' },
-    { from: 'vpn',           to: 'vps-web',       label: 'Tunnel chiffré' },
-    { from: 'ids',           to: 'siem',          label: 'Alertes' },
-    { from: 'fw-edge',       to: 'siem',          label: 'Syslog' },
-    { from: 'ad',            to: 'siem',          label: 'Event Logs' },
-    { from: 'ad',            to: 'backup',        label: 'Sauvegarde' },
-    { from: 'vps-web',       to: 'backup',        label: 'Snapshot' }
-  ];
+  var ROLE_BY_ICON = {
+    'router': 'Routage',
+    'firewall': 'Securite perimetrique',
+    'server': 'Serveur',
+    'storage': 'Stockage',
+    'cloud': 'Acces externe',
+    'switch-module': 'Commutation reseau'
+  };
+
+  var NODE_COLOR_BY_ICON = {
+    'router': '#f59e0b',
+    'firewall': '#f87171',
+    'server': '#34d399',
+    'storage': '#a78bfa',
+    'cloud': '#60a5fa',
+    'switch-module': '#38bdf8'
+  };
+
+  var FALLBACK_ICON = {
+    'router': 'R',
+    'firewall': 'F',
+    'server': 'S',
+    'storage': 'D',
+    'cloud': 'C',
+    'switch-module': 'SW'
+  };
 
   /* ═══════════════════════════════════════════════
      CANVAS ENGINE
   ═══════════════════════════════════════════════ */
-  var canvas  = document.getElementById('schema-canvas');
-  var ctx     = canvas.getContext('2d');
-  var wrapper = document.getElementById('canvas-wrapper');
+  var canvas   = document.getElementById('schema-canvas');
+  var ctx      = canvas.getContext('2d');
+  var wrapper  = document.getElementById('canvas-wrapper');
 
   var camX = 0, camY = 0, scale = 1;
   var isDragging = false, lastMX = 0, lastMY = 0;
   var hoveredNode = null;
+  var hasMoved = false;
 
-  var NODE_R  = 38;
-  var ICON_SZ = 22;
+  var NODE_R  = 38;   // circle radius
+  var ICON_SZ = 18;
   var LABEL_Y = 15;
 
   function resizeCanvas() {
     canvas.width  = wrapper.clientWidth;
-    canvas.height = 700;
+    canvas.height = 680;
     draw();
   }
 
+  /* ── World coords for each node ── */
   function nodePos(n) {
-    return { x: n.x * canvas.width, y: n.y * canvas.height };
+    var padX = 120;
+    var padY = 100;
+    var spanX = Math.max(1, TILE_BOUNDS.maxX - TILE_BOUNDS.minX);
+    var spanY = Math.max(1, TILE_BOUNDS.maxY - TILE_BOUNDS.minY);
+    var usableW = Math.max(120, canvas.width - (padX * 2));
+    var usableH = Math.max(120, canvas.height - (padY * 2));
+    var nx = (n.tx - TILE_BOUNDS.minX) / spanX;
+    var ny = (n.ty - TILE_BOUNDS.minY) / spanY;
+
+    return {
+      x: padX + (nx * usableW),
+      y: padY + (ny * usableH)
+    };
   }
 
+  /* ── Screen → World ── */
   function toWorld(sx, sy) {
     return { x: (sx - camX) / scale, y: (sy - camY) / scale };
   }
 
+  /* ── Hit test ── */
   function hitNode(wx, wy) {
     for (var i = NODES.length - 1; i >= 0; i--) {
-      var p  = nodePos(NODES[i]);
+      var p = nodePos(NODES[i]);
       var dx = wx - p.x, dy = wy - p.y;
       if (Math.sqrt(dx * dx + dy * dy) <= NODE_R + 6) return NODES[i];
     }
     return null;
   }
 
+  /* ── Draw ── */
   function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     ctx.save();
     ctx.translate(camX, camY);
     ctx.scale(scale, scale);
+
     drawGrid();
-    drawZoneLabels();
     drawLinks();
     NODES.forEach(function (n) { drawNode(n); });
+
     ctx.restore();
   }
 
@@ -368,7 +225,7 @@
     var offX = (camX % (step * scale)) / scale;
     var offY = (camY % (step * scale)) / scale;
     ctx.save();
-    ctx.strokeStyle = 'rgba(52,211,153,0.05)';
+    ctx.strokeStyle = 'rgba(167,139,250,0.07)';
     ctx.lineWidth = 1;
     for (var x = -offX; x < canvas.width / scale; x += step) {
       ctx.beginPath(); ctx.moveTo(x, 0); ctx.lineTo(x, canvas.height / scale); ctx.stroke();
@@ -379,70 +236,56 @@
     ctx.restore();
   }
 
-  function drawZoneLabels() {
-    var zones = [
-      { label: '🌐 INTERNET', yStart: 0,    yEnd: 0.12,  color: 'rgba(156,163,175,0.06)' },
-      { label: '🔴 DMZ',      yStart: 0.12, yEnd: 0.48,  color: 'rgba(248,113,113,0.05)' },
-      { label: '☁️ CLOUD',    yStart: 0.48, yEnd: 0.68,  color: 'rgba(52,211,153,0.05)'  },
-      { label: '🏠 LAN',      yStart: 0.68, yEnd: 1.0,   color: 'rgba(245,158,11,0.05)'  }
-    ];
-    zones.forEach(function (z) {
-      var y1 = z.yStart * canvas.height;
-      var y2 = z.yEnd   * canvas.height;
-      ctx.save();
-      ctx.fillStyle = z.color;
-      ctx.fillRect(0, y1, canvas.width, y2 - y1);
-      ctx.strokeStyle = 'rgba(255,255,255,0.04)';
-      ctx.lineWidth = 1;
-      ctx.beginPath(); ctx.moveTo(0, y2); ctx.lineTo(canvas.width, y2); ctx.stroke();
-      ctx.fillStyle = 'rgba(255,255,255,0.12)';
-      ctx.font = 'bold 13px sans-serif';
-      ctx.textAlign = 'left';
-      ctx.textBaseline = 'top';
-      ctx.fillText(z.label, 12, y1 + 8);
-      ctx.restore();
-    });
-  }
-
   function drawLinks() {
     LINKS.forEach(function (lk) {
       var fromNode = NODES.find(function (n) { return n.id === lk.from; });
       var toNode   = NODES.find(function (n) { return n.id === lk.to; });
       if (!fromNode || !toNode) return;
+
       var fp = nodePos(fromNode);
       var tp = nodePos(toNode);
 
+      // Line
       ctx.save();
-      ctx.strokeStyle = 'rgba(52,211,153,0.3)';
+      ctx.strokeStyle = lk.color || 'rgba(167,139,250,0.35)';
       ctx.lineWidth = 2;
-      ctx.setLineDash([6, 4]);
+      ctx.setLineDash(lk.style === 'DASHED' ? [8, 6] : [6, 4]);
       ctx.beginPath();
       ctx.moveTo(fp.x, fp.y);
       ctx.lineTo(tp.x, tp.y);
       ctx.stroke();
       ctx.setLineDash([]);
 
-      var mx = (fp.x + tp.x) / 2;
-      var my = (fp.y + tp.y) / 2;
-      var tw = ctx.measureText(lk.label).width + 10;
-      ctx.fillStyle = 'rgba(15,42,30,0.9)';
-      ctx.fillRect(mx - tw / 2, my - 10, tw, 18);
-      ctx.fillStyle = '#9ca3af';
-      ctx.font = '11px sans-serif';
-      ctx.textAlign = 'center';
-      ctx.textBaseline = 'middle';
-      ctx.fillText(lk.label, mx, my);
+      // Label on link
+      if (lk.label) {
+        var mx = (fp.x + tp.x) / 2;
+        var my = (fp.y + tp.y) / 2;
+        ctx.fillStyle = 'rgba(15,17,41,0.85)';
+        ctx.font = '11px sans-serif';
+        ctx.textAlign = 'center';
+        ctx.textBaseline = 'middle';
+        var tw = ctx.measureText(lk.label).width + 10;
+        ctx.fillRect(mx - tw / 2, my - 10, tw, 18);
+        ctx.fillStyle = '#9ca3af';
+        ctx.fillText(lk.label, mx, my);
+      }
       ctx.restore();
     });
   }
 
   function drawNode(n) {
-    var p         = nodePos(n);
+    var p = nodePos(n);
     var isHovered = (hoveredNode && hoveredNode.id === n.id);
 
     ctx.save();
-    if (isHovered) { ctx.shadowColor = n.color; ctx.shadowBlur = 28; }
 
+    // Glow
+    if (isHovered) {
+      ctx.shadowColor = n.color;
+      ctx.shadowBlur  = 28;
+    }
+
+    // Outer ring
     ctx.beginPath();
     ctx.arc(p.x, p.y, NODE_R + (isHovered ? 6 : 2), 0, Math.PI * 2);
     ctx.strokeStyle = n.color;
@@ -451,6 +294,7 @@
     ctx.stroke();
     ctx.globalAlpha = 1;
 
+    // Circle fill
     ctx.beginPath();
     ctx.arc(p.x, p.y, NODE_R, 0, Math.PI * 2);
     var grad = ctx.createRadialGradient(p.x - 8, p.y - 8, 4, p.x, p.y, NODE_R);
@@ -461,16 +305,26 @@
     ctx.strokeStyle = n.color;
     ctx.lineWidth   = 1.5;
     ctx.stroke();
+
     ctx.shadowBlur = 0;
 
-    ctx.font = ICON_SZ + 'px serif';
-    ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
-    ctx.fillText(n.icon, p.x, p.y - 4);
+    // Icon
+    if (n.image && n.image.complete) {
+      ctx.drawImage(n.image, p.x - 18, p.y - 22, 36, 36);
+    } else {
+      ctx.font = 'bold ' + ICON_SZ + 'px sans-serif';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.fillStyle = '#ffffff';
+      ctx.fillText(n.iconText || '?', p.x, p.y - 4);
+    }
 
+    // Label below
     ctx.font = 'bold 12px sans-serif';
     ctx.fillStyle = '#e2e8f0';
     ctx.textBaseline = 'top';
     ctx.fillText(n.label, p.x, p.y + NODE_R + LABEL_Y - 10);
+
     ctx.restore();
   }
 
@@ -481,10 +335,17 @@
     return 'rgba(' + r + ',' + g + ',' + b + ',' + a + ')';
   }
 
+  /* ─── Info panel ─── */
   function showPanel(n) {
-    document.getElementById('info-icon').textContent = n.icon;
-    document.getElementById('info-name').textContent = n.label;
-    document.getElementById('info-role').textContent = n.role;
+    var panel = document.getElementById('info-panel');
+    var iconEl = document.getElementById('info-icon');
+    if (n.image && n.image.src) {
+      iconEl.innerHTML = '<img src="' + n.image.src + '" alt="" style="width:52px;height:52px;object-fit:contain;">';
+    } else {
+      iconEl.textContent = n.iconText || '?';
+    }
+    document.getElementById('info-name').textContent  = n.label;
+    document.getElementById('info-role').textContent  = n.role;
 
     var rows = document.getElementById('info-rows');
     rows.innerHTML = '';
@@ -499,11 +360,12 @@
     tagsEl.innerHTML = '';
     n.tags.forEach(function (t) {
       var s = document.createElement('span');
-      s.className = 'tag'; s.textContent = t;
+      s.className = 'tag';
+      s.textContent = t;
       tagsEl.appendChild(s);
     });
 
-    document.getElementById('info-panel').classList.add('active');
+    panel.classList.add('active');
     document.getElementById('btn-close-panel').style.display = 'inline-block';
   }
 
@@ -512,8 +374,9 @@
     document.getElementById('btn-close-panel').style.display = 'none';
   }
 
+  /* ─── Events ─── */
   function getCanvasXY(e) {
-    var rect   = canvas.getBoundingClientRect();
+    var rect = canvas.getBoundingClientRect();
     var scaleX = canvas.width  / rect.width;
     var scaleY = canvas.height / rect.height;
     if (e.touches) {
@@ -522,11 +385,18 @@
     return { x: (e.clientX - rect.left) * scaleX, y: (e.clientY - rect.top) * scaleY };
   }
 
-  canvas.addEventListener('mousedown', function (e) { isDragging = true; lastMX = e.clientX; lastMY = e.clientY; });
+  canvas.addEventListener('mousedown', function (e) {
+    isDragging = true;
+    hasMoved = false;
+    lastMX = e.clientX; lastMY = e.clientY;
+  });
   canvas.addEventListener('mousemove', function (e) {
     if (isDragging) {
-      camX += (e.clientX - lastMX); camY += (e.clientY - lastMY);
-      lastMX = e.clientX; lastMY = e.clientY; draw();
+      if (Math.abs(e.clientX - lastMX) > 1 || Math.abs(e.clientY - lastMY) > 1) hasMoved = true;
+      camX += (e.clientX - lastMX);
+      camY += (e.clientY - lastMY);
+      lastMX = e.clientX; lastMY = e.clientY;
+      draw();
     } else {
       var pos = getCanvasXY(e);
       var w   = toWorld(pos.x, pos.y);
@@ -538,9 +408,11 @@
       }
     }
   });
-  canvas.addEventListener('mouseup', function (e) {
+  canvas.addEventListener('mouseup',   function (e) {
     if (!isDragging) return;
     isDragging = false;
+    if (hasMoved) return;
+    // Click detection
     var pos = getCanvasXY(e);
     var w   = toWorld(pos.x, pos.y);
     var hit = hitNode(w.x, w.y);
@@ -548,48 +420,185 @@
   });
   canvas.addEventListener('mouseleave', function () { isDragging = false; });
 
+  // Touch
   var touchStartX, touchStartY, touchCamX, touchCamY;
   canvas.addEventListener('touchstart', function (e) {
     e.preventDefault();
-    var pos = getCanvasXY(e); touchStartX = pos.x; touchStartY = pos.y;
+    var pos = getCanvasXY(e);
+    touchStartX = pos.x; touchStartY = pos.y;
     touchCamX = camX; touchCamY = camY;
   }, { passive: false });
   canvas.addEventListener('touchmove', function (e) {
     e.preventDefault();
     var pos = getCanvasXY(e);
-    camX = touchCamX + (pos.x - touchStartX); camY = touchCamY + (pos.y - touchStartY);
+    camX = touchCamX + (pos.x - touchStartX);
+    camY = touchCamY + (pos.y - touchStartY);
     draw();
   }, { passive: false });
   canvas.addEventListener('touchend', function (e) {
     e.preventDefault();
-    var t   = e.changedTouches[0];
-    var pos = getCanvasXY({ clientX: t.clientX, clientY: t.clientY });
-    var w   = toWorld(pos.x * (canvas.width / wrapper.clientWidth), pos.y * (canvas.height / 700));
+    var pos = getCanvasXY({ clientX: e.changedTouches[0].clientX, clientY: e.changedTouches[0].clientY });
+    var w   = toWorld(pos.x, pos.y);
     var hit = hitNode(w.x, w.y);
     if (hit) showPanel(hit);
   }, { passive: false });
 
+  // Wheel zoom
   canvas.addEventListener('wheel', function (e) {
     e.preventDefault();
-    var delta = e.deltaY > 0 ? 0.9 : 1.1;
-    var pos   = getCanvasXY(e);
-    var wx    = (pos.x - camX) / scale;
-    var wy    = (pos.y - camY) / scale;
-    scale    *= delta;
-    scale     = Math.min(Math.max(scale, 0.3), 3);
-    camX      = pos.x - wx * scale;
-    camY      = pos.y - wy * scale;
+    var delta  = e.deltaY > 0 ? 0.9 : 1.1;
+    var pos    = getCanvasXY(e);
+    var wx     = (pos.x - camX) / scale;
+    var wy     = (pos.y - camY) / scale;
+    scale     *= delta;
+    scale      = Math.min(Math.max(scale, 0.3), 3);
+    camX       = pos.x - wx * scale;
+    camY       = pos.y - wy * scale;
     draw();
   }, { passive: false });
 
-  document.getElementById('btn-zoom-in').addEventListener('click',     function () { scale = Math.min(scale * 1.2, 3); draw(); });
-  document.getElementById('btn-zoom-out').addEventListener('click',    function () { scale = Math.max(scale * 0.8, 0.3); draw(); });
-  document.getElementById('btn-reset').addEventListener('click',       function () { scale = 1; camX = 0; camY = 0; draw(); });
+  // Buttons
+  document.getElementById('btn-zoom-in').addEventListener('click',  function () { scale = Math.min(scale * 1.2, 3); draw(); });
+  document.getElementById('btn-zoom-out').addEventListener('click', function () { scale = Math.max(scale * 0.8, 0.3); draw(); });
+  document.getElementById('btn-reset').addEventListener('click',    function () { scale = 1; camX = 0; camY = 0; draw(); });
   document.getElementById('btn-close-panel').addEventListener('click', hidePanel);
-  document.getElementById('info-close').addEventListener('click',      hidePanel);
+  document.getElementById('info-close').addEventListener('click',       hidePanel);
+
+  function isHexColor(v) {
+    return typeof v === 'string' && /^#[0-9a-f]{6}$/i.test(v);
+  }
+
+  function colorFromConnector(connector) {
+    if (isHexColor(connector.customColor)) return connector.customColor;
+    if (connector.color && COLOR_MAP[connector.color]) return COLOR_MAP[connector.color];
+    return 'rgba(167,139,250,0.35)';
+  }
+
+  function iconImageFromId(iconId) {
+    return ICON_IMAGES[iconId] || null;
+  }
+
+  function updateBounds(nodes) {
+    if (!nodes.length) {
+      TILE_BOUNDS = { minX: 0, maxX: 1, minY: 0, maxY: 1 };
+      return;
+    }
+    var minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+    nodes.forEach(function (n) {
+      if (n.tx < minX) minX = n.tx;
+      if (n.tx > maxX) maxX = n.tx;
+      if (n.ty < minY) minY = n.ty;
+      if (n.ty > maxY) maxY = n.ty;
+    });
+    TILE_BOUNDS = {
+      minX: minX,
+      maxX: maxX,
+      minY: minY,
+      maxY: maxY
+    };
+  }
+
+  function mapDiagram(diagram) {
+    var view = (diagram.views && diagram.views[0]) ? diagram.views[0] : { items: [], connectors: [] };
+    var byId = {};
+
+    (diagram.colors || []).forEach(function (c) {
+      if (c && c.id && c.value) COLOR_MAP[c.id] = c.value;
+    });
+
+    (diagram.icons || []).forEach(function (iconDef) {
+      if (!iconDef || !iconDef.id || !iconDef.url) return;
+      var img = new Image();
+      img.src = iconDef.url;
+      ICON_IMAGES[iconDef.id] = img;
+    });
+
+    (diagram.items || []).forEach(function (item) {
+      byId[item.id] = item;
+    });
+
+    NODES = (view.items || []).map(function (placed) {
+      var source = byId[placed.id] || { id: placed.id, name: placed.id, icon: '' };
+      var iconId = source.icon || '';
+      var tx = placed.tile && typeof placed.tile.x === 'number' ? placed.tile.x : 0;
+      var ty = placed.tile && typeof placed.tile.y === 'number' ? placed.tile.y : 0;
+      return {
+        id: source.id,
+        label: source.name || source.id,
+        iconId: iconId,
+        iconText: FALLBACK_ICON[iconId] || 'N',
+        color: NODE_COLOR_BY_ICON[iconId] || '#a78bfa',
+        role: ROLE_BY_ICON[iconId] || 'Equipement reseau',
+        tx: tx,
+        ty: ty,
+        image: iconImageFromId(iconId),
+        info: {
+          'ID': source.id,
+          'Type': iconId || 'inconnu',
+          'Position': 'x: ' + tx + ', y: ' + ty
+        },
+        tags: ['Fossflow', iconId || 'item']
+      };
+    });
+
+    LINKS = (view.connectors || []).map(function (connector) {
+      var itemAnchors = (connector.anchors || []).filter(function (anchor) {
+        return anchor && anchor.ref && anchor.ref.item;
+      });
+
+      if (itemAnchors.length < 2) return null;
+
+      var from = itemAnchors[0].ref.item;
+      var to = itemAnchors[itemAnchors.length - 1].ref.item;
+      if (from === to) return null;
+
+      return {
+        from: from,
+        to: to,
+        color: colorFromConnector(connector),
+        style: connector.style || 'SOLID',
+        label: connector.description || connector.startLabel || connector.endLabel || ''
+      };
+    }).filter(Boolean);
+
+    updateBounds(NODES);
+  }
+
+  function setFallbackModel() {
+    NODES = [
+      { id: 'n1', label: 'Routeur', iconText: 'R', color: '#f59e0b', role: 'Routage', tx: 0, ty: 0, image: null, info: { 'Source': 'Fallback' }, tags: ['local'] },
+      { id: 'n2', label: 'Pare-feu', iconText: 'F', color: '#f87171', role: 'Securite', tx: 2, ty: 0, image: null, info: { 'Source': 'Fallback' }, tags: ['local'] },
+      { id: 'n3', label: 'Serveur', iconText: 'S', color: '#34d399', role: 'Service', tx: 4, ty: 1, image: null, info: { 'Source': 'Fallback' }, tags: ['local'] }
+    ];
+    LINKS = [{ from: 'n1', to: 'n2', color: '#60a5fa', style: 'SOLID', label: '' }, { from: 'n2', to: 'n3', color: '#60a5fa', style: 'SOLID', label: '' }];
+    updateBounds(NODES);
+  }
+
+  async function loadDiagram() {
+    try {
+      var response = await fetch('../json/schema_infra_perso.json', { cache: 'no-store' });
+      if (!response.ok) throw new Error('HTTP ' + response.status);
+      var diagram = await response.json();
+
+      mapDiagram(diagram);
+      if (!NODES.length) throw new Error('Diagramme vide');
+
+      var subtitle = document.querySelector('.schema-hero p');
+      if (subtitle && diagram.title) {
+        //subtitle.textContent = 'Schema charge depuis Fossflow: ' + diagram.title;
+      }
+
+      draw();
+    } catch (err) {
+      console.error('Impossible de charger le schema exporte:', err);
+      setFallbackModel();
+      draw();
+    }
+  }
 
   window.addEventListener('resize', resizeCanvas);
   resizeCanvas();
+  loadDiagram();
 })();
 </script>
 </body>

@@ -16,95 +16,9 @@
 <link rel="stylesheet" href="../css/animation.css">
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/improvements.css">
+<link rel="stylesheet" href="../css/schema-pages.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
-<style>
-  /* ─── Layout ─── */
-  body { background: #0f1129; color: #e2e8f0; font-family: inherit; }
-  .schema-page { min-height: 100vh; padding-bottom: 4rem; }
-
-  .schema-hero {
-    background: linear-gradient(135deg, #0f1129 0%, #1a1a3e 50%, #0f1129 100%);
-    padding: 3rem 0 2rem;
-    border-bottom: 1px solid rgba(167,139,250,0.2);
-  }
-  .schema-hero .container { text-align: center; }
-  .schema-hero .back-btn {
-    display: inline-block; margin-bottom: 1.5rem;
-    padding: 0.5rem 1.4rem; border: 1px solid #a78bfa;
-    color: #a78bfa; border-radius: 30px; text-decoration: none;
-    font-size: 14px; font-weight: 600; letter-spacing: 0.05em;
-    transition: background .3s, color .3s;
-  }
-  .schema-hero .back-btn:hover { background: #a78bfa; color: #0f1129; }
-  .schema-hero h1 { font-size: clamp(2rem, 5vw, 3.5rem); font-weight: 800; color: #fff; margin-bottom: .5rem; }
-  .schema-hero p { color: #9ca3af; font-size: 1rem; }
-
-  /* ─── Controls ─── */
-  .schema-controls {
-    display: flex; gap: .6rem; justify-content: center;
-    flex-wrap: wrap; padding: 1.5rem 1rem;
-  }
-  .ctrl-btn {
-    padding: .45rem 1.1rem; border-radius: 8px; border: 1px solid rgba(167,139,250,.4);
-    background: rgba(167,139,250,.1); color: #a78bfa;
-    font-size: 14px; font-weight: 600; cursor: pointer;
-    transition: background .2s, color .2s;
-  }
-  .ctrl-btn:hover { background: rgba(167,139,250,.25); }
-  .ctrl-btn.danger { border-color: rgba(239,68,68,.4); background: rgba(239,68,68,.1); color: #f87171; }
-  .ctrl-btn.danger:hover { background: rgba(239,68,68,.25); }
-
-  /* ─── Canvas wrapper ─── */
-  .canvas-wrapper {
-    position: relative; margin: 0 auto;
-    width: calc(100% - 2rem); max-width: 1300px;
-    background: rgba(255,255,255,.03);
-    border: 1px solid rgba(167,139,250,.2);
-    border-radius: 16px; overflow: hidden;
-    box-shadow: 0 0 60px rgba(167,139,250,.08);
-    cursor: grab;
-  }
-  .canvas-wrapper:active { cursor: grabbing; }
-  #schema-canvas { display: block; width: 100%; }
-
-  /* ─── Info panel ─── */
-  .info-panel {
-    display: none; position: fixed; top: 50%; right: 2rem;
-    transform: translateY(-50%);
-    width: 300px; background: #1a1a3e;
-    border: 1px solid #a78bfa; border-radius: 16px;
-    padding: 1.5rem; z-index: 9999;
-    box-shadow: 0 0 40px rgba(167,139,250,.3);
-    animation: slideIn .25s ease;
-  }
-  @keyframes slideIn { from { opacity:0; transform: translateY(-50%) translateX(20px); } to { opacity:1; transform: translateY(-50%) translateX(0); } }
-  .info-panel.active { display: block; }
-  .info-panel .close-btn {
-    position: absolute; top: .75rem; right: .75rem;
-    background: none; border: none; color: #9ca3af;
-    font-size: 1.2rem; cursor: pointer; line-height: 1;
-  }
-  .info-panel .close-btn:hover { color: #fff; }
-  .info-panel .node-icon { font-size: 2.5rem; text-align: center; margin-bottom: .75rem; }
-  .info-panel h3 { font-size: 1.1rem; font-weight: 700; color: #fff; margin-bottom: .4rem; }
-  .info-panel .node-role { font-size: .85rem; color: #a78bfa; font-weight: 600; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: .06em; }
-  .info-panel .info-row { display: flex; justify-content: space-between; align-items: flex-start; padding: .4rem 0; border-bottom: 1px solid rgba(255,255,255,.07); font-size: .9rem; }
-  .info-panel .info-row:last-child { border-bottom: none; }
-  .info-panel .info-key { color: #9ca3af; }
-  .info-panel .info-val { color: #e2e8f0; font-weight: 600; text-align: right; max-width: 60%; }
-  .info-panel .tag-list { display: flex; flex-wrap: wrap; gap: .3rem; margin-top: .75rem; }
-  .info-panel .tag { padding: .2rem .7rem; background: rgba(167,139,250,.15); color: #a78bfa; border-radius: 20px; font-size: .75rem; font-weight: 600; }
-
-  /* ─── Legend ─── */
-  .legend {
-    display: flex; flex-wrap: wrap; gap: 1.2rem;
-    justify-content: center; padding: 1.5rem 1rem;
-    max-width: 900px; margin: 0 auto;
-  }
-  .legend-item { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: #9ca3af; }
-  .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
-</style>
 </head>
 <body>
 <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
@@ -173,13 +87,6 @@
     <canvas id="schema-canvas" height="680"></canvas>
   </div>
 
-  <div class="legend">
-    <div class="legend-item"><div class="legend-dot" style="background:#a78bfa"></div>Hyperviseur / Hôte</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#34d399"></div>Serveur / VM</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#60a5fa"></div>Service réseau</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#f59e0b"></div>Poste client</div>
-    <div class="legend-item"><div class="legend-dot" style="background:#f87171"></div>Pare-feu / Sécurité</div>
-  </div>
 
   <!-- Info panel -->
   <div class="info-panel" id="info-panel">
