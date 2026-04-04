@@ -11,7 +11,7 @@
       "annee": "2024",
       "couleur": "#10b981",
       "icone": "../images/aboutA1.svg",
-      "attestation": "../images/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
+      "attestation": "../images/certif/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
     },
    {
       "titre": "UNODC Cybercrime",
@@ -23,7 +23,31 @@
       "annee": "2026",
       "couleur": "#10b981",
       "icone": "../images/aboutA1.svg",
-      "attestation": "../images/0618513816FG.pdf"
+      "attestation": "../images/certif/certif_unodc_cybercriminalite.pdf"
+    },
+    {
+      "titre": "Introduction a la cybersécurité",
+      "sousTitre": "Cisco",
+      "nomComplet": "Introduction to Cybersecurity",
+      "description": "Certification Cisco d'introduction aux fondamentaux de la cybersécurité, aux menaces courantes et aux bonnes pratiques de protection.",
+      "tags": ["Cisco", "Cybersécurité", "Fondamentaux"],
+      "categorie": "Informatique",
+      "annee": "2026",
+      "couleur": "#10b981",
+      "icone": "../images/aboutA1.svg",
+      "attestation": "../images/certif/introduction_a_la_cybersecurite.pdf"
+    },
+    {
+      "titre": "Network Technician",
+      "sousTitre": "Cisco",
+      "nomComplet": "Network Technician Career Path",
+      "description": "Parcours Cisco valide sur les bases des réseaux, le support technique et les compétences essentielles du technicien réseau.",
+      "tags": ["Cisco", "Réseaux", "Support Technique"],
+      "categorie": "Informatique",
+      "annee": "2026",
+      "couleur": "#10b981",
+      "icone": "../images/aboutA3.svg",
+      "attestation": "../images/certif/NetworkTechnicianCareerPath.pdf"
     },
     {
       "titre": "Cisco Certified Network",
@@ -34,7 +58,8 @@
       "categorie": "Informatique",
       "annee": "2026",
       "couleur": "#10b981",
-      "icone": "../images/aboutA3.svg"
+      "icone": "../images/aboutA3.svg",
+      "attestation": "../images/certif/CCNA.pdf"
     }
   ],
 
