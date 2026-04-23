@@ -136,19 +136,45 @@ select:focus-visible {
 }
 
 /* ── Sections dynamiques (grid de cartes) ── */
-.dynamic-grid {
+.dynamic-grid,
+.dynamic-grid-lg {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
     padding: 0;
     list-style: none;
 }
-.dynamic-grid-lg {
+
+.aboutA ul.dynamic-grid,
+.aboutA ul.dynamic-grid-lg {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
-    padding: 0;
-    list-style: none;
+}
+
+.aboutA ul.dynamic-grid li,
+.aboutA ul.dynamic-grid-lg li {
+    float: none;
+    width: auto;
+    margin-right: 0;
+}
+
+@media (max-width: 1200px) {
+    .dynamic-grid,
+    .dynamic-grid-lg,
+    .aboutA ul.dynamic-grid,
+    .aboutA ul.dynamic-grid-lg {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .dynamic-grid,
+    .dynamic-grid-lg,
+    .aboutA ul.dynamic-grid,
+    .aboutA ul.dynamic-grid-lg {
+        grid-template-columns: 1fr;
+    }
 }
 
 /* ── Section backgrounds (remplacement des inline styles) ── */
