@@ -10,7 +10,7 @@
       "categorie": "Informatique",
       "annee": "2024",
       "couleur": "#10b981",
-      "icone": "../images/aboutA1.svg",
+      "icone": "../images/certif/logo/logo_anssi.png",
       "attestation": "../images/certif/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
     },
    {
@@ -22,7 +22,7 @@
       "categorie": "Droit",
       "annee": "2026",
       "couleur": "#10b981",
-      "icone": "../images/aboutA1.svg",
+      "icone": "../images/certif/logo/logo_unodc.webp",
       "attestation": "../images/certif/certif_unodc_cybercriminalite.pdf"
     },
     {
@@ -34,7 +34,7 @@
       "categorie": "Informatique",
       "annee": "2026",
       "couleur": "#10b981",
-      "icone": "../images/aboutA1.svg",
+      "icone": "../images/certif/logo/logo_introduction_cybersecurite.png",
       "attestation": "../images/certif/introduction_a_la_cybersecurite.pdf"
     },
     {
@@ -46,7 +46,7 @@
       "categorie": "Informatique",
       "annee": "2026",
       "couleur": "#10b981",
-      "icone": "../images/aboutA3.svg",
+      "icone": "../images/certif/logo/network-technician-career-path.png",
       "attestation": "../images/certif/NetworkTechnicianCareerPath.pdf"
     },
     {
@@ -58,7 +58,7 @@
       "categorie": "Informatique",
       "annee": "2026",
       "couleur": "#10b981",
-      "icone": "../images/aboutA3.svg",
+      "icone": "../images/certif/logo/ccna-introduction-to-networks.png",
       "attestation": "../images/certif/CCNA.pdf"
     }
   ],
