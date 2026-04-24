@@ -50,6 +50,30 @@
       "attestation": "../images/certif/NetworkTechnicianCareerPath.pdf"
     },
     {
+      "titre": "Sécurité des terminaux",
+      "sousTitre": "Réseaux & cybersécurité",
+      "nomComplet": "Sécurité des terminaux",
+      "description": "Certification Cisco sur la sécurité des terminaux et la protection des postes de travail.",
+      "tags": ["Cisco", "Réseaux", "Cybersécurité", "Endpoint Security"],
+      "categorie": "Informatique",
+      "annee": "2026",
+      "couleur": "#10b981",
+      "icone": "../images/certif/logo/endpoint-security.png",
+      "attestation": "../images/certif/EndpointSecurityUpdate20260424-32-jl8ks.pdf"
+    },
+    {
+      "titre": "Défense du réseau",
+      "sousTitre": "Réseaux & cybersécurité",
+      "nomComplet": "Défense du réseau",
+      "description": "Certification Cisco sur la défense du réseau et la protection contre les menaces.",
+      "tags": ["Cisco", "Réseaux", "Cybersécurité", "Défense"],
+      "categorie": "Informatique",
+      "annee": "2026",
+      "couleur": "#10b981",
+      "icone": "../images/certif/logo/network-defense.png",
+      "attestation": "../images/certif/NetworkDefenseUpdate20260424-31-3kco7z.pdf"
+    },
+    {
       "titre": "Cisco Certified Network",
       "sousTitre": "Associate",
       "nomComplet": "CCNA",
@@ -369,28 +393,6 @@
       "titre": "Gestion des Cybermenaces",
       "sousTitre": "Réseaux & cybersécurité",
       "nomComplet": "Gestion des Cybermenaces",
-      "description": "Cours en préparation pour certification Cisco.",
-      "tags": ["Préparation", "Cisco", "Réseaux", "Cybersécurité"],
-      "categorie": "Informatique",
-      "statut": "En préparation",
-      "couleur": "#a78bfa",
-      "icone": "../images/aboutA2.svg"
-    },
-    {
-      "titre": "Défense du réseau",
-      "sousTitre": "Réseaux & cybersécurité",
-      "nomComplet": "Défense du réseau",
-      "description": "Cours en préparation pour certification Cisco.",
-      "tags": ["Préparation", "Cisco", "Réseaux", "Cybersécurité"],
-      "categorie": "Informatique",
-      "statut": "En préparation",
-      "couleur": "#a78bfa",
-      "icone": "../images/aboutA2.svg"
-    },
-    {
-      "titre": "Sécurité des terminaux",
-      "sousTitre": "Réseaux & cybersécurité",
-      "nomComplet": "Sécurité des terminaux",
       "description": "Cours en préparation pour certification Cisco.",
       "tags": ["Préparation", "Cisco", "Réseaux", "Cybersécurité"],
       "categorie": "Informatique",
