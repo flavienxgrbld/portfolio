@@ -119,12 +119,22 @@
             </div>
         </div>
 
-        <!-- Filtres par catégorie -->
+        <!-- Filtres par catégorie et organisme -->
         <div class="certifications-filters wow fadeInUp1" style="text-align: center; margin: 2rem 0;">
-            <label for="category-filter" class="filter-label">Filtrer par catégorie :</label>
-            <select id="category-filter" class="category-dropdown" aria-label="Sélectionner une catégorie">
-                <!-- Les catégories seront chargées dynamiquement -->
-            </select>
+            <div style="display: inline-flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+                <div>
+                    <label for="category-filter" class="filter-label">Catégorie :</label>
+                    <select id="category-filter" class="category-dropdown" aria-label="Sélectionner une catégorie">
+                        <!-- Les catégories seront chargées dynamiquement -->
+                    </select>
+                </div>
+                <div>
+                    <label for="organism-filter" class="filter-label">Organisme :</label>
+                    <select id="organism-filter" class="category-dropdown" aria-label="Sélectionner un organisme">
+                        <!-- Les organismes seront chargés dynamiquement -->
+                    </select>
+                </div>
+            </div>
         </div>
 
         <ul id="certifications-obtenues" class="clearfix wow fadeInUp1 dynamic-grid-lg">

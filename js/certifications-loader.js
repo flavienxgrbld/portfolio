@@ -11,6 +11,7 @@
         var li = document.createElement('li');
         li.style.listStyle = 'none';
         li.setAttribute('data-category', cert.categorie || 'Autre');
+        li.setAttribute('data-organism', cert.sousTitre || 'Autre');
         li.className = 'certification-item certification-visible';
 
         var rgbaColor = cert.couleur.replace('#', '').match(/.{2}/g).map(function(hex) {
@@ -182,89 +183,102 @@
         });
     }
 
-    // Fonction pour générer dynamiquement les catégories
+    // Fonction pour générer dynamiquement les catégories et organismes
     function genererCategories(data) {
-        console.log('Génération des catégories dynamiques');
+        console.log('Génération des catégories et organismes dynamiques');
         
-        var dropdown = document.getElementById('category-filter');
-        if (!dropdown) {
-            console.error('Dropdown non trouvé!');
+        var dropdownCategory = document.getElementById('category-filter');
+        var dropdownOrganism = document.getElementById('organism-filter');
+        
+        if (!dropdownCategory || !dropdownOrganism) {
+            console.error('Dropdowns non trouvés!');
             return;
         }
         
         // Extraire toutes les catégories uniques
         var categories = new Set();
-        
         data.obtenues.forEach(function(cert) {
             if (cert.categorie) {
                 categories.add(cert.categorie);
             }
         });
-        
         data.enPreparation.forEach(function(cert) {
             if (cert.categorie) {
                 categories.add(cert.categorie);
             }
         });
-        
-        // Convertir en tableau et trier par ordre alphabétique
         var categoriesArray = Array.from(categories).sort();
-        
-        console.log('Catégories trouvées:', categoriesArray);
-        
-        // Effacer les options existantes
-        dropdown.innerHTML = '';
-        
-        // Ajouter l'option "Toutes"
+        // Liste blanche des organismes
+        var organismesArray = ["Cisco", "ANSSI", "ONU"];
+        // === Catégories ===
+        dropdownCategory.innerHTML = '';
         var optionToutes = document.createElement('option');
         optionToutes.value = 'toutes';
         optionToutes.textContent = 'Toutes les catégories';
-        dropdown.appendChild(optionToutes);
-        
-        // Ajouter chaque catégorie
+        dropdownCategory.appendChild(optionToutes);
         categoriesArray.forEach(function(categorie) {
             var option = document.createElement('option');
             option.value = categorie;
             option.textContent = categorie;
-            dropdown.appendChild(option);
+            dropdownCategory.appendChild(option);
         });
-        
-        console.log('Options générées:', dropdown.options.length);
+        // === Organismes ===
+        dropdownOrganism.innerHTML = '';
+        var optionTous = document.createElement('option');
+        optionTous.value = 'tous';
+        optionTous.textContent = 'Tous les organismes';
+        dropdownOrganism.appendChild(optionTous);
+        organismesArray.forEach(function(organisme) {
+            var option = document.createElement('option');
+            option.value = organisme;
+            option.textContent = organisme;
+            dropdownOrganism.appendChild(option);
+        });
+        console.log('Options générées - Catégories:', dropdownCategory.options.length, 'Organismes:', dropdownOrganism.options.length);
     }
 
     // Fonction pour initialiser les filtres
     function initialiserFiltres() {
-        var dropdown = document.getElementById('category-filter');
+        var dropdownCategory = document.getElementById('category-filter');
+        var dropdownOrganism = document.getElementById('organism-filter');
         
-        if (dropdown) {
-            dropdown.addEventListener('change', function() {
-                var categorie = this.value;
-                console.log('Catégorie sélectionnée:', categorie);
-                
-                // Filtrer les certifications
-                filtrerCertifications(categorie);
+        if (dropdownCategory) {
+            dropdownCategory.addEventListener('change', function() {
+                console.log('Catégorie sélectionnée:', this.value);
+                filtrerCertifications();
             });
-        } else {
-            console.error('Dropdown de filtrage non trouvé!');
+        }
+        
+        if (dropdownOrganism) {
+            dropdownOrganism.addEventListener('change', function() {
+                console.log('Organisme sélectionné:', this.value);
+                filtrerCertifications();
+            });
         }
     }
 
     // Fonction pour filtrer les certifications
-    function filtrerCertifications(categorie) {
-        console.log('Filtrage par catégorie:', categorie);
-        
+    function filtrerCertifications() {
+        var categorie = document.getElementById('category-filter').value;
+        var organisme = document.getElementById('organism-filter').value;
         var toutesLesCertifications = document.querySelectorAll('.certification-item');
-        
         toutesLesCertifications.forEach(function(item) {
             var itemCategorie = item.getAttribute('data-category');
-            
-            if (categorie === 'toutes' || itemCategorie === categorie) {
+            var itemOrganisme = item.getAttribute('data-organism');
+            // On ne filtre que sur Cisco, ANSSI, ONU
+            var matchCategorie = (categorie === 'toutes' || itemCategorie === categorie);
+            var matchOrganisme = (organisme === 'tous');
+            if (["Cisco", "ANSSI", "ONU"].includes(organisme)) {
+                matchOrganisme = (itemOrganisme && itemOrganisme.toLowerCase().includes(organisme.toLowerCase()));
+            }
+            if (matchCategorie && matchOrganisme) {
                 item.classList.remove('certification-hidden');
                 item.classList.add('certification-visible');
                 item.style.display = '';
             } else {
                 item.classList.remove('certification-visible');
                 item.classList.add('certification-hidden');
+                item.style.display = 'none';
             }
         });
     }

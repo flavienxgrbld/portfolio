@@ -66,7 +66,7 @@
                      },
                      {
                          "titre":  "Sécurité des terminaux",
-                         "sousTitre":  "Réseaux \u0026 cybersécurité",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Sécurité des terminaux",
                          "description":  "Certification Cisco sur la sécurité des terminaux et la protection des postes de travail.",
                          "tags":  [
@@ -83,7 +83,7 @@
                      },
                      {
                          "titre":  "Défense du réseau",
-                         "sousTitre":  "Réseaux \u0026 cybersécurité",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Défense du réseau",
                          "description":  "Certification Cisco sur la défense du réseau et la protection contre les menaces.",
                          "tags":  [
@@ -100,7 +100,7 @@
                      },
                      {
                          "titre":  "Cisco Certified Network",
-                         "sousTitre":  "Associate",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "CCNA",
                          "description":  "Certification réseau Cisco couvrant les fondamentaux des réseaux, routage, commutation et sécurité.",
                          "tags":  [
@@ -116,7 +116,7 @@
                      },
                      {
                          "titre":  "Creating Compelling Reports",
-                         "sousTitre":  "Soft skills \u0026 communication",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Creating Compelling Reports",
                          "description":  "Certification Cisco sur la création de rapports efficaces et la communication professionnelle.",
                          "tags":  [
@@ -133,7 +133,7 @@
                      },
                      {
                          "titre":  "Gestion des Cybermenaces",
-                         "sousTitre":  "Réseaux \u0026 cybersécurité",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Cyber Threat Management",
                          "description":  "Certification Cisco sur la gestion des cybermenaces et la réponse aux incidents.",
                          "tags":  [
@@ -149,7 +149,7 @@
                      },
                      {
                          "titre":  "Introduction à la science des données",
-                         "sousTitre":  "Data \u0026 analyse",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Introduction to Data Science",
                          "description":  "Certification Cisco d\u0027introduction aux fondamentaux de la science des données.",
                          "tags":  [
@@ -166,7 +166,7 @@
                      },
                      {
                          "titre":  "Linux Essentials",
-                         "sousTitre":  "Linux",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Linux Essentials",
                          "description":  "Certification Cisco sur les fondamentaux de Linux et les commandes de base.",
                          "tags":  [
@@ -182,7 +182,7 @@
                      },
                      {
                          "titre":  "Linux Unhatched",
-                         "sousTitre":  "Linux",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Linux Unhatched",
                          "description":  "Certification Cisco d\u0027introduction à Linux pour débutants.",
                          "tags":  [
@@ -198,7 +198,7 @@
                      },
                      {
                          "titre":  "Adressage réseau et dépannage de base",
-                         "sousTitre":  "Réseaux \u0026 cybersécurité",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Network Addressing and Basic Troubleshooting",
                          "description":  "Certification Cisco sur l\u0027adressage réseau et les techniques de dépannage de base.",
                          "tags":  [
@@ -215,7 +215,7 @@
                      },
                      {
                          "titre":  "Support et sécurité des réseaux",
-                         "sousTitre":  "Réseaux \u0026 cybersécurité",
+                         "sousTitre":  "Cisco",
                          "nomComplet":  "Network Support and Security",
                          "description":  "Certification Cisco sur le support réseau et les bases de la sécurité réseau.",
                          "tags":  [
@@ -234,7 +234,7 @@
     "enPreparation":  [
                           {
                               "titre":  "CCST",
-                              "sousTitre":  "Networking",
+                              "sousTitre":  "Cisco",
                               "nomComplet":  "Cisco Certified Support Technician",
                               "description":  "Certification de base Cisco validant les compétences en support réseau et dépannage.",
                               "tags":  [
@@ -249,7 +249,7 @@
                           },
                           {
                               "titre":  "CCST",
-                              "sousTitre":  "Cybersecurity",
+                              "sousTitre":  "Cisco",
                               "nomComplet":  "Cisco Certified Support Technician",
                               "description":  "Certification Cisco de base en cybersécurité couvrant les concepts essentiels de sécurité.",
                               "tags":  [
@@ -264,7 +264,7 @@
                           },
                           {
                               "titre":  "CCST Endpoint",
-                              "sousTitre":  "Security",
+                              "sousTitre":  "Cisco",
                               "nomComplet":  "Cisco Certified Support Technician",
                               "description":  "Certification Cisco sur la sécurité des endpoints et la protection des postes de travail.",
                               "tags":  [
