@@ -229,6 +229,23 @@
                          "couleur":  "#10b981",
                          "icone":  "../images/certif/logo/network-support-and-security.png",
                          "attestation":  "../images/certif/NetworkSupportandSecurityUpdate20260426-31-oqypq4.pdf"
+                     },
+                     {
+                         "titre":  "Introduction to Greenhouse Gas Accounting for IT",
+                         "sousTitre":  "Cisco",
+                         "nomComplet":  "Introduction to Greenhouse Gas Accounting for IT",
+                         "description":  "Certification Cisco sur l'introduction à la comptabilité des gaz à effet de serre pour l'informatique.",
+                         "tags":  [
+                                      "Cisco",
+                                      "Environnement",
+                                      "Gaz à effet de serre",
+                                      "IT"
+                                  ],
+                         "categorie":  "Informatique",
+                         "annee":  "2026",
+                         "couleur":  "#10b981",
+                         "icone":  "../images/certif/logo/introduction-to-greenhouse-gas-accounting-for-it.png",
+                         "attestation":  "../images/certif/IntrotoGreenhouseGasAccountingv120260430-31-64ymrk.pdf"
                      }
                  ],
     "enPreparation":  [
