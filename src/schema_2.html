@@ -576,7 +576,7 @@
 
   async function loadDiagram() {
     try {
-      var response = await fetch('../json/schema_infra_perso.json', { cache: 'no-store' });
+      var response = await fetch('../json/schema_infra_pro.json', { cache: 'no-store' });
       if (!response.ok) throw new Error('HTTP ' + response.status);
       var diagram = await response.json();
 
