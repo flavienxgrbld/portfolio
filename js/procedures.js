@@ -4,7 +4,6 @@
 
     var GITHUB_OWNER = 'flavienxgrbld';
     var GITHUB_REPO = 'procedures';
-    var GITHUB_PATH = '';
 
     function formatProcedureName(name) {
         return name
@@ -13,7 +12,42 @@
             .replace(/\b\w/g, function(char) { return char.toUpperCase(); });
     }
 
-    function createProcedureCard(item) {
+    function extractDescription(markdownText) {
+        var lines = markdownText.split('\n');
+        var inDescriptionSection = false;
+
+        for (var i = 0; i < lines.length; i++) {
+            var line = lines[i].trim();
+
+            if (/^##\s+description/i.test(line)) {
+                inDescriptionSection = true;
+                continue;
+            }
+
+            if (inDescriptionSection) {
+                if (line.startsWith('#')) break;
+                if (!line) continue;
+                if (/description\s+(non\s+)?trouv/i.test(line)) continue;
+                return line.replace(/\*\*|__|\*|_|`/g, '').substring(0, 160);
+            }
+        }
+        return null;
+    }
+
+    async function fetchReadmeDescription(item) {
+        if (item.type !== 'dir') return null;
+        try {
+            var rawUrl = 'https://raw.githubusercontent.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/main/' + item.name + '/README.md';
+            var res = await fetch(rawUrl);
+            if (!res.ok) return null;
+            var text = await res.text();
+            return extractDescription(text);
+        } catch (e) {
+            return null;
+        }
+    }
+
+    async function createProcedureCard(item) {
         var card = document.createElement('div');
         card.className = 'procedure-card';
 
@@ -24,7 +58,16 @@
         var info = document.createElement('div');
         info.className = 'font16 colorWhite';
         info.style.opacity = '0.85';
-        info.textContent = item.type === 'dir' ? 'Dossier de procédures' : 'Fichier de procédure';
+        info.style.marginTop = '8px';
+
+        if (item.type === 'dir') {
+            info.textContent = 'Chargement…';
+            fetchReadmeDescription(item).then(function(desc) {
+                info.textContent = desc || 'Dossier de procédures';
+            });
+        } else {
+            info.textContent = 'Fichier de procédure';
+        }
 
         var link = document.createElement('a');
         link.href = item.html_url;
@@ -45,21 +88,13 @@
     async function loadProceduresFromGitHub() {
         var message = document.getElementById('procedures-message');
         var list = document.getElementById('procedures-list');
-        var normalizedPath = (GITHUB_PATH || '').trim().replace(/^\/+|\/+$/g, '');
-        var encodedPath = normalizedPath
-            ? '/' + normalizedPath.split('/').map(function(part) { return encodeURIComponent(part); }).join('/')
-            : '';
-        var apiUrl = 'https://api.github.com/repos/' + encodeURIComponent(GITHUB_OWNER) + '/' + encodeURIComponent(GITHUB_REPO) + '/contents' + encodedPath;
 
-        if (GITHUB_OWNER === 'TON_USERNAME_GITHUB' || GITHUB_REPO === 'TON_REPO') {
-            message.textContent = 'Configure GITHUB_OWNER et GITHUB_REPO pour afficher tes procédures.';
-            return;
-        }
+        var apiUrl = 'https://flavienxgrbld.github.io/portfolio/js/procedures-cache.json';
 
         try {
             var response = await fetch(apiUrl);
             if (!response.ok) {
-                throw new Error('Erreur GitHub API: ' + response.status);
+                throw new Error('Erreur cache: ' + response.status);
             }
 
             var items = await response.json();
@@ -71,18 +106,21 @@
             list.innerHTML = '';
 
             if (visibleItems.length === 0) {
-                message.textContent = 'Aucune procédure trouvée dans ce dossier GitHub.';
+                message.textContent = 'Aucune procédure trouvée.';
                 return;
             }
 
-            visibleItems.forEach(function(item) {
-                list.appendChild(createProcedureCard(item));
+            var cardPromises = visibleItems.map(function(item) {
+                return createProcedureCard(item);
             });
 
-            message.textContent = visibleItems.length + ' procédure(s) trouvée(s) sur GitHub.';
+            var cards = await Promise.all(cardPromises);
+            cards.forEach(function(card) { list.appendChild(card); });
+
+            message.textContent = visibleItems.length + ' procédure(s) trouvée(s).';
         } catch (error) {
             console.error(error);
-            message.textContent = 'Impossible de charger les procédures depuis GitHub. Vérifie le repo, le dossier et sa visibilité publique.';
+            message.textContent = 'Impossible de charger les procédures.';
             list.innerHTML = '<div class="load-error font16">Erreur de chargement. Réessayez plus tard.</div>';
         }
     }
