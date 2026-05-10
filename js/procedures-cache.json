@@ -114,16 +114,16 @@
   {
     "name": "akaunting",
     "path": "akaunting",
-    "sha": "50339c144218883aebed671ee7329354946be54b",
+    "sha": "795cd6d4671469852d5144a4d5e132809b9e9d33",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/akaunting?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/akaunting",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/50339c144218883aebed671ee7329354946be54b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/795cd6d4671469852d5144a4d5e132809b9e9d33",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/akaunting?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/50339c144218883aebed671ee7329354946be54b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/795cd6d4671469852d5144a4d5e132809b9e9d33",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/akaunting"
     }
   },
