@@ -506,7 +506,8 @@ em { font-style:normal; }
 }
 
 
-.indexF .index-r { width: 472px; }
+.indexF .index-r { width: 472px; max-width: 55%; }
+.indexF .index-l { max-width: 42% ; }
 .indexF .index-r a { display: block; width: 100%; padding: 55px 55px; border-radius: 30px; background: url(../images/indexFa.png)no-repeat center center/cover; }
 .indexF .index-r .r-a { line-height: 1; background: linear-gradient(141deg, #FFFFFF 30%, rgba(255, 255, 255, 0.63) 64%, #FFFFFF 78%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-fill-color: transparent; }
 .indexF .index-r .r-b {
@@ -539,6 +540,53 @@ em { font-style:normal; }
 .indexF .swiper-container { overflow: hidden; width: 200%; }
 .indexF .swiper-wrapper { transition-timing-function: linear; }
 
+/* Override: forcer la couleur #E8E8E3 pour la carte d'appel à l'action dans index */
+.indexF .index-r a {
+    background-color: #E8E8E3 !important;
+    background-image: none !important;
+    color: #111 !important;
+}
+
+.indexF .index-r .r-a,
+.indexF .index-r .r-b {
+    background: none !important;
+    -webkit-background-clip: initial !important;
+    -webkit-text-fill-color: #111 !important;
+    color: #111 !important;
+}
+
+.indexF .index-r .r-c span {
+    background: #E8E8E3 !important;
+}
+
+.indexF .index-r .r-c:hover span {
+    background: #dcdcd6 !important;
+}
+
+.footer { background: #100E18; }
+
+/* Fix overflow: forcer wrapping et empêcher débordement à droite */
+.indexF .index-r,
+.indexF .index-r a {
+    box-sizing: border-box !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+.indexF .index-r .r-a,
+.indexF .index-r .r-b {
+    white-space: normal !important;
+    word-break: break-word !important;
+    overflow-wrap: break-word !important;
+}
+
+@media (max-width: 700px) {
+    .indexF .index-r a { padding: 28px !important; }
+    .indexF .index-r { width: auto !important; }
+}
 
 .footer { background: #100E18; }
 .footer .footer-top { padding: 4.94791vw 0 7.44791vw; border-bottom:1px solid rgba(56, 56, 56, 0.7); }
