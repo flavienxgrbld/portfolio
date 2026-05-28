@@ -47,10 +47,10 @@
             tagSpan.style.display = 'inline-block';
             tagSpan.style.padding = '0.3rem 0.8rem';
             tagSpan.style.margin = '0.3rem';
-            tagSpan.style.background = 'rgba(99, 102, 241, 0.2)';
+            tagSpan.style.background = 'rgba(29, 78, 216, 0.2)';
             tagSpan.style.borderRadius = '20px';
             tagSpan.style.fontSize = '14px';
-            tagSpan.style.color = '#6366f1';
+            tagSpan.style.color = '#1d4ed8';
             tagSpan.textContent = tag;
             tagsContainer.appendChild(tagSpan);
         });
