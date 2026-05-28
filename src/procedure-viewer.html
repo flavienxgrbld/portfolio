@@ -10,20 +10,19 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <meta name="keywords" content="procédures, portfolio, Flavien GARIBALDI, BTS SIO, SISR" />
-<meta name="description" content="Procédures techniques - Portfolio de Flavien GARIBALDI" />
+<meta name="description" content="Affichage propre des procédures Markdown - Portfolio de Flavien GARIBALDI" />
 <meta property="og:type" content="website" />
 <meta property="og:locale" content="fr_FR" />
 <meta property="og:site_name" content="Portfolio Flavien GARIBALDI" />
-<meta property="og:title" content="Procédures - PORTFOLIO Flavien GARIBALDI" />
-<meta property="og:description" content="Procédures techniques - Portfolio de Flavien GARIBALDI" />
-<meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/procedures.html" />
+<meta property="og:title" content="Procédure - Affichage Markdown" />
+<meta property="og:description" content="Affichage propre des procédures Markdown" />
+<meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/procedure-viewer.html" />
 <meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="Procédures - PORTFOLIO Flavien GARIBALDI" />
-<meta name="twitter:description" content="Procédures techniques - Portfolio de Flavien GARIBALDI" />
+<meta name="twitter:title" content="Procédure - Affichage Markdown" />
+<meta name="twitter:description" content="Affichage propre des procédures Markdown" />
 <meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
-<title>Procédures - PORTFOLIO Flavien GARIBALDI</title>
-<link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/procedures.html" />
+<title>Procédure - Affichage Markdown</title>
 <link rel="icon" href="../images/logo10.png" type="image/png">
 <link rel="stylesheet" href="../css/layui.css" id="layui">
 <link id="layuicss-layer" rel="stylesheet" href="../css/layer.css" media="all">
@@ -34,6 +33,15 @@
 <link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
 <link rel="stylesheet" href="../css/konami.css">
 <link rel="stylesheet" href="../css/improvements.css">
+<style>
+    .Titletotalc .t2 {
+        background: none !important;
+        -webkit-background-clip: initial !important;
+        background-clip: initial !important;
+        -webkit-text-fill-color: initial !important;
+        color: #000000 !important;
+    }
+</style>
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/swiper-bundle.min.js" defer></script>
@@ -94,35 +102,20 @@
 </header>
 
 <main id="main-content">
-<div class="uniquebanner commonbanner">
-    <div class="img">
-        <div class="Uniqueback pc" style="background: url(../images/banner105.jpg)no-repeat center center/cover;"></div>
-        <img src="../images/bannermo504.png" alt="Bannière procédures" class="mb">
-    </div>
-    <div class="text text-a">
-        <div class="container clearfix wow fadeInUp1">
-            <div class="text-l fl">
-                <div class="title font80"><span>PROCÉDURES</span></div>
-                <div class="title-a font18 colorWhite">Documentation des procédures techniques<br>et méthodes d'exploitation</div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="aboutA section-gradient-1 section-padding">
     <div class="container">
         <div class="Titletotal Titletotalc wow fadeInUp1">
-            <div class="treetop font16 colorWhite">DOCUMENTATION</div>
             <div class="subject font66 colorWhite">
-                <div class="t2">MES PROCÉDURES<br>TECHNIQUES</div>
+                <div class="t2">PROCÉDURE</div>
             </div>
+            <button id="viewer-back" class="procedure-button font16" type="button" style="margin-top: 16px; display:none;">Retour à la liste des procédures</button>
         </div>
 
-        <div id="procedures-message" class="font18 colorWhite" style="margin-top: 40px;">Chargement des procédures...</div>
-        <div id="procedures-list" class="clearfix dynamic-grid" style="margin-top: 24px;"></div>
+        <div id="viewer-message" class="font18 colorWhite" style="margin-top: 40px;">Chargement de la procédure...</div>
+        <div id="viewer-toolbar" class="font16 colorWhite" style="margin-top: 24px; display:none;"></div>
+        <div id="viewer-content" class="markdown-viewer"></div>
     </div>
 </div>
-
 </main>
 
 <footer>
@@ -176,7 +169,6 @@
 
 <script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/layui.js" defer></script>
-<script src="../js/procedures.js" defer></script>
+<script src="../js/procedure-viewer.js" defer></script>
 </body>
 </html>
-

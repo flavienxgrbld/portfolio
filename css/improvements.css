@@ -8,7 +8,7 @@
     top: -100%;
     left: 50%;
     transform: translateX(-50%);
-    background: #6366f1;
+    background: #1d4ed8;
     color: #fff;
     padding: 12px 24px;
     border-radius: 0 0 8px 8px;
@@ -59,14 +59,14 @@ nav {
 
 /* ── Page active dans la navigation ── */
 .header-r1 ul li a.active-link {
-    color: #6366f1 !important;
+    color: #1d4ed8 !important;
 }
 .header-r1 ul li a.active-link::before {
     display: block !important;
-    background: #6366f1 !important;
+    background: #1d4ed8 !important;
 }
 .nav_box .navlist ul li a.active-link {
-    color: #6366f1 !important;
+    color: #1d4ed8 !important;
     font-weight: 700;
 }
 
@@ -78,19 +78,19 @@ nav {
     right: 30px;
     width: 48px;
     height: 48px;
-    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    background: linear-gradient(135deg, #1d4ed8, #60a5fa);
     border-radius: 50%;
     cursor: pointer;
     z-index: 999;
     border: none;
-    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 4px 15px rgba(29, 78, 216, 0.4);
     transition: all 0.3s ease;
     align-items: center;
     justify-content: center;
 }
 .backTop:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(99, 102, 241, 0.5);
+    box-shadow: 0 8px 25px rgba(29, 78, 216, 0.5);
 }
 .backTop::before {
     content: "";
@@ -109,18 +109,18 @@ button:focus-visible,
 input:focus-visible,
 textarea:focus-visible,
 select:focus-visible {
-    outline: 2px solid #6366f1;
+    outline: 2px solid #1d4ed8;
     outline-offset: 2px;
 }
 
 /* ── Liens sociaux dans le footer ── */
 .footer .top-b a.social-link {
-    color: #6366f1;
+    color: #1d4ed8;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 .footer .top-b a.social-link:hover {
-    color: #8b5cf6;
+    color: #60a5fa;
     text-decoration: underline;
 }
 
@@ -196,7 +196,7 @@ select:focus-visible {
 
 /* ── Informations de contenu placeholder ── */
 .info-box {
-    background: rgba(99, 102, 241, 0.1);
+    background: rgba(29, 78, 216, 0.1);
     padding: 2rem;
     border-radius: 10px;
 }
@@ -206,7 +206,7 @@ select:focus-visible {
     color: #9ca3af;
 }
 .info-box .info-item .info-bullet {
-    color: #6366f1;
+    color: #1d4ed8;
 }
 
 /* ── Procédure cards ── */
@@ -218,13 +218,180 @@ select:focus-visible {
     transition: border-color 0.3s ease, transform 0.3s ease;
 }
 .procedure-card:hover {
-    border-color: rgba(99, 102, 241, 0.5);
+    border-color: rgba(29, 78, 216, 0.5);
     transform: translateY(-2px);
+}
+.procedure-actions {
+    margin-top: 18px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+.procedure-button {
+    background: transparent;
+    color: inherit;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    font: inherit;
+    display: inline-flex;
+    align-items: center;
+}
+.procedure-button:hover,
+.procedure-button:focus {
+    color: #fff;
+    text-decoration: underline;
+}
+/* ── Markdown viewer ── */
+.markdown-viewer {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 18px;
+    padding: 34px;
+    margin-top: 24px;
+    color: #f5f5f5;
+}
+.markdown-viewer h1,
+.markdown-viewer h2,
+.markdown-viewer h3,
+.markdown-viewer h4,
+.markdown-viewer h5,
+.markdown-viewer h6 {
+    color: #ffffff;
+    margin-top: 1.8rem;
+    margin-bottom: 0.9rem;
+}
+.markdown-viewer p {
+    margin: 1rem 0;
+    line-height: 1.75;
+}
+.markdown-viewer a {
+    color: #9fc5ff;
+    text-decoration: underline;
+}
+.markdown-viewer ul,
+.markdown-viewer ol {
+    margin: 1rem 0 1rem 1.4rem;
+}
+.markdown-viewer li {
+    margin: 0.55rem 0;
+}
+.markdown-viewer blockquote {
+    border-left: 4px solid rgba(255, 255, 255, 0.25);
+    padding-left: 18px;
+    color: #d1d5db;
+    margin: 1.2rem 0;
+}
+.markdown-viewer pre {
+    background: rgba(0, 0, 0, 0.22);
+    color: #f8fafc;
+    border-radius: 14px;
+    padding: 22px;
+    overflow: auto;
+    margin: 1.2rem 0;
+}
+.markdown-viewer code {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0.2rem 0.35rem;
+    border-radius: 6px;
+}
+.markdown-viewer table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2rem 0;
+}
+.markdown-viewer th,
+.markdown-viewer td {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 10px 12px;
+}
+.markdown-viewer th {
+    background: rgba(255, 255, 255, 0.08);
 }
 
 /* ── Smooth scroll ── */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    min-width: 320px;
+}
+
+body * {
+    color: #111 !important;
+}
+
+.container,
+.containerb,
+.indexbanner .text .container,
+.indexB .package.container,
+.widget .container {
+    max-width: 1320px;
+    width: min(100%, 1320px);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexbanner .text,
+.indexbanner .widget {
+    left: 0;
+    right: 0;
+}
+
+.indexB {
+    background: #f8f8f8 !important;
+}
+
+.indexB .treetop,
+.indexB .subject,
+.indexB .t2,
+.indexB .text,
+.indexB .package .indexb-bottom ul li .ll,
+.indexB .package .indexb-bottom ul li .lr {
+    color: #111 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+.indexB .package .indexb-bottom ul li .lr {
+    width: auto !important;
+}
+
+.indexB .package .indexb-top .swiper-slide .clearfix {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.indexB .package .indexb-bottom ul {
+    justify-content: flex-start !important;
+    gap: 10px !important;
+}
+
+.indexB .package .indexb-bottom ul li {
+    width: calc(33.33% - 7px) !important;
+    min-width: 180px !important;
+    cursor: pointer !important;
+}
+
+@media (max-width: 1100px) {
+    .indexB .package .indexb-bottom ul li {
+        width: 100% !important;
+    }
+}
+
+.indexD .small a .text,
+.indexD .big a .text {
+    white-space: normal !important;
 }
 
 /* ── honeypot anti-spam ── */
@@ -239,6 +406,36 @@ html {
     pointer-events: none;
     tab-index: -1;
 }
+
+/* Show Swiper arrow SVGs and make controls visually dark but not filled */
+.swiper-a .swiper-button-prev,
+.swiper-a .swiper-button-next {
+    background-color: transparent !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    box-shadow: none !important;
+    vertical-align: middle !important;
+    border: 1px solid #111 !important;
+    background-size: 18px 18px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.swiper-a .swiper-button-prev.common,
+.swiper-a .swiper-button-next.common {
+    background-color: transparent !important;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #111 !important;
+    opacity: 1 !important;
+    border: 0 !important;
+}
+.swiper-pagination .swiper-pagination-bullet.cur,
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
 
 /* ── Responsive back-to-top ── */
 @media (max-width: 768px) {
@@ -297,13 +494,13 @@ html {
     background: rgba(255, 255, 255, 0.15);
     border-color: rgba(255, 255, 255, 0.5);
     transform: translateY(-2px);
-    box-shadow: 0 4px 20px rgba(99, 102, 241, 0.4);
+    box-shadow: 0 4px 20px rgba(29, 78, 216, 0.4);
 }
 
 .category-dropdown:focus {
-    background: linear-gradient(135deg, rgba(99, 102, 241, 0.3), rgba(139, 92, 246, 0.3));
-    border-color: #6366f1;
-    outline: 2px solid #6366f1;
+    background: linear-gradient(135deg, rgba(29, 78, 216, 0.3), rgba(96, 165, 250, 0.3));
+    border-color: #1d4ed8;
+    outline: 2px solid #1d4ed8;
     outline-offset: 2px;
 }
 
@@ -351,4 +548,70 @@ html {
         background-size: 18px;
         background-position: right 12px center;
     }
+}
+
+/* Override global de texte pour thème clair */
+body,
+body * {
+    color: #111 !important;
+}
+
+body input,
+body textarea,
+body select,
+body button,
+body a {
+    color: #111 !important;
+}
+
+.colorWhite,
+.colorC,
+.header .header-r .header-r1 ul li .sub,
+.header .header-r .header-r2 .r2-l a span,
+.nav_box .navlist ul>li>a,
+.navlist4 .nomsjkxks .nomsjkxks-a a,
+.more-a,
+.paging a,
+.AiprovideB .AiprovideB-top ul li,
+.PricingaiA .PricingaiA-bottom ul li .more:hover span,
+.whyskyvaultA .whyskyvaultA-bottom .bottom-l ul li.cur,
+.Blogdetailsa .details-b,
+.ContactA .ContactA-left .introduce-a,
+.ContactA .ContactA-right .right-c ul li.phone span,
+.ContactA .ContactA-right .right-c ul li input,
+.ContactA .ContactA-right .right-c ul li textarea,
+.ContactA .ContactA-right .right-c .tjanmo button:hover span {
+    color: #111 !important;
+}
+
+body input::placeholder,
+body textarea::placeholder {
+    color: #666 !important;
+}
+
+.indexA .t1,
+.indexB .t2,
+.indexB .t2 span,
+.indexC .indexCl .t1,
+.indexC .indexCl .t1 span,
+.indexD .t1,
+.indexD .t1 span,
+.indexB .package .indexb-bottom ul li .lr,
+.colorWhite {
+    background: none !important;
+    background-image: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: border-box !important;
+    color: #111 !important;
+}
+
+.indexB .treetop,
+.Titletotalb .treetop {
+    border-color: #1d4ed8 !important;
+    background: rgba(29, 78, 216, 0.1) !important;
+}
+
+*::selection {
+    background: rgba(29, 78, 216, 0.25) !important;
+    color: #111 !important;
 }

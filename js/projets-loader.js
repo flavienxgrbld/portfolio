@@ -6,7 +6,7 @@
         var li = document.createElement('li');
         li.style.listStyle = 'none';
 
-        var couleur = projet.couleur || '#6366f1';
+        var couleur = projet.couleur || '#1d4ed8';
         var rgbaColor = couleur.replace('#', '').match(/.{2}/g).map(function(hex) {
             return parseInt(hex, 16);
         }).join(', ');

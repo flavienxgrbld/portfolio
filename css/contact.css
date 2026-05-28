@@ -20,7 +20,7 @@
 .form-group textarea {
     width: 100%;
     padding: 12px 15px;
-    border: 2px solid rgba(99, 102, 241, 0.3);
+    border: 2px solid rgba(29, 78, 216, 0.3);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.05);
     color: #fff;
@@ -31,7 +31,7 @@
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #6366f1;
+    border-color: #1d4ed8;
     background: rgba(255, 255, 255, 0.08);
 }
 
@@ -41,7 +41,7 @@
 }
 
 .submit-btn {
-    background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+    background: linear-gradient(135deg, #1d4ed8 0%, #60a5fa 100%);
     color: #fff;
     padding: 15px 40px;
     border: none;
@@ -55,7 +55,7 @@
 
 .submit-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 10px 20px rgba(99, 102, 241, 0.3);
+    box-shadow: 0 10px 20px rgba(29, 78, 216, 0.3);
 }
 
 .submit-btn:disabled {
@@ -92,17 +92,17 @@
 }
 
 .contact-card {
-    background: rgba(99, 102, 241, 0.1);
+    background: rgba(29, 78, 216, 0.1);
     padding: 2rem;
     border-radius: 10px;
-    border: 2px solid rgba(99, 102, 241, 0.3);
+    border: 2px solid rgba(29, 78, 216, 0.3);
     text-align: center;
     transition: all 0.3s;
 }
 
 .contact-card:hover {
     transform: translateY(-5px);
-    border-color: #6366f1;
+    border-color: #1d4ed8;
 }
 
 .contact-card-icon {
