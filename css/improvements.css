@@ -225,6 +225,85 @@ select:focus-visible {
 /* ── Smooth scroll ── */
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    min-width: 320px;
+}
+
+body * {
+    color: #111 !important;
+}
+
+.container,
+.containerb,
+.indexbanner .text .container,
+.indexB .package.container,
+.widget .container {
+    max-width: 1320px;
+    width: min(100%, 1320px);
+    padding-left: 4vw;
+    padding-right: 4vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.indexbanner .text,
+.indexbanner .widget {
+    left: 0;
+    right: 0;
+}
+
+.indexB {
+    background: #f8f8f8 !important;
+}
+
+.indexB .treetop,
+.indexB .subject,
+.indexB .t2,
+.indexB .text,
+.indexB .package .indexb-bottom ul li .ll,
+.indexB .package .indexb-bottom ul li .lr {
+    color: #111 !important;
+    background: none !important;
+    -webkit-text-fill-color: initial !important;
+    text-fill-color: initial !important;
+    -webkit-background-clip: initial !important;
+    background-clip: initial !important;
+}
+
+.indexB .package .indexb-bottom ul li .lr {
+    width: auto !important;
+}
+
+.indexB .package .indexb-top .swiper-slide .clearfix {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.indexB .package .indexb-bottom ul {
+    justify-content: flex-start !important;
+    gap: 10px !important;
+}
+
+.indexB .package .indexb-bottom ul li {
+    width: calc(33.33% - 7px) !important;
+    min-width: 180px !important;
+    cursor: pointer !important;
+}
+
+@media (max-width: 1100px) {
+    .indexB .package .indexb-bottom ul li {
+        width: 100% !important;
+    }
+}
+
+.indexD .small a .text,
+.indexD .big a .text {
+    white-space: normal !important;
 }
 
 /* ── honeypot anti-spam ── */
@@ -239,6 +318,36 @@ html {
     pointer-events: none;
     tab-index: -1;
 }
+
+/* Show Swiper arrow SVGs and make controls visually dark but not filled */
+.swiper-a .swiper-button-prev,
+.swiper-a .swiper-button-next {
+    background-color: transparent !important;
+    width: 44px !important;
+    height: 44px !important;
+    border-radius: 50% !important;
+    display: inline-block !important;
+    box-shadow: none !important;
+    vertical-align: middle !important;
+    border: 1px solid #111 !important;
+    background-size: 18px 18px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+.swiper-a .swiper-button-prev.common,
+.swiper-a .swiper-button-next.common {
+    background-color: transparent !important;
+}
+.swiper-pagination .swiper-pagination-bullet {
+    background-color: #111 !important;
+    opacity: 1 !important;
+    border: 0 !important;
+}
+.swiper-pagination .swiper-pagination-bullet.cur,
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
 
 /* ── Responsive back-to-top ── */
 @media (max-width: 768px) {
@@ -390,6 +499,22 @@ body a {
 body input::placeholder,
 body textarea::placeholder {
     color: #666 !important;
+}
+
+.indexA .t1,
+.indexB .t2,
+.indexB .t2 span,
+.indexC .indexCl .t1,
+.indexC .indexCl .t1 span,
+.indexD .t1,
+.indexD .t1 span,
+.indexB .package .indexb-bottom ul li .lr,
+.colorWhite {
+    background: none !important;
+    background-image: none !important;
+    -webkit-text-fill-color: initial !important;
+    -webkit-background-clip: border-box !important;
+    color: #111 !important;
 }
 
 *::selection {
