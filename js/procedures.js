@@ -69,6 +69,19 @@
             info.textContent = 'Fichier de procédure';
         }
 
+        var actions = document.createElement('div');
+        actions.className = 'procedure-actions';
+
+        var viewButton = document.createElement('button');
+        viewButton.type = 'button';
+        viewButton.className = 'procedure-button font16';
+        viewButton.textContent = 'Afficher ici';
+
+        viewButton.addEventListener('click', function() {
+            var viewerUrl = 'procedure-viewer.html?path=' + encodeURIComponent(item.name) + '&type=' + encodeURIComponent(item.type);
+            window.location.href = viewerUrl;
+        });
+
         var link = document.createElement('a');
         link.href = item.html_url;
         link.target = '_blank';
@@ -79,9 +92,12 @@
         link.style.display = 'inline-block';
         link.style.marginTop = '16px';
 
+        actions.appendChild(viewButton);
+        actions.appendChild(link);
+
         card.appendChild(title);
         card.appendChild(info);
-        card.appendChild(link);
+        card.appendChild(actions);
         return card;
     }
 

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self' https://api.github.com https://raw.githubusercontent.com https://flavienxgrbld.github.io;">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+<meta name="keywords" content="procédures, portfolio, Flavien GARIBALDI, BTS SIO, SISR" />
+<meta name="description" content="Affichage propre des procédures Markdown - Portfolio de Flavien GARIBALDI" />
+<meta property="og:type" content="website" />
+<meta property="og:locale" content="fr_FR" />
+<meta property="og:site_name" content="Portfolio Flavien GARIBALDI" />
+<meta property="og:title" content="Procédure - Affichage Markdown" />
+<meta property="og:description" content="Affichage propre des procédures Markdown" />
+<meta property="og:url" content="https://flavienxgrbld.github.io/portfolio/src/procedure-viewer.html" />
+<meta property="og:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Procédure - Affichage Markdown" />
+<meta name="twitter:description" content="Affichage propre des procédures Markdown" />
+<meta name="twitter:image" content="https://flavienxgrbld.github.io/portfolio/images/logo10.png" />
+<title>Procédure - Affichage Markdown</title>
+<link rel="icon" href="../images/logo10.png" type="image/png">
+<link rel="stylesheet" href="../css/layui.css" id="layui">
+<link id="layuicss-layer" rel="stylesheet" href="../css/layer.css" media="all">
+<link rel="stylesheet" type="text/css" href="../css/reset.css" />
+<link rel="stylesheet" type="text/css" href="../css/public06a2.css?v=2.64" />
+<link rel="stylesheet" href="../css/swiper-bundle.min.css">
+<link rel="stylesheet" href="../css/animation.css">
+<link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
+<link rel="stylesheet" href="../css/konami.css">
+<link rel="stylesheet" href="../css/improvements.css">
+<style>
+    .Titletotalc .t2 {
+        background: none !important;
+        -webkit-background-clip: initial !important;
+        background-clip: initial !important;
+        -webkit-text-fill-color: initial !important;
+        color: #000000 !important;
+    }
+</style>
+<script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/swiper-bundle.min.js" defer></script>
+<script src="../js/konami.js" defer></script>
+</head>
+<body>
+<a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
+
+<header>
+<div class="header">
+    <div class="clearfix">
+        <div class="logo fl"><a href="index.html"><img src="../images/logo.png" alt="Logo Flavien Garibaldi"></a></div>
+        <div class="header-r fl">
+            <div class="clearfix">
+                <div class="navr fr mb">
+                    <span class="navBtn mobile-menu navBtnA" role="button" aria-label="Ouvrir le menu de navigation" tabindex="0">
+                        <i class="menu-i menu-i-1"></i>
+                        <i class="menu-i menu-i-2"></i>
+                        <i class="menu-i menu-i-3"></i>
+                    </span>
+                </div>
+                <div class="header-r1 fl">
+                    <ul class="clearfix">
+                        <li><a href="apropos.html" class="sub">À PROPOS</a></li>
+                        <li><a href="projets.html" class="sub">PROJETS</a></li>
+                        <li><a href="certifications.html" class="sub">CERTIFICATIONS</a></li>
+                        <li><a href="tcs.html" class="sub">TCS</a></li>
+                        <li><a href="veille.html" class="sub">VEILLES</a></li>
+                        <li><a href="procedures.html" class="sub">PROCÉDURES</a></li>
+                    </ul>
+                </div>
+                <div class="header-r2 fr">
+                    <div class="r2-l fl"><a href="contact.html"><span>CONTACT</span></a></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<nav aria-label="Menu mobile">
+<div class="nav_box nav_box_6" id="testNav">
+    <div class="box">
+        <div class="navlist">
+            <ul class="clearfix">
+                <li><a href="index.html">ACCUEIL</a></li>
+                <li><a href="apropos.html">À PROPOS</a></li>
+                <li><a href="projets.html">PROJETS</a></li>
+                <li><a href="certifications.html">CERTIFICATIONS</a></li>
+                <li><a href="tcs.html">TCS</a></li>
+                <li><a href="veille.html">VEILLES</a></li>
+                <li><a href="procedures.html">PROCÉDURES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</nav>
+</header>
+
+<main id="main-content">
+<div class="aboutA section-gradient-1 section-padding">
+    <div class="container">
+        <div class="Titletotal Titletotalc wow fadeInUp1">
+            <div class="subject font66 colorWhite">
+                <div class="t2">PROCÉDURE</div>
+            </div>
+            <button id="viewer-back" class="procedure-button font16" type="button" style="margin-top: 16px; display:none;">Retour à la liste des procédures</button>
+        </div>
+
+        <div id="viewer-message" class="font18 colorWhite" style="margin-top: 40px;">Chargement de la procédure...</div>
+        <div id="viewer-toolbar" class="font16 colorWhite" style="margin-top: 24px; display:none;"></div>
+        <div id="viewer-content" class="markdown-viewer"></div>
+    </div>
+</div>
+</main>
+
+<footer>
+<div class="footer">
+    <div class="container">
+        <div class="footer-top">
+            <div class="clearfix">
+                <div class="logo fl"><a href="#"><img src="../images/footer-logo.svg" alt="Logo Flavien Garibaldi"></a></div>
+                <div class="footer-r fr">
+                    <div class="clearfix">
+                        <div class="rl fl">
+                            <div class="rla font16"><a href="#">Menu</a></div>
+                            <div class="rlb">
+                                <div class="lb-a font22"><a href="apropos.html">À PROPOS</a></div>
+                                <div class="lb-a font22"><a href="projets.html">PROJETS</a></div>
+                                <div class="lb-a font22"><a href="certifications.html">CERTIFICATIONS</a></div>
+                                <div class="lb-a font22"><a href="tcs.html">TCS</a></div>
+                                <div class="lb-a font22"><a href="veille.html">VEILLES</a></div>
+                                <div class="lb-a font22"><a href="procedures.html">PROCÉDURES</a></div>
+                                <div class="lb-a font22"><a href="contact.html">CONTACT</a></div>
+                            </div>
+                        </div>
+                        <div class="rr fl">
+                            <div class="rr-top">
+                                <div class="rla font16"><a href="contact.html">Contact</a></div>
+                                <div class="top-a font16 colorWhite">Flavien GARIBALDI</div>
+                                <div class="top-b font16 colorWhite">
+                                    <p>Étudiant BTS SIO SISR</p>
+                                    <p>Administration Systèmes & Réseaux</p>
+                                    <p>Email: <a href="mailto:flavien.garibaldi@gmail.com" class="social-link">flavien.garibaldi@gmail.com</a></p>
+                                    <p>GitHub: <a href="https://github.com/flavienxgrbld" target="_blank" rel="noopener noreferrer" class="social-link">@flavienxgrbld</a></p>
+                                    <p>LinkedIn: <a href="https://www.linkedin.com/in/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Flavien GARIBALDI</a></p>
+                                    <p>Credly: <a href="https://www.credly.com/users/flavien-garibaldi" target="_blank" rel="noopener noreferrer" class="social-link">Mes certifications</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="clearfix">
+                <div class="ter-bottoml fl font16 color9">Copyright © 2026 Flavien GARIBALDI. Tous droits réservés.</div>
+            </div>
+        </div>
+    </div>
+</div>
+</footer>
+
+<button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
+
+<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/layui.js" defer></script>
+<script src="../js/procedure-viewer.js" defer></script>
+</body>
+</html>
