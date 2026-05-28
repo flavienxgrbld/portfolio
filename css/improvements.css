@@ -352,3 +352,47 @@ html {
         background-position: right 12px center;
     }
 }
+
+/* Override global de texte pour thème clair */
+body,
+body * {
+    color: #111 !important;
+}
+
+body input,
+body textarea,
+body select,
+body button,
+body a {
+    color: #111 !important;
+}
+
+.colorWhite,
+.colorC,
+.header .header-r .header-r1 ul li .sub,
+.header .header-r .header-r2 .r2-l a span,
+.nav_box .navlist ul>li>a,
+.navlist4 .nomsjkxks .nomsjkxks-a a,
+.more-a,
+.paging a,
+.AiprovideB .AiprovideB-top ul li,
+.PricingaiA .PricingaiA-bottom ul li .more:hover span,
+.whyskyvaultA .whyskyvaultA-bottom .bottom-l ul li.cur,
+.Blogdetailsa .details-b,
+.ContactA .ContactA-left .introduce-a,
+.ContactA .ContactA-right .right-c ul li.phone span,
+.ContactA .ContactA-right .right-c ul li input,
+.ContactA .ContactA-right .right-c ul li textarea,
+.ContactA .ContactA-right .right-c .tjanmo button:hover span {
+    color: #111 !important;
+}
+
+body input::placeholder,
+body textarea::placeholder {
+    color: #666 !important;
+}
+
+*::selection {
+    background: rgba(99, 102, 241, 0.25) !important;
+    color: #111 !important;
+}
