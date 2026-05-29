@@ -52,13 +52,11 @@
         card.className = 'procedure-card';
 
         var title = document.createElement('div');
-        title.className = 'font30 colorWhite';
+        title.className = 'procedure-card-title';
         title.textContent = formatProcedureName(item.name);
 
         var info = document.createElement('div');
-        info.className = 'font16 colorWhite';
-        info.style.opacity = '0.85';
-        info.style.marginTop = '8px';
+        info.className = 'procedure-card-description';
 
         if (item.type === 'dir') {
             info.textContent = 'Chargement…';
@@ -86,11 +84,8 @@
         link.href = item.html_url;
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
-        link.className = 'font16 colorWhite';
-        link.textContent = 'Voir sur GitHub \u2192';
-        link.style.textDecoration = 'underline';
-        link.style.display = 'inline-block';
-        link.style.marginTop = '16px';
+        link.className = 'procedure-link font16';
+        link.textContent = 'Voir sur GitHub →';
 
         actions.appendChild(viewButton);
         actions.appendChild(link);

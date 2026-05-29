@@ -155,15 +155,17 @@
     function setToolbar(path, type) {
         var toolbar = document.getElementById('viewer-toolbar');
         var githubPath = path.split('/').map(encodeURIComponent).join('/');
+        var prefix = type === 'dir' ? 'tree' : 'blob';
+        var label = type === 'dir' ? 'Dossier' : 'Fichier';
         var link = document.createElement('a');
-        link.href = 'https://github.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/tree/main/' + githubPath;
+        link.href = 'https://github.com/' + GITHUB_OWNER + '/' + GITHUB_REPO + '/' + prefix + '/main/' + githubPath;
         link.target = '_blank';
         link.rel = 'noopener noreferrer';
-        link.textContent = 'Ouvrir sur GitHub';
+        link.textContent = type === 'dir' ? 'Ouvrir le dossier sur GitHub' : 'Ouvrir le fichier sur GitHub';
         link.style.textDecoration = 'underline';
-        toolbar.innerHTML = '<strong>Fichier :</strong> ' + escapeHtml(path) + ' &nbsp;•&nbsp; ';
+        toolbar.innerHTML = '<strong>' + label + ' :</strong> ' + escapeHtml(path) + ' &nbsp;•&nbsp; ';
         toolbar.appendChild(link);
-        toolbar.style.display = 'block';
+        toolbar.style.display = 'flex';
     }
 
     function setupBackButton() {
