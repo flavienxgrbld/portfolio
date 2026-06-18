@@ -55,12 +55,14 @@
 <link rel="stylesheet" href="../css/layui.css" id="layui">
 <link id="layuicss-layer" rel="stylesheet" href="../css/layer.css" media="all">
 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
-<link rel="stylesheet" type="text/css" href="../css/public06a2.css?v=2.64" />
+<link rel="preload" href="../css/public06a2.css?v=2.64" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../css/public06a2.css?v=2.64"></noscript>
 <link rel="stylesheet" href="../css/swiper-bundle.min.css">
-<link rel="stylesheet" href="../css/animation.css">
-<link href="../css/animate.min.css" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="../css/konami.css">
-<link rel="stylesheet" href="../css/improvements.css">
+<link rel="preload" href="../css/animate.min.css" as="style" onload="this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="../css/animate.min.css"></noscript>
+<link rel="stylesheet" href="../css/animation.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="../css/konami.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="../css/improvements.css" media="print" onload="this.media='all'">
 <!-- include jquery -->
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/wow.min.js" type="text/javascript" charset="utf-8" defer></script>
@@ -618,9 +620,8 @@
 
 <button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
 
-<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/app.min.js?v=1.0" type="text/javascript" charset="utf-8" defer></script>
 <script src="../js/layui.js" defer></script>
-<script src="../js/index-init.js?v=1.1" defer></script>
 </body>
 </html>
 
