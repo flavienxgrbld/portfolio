@@ -389,7 +389,7 @@ em { font-style:normal; }
 .indexC .indexCr ul li .lia .lb { line-height: 1.28; margin-top: 6.09375vw; }
 .indexC .indexCr ul li .lia .lb .b.bold { font-family:"bai-jamjuree-latin-700-normal"; }
 
-.indexC .indexCr ul li:hover { background: url(../images/indexC.png)no-repeat center center/cover; border-color: #AD6DFF; }
+.indexC .indexCr ul li:hover { background: #DEFFF7; border-color: #F2F2DF; }
 
 .hide { overflow: initial; background:#100E18; }
 @keyframes fadeInUp {
