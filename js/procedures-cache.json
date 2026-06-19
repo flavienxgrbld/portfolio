@@ -370,16 +370,16 @@
   {
     "name": "erpnext",
     "path": "erpnext",
-    "sha": "572c7764c46293f66a48f05930e92e51fe81f4c4",
+    "sha": "f821db1eec99c17eb9060c507a18fe1e718bc6ca",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/erpnext?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/erpnext",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/572c7764c46293f66a48f05930e92e51fe81f4c4",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f821db1eec99c17eb9060c507a18fe1e718bc6ca",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/erpnext?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/572c7764c46293f66a48f05930e92e51fe81f4c4",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f821db1eec99c17eb9060c507a18fe1e718bc6ca",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/erpnext"
     }
   },
