@@ -389,7 +389,7 @@ em { font-style:normal; }
 .indexC .indexCr ul li .lia .lb { line-height: 1.28; margin-top: 6.09375vw; }
 .indexC .indexCr ul li .lia .lb .b.bold { font-family:"bai-jamjuree-latin-700-normal"; }
 
-.indexC .indexCr ul li:hover { background: #DEFFF7; border-color: #F2F2DF; }
+.indexC .indexCr ul li:hover { background: #E8EBEF ; border-color: #E8EBEF ; }
 
 .hide { overflow: initial; background:#100E18; }
 @keyframes fadeInUp {
@@ -469,7 +469,7 @@ em { font-style:normal; }
 .indexE .indexe-top .topr { position: absolute; bottom: 7px; right: 0; }
 .indexE .indexe-bottom { margin-top: 1.97916vw; }
 .indexE .indexe-bottom .swiper-container { overflow: hidden; }
-.indexE .indexe-bottom .swiper-container .swiper-slide a { display: block; border: 1px solid rgba(65, 65, 65, 0.45); border-radius: 30px; overflow: hidden; padding: 10px 10px 30px; background: linear-gradient(180deg, rgba(33, 33, 33, 0) 0%, #212121 100%); }
+.indexE .indexe-bottom .swiper-container .swiper-slide a { display: block; border: 1px solid rgba(130, 130, 130, 0.18); border-radius: 30px; overflow: hidden; padding: 10px 10px 30px; background: linear-gradient(180deg, #F5F6F8 0%, #E8EBEF 100%); }
 .indexE .indexe-bottom .swiper-container .swiper-slide a .text { padding: 0 30px 0 20px; }
 .indexE .indexe-bottom .swiper-container .swiper-slide a .text .text-a { margin: 28px 0 20px; }
 .indexE .indexe-bottom .swiper-container .swiper-slide a .text .text-b { line-height: 1.4; overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 3; }
