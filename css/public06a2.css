@@ -1260,7 +1260,7 @@ em { font-style:normal; }
 
 .aboutA ul li .passthrough { height:100%; left: 0; width: 100%; transition: all .5s; padding: 50px 58px 95px;  border-radius: 20px; overflow: hidden;background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.1);}
 
-.aboutA ul li:hover .passthrough { background: linear-gradient(180deg, rgba(29, 78, 216, 0.92) 0%, rgba(29, 78, 216, 0) 100%); border: 1px solid rgba(255, 255, 255, 0.5);  }
+.aboutA ul li:hover .passthrough { background: linear-gradient(180deg, rgba(232,235,239,0.28) 0%, rgba(232,235,239,0) 100%); border: 1px solid rgba(232,235,239,0.4); box-shadow: 0 8px 20px rgba(232,235,239,0.06); transform: translateY(-6px); }
 .aboutA ul li .passthrough .text { margin-top:15px; line-height: 1.1; padding-bottom: 35px; border-bottom: 1px solid rgba(255, 255, 255, .2); }
 .aboutA ul li .passthrough .text-a { padding: 39px 0 0; }
 .aboutA ul li .passthrough .text-a .a { line-height: 1.18; padding-left: 17px; position: relative; }
