@@ -229,6 +229,16 @@ select:focus-visible {
     gap: 8px;
     min-width: min(360px, 100%);
 }
+@media (max-width: 768px) {
+    .procedure-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .procedure-search {
+        width: 100%;
+        min-width: 0;
+    }
+}
 .procedure-search span {
     color: #d1d5db;
     font-size: 13px;
@@ -259,6 +269,8 @@ select:focus-visible {
     flex-direction: column;
     gap: 12px;
     flex: 1 1 300px;
+    width: 100%;
+    min-width: 0;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.03));
     border: 1px solid rgba(255, 255, 255, 0.12);
     border-radius: 16px;
@@ -271,6 +283,14 @@ select:focus-visible {
     border-color: rgba(29, 78, 216, 0.5);
     background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
     transform: translateY(-3px);
+}
+.procedure-card-badge,
+.procedure-card-title,
+.procedure-card-meta,
+.procedure-card-description,
+.procedure-actions {
+    overflow-wrap: anywhere;
+    word-break: break-word;
 }
 .procedure-card-badge {
     align-self: flex-start;
@@ -390,14 +410,22 @@ select:focus-visible {
     padding: 22px;
     overflow: auto;
     margin: 1.2rem 0;
+    max-width: 100%;
 }
 .markdown-viewer code {
     background: rgba(255, 255, 255, 0.08);
     padding: 0.2rem 0.35rem;
     border-radius: 6px;
 }
+.markdown-viewer img {
+    max-width: 100%;
+    height: auto;
+}
 .markdown-viewer table {
     width: 100%;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
     border-collapse: collapse;
     margin: 1.2rem 0;
 }
@@ -433,8 +461,9 @@ body * {
 .widget .container {
     max-width: 1320px;
     width: min(100%, 1320px);
-    padding-left: 4vw;
-    padding-right: 4vw;
+    box-sizing: border-box;
+    padding-left: clamp(15px, 4vw, 50px);
+    padding-right: clamp(15px, 4vw, 50px);
     margin-left: auto;
     margin-right: auto;
 }
