@@ -20,6 +20,7 @@
 
     function parseInlineMarkdown(text) {
         return escapeHtml(text)
+            .replace(/!\[([^\]]*)\]\(([^)]+)\)/g, '<img src="$2" alt="$1" loading="lazy">')
             .replace(/`([^`]+)`/g, '<code>$1</code>')
             .replace(/\*\*([^\*]+)\*\*/g, '<strong>$1</strong>')
             .replace(/__([^_]+)__/g, '<strong>$1</strong>')
@@ -48,12 +49,14 @@
             listType = null;
         }
 
-        function flushParagraph(paragraph) {
-            if (!paragraph.length) return;
-            html += '<p>' + paragraph.join(' ') + '</p>';
-        }
-
         var paragraph = [];
+
+        function closeParagraph() {
+            if (paragraph.length) {
+                html += '<p>' + paragraph.join(' ') + '</p>';
+                paragraph = [];
+            }
+        }
 
         lines.forEach(function(line) {
             var trimmed = line.trim();
@@ -126,13 +129,6 @@
             paragraph.push(parseInlineMarkdown(trimmed));
         });
 
-        function closeParagraph() {
-            if (paragraph.length) {
-                html += '<p>' + paragraph.join(' ') + '</p>';
-                paragraph = [];
-            }
-        }
-
         closeParagraph();
         closeList();
         closeCodeBlock();
@@ -204,7 +200,7 @@
             }
             message.style.display = 'none';
         } catch (error) {
-            message.textContent = 'Impossible de charger le fichier Markdown. Vérifiez que le fichier existe ou utilisez le lien GitHub.';
+            message.textContent = 'Impossible de charger le fichier. Vérifiez que le fichier existe ou utilisez le lien GitHub.';
             viewer.innerHTML = '';
         }
     }

@@ -118,7 +118,15 @@
             </div>
         </div>
 
-        <div id="procedures-message" class="font18 colorWhite" style="margin-top: 40px;">Chargement des procédures...</div>
+        <div class="procedure-controls">
+            <div id="procedures-stat" class="procedure-stat">0 procédure(s)</div>
+            <label class="procedure-search" for="procedure-search-input">
+                <span>Rechercher</span>
+                <input id="procedure-search-input" type="search" placeholder="Nom de la procédure..." autocomplete="off">
+            </label>
+        </div>
+
+        <div id="procedures-message" class="font18 colorWhite" style="margin-top: 16px;">Chargement des procédures...</div>
         <div id="procedures-list" class="clearfix dynamic-grid" style="margin-top: 24px;"></div>
     </div>
 </div>
