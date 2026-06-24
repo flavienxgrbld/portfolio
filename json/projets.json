@@ -79,5 +79,12 @@
     "tags": ["Linux", "Jellyfin"],
     "couleur": "#1d4ed8",
     "lien": "https://media.skyvault.ovh"
+  },
+  {
+    "icone": "../images/aboutA2.svg",
+    "titre": "Création de script d'installation",
+    "description": "Développement de scripts pour automatiser l'installation et la configuration de services.",
+    "tags": ["Shell", "Bash", "PowerShell"],
+    "couleur": "#1d4ed8"
   }
 ]
