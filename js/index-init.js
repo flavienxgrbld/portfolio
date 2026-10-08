@@ -1,8 +1,6 @@
-// Index page — Swiper initializations, WOW.js init, parallax scroll, slide height normalization
+// Index page — Swiper initializations, parallax scroll, slide height normalization
 (function() {
     'use strict';
-
-    new WOW().init();
 
     var swiperBanner = new Swiper(".indexbanner .swiper-container", {
         speed: 800,

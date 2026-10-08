@@ -86,3 +86,27 @@ body { background: #0f1129; color: #e2e8f0; font-family: inherit; }
 }
 .legend-item { display: flex; align-items: center; gap: .5rem; font-size: .85rem; color: #9ca3af; }
 .legend-dot { width: 12px; height: 12px; border-radius: 50%; }
+
+@media (max-width: 768px) {
+  .schema-hero { padding: 2rem 0 1.5rem; }
+  .schema-hero h1 { font-size: clamp(1.5rem, 8vw, 2.4rem); overflow-wrap: anywhere; }
+  .schema-hero p { font-size: .9rem; line-height: 1.5; }
+  .schema-controls { padding: 1rem .75rem; }
+  .ctrl-btn { flex: 1 1 calc(50% - .6rem); min-height: 42px; padding: .5rem .65rem; }
+  .canvas-wrapper { width: calc(100% - 1rem); border-radius: 10px; }
+  #schema-canvas { height: 480px; }
+  .info-panel {
+    top: auto;
+    right: .75rem;
+    bottom: .75rem;
+    left: .75rem;
+    width: auto;
+    max-height: min(55vh, 420px);
+    overflow-y: auto;
+    transform: none;
+  }
+  @keyframes slideIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+}

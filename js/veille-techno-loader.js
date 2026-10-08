@@ -87,7 +87,7 @@
         return li;
     }
 
-    fetch('../json/veille.json')
+    fetch('../json/veille-technologique.json')
         .then(function(response) { return response.json(); })
         .then(function(data) {
             var conteneur = document.getElementById('veille-domaines');

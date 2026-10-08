@@ -1,0 +1,22 @@
+{
+  "domaines": [
+    {
+      "titre": "RGPD & Données personnelles",
+      "description": "Suivi des obligations de collecte, conservation, sécurité et droits des personnes.",
+      "sources": ["CNIL", "EDPB", "Textes européens"],
+      "icone": "../images/aboutA1.svg"
+    },
+    {
+      "titre": "Cybersécurité & Réglementation",
+      "description": "Veille sur NIS2, les obligations de notification d'incidents et les mesures de sécurité.",
+      "sources": ["ANSSI", "EUR-Lex", "Institutions nationales"],
+      "icone": "../images/aboutA2.svg"
+    },
+    {
+      "titre": "Contrats & Responsabilités IT",
+      "description": "Suivi des clauses contractuelles : SLA, sous-traitance, responsabilité et conservation des preuves.",
+      "sources": ["Jurisprudence", "Doctrine", "Guides pratiques"],
+      "icone": "../images/aboutA3.svg"
+    }
+  ]
+}

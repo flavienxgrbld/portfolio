@@ -62,7 +62,6 @@
     "description": "Mise en place d'un cloud privé avec Nextcloud pour le stockage et le partage sécurisé de fichiers.",
     "tags": ["Cloud", "SN", "Nextcloud"],
     "couleur": "#1d4ed8",
-    "lien": "https://cloud.skyvault.ovh"
   },
   {
     "icone": "../images/aboutA2.svg",
@@ -70,7 +69,6 @@
     "description": "Installation et configuration d'un serveur de surveillance Zabbix sous Linux.",
     "tags": ["Linux", "Zabbix"],
     "couleur": "#1d4ed8",
-    "lien": "https://zabbix.skyvault.ovh/zabbix/"
   },
   {
     "icone": "../images/aboutA2.svg",
@@ -78,7 +76,6 @@
     "description": "Installation et configuration d'un serveur de streaming Jellyfin sous Linux pour la diffusion de médias",
     "tags": ["Linux", "Jellyfin"],
     "couleur": "#1d4ed8",
-    "lien": "https://media.skyvault.ovh"
   },
   {
     "icone": "../images/aboutA2.svg",
@@ -86,5 +83,13 @@
     "description": "Développement de scripts pour automatiser l'installation et la configuration de services.",
     "tags": ["Shell", "Bash", "PowerShell"],
     "couleur": "#1d4ed8"
+  }
+  {
+    "icone": "../images/aboutA3.svg",
+    "titre": "Création d'un hébergeur local de serveur de jeux",
+    "description": "Développement de scripts pour automatiser l'installation et la configuration de services.",
+    "tags": ["Shell", "Bash", "PowerShell"],
+    "couleur": "#1d4ed8",
+    "lien": "https://panel.skyvault.ovh/"
   }
 ]
