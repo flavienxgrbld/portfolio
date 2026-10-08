@@ -328,21 +328,6 @@
             "statut": "En préparation",
             "couleur": "#38bdf8",
             "icone": "../images/aboutA3.svg"
-        },
-        {
-            "titre": "Cybersecurity",
-            "sousTitre": "IBM SkillsBuild",
-            "nomComplet": "IBM SkillsBuild Cybersecurity",
-            "description": "Formation IBM SkillsBuild consacrée aux fondamentaux de la cybersécurité, à la protection des systèmes et aux principales menaces informatiques.",
-            "tags": [
-                "Cybersécurité",
-                "IBM",
-                "Sécurité Informatique"
-            ],
-            "categorie": "Informatique",
-            "statut": "En préparation",
-            "couleur": "#34d399",
-            "icone": "../images/aboutA3.svg"
         }
     ]
 }
