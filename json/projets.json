@@ -88,8 +88,15 @@
     "icone": "../images/aboutA2.svg",
     "titre": "Création d'un hébergeur local de serveur de jeux",
     "description": "Développement de scripts pour automatiser l'installation et la configuration de services.",
-    "tags": ["Shell", "Bash", "PowerShell"],
+    "tags": ["hosting", "pelican"],
     "couleur": "#1d4ed8",
     "lien": "https://panel.skyvault.ovh/"
+  },
+  {
+    "icone": "../images/aboutA2.svg",
+    "titre": "Création d'un systeme d'API de signature electronique",
+    "description": "Développement d'un systeme de signature electronique avec l'API de documenso '",
+    "tags": ["signature", "API"],
+    "couleur": "#1d4ed8"
   }
 ]
