@@ -83,9 +83,9 @@
     "description": "Développement de scripts pour automatiser l'installation et la configuration de services.",
     "tags": ["Shell", "Bash", "PowerShell"],
     "couleur": "#1d4ed8"
-  }
+  },
   {
-    "icone": "../images/aboutA3.svg",
+    "icone": "../images/aboutA2.svg",
     "titre": "Création d'un hébergeur local de serveur de jeux",
     "description": "Développement de scripts pour automatiser l'installation et la configuration de services.",
     "tags": ["Shell", "Bash", "PowerShell"],
