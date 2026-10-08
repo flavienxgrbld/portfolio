@@ -61,21 +61,21 @@
     "titre": "Création d'un Cloud Personnel",
     "description": "Mise en place d'un cloud privé avec Nextcloud pour le stockage et le partage sécurisé de fichiers.",
     "tags": ["Cloud", "SN", "Nextcloud"],
-    "couleur": "#1d4ed8",
+    "couleur": "#1d4ed8"
   },
   {
     "icone": "../images/aboutA2.svg",
     "titre": "Serveur Zabbix Linux",
     "description": "Installation et configuration d'un serveur de surveillance Zabbix sous Linux.",
     "tags": ["Linux", "Zabbix"],
-    "couleur": "#1d4ed8",
+    "couleur": "#1d4ed8"
   },
   {
     "icone": "../images/aboutA2.svg",
     "titre": "Service de streaming Jellyfin",
     "description": "Installation et configuration d'un serveur de streaming Jellyfin sous Linux pour la diffusion de médias",
     "tags": ["Linux", "Jellyfin"],
-    "couleur": "#1d4ed8",
+    "couleur": "#1d4ed8"
   },
   {
     "icone": "../images/aboutA2.svg",
