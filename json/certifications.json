@@ -1,298 +1,348 @@
 {
-    "obtenues":  [
-                     {
-                         "titre":  "MOOC Cybersécurité",
-                         "sousTitre":  "ANSSI",
-                         "nomComplet":  "SecNumacadémie",
-                         "description":  "Formation de sensibilisation à la cybersécurité proposée par l\u0027Agence Nationale de la Sécurité des Systèmes d\u0027Information.",
-                         "tags":  [
-                                      "Cybersécurité",
-                                      "ANSSI",
-                                      "Sécurité SI"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2024",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/logo_anssi.png",
-                         "attestation":  "../images/certif/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
-                     },
-                     {
-                         "titre":  "UNODC Cybercrime",
-                         "sousTitre":  "ONU",
-                         "nomComplet":  "United Nations Office on Drugs and Crime",
-                         "description":  "Formation sur la prévention et la lutte contre la cybercriminalité proposée par l\u0027Office des Nations Unies contre la drogue et le crime.",
-                         "tags":  [
-                                      "Cybercriminalité",
-                                      "ONU",
-                                      "Droit International"
-                                  ],
-                         "categorie":  "Droit",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/logo_unodc.webp",
-                         "attestation":  "../images/certif/certif_unodc_cybercriminalite.pdf"
-                     },
-                     {
-                         "titre":  "Introduction a la cybersécurité",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Introduction to Cybersecurity",
-                         "description":  "Certification Cisco d\u0027introduction aux fondamentaux de la cybersécurité, aux menaces courantes et aux bonnes pratiques de protection.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Cybersécurité",
-                                      "Fondamentaux"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/logo_introduction_cybersecurite.png",
-                         "attestation":  "../images/certif/introduction_a_la_cybersecurite.pdf"
-                     },
-                     {
-                         "titre":  "Network Technician",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Network Technician Career Path",
-                         "description":  "Parcours Cisco valide sur les bases des réseaux, le support technique et les compétences essentielles du technicien réseau.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Réseaux",
-                                      "Support Technique"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/network-technician-career-path.png",
-                         "attestation":  "../images/certif/NetworkTechnicianCareerPath.pdf"
-                     },
-                     {
-                         "titre":  "Sécurité des terminaux",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Sécurité des terminaux",
-                         "description":  "Certification Cisco sur la sécurité des terminaux et la protection des postes de travail.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Réseaux",
-                                      "Cybersécurité",
-                                      "Endpoint Security"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/endpoint-security.png",
-                         "attestation":  "../images/certif/EndpointSecurityUpdate20260424-32-jl8ks.pdf"
-                     },
-                     {
-                         "titre":  "Défense du réseau",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Défense du réseau",
-                         "description":  "Certification Cisco sur la défense du réseau et la protection contre les menaces.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Réseaux",
-                                      "Cybersécurité",
-                                      "Défense"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/network-defense.png",
-                         "attestation":  "../images/certif/NetworkDefenseUpdate20260424-31-3kco7z.pdf"
-                     },
-                     {
-                         "titre":  "Cisco Certified Network",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "CCNA",
-                         "description":  "Certification réseau Cisco couvrant les fondamentaux des réseaux, routage, commutation et sécurité.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Réseaux",
-                                      "Routage"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/ccna-introduction-to-networks.png",
-                         "attestation":  "../images/certif/CCNA.pdf"
-                     },
-                     {
-                         "titre":  "Creating Compelling Reports",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Creating Compelling Reports",
-                         "description":  "Certification Cisco sur la création de rapports efficaces et la communication professionnelle.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Soft skills",
-                                      "Communication",
-                                      "Rapports"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/creating-compelling-reports.png",
-                         "attestation":  "../images/certif/CreatingCompellingReportsUpdate20260426-31-twt17v.pdf"
-                     },
-                     {
-                         "titre":  "Gestion des Cybermenaces",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Cyber Threat Management",
-                         "description":  "Certification Cisco sur la gestion des cybermenaces et la réponse aux incidents.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Cybersécurité",
-                                      "Gestion des menaces"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/cyber-threat-management.png",
-                         "attestation":  "../images/certif/CyberThreatManagementUpdate20260426-31-nn1a75.pdf"
-                     },
-                     {
-                         "titre":  "Introduction à la science des données",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Introduction to Data Science",
-                         "description":  "Certification Cisco d\u0027introduction aux fondamentaux de la science des données.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Data",
-                                      "Science des données",
-                                      "Analyse"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/introduction-to-data-science.png",
-                         "attestation":  "../images/certif/IntrotoDataScienceUpdate20260426-31-m8n2bh.pdf"
-                     },
-                     {
-                         "titre":  "Linux Essentials",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Linux Essentials",
-                         "description":  "Certification Cisco sur les fondamentaux de Linux et les commandes de base.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Linux",
-                                      "Système d\u0027exploitation"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/linux-essentials.png",
-                         "attestation":  "../images/certif/LinuxEssentialsUpdate20260426-31-mrh9sa.pdf"
-                     },
-                     {
-                         "titre":  "Linux Unhatched",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Linux Unhatched",
-                         "description":  "Certification Cisco d\u0027introduction à Linux pour débutants.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Linux",
-                                      "Débutant"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/linux-unhatched.png",
-                         "attestation":  "../images/certif/LinuxUnhatchedUpdate20260426-31-tvdkzp.pdf"
-                     },
-                     {
-                         "titre":  "Adressage réseau et dépannage de base",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Network Addressing and Basic Troubleshooting",
-                         "description":  "Certification Cisco sur l\u0027adressage réseau et les techniques de dépannage de base.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Réseaux",
-                                      "Adressage",
-                                      "Dépannage"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/network-addressing-and-basic-troubleshooting.png",
-                         "attestation":  "../images/certif/NetworkAddressingandBasicTroubleshootingUpdate20260426-31-3oiwem.pdf"
-                     },
-                     {
-                         "titre":  "Support et sécurité des réseaux",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Network Support and Security",
-                         "description":  "Certification Cisco sur le support réseau et les bases de la sécurité réseau.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Réseaux",
-                                      "Support",
-                                      "Sécurité"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/network-support-and-security.png",
-                         "attestation":  "../images/certif/NetworkSupportandSecurityUpdate20260426-31-oqypq4.pdf"
-                     },
-                     {
-                         "titre":  "Introduction to Greenhouse Gas Accounting for IT",
-                         "sousTitre":  "Cisco",
-                         "nomComplet":  "Introduction to Greenhouse Gas Accounting for IT",
-                         "description":  "Certification Cisco sur l'introduction à la comptabilité des gaz à effet de serre pour l'informatique.",
-                         "tags":  [
-                                      "Cisco",
-                                      "Environnement",
-                                      "Gaz à effet de serre",
-                                      "IT"
-                                  ],
-                         "categorie":  "Informatique",
-                         "annee":  "2026",
-                         "couleur":  "#10b981",
-                         "icone":  "../images/certif/logo/introduction-to-greenhouse-gas-accounting-for-it.png",
-                         "attestation":  "../images/certif/IntrotoGreenhouseGasAccountingv120260430-31-64ymrk.pdf"
-                     }
-                 ],
-    "enPreparation":  [
-                          {
-                              "titre":  "CCST",
-                              "sousTitre":  "Cisco",
-                              "nomComplet":  "Cisco Certified Support Technician",
-                              "description":  "Certification de base Cisco validant les compétences en support réseau et dépannage.",
-                              "tags":  [
-                                           "Cisco",
-                                           "Support Réseau",
-                                           "Dépannage"
-                                       ],
-                              "categorie":  "Informatique",
-                              "statut":  "En préparation",
-                              "couleur":  "#a78bfa",
-                              "icone":  "../images/aboutA2.svg"
-                          },
-                          {
-                              "titre":  "CCST",
-                              "sousTitre":  "Cisco",
-                              "nomComplet":  "Cisco Certified Support Technician",
-                              "description":  "Certification Cisco de base en cybersécurité couvrant les concepts essentiels de sécurité.",
-                              "tags":  [
-                                           "Cybersécurité",
-                                           "Cisco",
-                                           "Sécurité Réseau"
-                                       ],
-                              "categorie":  "Informatique",
-                              "statut":  "En préparation",
-                              "couleur":  "#a78bfa",
-                              "icone":  "../images/aboutA1.svg"
-                          },
-                          {
-                              "titre":  "CCST Endpoint",
-                              "sousTitre":  "Cisco",
-                              "nomComplet":  "Cisco Certified Support Technician",
-                              "description":  "Certification Cisco sur la sécurité des endpoints et la protection des postes de travail.",
-                              "tags":  [
-                                           "Endpoint Security",
-                                           "Cisco",
-                                           "Protection Poste"
-                                       ],
-                              "categorie":  "Informatique",
-                              "statut":  "En préparation",
-                              "couleur":  "#a78bfa",
-                              "icone":  "../images/aboutA3.svg"
-                          }
-                      ]
+    "obtenues": [
+        {
+            "titre": "MOOC Cybersécurité",
+            "sousTitre": "ANSSI",
+            "nomComplet": "SecNumacadémie",
+            "description": "Formation de sensibilisation à la cybersécurité proposée par l'Agence Nationale de la Sécurité des Systèmes d'Information.",
+            "tags": [
+                "Cybersécurité",
+                "ANSSI",
+                "Sécurité SI"
+            ],
+            "categorie": "Informatique",
+            "annee": "2024",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/logo_anssi.png",
+            "attestation": "../images/certif/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
+        },
+        {
+            "titre": "UNODC Cybercrime",
+            "sousTitre": "ONU",
+            "nomComplet": "United Nations Office on Drugs and Crime",
+            "description": "Formation sur la prévention et la lutte contre la cybercriminalité proposée par l'Office des Nations Unies contre la drogue et le crime.",
+            "tags": [
+                "Cybercriminalité",
+                "ONU",
+                "Droit International"
+            ],
+            "categorie": "Droit",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/logo_unodc.webp",
+            "attestation": "../images/certif/certif_unodc_cybercriminalite.pdf"
+        },
+        {
+            "titre": "Software and the Law",
+            "sousTitre": "OpenLearn",
+            "nomComplet": "Software and the Law",
+            "description": "Formation sur les aspects juridiques des logiciels, notamment la propriété intellectuelle, les droits d'auteur, les brevets et les contrats informatiques.",
+            "tags": [
+                "Droit Informatique",
+                "Propriété Intellectuelle",
+                "Logiciels"
+            ],
+            "categorie": "Droit",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/logo_the_open_university.png",
+            "attestation": "../images/certif/software_and_the_law.pdf"
+        },
+        {
+            "titre": "Cisco Certified Network Associate",
+            "sousTitre": "Cisco",
+            "nomComplet": "CCNA",
+            "description": "Certification réseau Cisco couvrant les fondamentaux des réseaux, le routage, la commutation et la sécurité.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Routage"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/ccna-introduction-to-networks.png",
+            "attestation": "../images/certif/CCNA.pdf"
+        },
+        {
+            "titre": "Introduction à la cybersécurité",
+            "sousTitre": "Cisco",
+            "nomComplet": "Introduction to Cybersecurity",
+            "description": "Certification Cisco d'introduction aux fondamentaux de la cybersécurité, aux menaces courantes et aux bonnes pratiques de protection.",
+            "tags": [
+                "Cisco",
+                "Cybersécurité",
+                "Fondamentaux"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/logo_introduction_cybersecurite.png",
+            "attestation": "../images/certif/introduction_a_la_cybersecurite.pdf"
+        },
+        {
+            "titre": "Network Technician",
+            "sousTitre": "Cisco",
+            "nomComplet": "Network Technician Career Path",
+            "description": "Parcours Cisco validant les bases des réseaux, le support technique et les compétences essentielles du technicien réseau.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Support Technique"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/network-technician-career-path.png",
+            "attestation": "../images/certif/NetworkTechnicianCareerPath.pdf"
+        },
+        {
+            "titre": "Sécurité des terminaux",
+            "sousTitre": "Cisco",
+            "nomComplet": "Endpoint Security",
+            "description": "Certification Cisco sur la sécurité des terminaux et la protection des postes de travail.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Cybersécurité",
+                "Endpoint Security"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/endpoint-security.png",
+            "attestation": "../images/certif/EndpointSecurityUpdate20260424-32-jl8ks.pdf"
+        },
+        {
+            "titre": "Défense du réseau",
+            "sousTitre": "Cisco",
+            "nomComplet": "Network Defense",
+            "description": "Certification Cisco sur la défense du réseau et la protection contre les menaces.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Cybersécurité",
+                "Défense"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/network-defense.png",
+            "attestation": "../images/certif/NetworkDefenseUpdate20260424-31-3kco7z.pdf"
+        },
+
+        {
+            "titre": "Creating Compelling Reports",
+            "sousTitre": "Cisco",
+            "nomComplet": "Creating Compelling Reports",
+            "description": "Certification Cisco sur la création de rapports efficaces et la communication professionnelle.",
+            "tags": [
+                "Cisco",
+                "Soft Skills",
+                "Communication",
+                "Rapports"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/creating-compelling-reports.png",
+            "attestation": "../images/certif/CreatingCompellingReportsUpdate20260426-31-twt17v.pdf"
+        },
+        {
+            "titre": "Gestion des cybermenaces",
+            "sousTitre": "Cisco",
+            "nomComplet": "Cyber Threat Management",
+            "description": "Certification Cisco sur la gestion des cybermenaces et la réponse aux incidents.",
+            "tags": [
+                "Cisco",
+                "Cybersécurité",
+                "Gestion des menaces"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/cyber-threat-management.png",
+            "attestation": "../images/certif/CyberThreatManagementUpdate20260426-31-nn1a75.pdf"
+        },
+        {
+            "titre": "Introduction à la science des données",
+            "sousTitre": "Cisco",
+            "nomComplet": "Introduction to Data Science",
+            "description": "Certification Cisco d'introduction aux fondamentaux de la science des données.",
+            "tags": [
+                "Cisco",
+                "Data",
+                "Science des données",
+                "Analyse"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/introduction-to-data-science.png",
+            "attestation": "../images/certif/IntrotoDataScienceUpdate20260426-31-m8n2bh.pdf"
+        },
+        {
+            "titre": "Linux Essentials",
+            "sousTitre": "Cisco",
+            "nomComplet": "Linux Essentials",
+            "description": "Certification Cisco sur les fondamentaux de Linux et les commandes de base.",
+            "tags": [
+                "Cisco",
+                "Linux",
+                "Système d'exploitation"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/linux-essentials.png",
+            "attestation": "../images/certif/LinuxEssentialsUpdate20260426-31-mrh9sa.pdf"
+        },
+        {
+            "titre": "Linux Unhatched",
+            "sousTitre": "Cisco",
+            "nomComplet": "Linux Unhatched",
+            "description": "Certification Cisco d'introduction à Linux pour débutants.",
+            "tags": [
+                "Cisco",
+                "Linux",
+                "Débutant"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/linux-unhatched.png",
+            "attestation": "../images/certif/LinuxUnhatchedUpdate20260426-31-tvdkzp.pdf"
+        },
+        {
+            "titre": "Adressage réseau et dépannage de base",
+            "sousTitre": "Cisco",
+            "nomComplet": "Network Addressing and Basic Troubleshooting",
+            "description": "Certification Cisco sur l'adressage réseau et les techniques de dépannage de base.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Adressage",
+                "Dépannage"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/network-addressing-and-basic-troubleshooting.png",
+            "attestation": "../images/certif/NetworkAddressingandBasicTroubleshootingUpdate20260426-31-3oiwem.pdf"
+        },
+        {
+            "titre": "Support et sécurité des réseaux",
+            "sousTitre": "Cisco",
+            "nomComplet": "Network Support and Security",
+            "description": "Certification Cisco sur le support réseau et les bases de la sécurité réseau.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Support",
+                "Sécurité"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/network-support-and-security.png",
+            "attestation": "../images/certif/NetworkSupportandSecurityUpdate20260426-31-oqypq4.pdf"
+        },
+        {
+            "titre": "Introduction to Greenhouse Gas Accounting for IT",
+            "sousTitre": "Cisco",
+            "nomComplet": "Introduction to Greenhouse Gas Accounting for IT",
+            "description": "Certification Cisco sur l'introduction à la comptabilité des gaz à effet de serre pour l'informatique.",
+            "tags": [
+                "Cisco",
+                "Environnement",
+                "Gaz à effet de serre",
+                "IT"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/introduction-to-greenhouse-gas-accounting-for-it.png",
+            "attestation": "../images/certif/IntrotoGreenhouseGasAccountingv120260430-31-64ymrk.pdf"
+        }
+
+
+    ],
+    "enPreparation": [
+        {
+            "titre": "CCST Networking",
+            "sousTitre": "Cisco",
+            "nomComplet": "Cisco Certified Support Technician - Networking",
+            "description": "Certification Cisco validant les compétences fondamentales en réseau, support technique et dépannage.",
+            "tags": [
+                "Cisco",
+                "Réseaux",
+                "Support Réseau",
+                "Dépannage"
+            ],
+            "categorie": "Informatique",
+            "statut": "En préparation",
+            "couleur": "#a78bfa",
+            "icone": "../images/aboutA2.svg"
+        },
+        {
+            "titre": "CCST Cybersecurity",
+            "sousTitre": "Cisco",
+            "nomComplet": "Cisco Certified Support Technician - Cybersecurity",
+            "description": "Certification Cisco couvrant les concepts fondamentaux de la cybersécurité, les menaces et les principes essentiels de protection.",
+            "tags": [
+                "Cisco",
+                "Cybersécurité",
+                "Sécurité Réseau"
+            ],
+            "categorie": "Informatique",
+            "statut": "En préparation",
+            "couleur": "#a78bfa",
+            "icone": "../images/aboutA1.svg"
+        },
+        {
+            "titre": "CCST Endpoint",
+            "sousTitre": "Cisco",
+            "nomComplet": "Cisco Certified Support Technician - Endpoint",
+            "description": "Certification Cisco sur la sécurité des endpoints et la protection des postes de travail.",
+            "tags": [
+                "Endpoint Security",
+                "Cisco",
+                "Protection Poste"
+            ],
+            "categorie": "Informatique",
+            "statut": "En préparation",
+            "couleur": "#a78bfa",
+            "icone": "../images/aboutA3.svg"
+        },
+        {
+            "titre": "Microsoft Essentials",
+            "sousTitre": "Microsoft",
+            "nomComplet": "Microsoft Essentials Professional Certificate",
+            "description": "Certification Microsoft permettant de développer et de valider des compétences fondamentales dans les technologies numériques et les outils Microsoft.",
+            "tags": [
+                "Microsoft",
+                "Technologies",
+                "Compétences Numériques"
+            ],
+            "categorie": "Informatique",
+            "statut": "En préparation",
+            "couleur": "#38bdf8",
+            "icone": "../images/aboutA3.svg"
+        },
+        {
+            "titre": "Cybersecurity",
+            "sousTitre": "IBM SkillsBuild",
+            "nomComplet": "IBM SkillsBuild Cybersecurity",
+            "description": "Formation IBM SkillsBuild consacrée aux fondamentaux de la cybersécurité, à la protection des systèmes et aux principales menaces informatiques.",
+            "tags": [
+                "Cybersécurité",
+                "IBM",
+                "Sécurité Informatique"
+            ],
+            "categorie": "Informatique",
+            "statut": "En préparation",
+            "couleur": "#34d399",
+            "icone": "../images/aboutA3.svg"
+        }
+    ]
 }
