@@ -1078,3 +1078,7 @@ a.button:hover,
     filter: brightness(0.98) !important;
 }
 
+
+/* ── Bannière d'accueil : deux boutons côte à côte ── */
+.indexbanner .banner-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+.indexbanner .banner-actions a { margin-top: 0; }
