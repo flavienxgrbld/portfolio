@@ -13,7 +13,7 @@
             "categorie": "Informatique",
             "annee": "2024",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/logo_anssi.png",
+            "icone": "../images/certif/logo/logo_anssi.webp",
             "attestation": "../images/certif/attestation_reussite_mooc_anssi_flavien_garibaldi.pdf"
         },
         {
@@ -45,7 +45,7 @@
             "categorie": "Droit",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/logo_the_open_university.png",
+            "icone": "../images/certif/logo/logo_the_open_university.webp",
             "attestation": "../images/certif/software_and_the_law.pdf"
         },
         {
@@ -61,7 +61,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/ccna-introduction-to-networks.png",
+            "icone": "../images/certif/logo/ccna-introduction-to-networks.webp",
             "attestation": "../images/certif/CCNA.pdf"
         },
         {
@@ -77,7 +77,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/logo_introduction_cybersecurite.png",
+            "icone": "../images/certif/logo/logo_introduction_cybersecurite.webp",
             "attestation": "../images/certif/introduction_a_la_cybersecurite.pdf"
         },
         {
@@ -93,7 +93,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/network-technician-career-path.png",
+            "icone": "../images/certif/logo/network-technician-career-path.webp",
             "attestation": "../images/certif/NetworkTechnicianCareerPath.pdf"
         },
         {
@@ -110,7 +110,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/endpoint-security.png",
+            "icone": "../images/certif/logo/endpoint-security.webp",
             "attestation": "../images/certif/EndpointSecurityUpdate20260424-32-jl8ks.pdf"
         },
         {
@@ -127,7 +127,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/network-defense.png",
+            "icone": "../images/certif/logo/network-defense.webp",
             "attestation": "../images/certif/NetworkDefenseUpdate20260424-31-3kco7z.pdf"
         },
 
@@ -145,7 +145,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/creating-compelling-reports.png",
+            "icone": "../images/certif/logo/creating-compelling-reports.webp",
             "attestation": "../images/certif/CreatingCompellingReportsUpdate20260426-31-twt17v.pdf"
         },
         {
@@ -161,7 +161,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/cyber-threat-management.png",
+            "icone": "../images/certif/logo/cyber-threat-management.webp",
             "attestation": "../images/certif/CyberThreatManagementUpdate20260426-31-nn1a75.pdf"
         },
         {
@@ -178,7 +178,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/introduction-to-data-science.png",
+            "icone": "../images/certif/logo/introduction-to-data-science.webp",
             "attestation": "../images/certif/IntrotoDataScienceUpdate20260426-31-m8n2bh.pdf"
         },
         {
@@ -194,7 +194,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/linux-essentials.png",
+            "icone": "../images/certif/logo/linux-essentials.webp",
             "attestation": "../images/certif/LinuxEssentialsUpdate20260426-31-mrh9sa.pdf"
         },
         {
@@ -210,7 +210,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/linux-unhatched.png",
+            "icone": "../images/certif/logo/linux-unhatched.webp",
             "attestation": "../images/certif/LinuxUnhatchedUpdate20260426-31-tvdkzp.pdf"
         },
         {
@@ -227,7 +227,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/network-addressing-and-basic-troubleshooting.png",
+            "icone": "../images/certif/logo/network-addressing-and-basic-troubleshooting.webp",
             "attestation": "../images/certif/NetworkAddressingandBasicTroubleshootingUpdate20260426-31-3oiwem.pdf"
         },
         {
@@ -244,7 +244,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/network-support-and-security.png",
+            "icone": "../images/certif/logo/network-support-and-security.webp",
             "attestation": "../images/certif/NetworkSupportandSecurityUpdate20260426-31-oqypq4.pdf"
         },
         {
@@ -261,7 +261,7 @@
             "categorie": "Informatique",
             "annee": "2026",
             "couleur": "#10b981",
-            "icone": "../images/certif/logo/introduction-to-greenhouse-gas-accounting-for-it.png",
+            "icone": "../images/certif/logo/introduction-to-greenhouse-gas-accounting-for-it.webp",
             "attestation": "../images/certif/IntrotoGreenhouseGasAccountingv120260430-31-64ymrk.pdf"
         }
 

@@ -934,6 +934,8 @@ body textarea::placeholder {
 .indexC .indexCl .t1 span,
 .indexD .t1,
 .indexD .t1 span,
+.Titletotalc .t2,
+.Titletotalc .t2 span,
 .indexB .package .indexb-bottom ul li .lr,
 .colorWhite {
     background: none !important;
@@ -1076,3 +1078,108 @@ a.button:hover,
     filter: brightness(0.98) !important;
 }
 
+
+/* ── Bannière d'accueil : deux boutons côte à côte ── */
+.indexbanner .banner-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
+.indexbanner .banner-actions a { margin-top: 0; }
+@media (max-width: 1100px) {
+    /* Sur mobile, l'image de fond plein écran remplace l'image en ligne :
+       plus de vide sous l'image ni de coins noirs */
+    .indexbanner .imgb.pc { display: block !important; }
+    .indexbanner img.mb { display: none !important; }
+}
+.aboutA-a p a { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ══ Responsive ══════════════════════════════════════════════════════════ */
+
+/* Grands titres : pas de coupure au milieu des mots (« INFRASTRUCT-URE ») */
+.Titletotalc .t2,
+.Titletotalb .t1 {
+    word-break: normal !important;
+    overflow-wrap: break-word;
+    hyphens: auto;
+}
+
+/* Espace entre un grand titre et le texte qui le suit */
+.Titletotalc + .aboutA-a,
+.Titletotalc + .aboutC-a {
+    margin-top: 24px;
+}
+
+/* Accueil, cartes projets : titres blancs sur un dégradé sombre, lisibles
+   quelle que soit l'image */
+.indexD .small a .background,
+.indexD .big a .background { position: relative; }
+.indexD .small a .background::after,
+.indexD .big a .background::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(10, 12, 24, .65) 0%, rgba(10, 12, 24, 0) 55%);
+    pointer-events: none;
+    z-index: 2;
+}
+html body .indexD .text.colorWhite {
+    color: #fff !important;
+    -webkit-text-fill-color: #fff !important;
+    text-shadow: 0 1px 8px rgba(0, 0, 0, .35);
+    z-index: 3;
+}
+/* Sur mobile et tablette, l'image remplit toute la carte */
+@media (max-width: 1100px) {
+    .indexD .small a .background img.mb,
+    .indexD .big a .background img.mb {
+        display: block;
+        width: 100%;
+        height: clamp(200px, 45vw, 340px);
+        object-fit: cover;
+    }
+}
+
+/* Tablette : cartes compétences de l'accueil sur deux colonnes */
+@media (min-width: 600px) and (max-width: 1100px) {
+    .indexA .indexA-b ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 40px 4%;
+    }
+    .indexA .indexA-b ul::before,
+    .indexA .indexA-b ul::after { display: none; }
+    .indexA .indexA-b ul li { width: auto; margin: 0; }
+}
+
+/* TCS : les navigateurs mobiles n'affichent pas un PDF intégré */
+.tcs-mobile-note { display: none; margin-top: 1rem; text-align: center; }
+.tcs-mobile-note a { text-decoration: underline; text-underline-offset: 3px; }
+@media (max-width: 768px) {
+    .tcs-viewer { display: none; }
+    .tcs-mobile-note { display: block; }
+}
+
+/* Tablette : cartes des pages de contenu (À propos, BTS SIO…) en grille plutôt
+   qu'en une seule colonne pleine largeur */
+@media (min-width: 600px) and (max-width: 1100px) {
+    .aboutA > .container > ul.clearfix:not(.dynamic-grid):not(.dynamic-grid-lg),
+    .aboutB .aboutBr > ul.clearfix {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+        gap: 24px;
+    }
+    .aboutA > .container > ul.clearfix:not(.dynamic-grid):not(.dynamic-grid-lg)::before,
+    .aboutA > .container > ul.clearfix:not(.dynamic-grid):not(.dynamic-grid-lg)::after,
+    .aboutB .aboutBr > ul.clearfix::before,
+    .aboutB .aboutBr > ul.clearfix::after { display: none; }
+    .aboutA > .container > ul.clearfix:not(.dynamic-grid):not(.dynamic-grid-lg) > li,
+    .aboutB .aboutBr > ul.clearfix > li { width: auto !important; margin: 0 !important; float: none; }
+    .aboutB .aboutBl,
+    .aboutB .aboutBr { float: none; width: 100%; }
+    .aboutB .aboutBr { margin-top: 32px; }
+}
+
+/* Menu mobile : une règle globale donne z-index: 1 au header et à la nav, ce qui
+   enfermait le menu ouvert sous le contenu de la page (qui vient après dans le
+   HTML). Le header passe au-dessus de tout le contenu. */
+html body > header {
+    position: relative;
+    z-index: 1000 !important;
+}

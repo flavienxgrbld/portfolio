@@ -53,14 +53,12 @@
 <link rel="canonical" href="https://flavienxgrbld.github.io/portfolio/src/index.html" />
 <link rel="icon" href="../images/logo10.png" type="image/png">
 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
-<link rel="stylesheet" type="text/css" href="../css/public06a2.css?v=2.64" />
-<link rel="stylesheet" href="../css/swiper-bundle.min.css">
+<link rel="stylesheet" type="text/css" href="../css/main.css?v=2.64" />
 <link rel="stylesheet" href="../css/animation.css">
 <link rel="stylesheet" href="../css/konami.css">
 <link rel="stylesheet" href="../css/improvements.css">
 <!-- include jquery -->
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
-<script src="../js/swiper-bundle.min.js" defer></script>
 <script src="../js/konami.js" defer></script>
 
 </head>
@@ -71,7 +69,7 @@
 <header>
 <div class="header indexheader">
     <div class="clearfix">
-        <div class="logo fl"><a href="index.html"><img src="../images/logo.png" alt="Logo Flavien Garibaldi"></a></div>
+        <div class="logo fl"><a href="index.html"><img src="../images/logo.webp" alt="Logo Flavien Garibaldi"></a></div>
         <div class="header-r fl">
             <div class="clearfix">
                 <div class="navr fr mb">
@@ -108,6 +106,7 @@
             <ul class="clearfix">
                 <li><a href="index.html">ACCUEIL</a></li>
                 <li><a href="apropos.html">À PROPOS</a></li>
+                <li><a href="btssio.html">BTS SIO</a></li>
                 <li><a href="projets.html">PROJETS</a></li>
                 <li><a href="certifications.html">CERTIFICATIONS</a></li>
                 <li><a href="tcs.html">TCS</a></li>
@@ -127,11 +126,10 @@
 <div class="indexbanner relative">
     <div class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide">
+            <div class="swiper-slide swiper-slide-active">
                 <div class="img">
-                    <!--<div class="imgb pc" style="background: url(../images/indexbanner.jpg)no-repeat center center/cover;"></div>-->
-                    <div class="imgb pc" style="background: url(../images/waveA.png)no-repeat center center/cover;"></div>
-                    <img src="../images/waveA.png" alt="Bannière portfolio Flavien Garibaldi" class="mb">
+                    <div class="imgb pc" style="background: url(../images/waveA.webp)no-repeat center center/cover;"></div>
+                    <img src="../images/waveA.webp" alt="Bannière portfolio Flavien Garibaldi" class="mb">
                 </div>
                 <div class="text">
                     <div class="container">
@@ -139,69 +137,13 @@
                             <div class="headline-a"><span>FLAVIEN GARIBALDI</span></div>
                             <div class="headline-a"><span>Étudiant BTS SIO SISR</span></div>
                         </div>
-                        <a href="apropos.html" class="more"><span>Découvrir mon parcours</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <div class="imgb pc" style="background: url(../images/photo313.png)no-repeat center center/cover;"></div>
-                    <img src="../images/photo313.png" alt="Bannière administration systèmes et réseaux" class="mb">
-                </div>
-                <div class="text">
-                    <div class="container">
-                        <div class="subheading font18 colorWhite">Systèmes & Réseaux</div>
-                        <div class="headline font80 colorWhite">
-                            <div class="headline-a"><span>ADMINISTRATION SYSTÈMES</span></div>
-                            <div class="headline-a"><span>& RESEAU</span></div>
+                        <div class="banner-actions">
+                            <a href="projets.html" class="more"><span>Mes projets</span></a>
+                            <a href="contact.html" class="more"><span>Me contacter</span></a>
                         </div>
-                        <a href="projets.html" class="more"><span>Voir mes projets</span></a>
                     </div>
                 </div>
             </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <div class="imgb pc" style="background: url(../images/map.png)no-repeat center center/cover;"></div>
-                    <img src="../images/map.png" alt="Bannière veille technologique" class="mb">
-                </div>
-                <div class="text">
-                    <div class="container">
-                        <div class="subheading font18 colorWhite">Veille Technologique</div>
-                        <div class="headline font80 colorWhite">
-                            <div class="headline-a"><span>INNOVATION & </span></div>
-                            <div class="headline-a"><span>NOUVELLES TECHNOLOGIES</span></div>
-                        </div>
-                        <a href="veille.html" class="more"><span>Découvrir mes veilles</span></a>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide">
-                <div class="img">
-                    <div class="imgb pc" style="background: url(../images/photo304.png)no-repeat center center/cover;"></div>
-                    <img src="../images/photo304.png" alt="Bannière certifications infrastructures IT" class="mb">
-                </div>
-                <div class="text">
-                    <div class="container">
-                        <div class="subheading font18 colorWhite">Formation BTS SIO</div>
-                        <div class="headline font80 colorWhite">
-                            <div class="headline-a">CERTIFICATIONS EN</div>
-                            <div class="headline-a"><span>INFRASTRUCTURES IT</span></div>
-                        </div>
-                        <a href="certifications.html" class="more"><span>Mes certifications</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="widget">
-        <div class="container clearfix">
-            <div class="swiper-a fr">
-                <div class="clearfix">
-                    <div class="swiper-button-prev common fl" aria-label="Slide précédent"></div>
-                    <div class="swiper-button-next common fl" aria-label="Slide suivant"></div>
-                </div>
-            </div>
-            <div class="swiper-pagination fl"></div>
         </div>
     </div>
 </div>
@@ -211,7 +153,7 @@
         <div class="Titletotal wow fadeInUp1">
             <div class="treetop font16 colorWhite">MES COMPÉTENCES</div>
             <div class="subject font66 colorWhite">
-                <div class="t1 bold wide">COMPÉTENCES EN ADMINISTRATION<br>SYSTÈMES, RÉSEAUX ET<br>CYBERSÉCURITÉ</div>    
+                <div class="t1 bold wide">COMPÉTENCES EN ADMINISTRATION <br>SYSTÈMES, RÉSEAUX ET <br>CYBERSÉCURITÉ</div>    
             </div>
         </div>
         <div class="indexA-a wow fadeInUp1">
@@ -224,7 +166,7 @@
                 <li class="wow fadeInLeft4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo301.png" alt="Administration systèmes Linux" loading="lazy">
+                            <img src="../images/photo301.webp" alt="Administration systèmes Linux" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Administration et configuration de serveurs Linux, gestion des services et des utilisateurs.</div>
@@ -237,7 +179,7 @@
                       <li class="wow fadeInLeft4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo302.png" alt="Infrastructure réseaux" loading="lazy">
+                            <img src="../images/photo302.webp" alt="Infrastructure réseaux" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Configuration de réseaux d'entreprise, VLAN, routage et services réseaux (DHCP, DNS).</div>
@@ -250,7 +192,7 @@
                 <li class="wow fadeInRight4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo313.png" alt="Virtualisation et cloud" loading="lazy">
+                            <img src="../images/photo313.webp" alt="Virtualisation et cloud" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Déploiement d'environnements virtualisés avec VMware et Hyper-V, gestion des ressources.</div>
@@ -263,7 +205,7 @@
                 <li class="wow fadeInRight4">
                     <a href="projets.html">
                         <div class="img img100">
-                            <img src="../images/photo303.png" alt="Cybersécurité et protection" loading="lazy">
+                            <img src="../images/photo303.webp" alt="Cybersécurité et protection" loading="lazy">
                             <div class="characters">
                                 <div class="a"></div>
                                 <div class="b font20 colorWhite">Mise en place de pare-feu, VPN, audit de sécurité et sécurisation d'infrastructures.</div>
@@ -278,150 +220,12 @@
     </div>
 </div>
 
-<div class="indexB">
-    <div class="package container">
-        <div class="indexb-top wow fadeInUp1">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="clearfix">
-                            <div class="indexb-left">
-                                <div class="Titletotal">
-                                    <div class="treetop font16 colorWhite">ADMINISTRATION</div>
-                                    <div class="subject font66 colorWhite">
-                                        <div class="t2">Systèmes & <br><span>Réseaux</span></div>    
-                                    </div>
-                                </div>
-                                <div class="text font22 colorC">Gestion complète d'infrastructures IT : serveurs Linux/Windows, configuration réseau (VLAN, TCP/IP), services (DHCP, DNS) et supervision des systèmes.</div>
-                                <a href="projets.html" class="more morea"><span>Découvrir mes projets</span></a>
-                            </div>
-                            <div class="indexb-right">
-                                <div class="img"><img src="../images/photo603.png" alt="Projet infrastructure 1"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="clearfix">
-                            <div class="indexb-left">
-                                <div class="Titletotal">
-                                    <div class="treetop font16 colorWhite">SÉCURITÉ</div>
-                                    <div class="subject font66 colorWhite">
-                                        <div class="t2">Cybersécurité & <br><span>Protection</span></div>    
-                                    </div>
-                                </div>
-                                <div class="text font22 colorC">Sécurisation d'infrastructures : déploiement de pare-feu, configuration VPN, audit de sécurité et protection des systèmes d'information contre les menaces.</div>
-                                <a href="projets.html" class="more morea"><span>Découvrir mes projets</span></a>
-                            </div>
-                            <div class="indexb-right">
-                                <div class="img"><img src="../images/photo600.png" alt="Projet infrastructure 2"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="clearfix">
-                            <div class="indexb-left">
-                                <div class="Titletotal">
-                                    <div class="treetop font16 colorWhite">CLOUD</div>
-                                    <div class="subject font66 colorWhite">
-                                        <div class="t2">Virtualisation & <br><span>Optimisation</span></div>    
-                                    </div>
-                                </div>
-                                <div class="text font22 colorC">Création et gestion d'environnements virtualisés avec VMware et Hyper-V, optimisation des ressources et déploiement de solutions cloud privées.</div>
-                                <a href="projets.html" class="more morea"><span>Découvrir mes projets</span></a>
-                            </div>
-                            <div class="indexb-right">
-                                <div class="img"><img src="../images/photo601.png" alt="Projet infrastructure 3"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="indexb-bottom wow fadeInUp1">
-            <ul class="clearfix">
-                <li class="cur">
-                    <div class="clearfix">
-                        <div class="ll fl font14 colorWhite">01.</div>
-                        <div class="lr fl font18 colorWhite bold">Systèmes & Réseaux</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="clearfix">
-                        <div class="ll fl font14 colorWhite">02.</div>
-                        <div class="lr fl font18 colorWhite bold">Cybersécurité & Protection</div>
-                    </div>
-                </li>
-                <li>
-                    <div class="clearfix">
-                        <div class="ll fl font14 colorWhite">03.</div>
-                        <div class="lr fl font18 colorWhite bold">Virtualisation & Optimisation</div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
-<div class="indexC">
-    <div class="container clearfix">
-        <div class="indexCl fl wow fadeInLeft4">
-            <div class="Titletotal">
-                <div class="treetop font16 colorWhite">Mon Parcours</div>
-                <div class="subject font66 colorWhite">
-                    <div class="t1">FORMATION EN<br>BTS SIO<br><span>OPTION SISR</span></div>    
-                </div>
-            </div>
-            <a href="apropos.html" class="more"><span>En savoir plus</span></a>
-        </div>
-        <div class="indexCr fr wow fadeInRight4">
-            <ul>
-                <li>
-                    <div class="lia">
-                        <div class="la font20 colorC">Formation</div>
-                        <div class="lb colorWhite font46">
-                            <div class="b">BTS SIO SISR</div>
-                            <div class="b bold">2024-2026</div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="lia">
-                        <div class="la font20 colorC">Compétences Systèmes</div>
-                        <div class="lb colorWhite font46">
-                            <div class="b">Linux & Windows</div>
-                            <div class="b bold">Server</div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="lia">
-                        <div class="la font20 colorC">Compétences Réseaux</div>
-                        <div class="lb colorWhite font46">
-                            <div class="b bold">TCP/IP, VLAN</div>
-                            <div class="b">Routage & Services</div>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="lia">
-                        <div class="la font20 colorC">Technologies</div>
-                        <div class="lb colorWhite font46">
-                            <div class="b bold">Virtualisation</div>
-                            <div class="b">MySQL & Git</div>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-
 <div class="indexD">
     <div class="container">
         <div class="Titletotal wow fadeInUp1">
             <div class="treetop font16 colorWhite">MES RÉALISATIONS</div>
             <div class="subject font66 colorWhite">
-                <div class="t1">PROJETS<br><span>D'INFRASTRUCTURE IT</span></div>    
+                <div class="t1">PROJETS <br><span>D'INFRASTRUCTURE IT</span></div>    
             </div>
         </div>
         <div class="indexD-top wow fadeInUp1">
@@ -429,8 +233,8 @@
                 <div class="small fl" >
                     <a href="projets.html">
                         <div class="background">
-                            <div class="backgrounda pc" style="background: url(../images/photo313.png)no-repeat center center/cover"></div>
-                            <img src="../images/indexD1.png" class="mb" alt="Illustration compétence 1">
+                            <div class="backgrounda pc" style="background: url(../images/photo313.webp)no-repeat center center/cover"></div>
+                            <img src="../images/indexD1.webp" class="mb" alt="Illustration compétence 1">
                         </div>
                         <div class="text font36 colorWhite">Infrastructure Réseau Entreprise</div>
                     </a>
@@ -438,8 +242,8 @@
                 <div class="big fr">
                     <a href="projets.html">
                         <div class="background">
-                            <div class="backgrounda pc" style="background: url(../images/photo312.png)no-repeat center center/cover"></div>
-                            <img src="../images/indexD2.png" class="mb" alt="Illustration compétence 2">
+                            <div class="backgrounda pc" style="background: url(../images/photo312.webp)no-repeat center center/cover"></div>
+                            <img src="../images/indexD2.webp" class="mb" alt="Illustration compétence 2">
                         </div>
                         <div class="text font36 colorWhite">Serveur Web Sécurisé Linux</div>
                     </a>
@@ -451,8 +255,8 @@
                 <div class="small fr">
                     <a href="projets.html">
                         <div class="background">
-                            <div class="backgrounda pc" style="background: url(../images/photo314.png)no-repeat center center/cover"></div>
-                            <img src="../images/indexD4.png" class="mb" alt="Illustration compétence 3">
+                            <div class="backgrounda pc" style="background: url(../images/photo314.webp)no-repeat center center/cover"></div>
+                            <img src="../images/indexD4.webp" class="mb" alt="Illustration compétence 3">
                         </div>
                         <div class="text font36 colorWhite">Sécurisation <br>d'Infrastructure</div>
                     </a>
@@ -460,8 +264,8 @@
                 <div class="big fl">
                     <a href="projets.html">
                         <div class="background">
-                            <div class="backgrounda pc" style="background: url(../images/photo311.png)no-repeat center center/cover"></div>
-                            <img src="../images/indexD3.png" class="mb" alt="Illustration compétence 4">
+                            <div class="backgrounda pc" style="background: url(../images/photo311.webp)no-repeat center center/cover"></div>
+                            <img src="../images/indexD3.webp" class="mb" alt="Illustration compétence 4">
                         </div>
                         <div class="text font36 colorWhite">Virtualisation & Cloud</div>
                     </a>
@@ -471,92 +275,14 @@
     </div>
 </div>
 
-<div class="indexE">
-    <div class="container">
-        <div class="indexe-top wow fadeInUp1">
-            <div class="clearfix relative">
-                <div class="topl fl">
-                    <div class="Titletotal">
-                        <div class="treetop font16 colorWhite">Veille Technologique</div>
-                        <div class="subject font66 colorWhite">
-                            <div class="t1">Technologies & Innovations</div>    
-                        </div>
-                    </div>
-                </div>
-                <div class="topr fr">
-                    <div class="swiper-button pc">
-                        <div class="clearfix">
-                            <div class="buttonl fl">
-                                <div class="clearfix">
-                                    <div class="swiper-button-prev mainQh mainQhPrev"></div>
-                                    <div class="swiper-button-next mainQh mainQhNext"></div>
-                                </div>
-                            </div>
-                            <div class="buttonr fl"><a href="veille.html" class="more"><span>Découvrir mes veilles</span></a></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="indexe-bottom wow fadeInUp1">
-            <div class="swiper-container">
-                <div class="swiper-wrapper">
-                  
-                    <div class="swiper-slide">
-                        <a href="veille.html">
-                            <div class="img img100"><img src="../images/indexE2.png" alt="Ressource portfolio 1"></div>
-                            <div class="text">
-                                <div class="text-a font16 color9">2025  /  Cloud & Virtualisation</div>
-                                <div class="text-b font26 colorWhite bold">Évolution des technologies de virtualisation et conteneurisation<br> &nbsp;</div>
-                                <div class="text-c font18 colorWhite">Lire plus</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="veille.html">
-                            <div class="img img100"><img src="../images/indexE3.png" alt="Ressource portfolio 2"></div>
-                            <div class="text">
-                                <div class="text-a font16 color9">2025  /  Cybersécurité</div>
-                                <div class="text-b font26 colorWhite bold">Nouvelles menaces et solutions de sécurité pour infrastructures IT</div>
-                                <div class="text-c font18 colorWhite">Lire plus</div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="swiper-slide">
-                        <a href="veille.html">
-                            <div class="img img100"><img src="../images/indexE1.png" alt="Ressource portfolio 3"></div>
-                            <div class="text">
-                                <div class="text-a font16 color9">2025  /  Administration Systèmes</div>
-                                <div class="text-b font26 colorWhite bold">DevOps, automatisation et gestion moderne des infrastructures</div>
-                                <div class="text-c font18 colorWhite">Lire plus</div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="swiper-button mb">
-            <div class="clearfix wow fadeInUp1">
-                <div class="buttonl fl">
-                    <div class="clearfix">
-                        <div class="swiper-button-prev mainQh mainQhPrev"></div>
-                        <div class="swiper-button-next mainQh mainQhNext"></div>
-                    </div>
-                </div>
-                <div class="buttonr fl"><a href="veille.html" class="more"><span>Découvrir mes veilles</span></a></div>
-            </div>
-        </div>
-    </div>
-</div>
-
 <div class="indexF relative">
     <div class="relative wow fadeInUp1">
         <div class="container clearfix">
-            <div class="index-l fl font20 colorC">Flavien GARIBALDI<br>Étudiant en BTS SIO SISR</div>
+            <div class="index-l fl font20 colorC">Flavien GARIBALDI <br>Étudiant en BTS SIO SISR</div>
             <div class="index-r fr wow fadeInUp1">
                 <a href="contact.html">
                     <div class="r-a font70">PROJET ?</div>
-                    <div class="r-b font70 bold">ME<br>CONTACTER</div>
+                    <div class="r-b font70 bold">ME <br>CONTACTER</div>
                     <div class="r-c"><span></span></div>
                 </a>
             </div>
@@ -578,6 +304,7 @@
                             <div class="rla font16"><a href="#">Menu</a></div>
                             <div class="rlb">
                                 <div class="lb-a font22"><a href="apropos.html">À PROPOS</a></div>
+                                <div class="lb-a font22"><a href="btssio.html">BTS SIO</a></div>
                                 <div class="lb-a font22"><a href="projets.html">PROJETS</a></div>
                                 <div class="lb-a font22"><a href="certifications.html">CERTIFICATIONS</a></div>
                                 <div class="lb-a font22"><a href="tcs.html">TCS</a></div>
@@ -617,8 +344,8 @@
 
 <button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
 
-<script src="../js/publicf9e3.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
-<script src="../js/index-init.js?v=1.1" defer></script>
+<script src="../js/main.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
+<script src="../js/index-init.js?v=1.2" defer></script>
 </body>
 </html>
 
