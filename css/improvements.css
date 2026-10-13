@@ -390,6 +390,235 @@ select:focus-visible {
     color: #1d4ed8;
 }
 
+/* ── Procédure cards ── */
+.procedure-controls {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin: 32px 0 18px;
+}
+.procedure-stat {
+    color: #d1d5db;
+    font-size: 16px;
+    letter-spacing: 0.04em;
+}
+.procedure-search {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: min(360px, 100%);
+}
+@media (max-width: 768px) {
+    .procedure-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .procedure-search {
+        width: 100%;
+        min-width: 0;
+    }
+}
+.procedure-search span {
+    color: #d1d5db;
+    font-size: 13px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+.procedure-search input {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.06);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+    color: #fff;
+    padding: 14px 18px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+.procedure-search input::placeholder {
+    color: rgba(255, 255, 255, 0.45);
+}
+.procedure-search input:focus {
+    background: rgba(255, 255, 255, 0.08);
+    border-color: rgba(159, 197, 255, 0.8);
+    box-shadow: 0 0 0 3px rgba(159, 197, 255, 0.15);
+}
+.procedure-card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex: 1 1 300px;
+    width: 100%;
+    min-width: 0;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.03));
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 16px;
+    padding: 24px;
+    min-height: 240px;
+    transition: border-color 0.3s ease, transform 0.3s ease, background 0.3s ease;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+.procedure-card:hover {
+    border-color: rgba(29, 78, 216, 0.5);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+    transform: translateY(-3px);
+}
+.procedure-card-badge,
+.procedure-card-title,
+.procedure-card-meta,
+.procedure-card-description,
+.procedure-actions {
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+.procedure-card-badge {
+    align-self: flex-start;
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0.35rem 0.7rem;
+    border-radius: 999px;
+    background: rgba(159, 197, 255, 0.12);
+    color: #dbeafe;
+    font-size: 12px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+.procedure-card-title {
+    margin: 0;
+    font-size: 28px;
+    line-height: 1.3;
+}
+.procedure-card-meta {
+    margin: 0;
+    color: #cbd5e1 !important;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+.procedure-card-description {
+    margin: 0;
+    color: #bababa !important;
+    font-size: 15px;
+    line-height: 1.7;
+    flex: 1;
+    overflow-wrap: anywhere;
+    word-break: break-word;
+    text-shadow: none;
+    font-weight: 500;
+}
+.procedure-actions {
+    margin-top: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    align-items: center;
+}
+.procedure-button {
+    background: linear-gradient(90deg, #1d4ed8, #2563eb);
+    color: #fff;
+    border: none;
+    border-radius: 999px;
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    font: inherit;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 0 8px 18px rgba(37, 99, 235, 0.25);
+}
+.procedure-button:hover,
+.procedure-button:focus {
+    color: #fff;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 22px rgba(37, 99, 235, 0.35);
+}
+.procedure-link {
+    color: #9fc5ff !important;
+    text-decoration: none;
+    font-size: 15px;
+}
+.procedure-link:hover {
+    text-decoration: underline;
+}
+/* ── Markdown viewer ── */
+.markdown-viewer {
+    background: rgba(255, 255, 255, 0.04);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 18px;
+    padding: 34px;
+    margin-top: 24px;
+    color: #f5f5f5;
+}
+.markdown-viewer h1,
+.markdown-viewer h2,
+.markdown-viewer h3,
+.markdown-viewer h4,
+.markdown-viewer h5,
+.markdown-viewer h6 {
+    color: #ffffff;
+    margin-top: 1.8rem;
+    margin-bottom: 0.9rem;
+}
+.markdown-viewer p {
+    margin: 1rem 0;
+    line-height: 1.75;
+}
+.markdown-viewer a {
+    color: #9fc5ff;
+    text-decoration: underline;
+}
+.markdown-viewer ul,
+.markdown-viewer ol {
+    margin: 1rem 0 1rem 1.4rem;
+}
+.markdown-viewer li {
+    margin: 0.55rem 0;
+}
+.markdown-viewer blockquote {
+    border-left: 4px solid rgba(255, 255, 255, 0.25);
+    padding-left: 18px;
+    color: #d1d5db;
+    margin: 1.2rem 0;
+}
+.markdown-viewer pre {
+    background: rgba(0, 0, 0, 0.22);
+    color: #f8fafc;
+    border-radius: 14px;
+    padding: 22px;
+    overflow: auto;
+    margin: 1.2rem 0;
+    max-width: 100%;
+}
+.markdown-viewer code {
+    background: rgba(255, 255, 255, 0.08);
+    padding: 0.2rem 0.35rem;
+    border-radius: 6px;
+}
+.markdown-viewer img {
+    max-width: 100%;
+    height: auto;
+}
+.markdown-viewer table {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    overflow-x: auto;
+    border-collapse: collapse;
+    margin: 1.2rem 0;
+}
+.markdown-viewer th,
+.markdown-viewer td {
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    padding: 10px 12px;
+}
+.markdown-viewer th {
+    background: rgba(255, 255, 255, 0.08);
+}
+
 /* ── Smooth scroll ── */
 html {
     scroll-behavior: smooth;
