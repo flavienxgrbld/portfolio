@@ -125,28 +125,16 @@ html {
 	-webkit-text-size-adjust: none;
 }
 
- @font-face {
+@font-face {
 	font-family: 'bai-jamjuree-latin-400-normal';
-	src: url('../fonts/bai-jamjuree-latin-400-normal.html');
-	src: local('☺'),
-		url('../fonts/bai-jamjuree-latin-400-normald41d.html?#iefix') format('embedded-opentype'),
-		url('../fonts/bai-jamjuree-latin-400-normal.woff') format('woff'),
-		url('../fonts/bai-jamjuree-latin-400-normal.ttf') format('truetype'),
-		url('../fonts/bai-jamjuree-latin-400-normal.otf') format('opentype'),
-		url('../fonts/bai-jamjuree-latin-400-normal-2.html') format('dfont'),
-		url('../fonts/bai-jamjuree-latin-400-normal.svg#bai-jamjuree-latin-400-normal') format('svg');
+	src: url('../fonts/bai-jamjuree-latin-400-normal.woff2') format('woff2');
+	font-display: swap;
 }
 
 @font-face {
 	font-family: 'bai-jamjuree-latin-700-normal';
-	src: url('../fonts/bai-jamjuree-latin-700-normal.html');
-	src: local('☺'),
-		url('../fonts/bai-jamjuree-latin-700-normald41d.html?#iefix') format('embedded-opentype'),
-		url('../fonts/bai-jamjuree-latin-700-normal.woff') format('woff'),
-		url('../fonts/bai-jamjuree-latin-700-normal.ttf') format('truetype'),
-		url('../fonts/bai-jamjuree-latin-700-normal.otf') format('opentype'),
-		url('../fonts/bai-jamjuree-latin-700-normal-2.html') format('dfont'),
-		url('../fonts/bai-jamjuree-latin-700-normal.svg#bai-jamjuree-latin-700-normal') format('svg');
+	src: url('../fonts/bai-jamjuree-latin-700-normal.woff2') format('woff2');
+	font-display: swap;
 }
 
 
