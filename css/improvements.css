@@ -1082,3 +1082,10 @@ a.button:hover,
 /* ── Bannière d'accueil : deux boutons côte à côte ── */
 .indexbanner .banner-actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 40px; }
 .indexbanner .banner-actions a { margin-top: 0; }
+@media (max-width: 1100px) {
+    /* Sur mobile, l'image de fond plein écran remplace l'image en ligne :
+       plus de vide sous l'image ni de coins noirs */
+    .indexbanner .imgb.pc { display: block !important; }
+    .indexbanner img.mb { display: none !important; }
+}
+.aboutA-a p a { text-decoration: underline; text-underline-offset: 3px; }
