@@ -10,6 +10,7 @@ Portfolio d'étudiant en **BTS SIO option SISR** (administration systèmes, rés
 | --- | --- |
 | Accueil | Présentation générale |
 | À propos | Parcours et formations |
+| BTS SIO | Présentation du diplôme et de l'option SISR |
 | Projets | Projets réalisés, schémas d'infrastructure pro et perso |
 | Certifications | Certifications obtenues, filtrables par catégorie |
 | TCS | Tableau de compétences |
