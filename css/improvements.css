@@ -1175,3 +1175,11 @@ html body .indexD .text.colorWhite {
     .aboutB .aboutBr { float: none; width: 100%; }
     .aboutB .aboutBr { margin-top: 32px; }
 }
+
+/* Menu mobile : une règle globale donne z-index: 1 au header et à la nav, ce qui
+   enfermait le menu ouvert sous le contenu de la page (qui vient après dans le
+   HTML). Le header passe au-dessus de tout le contenu. */
+html body > header {
+    position: relative;
+    z-index: 1000 !important;
+}
