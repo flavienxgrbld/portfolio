@@ -18,704 +18,704 @@
   {
     "name": "GLPI",
     "path": "GLPI",
-    "sha": "e820acd1bce48a85bf340508ffa2e92ad88ea563",
+    "sha": "1aa20c6337866eb13292911461b0cc072469b2c1",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/GLPI?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/GLPI",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e820acd1bce48a85bf340508ffa2e92ad88ea563",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1aa20c6337866eb13292911461b0cc072469b2c1",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/GLPI?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e820acd1bce48a85bf340508ffa2e92ad88ea563",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1aa20c6337866eb13292911461b0cc072469b2c1",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/GLPI"
     }
   },
   {
     "name": "MATOMO",
     "path": "MATOMO",
-    "sha": "dc796dd542c12ccb56e21ba5612ca0915ea2fd3b",
+    "sha": "a7ad52fbb9f32861c6e5a0c8a63f7db5b6e29a48",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/MATOMO?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/MATOMO",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/dc796dd542c12ccb56e21ba5612ca0915ea2fd3b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a7ad52fbb9f32861c6e5a0c8a63f7db5b6e29a48",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/MATOMO?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/dc796dd542c12ccb56e21ba5612ca0915ea2fd3b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a7ad52fbb9f32861c6e5a0c8a63f7db5b6e29a48",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/MATOMO"
     }
   },
   {
     "name": "OPEN WEB ANALYTICS",
     "path": "OPEN WEB ANALYTICS",
-    "sha": "541df3b73095b6bcc6f28237f59fa6e69d79a093",
+    "sha": "70653b15e4defacaf88bf322a425bac0bc7354af",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/OPEN%20WEB%20ANALYTICS?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/OPEN%20WEB%20ANALYTICS",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/541df3b73095b6bcc6f28237f59fa6e69d79a093",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/70653b15e4defacaf88bf322a425bac0bc7354af",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/OPEN%20WEB%20ANALYTICS?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/541df3b73095b6bcc6f28237f59fa6e69d79a093",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/70653b15e4defacaf88bf322a425bac0bc7354af",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/OPEN%20WEB%20ANALYTICS"
     }
   },
   {
     "name": "PLAUSIBLE",
     "path": "PLAUSIBLE",
-    "sha": "bc5ba099280e215c6591b532f31a18b44d3152c8",
+    "sha": "89828cc047a07318839521240967189d15ef8bce",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/PLAUSIBLE?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/PLAUSIBLE",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/bc5ba099280e215c6591b532f31a18b44d3152c8",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/89828cc047a07318839521240967189d15ef8bce",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/PLAUSIBLE?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/bc5ba099280e215c6591b532f31a18b44d3152c8",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/89828cc047a07318839521240967189d15ef8bce",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/PLAUSIBLE"
     }
   },
   {
     "name": "PROXMOX",
     "path": "PROXMOX",
-    "sha": "dc1527ed7e6b295d56f9e59566aaaaa02811c0c4",
+    "sha": "d038f51a9ed341c9978408b732f990ab179ff480",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/PROXMOX?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/PROXMOX",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/dc1527ed7e6b295d56f9e59566aaaaa02811c0c4",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d038f51a9ed341c9978408b732f990ab179ff480",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/PROXMOX?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/dc1527ed7e6b295d56f9e59566aaaaa02811c0c4",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d038f51a9ed341c9978408b732f990ab179ff480",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/PROXMOX"
     }
   },
   {
     "name": "README.md",
     "path": "README.md",
-    "sha": "a9175d88f38086758266270a5e29e093ebb7225e",
-    "size": 3775,
+    "sha": "ef907f892ed1f23e9c51639b187f3b16c7adc9ac",
+    "size": 4897,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/README.md?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/blob/main/README.md",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/blobs/a9175d88f38086758266270a5e29e093ebb7225e",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/blobs/ef907f892ed1f23e9c51639b187f3b16c7adc9ac",
     "download_url": "https://raw.githubusercontent.com/flavienxgrbld/procedures/main/README.md",
     "type": "file",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/README.md?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/blobs/a9175d88f38086758266270a5e29e093ebb7225e",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/blobs/ef907f892ed1f23e9c51639b187f3b16c7adc9ac",
       "html": "https://github.com/flavienxgrbld/procedures/blob/main/README.md"
     }
   },
   {
     "name": "ZABBIX",
     "path": "ZABBIX",
-    "sha": "3343fe9dfe0c6c9a8fdc3d0277fe72015157b137",
+    "sha": "f2f9cfb21b01b8d4e0cb182f2422e476aac1b161",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ZABBIX?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/ZABBIX",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3343fe9dfe0c6c9a8fdc3d0277fe72015157b137",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f2f9cfb21b01b8d4e0cb182f2422e476aac1b161",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ZABBIX?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3343fe9dfe0c6c9a8fdc3d0277fe72015157b137",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f2f9cfb21b01b8d4e0cb182f2422e476aac1b161",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/ZABBIX"
     }
   },
   {
     "name": "akaunting",
     "path": "akaunting",
-    "sha": "10158769ef7f071692204fb637a4e7295f722779",
+    "sha": "8b6d7d53707ed006723f11bf4036a90dc1e9b8a0",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/akaunting?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/akaunting",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/10158769ef7f071692204fb637a4e7295f722779",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8b6d7d53707ed006723f11bf4036a90dc1e9b8a0",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/akaunting?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/10158769ef7f071692204fb637a4e7295f722779",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8b6d7d53707ed006723f11bf4036a90dc1e9b8a0",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/akaunting"
     }
   },
   {
     "name": "alertmanager",
     "path": "alertmanager",
-    "sha": "648ac07ae192b007d10a5b90affacd9e64c30fe6",
+    "sha": "1ed51b8d8074d7a76b6e5685d4f8e2e17e8912e3",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/alertmanager?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/alertmanager",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/648ac07ae192b007d10a5b90affacd9e64c30fe6",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1ed51b8d8074d7a76b6e5685d4f8e2e17e8912e3",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/alertmanager?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/648ac07ae192b007d10a5b90affacd9e64c30fe6",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1ed51b8d8074d7a76b6e5685d4f8e2e17e8912e3",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/alertmanager"
     }
   },
   {
     "name": "apache",
     "path": "apache",
-    "sha": "ca2d8d398c6cc88299a8cd59daf9f18ef8f9ec69",
+    "sha": "ef3344adf90e489e5bc6bcc18d2e3a7e8c76857c",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/apache?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/apache",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ca2d8d398c6cc88299a8cd59daf9f18ef8f9ec69",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ef3344adf90e489e5bc6bcc18d2e3a7e8c76857c",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/apache?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ca2d8d398c6cc88299a8cd59daf9f18ef8f9ec69",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ef3344adf90e489e5bc6bcc18d2e3a7e8c76857c",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/apache"
     }
   },
   {
     "name": "artica",
     "path": "artica",
-    "sha": "9a7e52fe0b5b66a5c123d21dfddd230c8f2c3c4f",
+    "sha": "406f27ce0ef519336623b9793af2f938539650d6",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/artica?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/artica",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9a7e52fe0b5b66a5c123d21dfddd230c8f2c3c4f",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/406f27ce0ef519336623b9793af2f938539650d6",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/artica?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9a7e52fe0b5b66a5c123d21dfddd230c8f2c3c4f",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/406f27ce0ef519336623b9793af2f938539650d6",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/artica"
     }
   },
   {
     "name": "backblaze_sync",
     "path": "backblaze_sync",
-    "sha": "1e8ce95769aae2b49f6e3de22ceb4fc5be9710b9",
+    "sha": "5a46ecbdc860de21f16b51282088d0e8e9a1ff0f",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/backblaze_sync?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/backblaze_sync",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1e8ce95769aae2b49f6e3de22ceb4fc5be9710b9",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5a46ecbdc860de21f16b51282088d0e8e9a1ff0f",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/backblaze_sync?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1e8ce95769aae2b49f6e3de22ceb4fc5be9710b9",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5a46ecbdc860de21f16b51282088d0e8e9a1ff0f",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/backblaze_sync"
     }
   },
   {
     "name": "bacula",
     "path": "bacula",
-    "sha": "b5ed21de7d9b60b05783d0ffa220b982a2340b66",
+    "sha": "3f25d53e8f1cbe52b5f85b56e7b3c39d43293216",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/bacula?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/bacula",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b5ed21de7d9b60b05783d0ffa220b982a2340b66",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3f25d53e8f1cbe52b5f85b56e7b3c39d43293216",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/bacula?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b5ed21de7d9b60b05783d0ffa220b982a2340b66",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3f25d53e8f1cbe52b5f85b56e7b3c39d43293216",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/bacula"
     }
   },
   {
     "name": "cacti",
     "path": "cacti",
-    "sha": "5d3ef0b35347c5e9b415f6009d5b83c170870afc",
+    "sha": "7ae8b0acb339bca5e2828ea48232795ec63441c5",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/cacti?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/cacti",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5d3ef0b35347c5e9b415f6009d5b83c170870afc",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7ae8b0acb339bca5e2828ea48232795ec63441c5",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/cacti?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5d3ef0b35347c5e9b415f6009d5b83c170870afc",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7ae8b0acb339bca5e2828ea48232795ec63441c5",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/cacti"
     }
   },
   {
     "name": "certbot",
     "path": "certbot",
-    "sha": "9d524462bec8bdd3c4d3251f1bcda8d04313a2e4",
+    "sha": "f8f4e497e29902e0dc420c81450b74011117814b",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/certbot?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/certbot",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9d524462bec8bdd3c4d3251f1bcda8d04313a2e4",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f8f4e497e29902e0dc420c81450b74011117814b",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/certbot?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9d524462bec8bdd3c4d3251f1bcda8d04313a2e4",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f8f4e497e29902e0dc420c81450b74011117814b",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/certbot"
     }
   },
   {
     "name": "discourse",
     "path": "discourse",
-    "sha": "975a55c300d2ee1c53e2a98eee9c7907782fbd64",
+    "sha": "add3093657208dba6178d525c145bbc141a17071",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/discourse?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/discourse",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/975a55c300d2ee1c53e2a98eee9c7907782fbd64",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/add3093657208dba6178d525c145bbc141a17071",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/discourse?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/975a55c300d2ee1c53e2a98eee9c7907782fbd64",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/add3093657208dba6178d525c145bbc141a17071",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/discourse"
     }
   },
   {
     "name": "dnsmasq",
     "path": "dnsmasq",
-    "sha": "51f769ee84240901e7fb950e77b16218b242eaf8",
+    "sha": "5a2893d10cc10b5c75e70e4fcdfcc57b19e7b978",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/dnsmasq?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/dnsmasq",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/51f769ee84240901e7fb950e77b16218b242eaf8",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5a2893d10cc10b5c75e70e4fcdfcc57b19e7b978",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/dnsmasq?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/51f769ee84240901e7fb950e77b16218b242eaf8",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5a2893d10cc10b5c75e70e4fcdfcc57b19e7b978",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/dnsmasq"
     }
   },
   {
     "name": "docker",
     "path": "docker",
-    "sha": "a8d146f387691b0c5a340f306e8c564fa70b8ff6",
+    "sha": "31b9a03fd572374aabc347bd69f4379f700797b0",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/docker?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/docker",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a8d146f387691b0c5a340f306e8c564fa70b8ff6",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/31b9a03fd572374aabc347bd69f4379f700797b0",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/docker?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a8d146f387691b0c5a340f306e8c564fa70b8ff6",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/31b9a03fd572374aabc347bd69f4379f700797b0",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/docker"
     }
   },
   {
     "name": "dokuwiki",
     "path": "dokuwiki",
-    "sha": "f48e99bca530d336267d82b76f1c88ced99b1060",
+    "sha": "9ae089a8b84280429e687d401c164e886fbcf456",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/dokuwiki?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/dokuwiki",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f48e99bca530d336267d82b76f1c88ced99b1060",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9ae089a8b84280429e687d401c164e886fbcf456",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/dokuwiki?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f48e99bca530d336267d82b76f1c88ced99b1060",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9ae089a8b84280429e687d401c164e886fbcf456",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/dokuwiki"
     }
   },
   {
     "name": "dolibarr",
     "path": "dolibarr",
-    "sha": "19dc288f40755fa7259c49994ba3a828ff8516db",
+    "sha": "931f0c2b332ac5f0bfc7505f612b06678d50615d",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/dolibarr?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/dolibarr",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/19dc288f40755fa7259c49994ba3a828ff8516db",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/931f0c2b332ac5f0bfc7505f612b06678d50615d",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/dolibarr?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/19dc288f40755fa7259c49994ba3a828ff8516db",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/931f0c2b332ac5f0bfc7505f612b06678d50615d",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/dolibarr"
     }
   },
   {
     "name": "drupal",
     "path": "drupal",
-    "sha": "a56ae4e20a06c133c3c64f198e3f8ed7620598fc",
+    "sha": "f183dba6e76f166a053afdd91b0b79ec95559875",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/drupal?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/drupal",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a56ae4e20a06c133c3c64f198e3f8ed7620598fc",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f183dba6e76f166a053afdd91b0b79ec95559875",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/drupal?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a56ae4e20a06c133c3c64f198e3f8ed7620598fc",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f183dba6e76f166a053afdd91b0b79ec95559875",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/drupal"
     }
   },
   {
     "name": "duplicati",
     "path": "duplicati",
-    "sha": "76b0f41e26d2d1a1c24a60461f60a0558b64bc74",
+    "sha": "17e4327033c3da6d42c937e148d1d213a87b25d4",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/duplicati?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/duplicati",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/76b0f41e26d2d1a1c24a60461f60a0558b64bc74",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/17e4327033c3da6d42c937e148d1d213a87b25d4",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/duplicati?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/76b0f41e26d2d1a1c24a60461f60a0558b64bc74",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/17e4327033c3da6d42c937e148d1d213a87b25d4",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/duplicati"
     }
   },
   {
     "name": "elk",
     "path": "elk",
-    "sha": "71bbb74c47c5cd17867998fbec8093feea643bc1",
+    "sha": "15859335527bcebf22ab22d1c3f2d7b96573eeb1",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/elk?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/elk",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/71bbb74c47c5cd17867998fbec8093feea643bc1",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/15859335527bcebf22ab22d1c3f2d7b96573eeb1",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/elk?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/71bbb74c47c5cd17867998fbec8093feea643bc1",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/15859335527bcebf22ab22d1c3f2d7b96573eeb1",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/elk"
     }
   },
   {
     "name": "emby",
     "path": "emby",
-    "sha": "7ac334b320c1e81f9d8bc1f3c0bf9eacaa94fe1b",
+    "sha": "abfe8db9ef456ff12540c9334c9783b692583244",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/emby?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/emby",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7ac334b320c1e81f9d8bc1f3c0bf9eacaa94fe1b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/abfe8db9ef456ff12540c9334c9783b692583244",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/emby?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7ac334b320c1e81f9d8bc1f3c0bf9eacaa94fe1b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/abfe8db9ef456ff12540c9334c9783b692583244",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/emby"
     }
   },
   {
     "name": "erpnext",
     "path": "erpnext",
-    "sha": "f821db1eec99c17eb9060c507a18fe1e718bc6ca",
+    "sha": "18a4aaa13e951660f2ac5dcee94537f09f2d69dd",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/erpnext?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/erpnext",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f821db1eec99c17eb9060c507a18fe1e718bc6ca",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/18a4aaa13e951660f2ac5dcee94537f09f2d69dd",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/erpnext?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f821db1eec99c17eb9060c507a18fe1e718bc6ca",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/18a4aaa13e951660f2ac5dcee94537f09f2d69dd",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/erpnext"
     }
   },
   {
     "name": "etherpad",
     "path": "etherpad",
-    "sha": "4d19a4b096c0faf6bf023cc8ba6e257ddc4ce7f5",
+    "sha": "7b530a4f6950328a56b8d891192933a84344fff3",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/etherpad?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/etherpad",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4d19a4b096c0faf6bf023cc8ba6e257ddc4ce7f5",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7b530a4f6950328a56b8d891192933a84344fff3",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/etherpad?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4d19a4b096c0faf6bf023cc8ba6e257ddc4ce7f5",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7b530a4f6950328a56b8d891192933a84344fff3",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/etherpad"
     }
   },
   {
     "name": "fail2ban",
     "path": "fail2ban",
-    "sha": "26dc027ecd3805f9a0b23da6d45485c8ea26af71",
+    "sha": "c75564bc1de0c8ed088faa6b4c3a8ee33259acea",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/fail2ban?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/fail2ban",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/26dc027ecd3805f9a0b23da6d45485c8ea26af71",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c75564bc1de0c8ed088faa6b4c3a8ee33259acea",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/fail2ban?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/26dc027ecd3805f9a0b23da6d45485c8ea26af71",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c75564bc1de0c8ed088faa6b4c3a8ee33259acea",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/fail2ban"
     }
   },
   {
     "name": "filebrowser",
     "path": "filebrowser",
-    "sha": "d91429498b142d4484fe096e7035a47e92501c88",
+    "sha": "a98f806477f5e2a10e3ed812a76faf10b6bad60c",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/filebrowser?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/filebrowser",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d91429498b142d4484fe096e7035a47e92501c88",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a98f806477f5e2a10e3ed812a76faf10b6bad60c",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/filebrowser?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d91429498b142d4484fe096e7035a47e92501c88",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a98f806477f5e2a10e3ed812a76faf10b6bad60c",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/filebrowser"
     }
   },
   {
     "name": "focalboard",
     "path": "focalboard",
-    "sha": "2e175430bf9a6fc97c83d33c3499e35340e9d95c",
+    "sha": "9ba90f398143a8007a057edce710a7d00460c60b",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/focalboard?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/focalboard",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2e175430bf9a6fc97c83d33c3499e35340e9d95c",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9ba90f398143a8007a057edce710a7d00460c60b",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/focalboard?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2e175430bf9a6fc97c83d33c3499e35340e9d95c",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9ba90f398143a8007a057edce710a7d00460c60b",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/focalboard"
     }
   },
   {
     "name": "fog_project",
     "path": "fog_project",
-    "sha": "9408a91af622750c59bd96eef82f7aa64dbeb2d0",
+    "sha": "419118dd49a3fc3889bebb4d9f694308165df02b",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/fog_project?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/fog_project",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9408a91af622750c59bd96eef82f7aa64dbeb2d0",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/419118dd49a3fc3889bebb4d9f694308165df02b",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/fog_project?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9408a91af622750c59bd96eef82f7aa64dbeb2d0",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/419118dd49a3fc3889bebb4d9f694308165df02b",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/fog_project"
     }
   },
   {
     "name": "ghost",
     "path": "ghost",
-    "sha": "abade3357bfa90fe927b0ebfaa6670159374fef3",
+    "sha": "26f55d599d69ae3ae722d728c51cd5de0f054c1d",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ghost?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/ghost",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/abade3357bfa90fe927b0ebfaa6670159374fef3",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/26f55d599d69ae3ae722d728c51cd5de0f054c1d",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ghost?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/abade3357bfa90fe927b0ebfaa6670159374fef3",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/26f55d599d69ae3ae722d728c51cd5de0f054c1d",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/ghost"
     }
   },
   {
     "name": "gitea_self_hosted",
     "path": "gitea_self_hosted",
-    "sha": "350a43453a2e291acff2a57c2257a004513163f7",
+    "sha": "00a5fd1d020173b46455135cad0725ce64f7eeb6",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitea_self_hosted?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/gitea_self_hosted",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/350a43453a2e291acff2a57c2257a004513163f7",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/00a5fd1d020173b46455135cad0725ce64f7eeb6",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitea_self_hosted?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/350a43453a2e291acff2a57c2257a004513163f7",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/00a5fd1d020173b46455135cad0725ce64f7eeb6",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/gitea_self_hosted"
     }
   },
   {
     "name": "gitlab_runner",
     "path": "gitlab_runner",
-    "sha": "ee78ff9106a878477d9affcef09e741d8257ede7",
+    "sha": "a4a56751fd6dcc63993772f8f8b7ceb3c2321dc0",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitlab_runner?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/gitlab_runner",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ee78ff9106a878477d9affcef09e741d8257ede7",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a4a56751fd6dcc63993772f8f8b7ceb3c2321dc0",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitlab_runner?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ee78ff9106a878477d9affcef09e741d8257ede7",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a4a56751fd6dcc63993772f8f8b7ceb3c2321dc0",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/gitlab_runner"
     }
   },
   {
     "name": "gitlist",
     "path": "gitlist",
-    "sha": "cf56f14ca1123e39956bb80cac0a75ceffb486dd",
+    "sha": "92b3835ccbf5f9d281c7533dcbe64493227afbad",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitlist?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/gitlist",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cf56f14ca1123e39956bb80cac0a75ceffb486dd",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/92b3835ccbf5f9d281c7533dcbe64493227afbad",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitlist?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cf56f14ca1123e39956bb80cac0a75ceffb486dd",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/92b3835ccbf5f9d281c7533dcbe64493227afbad",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/gitlist"
     }
   },
   {
     "name": "gitpod",
     "path": "gitpod",
-    "sha": "0178836b26f0b1b7e87b22232f2fa7a2cd65f135",
+    "sha": "f41d18fc03ee9bf741191238378704834e636cae",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitpod?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/gitpod",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0178836b26f0b1b7e87b22232f2fa7a2cd65f135",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f41d18fc03ee9bf741191238378704834e636cae",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/gitpod?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0178836b26f0b1b7e87b22232f2fa7a2cd65f135",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f41d18fc03ee9bf741191238378704834e636cae",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/gitpod"
     }
   },
   {
     "name": "guacamole",
     "path": "guacamole",
-    "sha": "0bb8cdb0460fc0f07fa112c7d03da862324678bd",
+    "sha": "a9ba1fa3be1b3c4a3d946a3a5d24946b32140fc7",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/guacamole?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/guacamole",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0bb8cdb0460fc0f07fa112c7d03da862324678bd",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a9ba1fa3be1b3c4a3d946a3a5d24946b32140fc7",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/guacamole?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0bb8cdb0460fc0f07fa112c7d03da862324678bd",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a9ba1fa3be1b3c4a3d946a3a5d24946b32140fc7",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/guacamole"
     }
   },
   {
     "name": "haproxy",
     "path": "haproxy",
-    "sha": "a4541c73eed6543d1947a0fadcbd099ccc62590a",
+    "sha": "01211586c49323bfedf928d1687ab8a291534fde",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/haproxy?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/haproxy",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a4541c73eed6543d1947a0fadcbd099ccc62590a",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/01211586c49323bfedf928d1687ab8a291534fde",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/haproxy?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a4541c73eed6543d1947a0fadcbd099ccc62590a",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/01211586c49323bfedf928d1687ab8a291534fde",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/haproxy"
     }
   },
   {
     "name": "hashicorp_consul",
     "path": "hashicorp_consul",
-    "sha": "901e810512c2e48445c5085b0ffb3dbb8248c3f5",
+    "sha": "072c2f61e666eae2705912f386c65b980e72a5c7",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hashicorp_consul?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/hashicorp_consul",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/901e810512c2e48445c5085b0ffb3dbb8248c3f5",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/072c2f61e666eae2705912f386c65b980e72a5c7",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hashicorp_consul?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/901e810512c2e48445c5085b0ffb3dbb8248c3f5",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/072c2f61e666eae2705912f386c65b980e72a5c7",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/hashicorp_consul"
     }
   },
   {
     "name": "hashicorp_nomad",
     "path": "hashicorp_nomad",
-    "sha": "7259fe977eeb9ef004d3c1db57aa29729e03dd9f",
+    "sha": "d667d319312abadfe23d4b7608391000e38a5f7c",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hashicorp_nomad?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/hashicorp_nomad",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7259fe977eeb9ef004d3c1db57aa29729e03dd9f",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d667d319312abadfe23d4b7608391000e38a5f7c",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hashicorp_nomad?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7259fe977eeb9ef004d3c1db57aa29729e03dd9f",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d667d319312abadfe23d4b7608391000e38a5f7c",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/hashicorp_nomad"
     }
   },
   {
     "name": "home_assistant",
     "path": "home_assistant",
-    "sha": "de71ae6265b66b2f0f122c8eac87b45acf62e870",
+    "sha": "bcbb4f2c36535d6067866add447f81886d1cb189",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/home_assistant?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/home_assistant",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/de71ae6265b66b2f0f122c8eac87b45acf62e870",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/bcbb4f2c36535d6067866add447f81886d1cb189",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/home_assistant?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/de71ae6265b66b2f0f122c8eac87b45acf62e870",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/bcbb4f2c36535d6067866add447f81886d1cb189",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/home_assistant"
     }
   },
   {
     "name": "hurl",
     "path": "hurl",
-    "sha": "9e90335d01981bf99b79b364ebabc5eb4a85dab8",
+    "sha": "39b4683c228bf83c9af0530e5c4f16060f9870ee",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hurl?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/hurl",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9e90335d01981bf99b79b364ebabc5eb4a85dab8",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/39b4683c228bf83c9af0530e5c4f16060f9870ee",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hurl?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9e90335d01981bf99b79b364ebabc5eb4a85dab8",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/39b4683c228bf83c9af0530e5c4f16060f9870ee",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/hurl"
     }
   },
   {
     "name": "hyperledger_fabric",
     "path": "hyperledger_fabric",
-    "sha": "6619e9e59edc1749ea6f8c252db098f8952a0e3d",
+    "sha": "94189b107228351f43b7e89c094639b6be024de8",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hyperledger_fabric?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/hyperledger_fabric",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6619e9e59edc1749ea6f8c252db098f8952a0e3d",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/94189b107228351f43b7e89c094639b6be024de8",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/hyperledger_fabric?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6619e9e59edc1749ea6f8c252db098f8952a0e3d",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/94189b107228351f43b7e89c094639b6be024de8",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/hyperledger_fabric"
     }
   },
   {
     "name": "immich",
     "path": "immich",
-    "sha": "4818adf20cc37eb60c76d695a51dbd10ab3baa47",
+    "sha": "667d6bfe6e0188545f27b6ec63a660b8d0105505",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/immich?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/immich",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4818adf20cc37eb60c76d695a51dbd10ab3baa47",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/667d6bfe6e0188545f27b6ec63a660b8d0105505",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/immich?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4818adf20cc37eb60c76d695a51dbd10ab3baa47",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/667d6bfe6e0188545f27b6ec63a660b8d0105505",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/immich"
     }
   },
   {
     "name": "influxdb",
     "path": "influxdb",
-    "sha": "6d31d97e23d97d6df82d18543cfc31a79d7e1e04",
+    "sha": "5ec13cf4c1b758cdb8d3bc22b917afb15c87aa78",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/influxdb?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/influxdb",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6d31d97e23d97d6df82d18543cfc31a79d7e1e04",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5ec13cf4c1b758cdb8d3bc22b917afb15c87aa78",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/influxdb?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6d31d97e23d97d6df82d18543cfc31a79d7e1e04",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5ec13cf4c1b758cdb8d3bc22b917afb15c87aa78",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/influxdb"
     }
   },
@@ -738,704 +738,704 @@
   {
     "name": "invoice_ninja",
     "path": "invoice_ninja",
-    "sha": "5c37d263f7c65355a85fd24f9b66160aff79a149",
+    "sha": "423e2b08c9a8ddd9bb441da14fc99eb1def4f71c",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/invoice_ninja?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/invoice_ninja",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5c37d263f7c65355a85fd24f9b66160aff79a149",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/423e2b08c9a8ddd9bb441da14fc99eb1def4f71c",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/invoice_ninja?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5c37d263f7c65355a85fd24f9b66160aff79a149",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/423e2b08c9a8ddd9bb441da14fc99eb1def4f71c",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/invoice_ninja"
     }
   },
   {
     "name": "jellyfin",
     "path": "jellyfin",
-    "sha": "c68551f82c04453b9e4b069dfa957db7e12c7639",
+    "sha": "20d45bafee59d2fa09461d2adb10bce1913fe981",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/jellyfin?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/jellyfin",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c68551f82c04453b9e4b069dfa957db7e12c7639",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/20d45bafee59d2fa09461d2adb10bce1913fe981",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/jellyfin?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c68551f82c04453b9e4b069dfa957db7e12c7639",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/20d45bafee59d2fa09461d2adb10bce1913fe981",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/jellyfin"
     }
   },
   {
     "name": "jenkins",
     "path": "jenkins",
-    "sha": "34c4316d6adeb3e5372715da43c578045fa979ba",
+    "sha": "169cb9e49d5900e815d2ee8cf41dd9699a350e3a",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/jenkins?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/jenkins",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/34c4316d6adeb3e5372715da43c578045fa979ba",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/169cb9e49d5900e815d2ee8cf41dd9699a350e3a",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/jenkins?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/34c4316d6adeb3e5372715da43c578045fa979ba",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/169cb9e49d5900e815d2ee8cf41dd9699a350e3a",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/jenkins"
     }
   },
   {
     "name": "jitsi_meet",
     "path": "jitsi_meet",
-    "sha": "86bb1d8cb091d8fe02c8f5d8f69e2558613b1269",
+    "sha": "f1458f50c850eb3037ffc071c0ef4ebac9a39b38",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/jitsi_meet?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/jitsi_meet",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/86bb1d8cb091d8fe02c8f5d8f69e2558613b1269",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f1458f50c850eb3037ffc071c0ef4ebac9a39b38",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/jitsi_meet?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/86bb1d8cb091d8fe02c8f5d8f69e2558613b1269",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f1458f50c850eb3037ffc071c0ef4ebac9a39b38",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/jitsi_meet"
     }
   },
   {
     "name": "keycloak",
     "path": "keycloak",
-    "sha": "28c57542ea790ae61cfc6a85f330ffc37cc40114",
+    "sha": "98875eb22efe8acecb93e71eabcaf8061a144496",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/keycloak?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/keycloak",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/28c57542ea790ae61cfc6a85f330ffc37cc40114",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/98875eb22efe8acecb93e71eabcaf8061a144496",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/keycloak?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/28c57542ea790ae61cfc6a85f330ffc37cc40114",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/98875eb22efe8acecb93e71eabcaf8061a144496",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/keycloak"
     }
   },
   {
     "name": "kodi",
     "path": "kodi",
-    "sha": "b4fbc3c961057436cbd4c0ed9dd2b042c135d46c",
+    "sha": "865e29f9cbc6a2595353efa00143ac27ccf37595",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/kodi?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/kodi",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b4fbc3c961057436cbd4c0ed9dd2b042c135d46c",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/865e29f9cbc6a2595353efa00143ac27ccf37595",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/kodi?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b4fbc3c961057436cbd4c0ed9dd2b042c135d46c",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/865e29f9cbc6a2595353efa00143ac27ccf37595",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/kodi"
     }
   },
   {
     "name": "landscape",
     "path": "landscape",
-    "sha": "b5edd3e517c399ae248a30443cd8382f139eaf77",
+    "sha": "7842dd78d8fb29c290c79571ed7b5e6400e1debd",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/landscape?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/landscape",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b5edd3e517c399ae248a30443cd8382f139eaf77",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7842dd78d8fb29c290c79571ed7b5e6400e1debd",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/landscape?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b5edd3e517c399ae248a30443cd8382f139eaf77",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7842dd78d8fb29c290c79571ed7b5e6400e1debd",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/landscape"
     }
   },
   {
     "name": "localstack",
     "path": "localstack",
-    "sha": "3a9afcb8683e8a084cc6f6fd943638da9f8ce75f",
+    "sha": "34bbd389eab01f722d8d910875a503b99ab52eae",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/localstack?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/localstack",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3a9afcb8683e8a084cc6f6fd943638da9f8ce75f",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/34bbd389eab01f722d8d910875a503b99ab52eae",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/localstack?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3a9afcb8683e8a084cc6f6fd943638da9f8ce75f",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/34bbd389eab01f722d8d910875a503b99ab52eae",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/localstack"
     }
   },
   {
     "name": "loki",
     "path": "loki",
-    "sha": "5ac355196deba69598b2d9f0a7e18255c690e8aa",
+    "sha": "9cc297b32ca1e52d5dd7d1f3fb422745f09cbac4",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/loki?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/loki",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5ac355196deba69598b2d9f0a7e18255c690e8aa",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9cc297b32ca1e52d5dd7d1f3fb422745f09cbac4",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/loki?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5ac355196deba69598b2d9f0a7e18255c690e8aa",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9cc297b32ca1e52d5dd7d1f3fb422745f09cbac4",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/loki"
     }
   },
   {
     "name": "luajit",
     "path": "luajit",
-    "sha": "6dcc47957e431263f9457becdf13627cb4a9be20",
+    "sha": "33299ca65b89f464eec3a9165bd22892d348dfed",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/luajit?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/luajit",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6dcc47957e431263f9457becdf13627cb4a9be20",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/33299ca65b89f464eec3a9165bd22892d348dfed",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/luajit?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6dcc47957e431263f9457becdf13627cb4a9be20",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/33299ca65b89f464eec3a9165bd22892d348dfed",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/luajit"
     }
   },
   {
     "name": "lxd",
     "path": "lxd",
-    "sha": "c95e167de43e205b112e03fb377534a550529653",
+    "sha": "0b9f2004e5c696f80ad7e0c928205d3f6bb276f4",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/lxd?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/lxd",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c95e167de43e205b112e03fb377534a550529653",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0b9f2004e5c696f80ad7e0c928205d3f6bb276f4",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/lxd?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c95e167de43e205b112e03fb377534a550529653",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0b9f2004e5c696f80ad7e0c928205d3f6bb276f4",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/lxd"
     }
   },
   {
     "name": "mastodon",
     "path": "mastodon",
-    "sha": "e4db725ecb2062f60bcd0b91ada12e29adecffc1",
+    "sha": "17a915664c0947c77e44664876910338bf137b00",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mastodon?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/mastodon",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e4db725ecb2062f60bcd0b91ada12e29adecffc1",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/17a915664c0947c77e44664876910338bf137b00",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mastodon?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e4db725ecb2062f60bcd0b91ada12e29adecffc1",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/17a915664c0947c77e44664876910338bf137b00",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/mastodon"
     }
   },
   {
     "name": "matrix_synapse",
     "path": "matrix_synapse",
-    "sha": "1922072532ea549caca29d40899db252a7a60249",
+    "sha": "420b9637f8052af27f40d373a62f9aeeb9f741e7",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/matrix_synapse?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/matrix_synapse",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1922072532ea549caca29d40899db252a7a60249",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/420b9637f8052af27f40d373a62f9aeeb9f741e7",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/matrix_synapse?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1922072532ea549caca29d40899db252a7a60249",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/420b9637f8052af27f40d373a62f9aeeb9f741e7",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/matrix_synapse"
     }
   },
   {
     "name": "mattermost_enhanced",
     "path": "mattermost_enhanced",
-    "sha": "ce4e8428bda5a236a73c895900dd059285e7553d",
+    "sha": "b36c4ad0425c58d43d667a6205d703957268c1f5",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mattermost_enhanced?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/mattermost_enhanced",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ce4e8428bda5a236a73c895900dd059285e7553d",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b36c4ad0425c58d43d667a6205d703957268c1f5",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mattermost_enhanced?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ce4e8428bda5a236a73c895900dd059285e7553d",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b36c4ad0425c58d43d667a6205d703957268c1f5",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/mattermost_enhanced"
     }
   },
   {
     "name": "mediawiki",
     "path": "mediawiki",
-    "sha": "fdfef78142a88d87d3dcf2c3583f546f11f5e664",
+    "sha": "8e925bb12a3f3a36e34c1e3bf20f16bee83d6033",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mediawiki?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/mediawiki",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/fdfef78142a88d87d3dcf2c3583f546f11f5e664",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8e925bb12a3f3a36e34c1e3bf20f16bee83d6033",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mediawiki?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/fdfef78142a88d87d3dcf2c3583f546f11f5e664",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8e925bb12a3f3a36e34c1e3bf20f16bee83d6033",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/mediawiki"
     }
   },
   {
     "name": "meilisearch",
     "path": "meilisearch",
-    "sha": "a1c6ad3800a7bb13c399f1926c295e9fa4828bca",
+    "sha": "9aaac2d48d79c946f757c49b58ce2cc74eb0aba3",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/meilisearch?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/meilisearch",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a1c6ad3800a7bb13c399f1926c295e9fa4828bca",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9aaac2d48d79c946f757c49b58ce2cc74eb0aba3",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/meilisearch?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a1c6ad3800a7bb13c399f1926c295e9fa4828bca",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9aaac2d48d79c946f757c49b58ce2cc74eb0aba3",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/meilisearch"
     }
   },
   {
     "name": "minio",
     "path": "minio",
-    "sha": "4faf3181b640888104844ef1e3353eeba71acba2",
+    "sha": "c4646bcc665fcdfe358b104fd4085b48be44f92e",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/minio?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/minio",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4faf3181b640888104844ef1e3353eeba71acba2",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c4646bcc665fcdfe358b104fd4085b48be44f92e",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/minio?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4faf3181b640888104844ef1e3353eeba71acba2",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c4646bcc665fcdfe358b104fd4085b48be44f92e",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/minio"
     }
   },
   {
     "name": "mongodb",
     "path": "mongodb",
-    "sha": "05b59fa0d5e6eb00ca3725b57fd1cca3173f0069",
+    "sha": "7a942eea597a339d95c5ce091603127ffd590d17",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mongodb?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/mongodb",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/05b59fa0d5e6eb00ca3725b57fd1cca3173f0069",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7a942eea597a339d95c5ce091603127ffd590d17",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mongodb?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/05b59fa0d5e6eb00ca3725b57fd1cca3173f0069",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7a942eea597a339d95c5ce091603127ffd590d17",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/mongodb"
     }
   },
   {
     "name": "moodle",
     "path": "moodle",
-    "sha": "24fd6694ffd6d6c53107f910d824c00619f0ee46",
+    "sha": "1d1d8284af09be960a0fb209a0fd12e8a4dcba5f",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/moodle?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/moodle",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/24fd6694ffd6d6c53107f910d824c00619f0ee46",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1d1d8284af09be960a0fb209a0fd12e8a4dcba5f",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/moodle?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/24fd6694ffd6d6c53107f910d824c00619f0ee46",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1d1d8284af09be960a0fb209a0fd12e8a4dcba5f",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/moodle"
     }
   },
   {
     "name": "mosquitto",
     "path": "mosquitto",
-    "sha": "02dc39ab5382e660241ec4b7fc3297b0e9ade1ba",
+    "sha": "54acbb8f9a3a20ed28617e058d3a8045a5600b26",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mosquitto?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/mosquitto",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/02dc39ab5382e660241ec4b7fc3297b0e9ade1ba",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/54acbb8f9a3a20ed28617e058d3a8045a5600b26",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/mosquitto?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/02dc39ab5382e660241ec4b7fc3297b0e9ade1ba",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/54acbb8f9a3a20ed28617e058d3a8045a5600b26",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/mosquitto"
     }
   },
   {
     "name": "netdata",
     "path": "netdata",
-    "sha": "5fc1b289982f4dc0f041e467a408ea88c95da59f",
+    "sha": "3983043cacfff253e622cfaffe79cd957719aa8e",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/netdata?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/netdata",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5fc1b289982f4dc0f041e467a408ea88c95da59f",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3983043cacfff253e622cfaffe79cd957719aa8e",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/netdata?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5fc1b289982f4dc0f041e467a408ea88c95da59f",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3983043cacfff253e622cfaffe79cd957719aa8e",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/netdata"
     }
   },
   {
     "name": "nextcloud_talk",
     "path": "nextcloud_talk",
-    "sha": "410876b88f0c0dafbdd60e7bd61db1090a4f84ce",
+    "sha": "2251496a9555689da88cb721a69193e659672b12",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/nextcloud_talk?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/nextcloud_talk",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/410876b88f0c0dafbdd60e7bd61db1090a4f84ce",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2251496a9555689da88cb721a69193e659672b12",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/nextcloud_talk?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/410876b88f0c0dafbdd60e7bd61db1090a4f84ce",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2251496a9555689da88cb721a69193e659672b12",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/nextcloud_talk"
     }
   },
   {
     "name": "nginx",
     "path": "nginx",
-    "sha": "cb2ef69150a7327a6adc71af98b49acf3d0148d7",
+    "sha": "265b95eaec15789c66aabb930b4abc148168bbb4",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/nginx?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/nginx",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cb2ef69150a7327a6adc71af98b49acf3d0148d7",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/265b95eaec15789c66aabb930b4abc148168bbb4",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/nginx?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cb2ef69150a7327a6adc71af98b49acf3d0148d7",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/265b95eaec15789c66aabb930b4abc148168bbb4",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/nginx"
     }
   },
   {
     "name": "nginx_ui",
     "path": "nginx_ui",
-    "sha": "7da48569a65fb18455a28cf3dc07ed1a74f0b689",
+    "sha": "49d8401305cdd033bb1d19baa80841aee6aa11c0",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/nginx_ui?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/nginx_ui",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7da48569a65fb18455a28cf3dc07ed1a74f0b689",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/49d8401305cdd033bb1d19baa80841aee6aa11c0",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/nginx_ui?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7da48569a65fb18455a28cf3dc07ed1a74f0b689",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/49d8401305cdd033bb1d19baa80841aee6aa11c0",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/nginx_ui"
     }
   },
   {
     "name": "node_red",
     "path": "node_red",
-    "sha": "7c7a5fa722e3593ad0992567c310678ab2ce68b7",
+    "sha": "f7422a57f6e8d56081ca379a2e25c0f215eec08e",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/node_red?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/node_red",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7c7a5fa722e3593ad0992567c310678ab2ce68b7",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f7422a57f6e8d56081ca379a2e25c0f215eec08e",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/node_red?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7c7a5fa722e3593ad0992567c310678ab2ce68b7",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f7422a57f6e8d56081ca379a2e25c0f215eec08e",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/node_red"
     }
   },
   {
     "name": "ntopng",
     "path": "ntopng",
-    "sha": "08dab5d859fe2ab90fae4a4465f247f2c0c46a00",
+    "sha": "b87dd120eb14433940dc8ce45551fe4843a5db7f",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ntopng?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/ntopng",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/08dab5d859fe2ab90fae4a4465f247f2c0c46a00",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b87dd120eb14433940dc8ce45551fe4843a5db7f",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ntopng?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/08dab5d859fe2ab90fae4a4465f247f2c0c46a00",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b87dd120eb14433940dc8ce45551fe4843a5db7f",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/ntopng"
     }
   },
   {
     "name": "odoo",
     "path": "odoo",
-    "sha": "cf8cf1b260de5ec8990af2c2a3262a852b753cfe",
+    "sha": "27a4337241be6781df3e0b766da36e75b2aa4eec",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/odoo?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/odoo",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cf8cf1b260de5ec8990af2c2a3262a852b753cfe",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/27a4337241be6781df3e0b766da36e75b2aa4eec",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/odoo?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cf8cf1b260de5ec8990af2c2a3262a852b753cfe",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/27a4337241be6781df3e0b766da36e75b2aa4eec",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/odoo"
     }
   },
   {
     "name": "openhab",
     "path": "openhab",
-    "sha": "637c2eae78e0b8c6b027ea0724204ded06e7cd37",
+    "sha": "82117df92fe67eb284a9897d9f52adb0c252ae31",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/openhab?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/openhab",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/637c2eae78e0b8c6b027ea0724204ded06e7cd37",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/82117df92fe67eb284a9897d9f52adb0c252ae31",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/openhab?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/637c2eae78e0b8c6b027ea0724204ded06e7cd37",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/82117df92fe67eb284a9897d9f52adb0c252ae31",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/openhab"
     }
   },
   {
     "name": "openvpn",
     "path": "openvpn",
-    "sha": "d997b15bbd993ce839ea89c9d6b7f33cd0a95625",
+    "sha": "5f50dfa816f7e0afaa70566da8fc43a8e696caaa",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/openvpn?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/openvpn",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d997b15bbd993ce839ea89c9d6b7f33cd0a95625",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5f50dfa816f7e0afaa70566da8fc43a8e696caaa",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/openvpn?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d997b15bbd993ce839ea89c9d6b7f33cd0a95625",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5f50dfa816f7e0afaa70566da8fc43a8e696caaa",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/openvpn"
     }
   },
   {
     "name": "openwrt",
     "path": "openwrt",
-    "sha": "b3b5055399a1870afbe69e5038100afa6e081ae7",
+    "sha": "b094546125c9345dc639bec23210e7dc7cee8c28",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/openwrt?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/openwrt",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b3b5055399a1870afbe69e5038100afa6e081ae7",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b094546125c9345dc639bec23210e7dc7cee8c28",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/openwrt?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b3b5055399a1870afbe69e5038100afa6e081ae7",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b094546125c9345dc639bec23210e7dc7cee8c28",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/openwrt"
     }
   },
   {
     "name": "outline",
     "path": "outline",
-    "sha": "8d04ee27cb1315703182adfb2e5f5c93991304fd",
+    "sha": "095fdc1a438c4b8b794715de9f8c02d38bb98230",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/outline?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/outline",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8d04ee27cb1315703182adfb2e5f5c93991304fd",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/095fdc1a438c4b8b794715de9f8c02d38bb98230",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/outline?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8d04ee27cb1315703182adfb2e5f5c93991304fd",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/095fdc1a438c4b8b794715de9f8c02d38bb98230",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/outline"
     }
   },
   {
     "name": "owncloud",
     "path": "owncloud",
-    "sha": "8819dff56fdeea5fa519351632ef9552c8e0cbc3",
+    "sha": "290709a8debcd15440e3c2525215265510612f96",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/owncloud?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/owncloud",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8819dff56fdeea5fa519351632ef9552c8e0cbc3",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/290709a8debcd15440e3c2525215265510612f96",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/owncloud?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8819dff56fdeea5fa519351632ef9552c8e0cbc3",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/290709a8debcd15440e3c2525215265510612f96",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/owncloud"
     }
   },
   {
     "name": "paperless_ngx",
     "path": "paperless_ngx",
-    "sha": "d015462c2540b6d0ba63cd4fb997de8b28820c62",
+    "sha": "a42d40ba117dbdc15b1b3fdb0c14cbd2d97ef3ff",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/paperless_ngx?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/paperless_ngx",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d015462c2540b6d0ba63cd4fb997de8b28820c62",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a42d40ba117dbdc15b1b3fdb0c14cbd2d97ef3ff",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/paperless_ngx?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d015462c2540b6d0ba63cd4fb997de8b28820c62",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a42d40ba117dbdc15b1b3fdb0c14cbd2d97ef3ff",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/paperless_ngx"
     }
   },
   {
     "name": "penpot",
     "path": "penpot",
-    "sha": "6292c5c83017753d6c2fa7de571b222379369127",
+    "sha": "5673250b28dae2b0cc8d9f89be5968a28e9b3b44",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/penpot?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/penpot",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6292c5c83017753d6c2fa7de571b222379369127",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5673250b28dae2b0cc8d9f89be5968a28e9b3b44",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/penpot?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6292c5c83017753d6c2fa7de571b222379369127",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5673250b28dae2b0cc8d9f89be5968a28e9b3b44",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/penpot"
     }
   },
   {
     "name": "pihole",
     "path": "pihole",
-    "sha": "7654c88ec6d399017a15fb90d775578ed9ace307",
+    "sha": "4bb75593242d3ada3cf669b80b26a692677a8d0e",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/pihole?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/pihole",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7654c88ec6d399017a15fb90d775578ed9ace307",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4bb75593242d3ada3cf669b80b26a692677a8d0e",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/pihole?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7654c88ec6d399017a15fb90d775578ed9ace307",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/4bb75593242d3ada3cf669b80b26a692677a8d0e",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/pihole"
     }
   },
   {
     "name": "plex",
     "path": "plex",
-    "sha": "6b8259a7bb50e83ba2b1319bf68e59c3db2e2f0d",
+    "sha": "99565ff2ba1b48fca877709f36c74b9dadeb6f42",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/plex?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/plex",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6b8259a7bb50e83ba2b1319bf68e59c3db2e2f0d",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/99565ff2ba1b48fca877709f36c74b9dadeb6f42",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/plex?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6b8259a7bb50e83ba2b1319bf68e59c3db2e2f0d",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/99565ff2ba1b48fca877709f36c74b9dadeb6f42",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/plex"
     }
   },
   {
     "name": "portainer",
     "path": "portainer",
-    "sha": "f4acd1953888674f816cf26fff45162eadf32d2f",
+    "sha": "259e17e49667e37ec175754c6173c8e4e3462574",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/portainer?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/portainer",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f4acd1953888674f816cf26fff45162eadf32d2f",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/259e17e49667e37ec175754c6173c8e4e3462574",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/portainer?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/f4acd1953888674f816cf26fff45162eadf32d2f",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/259e17e49667e37ec175754c6173c8e4e3462574",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/portainer"
     }
   },
   {
     "name": "postgresql",
     "path": "postgresql",
-    "sha": "a6ce0604b35520eef4ce2c0275608d87019807eb",
+    "sha": "85f265c52daa4d9d246e0d2a4692be4d26bb8533",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/postgresql?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/postgresql",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a6ce0604b35520eef4ce2c0275608d87019807eb",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/85f265c52daa4d9d246e0d2a4692be4d26bb8533",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/postgresql?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a6ce0604b35520eef4ce2c0275608d87019807eb",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/85f265c52daa4d9d246e0d2a4692be4d26bb8533",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/postgresql"
     }
   },
   {
     "name": "prometheus",
     "path": "prometheus",
-    "sha": "3d9c8b85759f65f4952ef67f77725caf75221756",
+    "sha": "3508898cd25c283f252ee1a75d42235b3811f216",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/prometheus?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/prometheus",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3d9c8b85759f65f4952ef67f77725caf75221756",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3508898cd25c283f252ee1a75d42235b3811f216",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/prometheus?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3d9c8b85759f65f4952ef67f77725caf75221756",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3508898cd25c283f252ee1a75d42235b3811f216",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/prometheus"
     }
   },
   {
     "name": "rclone",
     "path": "rclone",
-    "sha": "57120b29f76f048bb6974bca64d6b94aa4e9577c",
+    "sha": "769296514df1bf1092773cd30a01d88b90a0526b",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rclone?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/rclone",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/57120b29f76f048bb6974bca64d6b94aa4e9577c",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/769296514df1bf1092773cd30a01d88b90a0526b",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rclone?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/57120b29f76f048bb6974bca64d6b94aa4e9577c",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/769296514df1bf1092773cd30a01d88b90a0526b",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/rclone"
     }
   },
   {
     "name": "redis",
     "path": "redis",
-    "sha": "d2124549119be0949f0ea5c6827015069a017f82",
+    "sha": "7d1e7a62e97b5432f406610c5e5bb6d7359db44f",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/redis?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/redis",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d2124549119be0949f0ea5c6827015069a017f82",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7d1e7a62e97b5432f406610c5e5bb6d7359db44f",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/redis?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d2124549119be0949f0ea5c6827015069a017f82",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7d1e7a62e97b5432f406610c5e5bb6d7359db44f",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/redis"
     }
   },
   {
     "name": "requestbin",
     "path": "requestbin",
-    "sha": "084dbbbda112a38ff74b912528ce8c52fc5fec9b",
+    "sha": "08b4d9d5511de9e2885a6ea0b922e071f89b02e7",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/requestbin?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/requestbin",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/084dbbbda112a38ff74b912528ce8c52fc5fec9b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/08b4d9d5511de9e2885a6ea0b922e071f89b02e7",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/requestbin?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/084dbbbda112a38ff74b912528ce8c52fc5fec9b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/08b4d9d5511de9e2885a6ea0b922e071f89b02e7",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/requestbin"
     }
   },
   {
     "name": "restic",
     "path": "restic",
-    "sha": "e7f678c78e550ff2b7819fa37e10062912c47ffc",
+    "sha": "94155c6f160a95158e1ee522c79fae07dd4c12c8",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/restic?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/restic",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e7f678c78e550ff2b7819fa37e10062912c47ffc",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/94155c6f160a95158e1ee522c79fae07dd4c12c8",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/restic?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e7f678c78e550ff2b7819fa37e10062912c47ffc",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/94155c6f160a95158e1ee522c79fae07dd4c12c8",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/restic"
     }
   },
   {
     "name": "rocketchat",
     "path": "rocketchat",
-    "sha": "2b1abe8a4065a5853485208ce954c5ce1a1e6a8b",
+    "sha": "05f0c6badbd818ccbc78926a15623f0f6f6ce45d",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rocketchat?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/rocketchat",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2b1abe8a4065a5853485208ce954c5ce1a1e6a8b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/05f0c6badbd818ccbc78926a15623f0f6f6ce45d",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rocketchat?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2b1abe8a4065a5853485208ce954c5ce1a1e6a8b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/05f0c6badbd818ccbc78926a15623f0f6f6ce45d",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/rocketchat"
     }
   },
@@ -1458,320 +1458,320 @@
   {
     "name": "rustdesk",
     "path": "rustdesk",
-    "sha": "15cb29e2173b90e659f90ec9ddb2e839b9467b47",
+    "sha": "efb55da5cfa07805a268076d9857cd926e7d973f",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rustdesk?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/rustdesk",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/15cb29e2173b90e659f90ec9ddb2e839b9467b47",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/efb55da5cfa07805a268076d9857cd926e7d973f",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rustdesk?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/15cb29e2173b90e659f90ec9ddb2e839b9467b47",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/efb55da5cfa07805a268076d9857cd926e7d973f",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/rustdesk"
     }
   },
   {
     "name": "rustlings",
     "path": "rustlings",
-    "sha": "ce92a578423e7ab0daa840ecd2c4dd12dccb9674",
+    "sha": "19f110d436cf5efa3de999b52a9bf61f4d709530",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rustlings?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/rustlings",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ce92a578423e7ab0daa840ecd2c4dd12dccb9674",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/19f110d436cf5efa3de999b52a9bf61f4d709530",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/rustlings?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ce92a578423e7ab0daa840ecd2c4dd12dccb9674",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/19f110d436cf5efa3de999b52a9bf61f4d709530",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/rustlings"
     }
   },
   {
     "name": "samba",
     "path": "samba",
-    "sha": "7b7d2ad104f71cc5748224a5e100cd27ed40e2f0",
+    "sha": "082093781678029119351af1d2c523d2dbd5d87b",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/samba?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/samba",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7b7d2ad104f71cc5748224a5e100cd27ed40e2f0",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/082093781678029119351af1d2c523d2dbd5d87b",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/samba?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/7b7d2ad104f71cc5748224a5e100cd27ed40e2f0",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/082093781678029119351af1d2c523d2dbd5d87b",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/samba"
     }
   },
   {
     "name": "seafile",
     "path": "seafile",
-    "sha": "b13f5be2652155a8f10421487a8e869c0a924aea",
+    "sha": "0b27ffa5bbfd3be930bd8df356b005ea19342a49",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/seafile?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/seafile",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b13f5be2652155a8f10421487a8e869c0a924aea",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0b27ffa5bbfd3be930bd8df356b005ea19342a49",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/seafile?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b13f5be2652155a8f10421487a8e869c0a924aea",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0b27ffa5bbfd3be930bd8df356b005ea19342a49",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/seafile"
     }
   },
   {
     "name": "seaweedfs",
     "path": "seaweedfs",
-    "sha": "448873551659ab2786eb406ae9ff465a2db6b230",
+    "sha": "e81039b9f5da39341311beae0cfc3213a1c95689",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/seaweedfs?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/seaweedfs",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/448873551659ab2786eb406ae9ff465a2db6b230",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e81039b9f5da39341311beae0cfc3213a1c95689",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/seaweedfs?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/448873551659ab2786eb406ae9ff465a2db6b230",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/e81039b9f5da39341311beae0cfc3213a1c95689",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/seaweedfs"
     }
   },
   {
     "name": "sentry",
     "path": "sentry",
-    "sha": "c73f8b1de6da8af10f4bd4bfd80ffe9ae449def9",
+    "sha": "cadab2a344bdfd593a64d29c397c98191c788d99",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/sentry?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/sentry",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c73f8b1de6da8af10f4bd4bfd80ffe9ae449def9",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cadab2a344bdfd593a64d29c397c98191c788d99",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/sentry?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c73f8b1de6da8af10f4bd4bfd80ffe9ae449def9",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/cadab2a344bdfd593a64d29c397c98191c788d99",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/sentry"
     }
   },
   {
     "name": "sonarqube",
     "path": "sonarqube",
-    "sha": "6223b388a19fbae6aae7bf1b155e306a8c80eb10",
+    "sha": "db1d68aba7eeb18fa25b299d4a58f534261518aa",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/sonarqube?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/sonarqube",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6223b388a19fbae6aae7bf1b155e306a8c80eb10",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/db1d68aba7eeb18fa25b299d4a58f534261518aa",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/sonarqube?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/6223b388a19fbae6aae7bf1b155e306a8c80eb10",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/db1d68aba7eeb18fa25b299d4a58f534261518aa",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/sonarqube"
     }
   },
   {
     "name": "strapi",
     "path": "strapi",
-    "sha": "ae5bff0ec90056eb3f5d4be22a627bd3d9d3ec64",
+    "sha": "1726ed1ec4a25415c4c407cfdd8650844ab9998d",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/strapi?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/strapi",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ae5bff0ec90056eb3f5d4be22a627bd3d9d3ec64",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1726ed1ec4a25415c4c407cfdd8650844ab9998d",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/strapi?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ae5bff0ec90056eb3f5d4be22a627bd3d9d3ec64",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/1726ed1ec4a25415c4c407cfdd8650844ab9998d",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/strapi"
     }
   },
   {
     "name": "syncthing",
     "path": "syncthing",
-    "sha": "167518f89bc987b425312dbf0d7622614cc82969",
+    "sha": "bdfc5c2ec8e13d8577ec1ca0ee33877ab267872c",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/syncthing?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/syncthing",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/167518f89bc987b425312dbf0d7622614cc82969",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/bdfc5c2ec8e13d8577ec1ca0ee33877ab267872c",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/syncthing?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/167518f89bc987b425312dbf0d7622614cc82969",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/bdfc5c2ec8e13d8577ec1ca0ee33877ab267872c",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/syncthing"
     }
   },
   {
     "name": "taiga",
     "path": "taiga",
-    "sha": "042191785be5a198853c046d494951af9d675ea5",
+    "sha": "a0d90150d1d6beb37509efe33ad0dd3f4c1cea6a",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/taiga?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/taiga",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/042191785be5a198853c046d494951af9d675ea5",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a0d90150d1d6beb37509efe33ad0dd3f4c1cea6a",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/taiga?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/042191785be5a198853c046d494951af9d675ea5",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/a0d90150d1d6beb37509efe33ad0dd3f4c1cea6a",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/taiga"
     }
   },
   {
     "name": "tig_stack",
     "path": "tig_stack",
-    "sha": "b6eb2640e4e44f3327dcbbc03d6244495c71be56",
+    "sha": "51739cbe03156e97474922d301739967593301d5",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/tig_stack?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/tig_stack",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b6eb2640e4e44f3327dcbbc03d6244495c71be56",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/51739cbe03156e97474922d301739967593301d5",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/tig_stack?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b6eb2640e4e44f3327dcbbc03d6244495c71be56",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/51739cbe03156e97474922d301739967593301d5",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/tig_stack"
     }
   },
   {
     "name": "typesense",
     "path": "typesense",
-    "sha": "83376920c2a7c8939aa41aff1235bb8a656a2ade",
+    "sha": "5720807c80da94f84ead9075deb28c3c53d1c35d",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/typesense?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/typesense",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/83376920c2a7c8939aa41aff1235bb8a656a2ade",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5720807c80da94f84ead9075deb28c3c53d1c35d",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/typesense?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/83376920c2a7c8939aa41aff1235bb8a656a2ade",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5720807c80da94f84ead9075deb28c3c53d1c35d",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/typesense"
     }
   },
   {
     "name": "uptime_kuma",
     "path": "uptime_kuma",
-    "sha": "c0d61a6743f9897d9eb1c4be24a07129b787c62b",
+    "sha": "954197c4b484f796eb73130ed77d2dffdbd75587",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/uptime_kuma?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/uptime_kuma",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c0d61a6743f9897d9eb1c4be24a07129b787c62b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/954197c4b484f796eb73130ed77d2dffdbd75587",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/uptime_kuma?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/c0d61a6743f9897d9eb1c4be24a07129b787c62b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/954197c4b484f796eb73130ed77d2dffdbd75587",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/uptime_kuma"
     }
   },
   {
     "name": "vault",
     "path": "vault",
-    "sha": "2cea545742dfe3413bbe12cb5b254af74c6b864a",
+    "sha": "958f6fe701271bfc38283813f05ce1a3ee88e386",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/vault?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/vault",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2cea545742dfe3413bbe12cb5b254af74c6b864a",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/958f6fe701271bfc38283813f05ce1a3ee88e386",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/vault?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/2cea545742dfe3413bbe12cb5b254af74c6b864a",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/958f6fe701271bfc38283813f05ce1a3ee88e386",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/vault"
     }
   },
   {
     "name": "vaultwarden",
     "path": "vaultwarden",
-    "sha": "098a7372140eade3184c98378da184851b0097af",
+    "sha": "0a0590d079a48407538ef436aa1257da600f83ff",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/vaultwarden?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/vaultwarden",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/098a7372140eade3184c98378da184851b0097af",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0a0590d079a48407538ef436aa1257da600f83ff",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/vaultwarden?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/098a7372140eade3184c98378da184851b0097af",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/0a0590d079a48407538ef436aa1257da600f83ff",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/vaultwarden"
     }
   },
   {
     "name": "wallabag",
     "path": "wallabag",
-    "sha": "56527b7d2f40dc186a6891573c06f8d1b618c076",
+    "sha": "50ff792ae641aae7fcc0f5cf237f60d1c55f96d6",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/wallabag?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/wallabag",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/56527b7d2f40dc186a6891573c06f8d1b618c076",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/50ff792ae641aae7fcc0f5cf237f60d1c55f96d6",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/wallabag?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/56527b7d2f40dc186a6891573c06f8d1b618c076",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/50ff792ae641aae7fcc0f5cf237f60d1c55f96d6",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/wallabag"
     }
   },
   {
     "name": "wireguard",
     "path": "wireguard",
-    "sha": "73f2035f9933b7a8aec479088d2059cf3901eb7f",
+    "sha": "5e92d83618eb89ad390622e99551023b6c7b4e14",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/wireguard?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/wireguard",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/73f2035f9933b7a8aec479088d2059cf3901eb7f",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5e92d83618eb89ad390622e99551023b6c7b4e14",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/wireguard?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/73f2035f9933b7a8aec479088d2059cf3901eb7f",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/5e92d83618eb89ad390622e99551023b6c7b4e14",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/wireguard"
     }
   },
   {
     "name": "woodpecker_ci",
     "path": "woodpecker_ci",
-    "sha": "53a557ae78370b2ba47662ee6cef52a4364a1b0e",
+    "sha": "d50eaa5f7a0f03df567d70d599a8ab7d0ec36b95",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/woodpecker_ci?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/woodpecker_ci",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/53a557ae78370b2ba47662ee6cef52a4364a1b0e",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d50eaa5f7a0f03df567d70d599a8ab7d0ec36b95",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/woodpecker_ci?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/53a557ae78370b2ba47662ee6cef52a4364a1b0e",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/d50eaa5f7a0f03df567d70d599a8ab7d0ec36b95",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/woodpecker_ci"
     }
   },
   {
     "name": "xivo",
     "path": "xivo",
-    "sha": "b39e3ec94bf33fc273d8626fea14c31281ddd963",
+    "sha": "ceb704ea6fd722768be3e81fdf0022824a6ece31",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/xivo?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/xivo",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b39e3ec94bf33fc273d8626fea14c31281ddd963",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ceb704ea6fd722768be3e81fdf0022824a6ece31",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/xivo?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/b39e3ec94bf33fc273d8626fea14c31281ddd963",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/ceb704ea6fd722768be3e81fdf0022824a6ece31",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/xivo"
     }
   },
   {
     "name": "zulip",
     "path": "zulip",
-    "sha": "756aef9f8c7b65a07c2b0cbc9ef5aa342909432b",
+    "sha": "9d1bb108608ae1c742630d70b1649ca0951b7726",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/zulip?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/zulip",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/756aef9f8c7b65a07c2b0cbc9ef5aa342909432b",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9d1bb108608ae1c742630d70b1649ca0951b7726",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/zulip?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/756aef9f8c7b65a07c2b0cbc9ef5aa342909432b",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/9d1bb108608ae1c742630d70b1649ca0951b7726",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/zulip"
     }
   }
