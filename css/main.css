@@ -1061,7 +1061,7 @@ em { font-style:normal; }
 
 
 /**whyskyvault**/
-.whyskyvaultA { background: url(../images/whyskyvaultA.jpg)no-repeat center center/cover; padding: 7.65625vw 0 9.89583vw; }
+.whyskyvaultA { padding: 7.65625vw 0 9.89583vw; }
 .whyskyvaultA .whyskyvaultA-bottom .clearfix { display: flex; flex-wrap: wrap; }
 .whyskyvaultA .whyskyvaultA-bottom .bottom-l { background: linear-gradient(180deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 100%); width: 33%; margin-right: .7%; border: 1px solid rgba(255, 255, 255, .25); padding: 35px 50px; }
 .whyskyvaultA .whyskyvaultA-bottom .bottom-l ul li { border-bottom: 1px solid rgba(255, 255, 255, 0.1); cursor: pointer; position: relative; color: rgba(255, 255, 255, 0.5); padding: 15px 0;  transition: all .5s; }

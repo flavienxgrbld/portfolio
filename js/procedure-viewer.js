@@ -1,8 +1,8 @@
 (function() {
     'use strict';
 
-    var GITHUB_OWNER = '';
-    var GITHUB_REPO = '';
+    var GITHUB_OWNER = 'flavienxgrbld';
+    var GITHUB_REPO = 'procedures';
 
     function getQueryParam(name) {
         var params = new URLSearchParams(window.location.search);
