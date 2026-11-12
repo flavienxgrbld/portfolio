@@ -4,6 +4,15 @@
 
     console.log('Script certifications-loader.js chargé');
 
+    // Organismes proposés dans le filtre : label affiché, value comparée au sousTitre des certifications
+    var ORGANISMES = [
+        { label: 'Cisco', value: 'Cisco' },
+        { label: 'ANSSI', value: 'ANSSI' },
+        { label: 'ONU', value: 'ONU' },
+        { label: 'Columbia+', value: 'Columbia+' },
+        { label: 'Open University', value: 'OpenLearn' }
+    ];
+
     function chargerCertifications() {
         console.log('Fonction chargerCertifications() appelée');
 
@@ -208,8 +217,6 @@
             }
         });
         var categoriesArray = Array.from(categories).sort();
-        // Liste blanche des organismes
-        var organismesArray = ["Cisco", "ANSSI", "ONU"];
         // === Catégories ===
         dropdownCategory.innerHTML = '';
         var optionToutes = document.createElement('option');
@@ -228,10 +235,10 @@
         optionTous.value = 'tous';
         optionTous.textContent = 'Tous les organismes';
         dropdownOrganism.appendChild(optionTous);
-        organismesArray.forEach(function(organisme) {
+        ORGANISMES.forEach(function(organisme) {
             var option = document.createElement('option');
-            option.value = organisme;
-            option.textContent = organisme;
+            option.value = organisme.value;
+            option.textContent = organisme.label;
             dropdownOrganism.appendChild(option);
         });
         console.log('Options générées - Catégories:', dropdownCategory.options.length, 'Organismes:', dropdownOrganism.options.length);
@@ -265,12 +272,9 @@
         toutesLesCertifications.forEach(function(item) {
             var itemCategorie = item.getAttribute('data-category');
             var itemOrganisme = item.getAttribute('data-organism');
-            // On ne filtre que sur Cisco, ANSSI, ONU
             var matchCategorie = (categorie === 'toutes' || itemCategorie === categorie);
-            var matchOrganisme = (organisme === 'tous');
-            if (["Cisco", "ANSSI", "ONU"].includes(organisme)) {
-                matchOrganisme = (itemOrganisme && itemOrganisme.toLowerCase().includes(organisme.toLowerCase()));
-            }
+            var matchOrganisme = (organisme === 'tous' ||
+                (itemOrganisme && itemOrganisme.toLowerCase().includes(organisme.toLowerCase())));
             if (matchCategorie && matchOrganisme) {
                 item.classList.remove('certification-hidden');
                 item.classList.add('certification-visible');
