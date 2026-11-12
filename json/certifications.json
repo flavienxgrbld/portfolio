@@ -263,6 +263,23 @@
             "couleur": "#10b981",
             "icone": "../images/certif/logo/introduction-to-greenhouse-gas-accounting-for-it.webp",
             "attestation": "../images/certif/IntrotoGreenhouseGasAccountingv120260430-31-64ymrk.pdf"
+        },
+        {
+            "titre": "AI Cybersecurity and Governance",
+            "sousTitre": "Columbia+",
+            "nomComplet": "Columbia Engineering Executive Education",
+            "description": "Formation de l'Université Columbia sur la sécurité et la gouvernance des systèmes d'IA, notamment des agents autonomes capables d'agir pour le compte des utilisateurs.",
+            "tags": [
+                "IA",
+                "Cybersécurité",
+                "Gouvernance"
+            ],
+            "categorie": "Informatique",
+            "annee": "2026",
+            "couleur": "#10b981",
+            "icone": "../images/certif/logo/logo_columbia_plus.webp",
+            "attestation": "../images/certif/credential-ob3-63fb0cad-98b5-40ff-b5a5-1040964cc1c6.json",
+            "lienVerification": "https://www.credential.net/63fb0cad-98b5-40ff-b5a5-1040964cc1c6"
         }
 
 

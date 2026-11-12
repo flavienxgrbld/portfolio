@@ -93,7 +93,7 @@
             attestDiv.style.flexWrap = 'wrap';
 
             var viewLink = document.createElement('a');
-            viewLink.href = cert.attestation;
+            viewLink.href = cert.lienVerification || cert.attestation;
             viewLink.target = '_blank';
             viewLink.rel = 'noopener noreferrer';
             viewLink.textContent = '\uD83D\uDD0D Voir l\u2019attestation';
