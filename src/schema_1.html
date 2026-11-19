@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="s3d-html">
 <head>
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,17 +8,17 @@
 <meta name="referrer" content="strict-origin-when-cross-origin">
 <meta http-equiv="Cache-Control" content="no-siteapp" />
 <title>Schéma 1 - Infrastructure personnelle - PORTFOLIO Flavien GARIBALDI</title>
-<meta name="description" content="Schéma 1 — Infrastructure personnelle : schéma réseau interactif. Mon infrastructure à domicile : accès Internet, routeur, pare-feu, serveurs de gestion, stockage et machines virtuelles." />
+<meta name="description" content="Schéma 1 — Infrastructure personnelle : schéma réseau interactif. Mon homelab en 3D : box, commutateur, pare-feu OPNsense, Wi-Fi, objets connectés et hyperviseur Proxmox avec neuf machines virtuelles." />
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self' data:; connect-src 'self';">
 <link rel="icon" href="../images/logo10.png" type="image/png">
 <link rel="stylesheet" type="text/css" href="../css/reset.css" />
 <link rel="stylesheet" type="text/css" href="../css/main.css?v=2.64" />
 <link rel="stylesheet" href="../css/animation.css">
 <link rel="stylesheet" href="../css/improvements.css">
-<link rel="stylesheet" href="../css/schema-pages.css">
+<link rel="stylesheet" href="../css/schema3d.css">
 <script src="../js/jquery-3.6.3.min.js" type="text/javascript" charset="utf-8" defer></script>
 </head>
-<body>
+<body class="s3d-body">
 <a href="#main-content" class="skip-to-content">Aller au contenu principal</a>
 
 <header>
@@ -67,44 +67,47 @@
 </nav>
 </header>
 
-<main id="main-content" class="schema-page">
-  <div class="schema-hero">
+<main id="main-content" class="s3d-page">
+  <section class="s3d-hero">
     <div class="container">
-      <a href="projets.html" class="back-btn">← Retour aux projets</a>
-      <div><span class="eyebrow">SCHÉMA 1</span></div>
-      <h1>Infrastructure personnelle</h1>
-      <p class="lead">Mon infrastructure à domicile : accès Internet, routeur, pare-feu, serveurs de gestion, stockage et machines virtuelles.</p>
+      <a href="projets.html" class="s3d-back">← Retour aux projets</a>
+      <div><span class="s3d-eyebrow">SCHÉMA 1 · VUE 3D</span></div>
+      <h1>Infrastructure personnelle, <em>en trois dimensions.</em></h1>
+      <p class="s3d-lead">Mon homelab : accès Internet, réseau local, postes et objets connectés, et un hyperviseur Proxmox avec neuf machines virtuelles. Faites défiler pour le parcourir zone par zone, ou cliquez sur un équipement pour afficher sa fiche.</p>
+      <div class="s3d-stats" id="s3d-stats"></div>
+      <div class="s3d-scroll-cue" aria-hidden="true">Faites défiler pour explorer</div>
     </div>
-  </div>
+  </section>
 
-  <div class="container">
-    <div class="schema-toolbar">
-      <p class="schema-hint">Cliquez sur un équipement pour afficher sa fiche. Glissez pour vous déplacer, utilisez la molette ou deux doigts pour zoomer.</p>
-      <div class="schema-controls">
-        <button class="ctrl-btn" id="btn-zoom-out" type="button" aria-label="Dézoomer">−</button>
-        <button class="ctrl-btn" id="btn-zoom-in" type="button" aria-label="Zoomer">+</button>
-        <button class="ctrl-btn" id="btn-reset" type="button">⤢ <span>Ajuster</span></button>
+  <section class="s3d-scrolly" id="s3d" data-src="../json/schema3d_perso.json" aria-label="infrastructure personnelle">
+    <div class="s3d-stage" id="s3d-stage">
+      <div class="s3d-canvas" id="s3d-canvas" role="img" aria-label="Scène 3D : infrastructure personnelle"></div>
+      <div class="s3d-loading" id="s3d-loading">Chargement de la scène 3D…</div>
+      <div class="s3d-hud" aria-hidden="true">
+        <span class="s3d-counter" id="s3d-counter">00</span>
+        <span class="s3d-title" id="s3d-title"></span>
       </div>
-    </div>
-
-    <div class="schema-stage">
-      <div class="canvas-wrapper" id="canvas-wrapper">
-        <canvas id="schema-canvas" data-src="../json/schema_infra_perso.json" role="img" aria-label="Schéma réseau interactif : infrastructure personnelle"></canvas>
+      <div class="s3d-tools">
+        <button class="s3d-btn" id="s3d-free" type="button" aria-pressed="false">✥ Manipuler la 3D</button>
+        <button class="s3d-btn" id="s3d-reset" type="button">⤢ Recentrer</button>
       </div>
-
-      <aside class="info-panel" id="info-panel" aria-live="polite">
-        <button class="close-btn" id="info-close" type="button" aria-label="Fermer la fiche">✕</button>
-        <div class="node-icon" id="info-icon"></div>
-        <h3 id="info-name"></h3>
-        <div class="node-role" id="info-role"></div>
-        <div class="links-title" id="info-links-title"></div>
-        <ul id="info-links"></ul>
+      <div class="s3d-free-hint" aria-hidden="true">Glissez pour tourner · molette ou deux doigts pour zoomer</div>
+      <aside class="s3d-info" id="s3d-info" aria-live="polite">
+        <button class="s3d-info-close" type="button" aria-label="Fermer la fiche">✕</button>
+        <div class="s3d-info-type"></div>
+        <h3 class="s3d-info-name"></h3>
+        <p class="s3d-info-role"></p>
+        <div class="s3d-info-zone"></div>
+        <div class="s3d-info-links-title"></div>
+        <div class="s3d-info-links"></div>
       </aside>
+      <div class="s3d-legend" id="s3d-legend" aria-hidden="true"></div>
     </div>
+    <div class="s3d-chapters" id="s3d-chapters"></div>
+  </section>
 
-    <div class="legend" id="schema-legend"></div>
-
-    <div class="schema-next">
+  <div class="s3d-next">
+    <div class="container">
       <a href="schema_2.html">
         <span><small>Voir aussi</small><strong>Infrastructure en formation</strong></span>
         <span class="arrow">→</span>
@@ -165,7 +168,7 @@
 
 <button class="backTop" aria-label="Retour en haut de la page" title="Retour en haut"></button>
 <script src="../js/main.js?v=1.2" type="text/javascript" charset="utf-8" defer></script>
-<script src="../js/schema-viewer.js" defer></script>
+<script type="module" src="../js/schema3d.js"></script>
 
 </body>
 </html>

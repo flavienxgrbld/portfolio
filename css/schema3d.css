@@ -1,0 +1,238 @@
+/* Pages schéma 3D — thème clair, aux couleurs du reste du portfolio.
+   Le CSS global du site force les couleurs (body * { color: #111 !important },
+   boutons en #E8E8E3 !important) : les règles ci-dessous sont donc en !important. */
+
+/* overflow-x: hidden sur html/body casse position: sticky ; clip ne crée pas de conteneur de défilement */
+html.s3d-html, html.s3d-html body.s3d-body { overflow-x: clip !important; overflow-y: visible !important; }
+
+.s3d-page {
+  --bg: #ffffff;
+  --soft: #f4f5f7;
+  --line: #e2e5ea;
+  --border: #dcdcd6;
+  --txt: #111111;
+  --muted: #5b6472;
+  --accent: #1d4ed8;
+  --tag: #e3e8fb;
+  background: var(--bg) !important;
+  color: var(--txt) !important;
+  font-family: "bai-jamjuree-latin-700-normal", "Segoe UI", sans-serif;
+}
+.s3d-page button { font-family: inherit; }
+
+/* ── En-tête ── */
+.s3d-hero {
+  position: relative; overflow: hidden;
+  padding: 9.5rem 0 4rem;
+  background: linear-gradient(180deg, #f1f5f9 0%, #ffffff 100%) !important;
+  border-bottom: 1px solid var(--line) !important;
+}
+.s3d-hero::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none;
+  background-image: radial-gradient(#d6dae3 1.2px, transparent 1.3px) !important;
+  background-size: 24px 24px;
+  mask-image: linear-gradient(180deg, rgba(0,0,0,.6), transparent 80%);
+  -webkit-mask-image: linear-gradient(180deg, rgba(0,0,0,.6), transparent 80%);
+}
+.s3d-hero .container { position: relative; z-index: 1; color: var(--txt) !important; }
+.s3d-back {
+  display: inline-flex; align-items: center; gap: .4rem;
+  color: var(--accent) !important; font-size: 15px; text-decoration: none;
+}
+.s3d-back:hover { text-decoration: underline; text-underline-offset: 3px; }
+.s3d-eyebrow {
+  display: inline-block; margin-top: 2rem; padding: .4rem 1rem;
+  border: 1px solid var(--accent) !important; border-radius: 8px;
+  background: rgba(29, 78, 216, .08) !important; color: var(--accent) !important;
+  font-size: 14px; letter-spacing: .04em;
+}
+.s3d-hero h1 {
+  margin-top: 1.1rem; max-width: 980px;
+  font-size: clamp(2.2rem, 5vw, 4.1rem); line-height: 1.05; text-transform: uppercase; font-weight: 400;
+  color: var(--txt) !important;
+}
+.s3d-hero h1 em { font-style: normal; color: var(--accent) !important; }
+.s3d-hero .s3d-lead { margin-top: 1.2rem; max-width: 760px; font-size: 18px; line-height: 1.6; color: var(--muted) !important; }
+.s3d-stats { display: flex; flex-wrap: wrap; gap: 1rem; margin-top: 2.4rem; }
+.s3d-stat {
+  min-width: 150px; padding: 1rem 1.2rem;
+  border: 1px solid var(--line) !important; border-radius: 16px; background: #fff !important;
+  box-shadow: 0 6px 24px rgba(15, 23, 42, .05) !important;
+}
+.s3d-stat strong { display: block; font-size: 30px; line-height: 1; color: var(--txt) !important; }
+.s3d-stat span { display: block; margin-top: .45rem; font-size: 13px; color: var(--muted) !important; text-transform: uppercase; letter-spacing: .06em; }
+.s3d-scroll-cue { display: inline-flex; align-items: center; gap: .6rem; margin-top: 2.6rem; color: var(--muted) !important; font-size: 14px; letter-spacing: .08em; text-transform: uppercase; }
+.s3d-scroll-cue::before {
+  content: ""; width: 22px; height: 34px; border: 2px solid #b8bfcb !important; border-radius: 12px;
+  background: linear-gradient(var(--accent), var(--accent)) center 7px / 3px 7px no-repeat !important;
+  animation: s3d-cue 1.8s ease-in-out infinite;
+}
+@keyframes s3d-cue { 50% { background-position: center 15px; } }
+
+/* ── Récit ── */
+.s3d-scrolly {
+  position: relative;
+  display: grid; grid-template-columns: minmax(0, 1.65fr) minmax(340px, 1fr);
+  background: #fff !important;
+}
+.s3d-stage {
+  position: sticky; top: 70px; height: calc(100vh - 70px); height: calc(100svh - 70px);
+  overflow: hidden; border-right: 1px solid var(--line) !important;
+  background: var(--soft) !important;
+}
+.s3d-canvas { position: absolute; inset: 0; }
+.s3d-canvas canvas { display: block; }
+.s3d-labels { position: absolute; inset: 0; pointer-events: none; }
+
+.s3d-loading {
+  position: absolute; inset: 0; z-index: 3;
+  display: flex; align-items: center; justify-content: center; padding: 2rem;
+  text-align: center; color: var(--muted) !important; font-size: 16px; background: var(--soft) !important;
+  transition: opacity .6s, visibility .6s;
+}
+.s3d-loading.is-hidden { opacity: 0; visibility: hidden; }
+
+/* étiquettes 3D : même style que les pastilles de l'ancien schéma */
+.s3d-page .s3d-label {
+  display: inline-flex; align-items: center; gap: .4rem;
+  padding: .3rem .7rem; border: 1px solid #e2e8f0 !important; border-radius: 999px;
+  background: rgba(255, 255, 255, .94) !important; color: #0f172a !important;
+  font-size: 12px; line-height: 1.2; white-space: nowrap; cursor: pointer; pointer-events: auto;
+  box-shadow: 0 2px 10px rgba(15, 23, 42, .08) !important;
+  transition: opacity .4s, transform .2s, border-color .2s, box-shadow .2s;
+}
+.s3d-label i { width: 8px; height: 8px; border-radius: 50%; background: var(--c) !important; }
+.s3d-page .s3d-label:hover, .s3d-page .s3d-label.is-hover { border-color: var(--c) !important; transform: translateY(-2px); }
+.s3d-page .s3d-label.is-selected { border-color: var(--c) !important; box-shadow: 0 0 0 3px color-mix(in srgb, var(--c) 22%, transparent) !important; }
+.s3d-label.is-dim { opacity: .3; }
+.s3d-label:focus-visible { outline: 2px solid var(--c); outline-offset: 2px; }
+.s3d-zone-label {
+  color: var(--c) !important; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; white-space: nowrap;
+  transition: opacity .4s; pointer-events: none;
+}
+.s3d-zone-label.is-dim { opacity: .3; }
+
+/* HUD */
+.s3d-hud { position: absolute; top: 1.2rem; left: 1.4rem; z-index: 2; pointer-events: none; }
+.s3d-counter { display: block; color: var(--accent) !important; font-size: 13px; letter-spacing: .14em; }
+.s3d-title { display: block; margin-top: .3rem; color: var(--txt) !important; font-size: 20px; }
+.s3d-tools { position: absolute; top: 1rem; right: 1rem; z-index: 2; display: flex; gap: .5rem; }
+.s3d-page .s3d-btn {
+  display: inline-flex; align-items: center; gap: .4rem; min-height: 40px; padding: 0 1.1rem;
+  border: 1px solid var(--border) !important; border-radius: 30px; background: #E8E8E3 !important; color: #111 !important;
+  font-size: 13px; letter-spacing: .05em; text-transform: uppercase; cursor: pointer; transition: border-color .2s, background .2s;
+}
+.s3d-page .s3d-btn:hover { border-color: var(--accent) !important; background: #dcdcd6 !important; }
+.s3d-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.s3d-page .s3d-btn[aria-pressed="true"] { border-color: var(--accent) !important; background: var(--accent) !important; color: #fff !important; }
+.s3d-free-hint {
+  position: absolute; left: 50%; bottom: 4.2rem; z-index: 2; transform: translateX(-50%);
+  padding: .45rem .9rem; border-radius: 999px; background: #fff !important; color: var(--muted) !important; font-size: 13px;
+  border: 1px solid var(--line) !important;
+  white-space: nowrap; opacity: 0; transition: opacity .3s; pointer-events: none;
+}
+.s3d-stage.is-free .s3d-free-hint { opacity: 1; }
+.s3d-legend {
+  position: absolute; left: 1.2rem; right: 1.2rem; bottom: 1rem; z-index: 2;
+  display: flex; flex-wrap: wrap; gap: .35rem 1rem; pointer-events: none;
+}
+.s3d-legend-item { display: inline-flex; align-items: center; gap: .4rem; color: #334155 !important; font-size: 12px; }
+.s3d-legend-item i { width: 10px; height: 10px; border-radius: 50%; }
+
+/* fiche équipement */
+.s3d-info {
+  position: absolute; z-index: 4; right: 1rem; top: 4.2rem; width: min(330px, calc(100% - 2rem));
+  padding: 1.3rem 1.3rem 1.1rem; border: 1px solid var(--line) !important; border-top: 4px solid var(--c, #1d4ed8) !important;
+  border-radius: 16px; background: #fff !important;
+  box-shadow: 0 20px 50px rgba(15, 23, 42, .14) !important;
+  opacity: 0; visibility: hidden; transform: translateY(8px); transition: opacity .25s, transform .25s, visibility .25s;
+}
+.s3d-info.is-open { opacity: 1; visibility: visible; transform: none; }
+.s3d-page .s3d-info-close {
+  position: absolute; top: .6rem; right: .6rem; width: 32px; height: 32px; padding: 0;
+  border: 0 !important; border-radius: 8px; background: transparent !important; color: var(--muted) !important; font-size: 16px; cursor: pointer;
+}
+.s3d-page .s3d-info-close:hover { background: var(--soft) !important; color: #111 !important; }
+.s3d-info-type { color: var(--c) !important; font-size: 12px; letter-spacing: .12em; text-transform: uppercase; }
+.s3d-info-name { margin-top: .3rem; color: var(--txt) !important; font-size: 22px; }
+.s3d-info-role { margin-top: .6rem; color: #334155 !important; font-size: 14px; line-height: 1.55; }
+.s3d-info-zone { margin-top: .7rem; color: var(--muted) !important; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.s3d-info-zone:empty { display: none; }
+.s3d-info-links-title { margin-top: 1rem; color: var(--muted) !important; font-size: 12px; letter-spacing: .08em; text-transform: uppercase; }
+.s3d-info-links { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+
+/* chapitres */
+.s3d-chapters { padding: 0 2.4rem; }
+.s3d-chapter {
+  min-height: 92vh; padding: 30vh 0 8vh;
+  opacity: .35; transition: opacity .5s;
+}
+.s3d-chapter:first-child { padding-top: 22vh; }
+.s3d-chapter.is-current { opacity: 1; }
+.s3d-num {
+  display: inline-block; padding: .3rem .8rem; border: 1px solid var(--accent) !important; border-radius: 8px;
+  color: var(--accent) !important; font-size: 13px; letter-spacing: .1em;
+}
+.s3d-chapter h2 { margin-top: .9rem; color: var(--txt) !important; font-size: clamp(1.6rem, 2.5vw, 2.3rem); line-height: 1.12; }
+.s3d-chapter > p { margin-top: 1rem; color: #333 !important; font-size: 17px; line-height: 1.65; }
+.s3d-chips { display: flex; flex-wrap: wrap; gap: .45rem; margin-top: 1.4rem; }
+.s3d-page .s3d-chip {
+  display: inline-flex; align-items: center; gap: .45rem; padding: .45rem .85rem;
+  border: 1px solid transparent !important; border-radius: 999px; background: var(--tag) !important; color: #1e293b !important;
+  font-size: 14px; cursor: pointer; transition: border-color .2s, background .2s;
+}
+.s3d-chip i { width: 8px; height: 8px; border-radius: 50%; background: var(--c) !important; }
+.s3d-chip span { color: var(--muted) !important; font-size: 12px; }
+.s3d-page .s3d-chip:hover { border-color: var(--c) !important; background: #fff !important; }
+.s3d-chip:focus-visible { outline: 2px solid var(--c); outline-offset: 2px; }
+.s3d-zone-chip {
+  padding: .4rem .8rem; border: 1px solid var(--c) !important; border-radius: 999px;
+  color: var(--c) !important; background: #fff !important; font-size: 12px; letter-spacing: .06em; text-transform: uppercase;
+}
+.s3d-facts { display: flex; flex-wrap: wrap; gap: .8rem; margin-top: 1.4rem; }
+.s3d-facts div { padding: .7rem 1rem; border: 1px solid var(--line) !important; border-left: 3px solid var(--accent) !important; background: var(--soft) !important; border-radius: 0 12px 12px 0; }
+.s3d-facts dt { color: var(--muted) !important; font-size: 11px; letter-spacing: .12em; text-transform: uppercase; }
+.s3d-facts dd { margin-top: .25rem; color: var(--txt) !important; font-size: 15px; }
+
+/* lien vers l'autre schéma (même style que l'ancienne page) */
+.s3d-next { padding: 4rem 0 5rem; border-top: 1px solid var(--line) !important; background: #fff !important; }
+.s3d-page .s3d-next a {
+  display: flex; align-items: center; justify-content: space-between; gap: 1rem;
+  padding: 1.4rem 1.6rem; border: 1px solid var(--line) !important; border-radius: 16px;
+  background: var(--soft) !important; color: var(--txt) !important; text-decoration: none; transition: border-color .2s;
+}
+.s3d-page .s3d-next a:hover { border-color: var(--accent) !important; }
+.s3d-next small { display: block; color: var(--muted) !important; font-size: 13px; letter-spacing: .08em; text-transform: uppercase; }
+.s3d-next strong { display: block; margin-top: .3rem; font-size: 22px; color: var(--txt) !important; }
+.s3d-next .arrow { font-size: 26px; color: var(--accent) !important; }
+
+/* ── Mobile / tablette ── */
+@media (max-width: 899px) {
+  .s3d-hero { padding: 7rem 0 3rem; }
+  .s3d-scrolly { grid-template-columns: 1fr; }
+  .s3d-stage {
+    top: 56px; height: 52vh; height: 52svh; z-index: 2;
+    border-right: 0; border-bottom: 1px solid var(--line) !important;
+  }
+  .s3d-chapters { padding: 0 1.2rem; }
+  .s3d-chapter, .s3d-chapter:first-child { min-height: 70vh; padding: 4vh 0 10vh; }
+  .s3d-hud { top: .8rem; left: .9rem; }
+  .s3d-title { font-size: 16px; }
+  .s3d-tools { top: auto; bottom: .7rem; right: .7rem; }
+  .s3d-page .s3d-btn { min-height: 36px; padding: 0 .8rem; font-size: 11px; }
+  .s3d-legend { display: none; }
+  .s3d-info { top: auto; bottom: .7rem; left: .7rem; right: .7rem; width: auto; max-height: calc(100% - 1.4rem); overflow-y: auto; }
+  .s3d-free-hint { bottom: 3.6rem; }
+  .s3d-page .s3d-label { font-size: 11px; padding: .22rem .55rem; }
+  .s3d-zone-label { display: none; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .s3d-scroll-cue::before { animation: none; }
+  .s3d-chapter, .s3d-label { transition: none; }
+}
+
+/* Vue d'ensemble : étiquettes plus compactes pour limiter les chevauchements */
+.s3d-canvas.is-overview .s3d-label { font-size: 10.5px; padding: .2rem .5rem; gap: .3rem; }
+.s3d-canvas.is-overview .s3d-label i { width: 6px; height: 6px; }
+.s3d-canvas.is-overview .s3d-zone-label { font-size: 10px; }

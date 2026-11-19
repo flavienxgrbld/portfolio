@@ -25,10 +25,13 @@ index.html      redirection vers src/index.html
 src/            pages du site
 css/            feuilles de style (main.css = styles principaux)
 js/             scripts (main.js = comportements communs, *-loader.js = rendu des données JSON)
+js/vendor/three/  Three.js 0.170 (MIT), servi en local à cause de la CSP script-src 'self'
 json/           données affichées : projets, certifications, formations, veilles, schémas
 images/         images (WebP) et PDF des certifications
 fonts/          police Bai Jamjuree (woff2)
 ```
+
+Les pages schéma (`src/schema_1.html`, `src/schema_2.html`) affichent une scène 3D pilotée par le défilement (`js/schema3d.js`). Zones, équipements, liaisons et chapitres sont décrits dans `json/schema3d_perso.json` et `json/schema3d_pro.json`.
 
 Le contenu des pages Projets, Certifications, Veilles et À propos est chargé depuis `json/` : pour ajouter une entrée, il suffit de modifier le fichier JSON correspondant.
 

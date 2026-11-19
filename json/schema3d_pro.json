@@ -1,0 +1,46 @@
+{
+  "title": "Infrastructure en formation",
+  "zones": [
+    { "id": "wan",  "label": "WAN",                        "color": "#2563eb", "from": [-17, -3], "to": [-11.5, 3] },
+    { "id": "secu", "label": "Pare-feu",                   "color": "#dc2626", "from": [-10.5, -3], "to": [-6.5, 3] },
+    { "id": "lan",  "label": "Distribution & Wi-Fi",       "color": "#0891b2", "from": [-5.5, -10], "to": [-0.5, 3] },
+    { "id": "hv",   "label": "Hôte Proxmox",               "color": "#059669", "from": [0.5, -3], "to": [5.5, 3] },
+    { "id": "vms",  "label": "Machines virtuelles",        "color": "#7c3aed", "from": [8, -14.5], "to": [14, 14.5] }
+  ],
+  "nodes": [
+    { "id": "wan",     "label": "WAN IFC",         "type": "cloud",         "zone": "wan",  "pos": [-14.2, 0], "role": "Accès Internet fourni par l'établissement." },
+    { "id": "pfsense", "label": "PfSense",         "type": "firewall",      "zone": "secu", "pos": [-8.5, 0],  "role": "Pare-feu et routeur : filtre les flux entre le WAN et le réseau de la salle." },
+    { "id": "switch",  "label": "Switch-01",       "type": "switch-module", "zone": "lan",  "pos": [-3, 0],    "role": "Commutateur central : relie le pare-feu, la borne Wi-Fi et l'hôte Proxmox." },
+    { "id": "wifi",    "label": "WIFI SIO1 DLink", "type": "tower",         "zone": "lan",  "pos": [-3, -7],   "role": "Borne Wi-Fi de la salle SIO1." },
+    { "id": "proxmox", "label": "PROXMOX",         "type": "server",        "zone": "hv",   "pos": [3, 0],     "role": "Hyperviseur : héberge toutes les machines virtuelles de services." },
+    { "id": "unifi",   "label": "SRV-UNIFI",       "type": "vm",            "zone": "vms",  "pos": [11, -12],  "role": "Contrôleur UniFi : gestion centralisée des équipements réseau." },
+    { "id": "xivo",    "label": "SRV-XIVO",        "type": "vm",            "zone": "vms",  "pos": [11, -8],   "role": "Téléphonie sur IP (XiVO)." },
+    { "id": "artica",  "label": "SRV-ARTICA",      "type": "vm",            "zone": "vms",  "pos": [11, -4],   "role": "Proxy et filtrage web (Artica)." },
+    { "id": "zabbix",  "label": "SRV-ZABBIX",      "type": "vm",            "zone": "vms",  "pos": [11, 0],    "role": "Supervision des serveurs et des équipements (Zabbix)." },
+    { "id": "glpi",    "label": "SRV-GLPI",        "type": "vm",            "zone": "vms",  "pos": [11, 4],    "role": "Gestion du parc et des tickets d'assistance (GLPI)." },
+    { "id": "ad2",     "label": "SRV-AD2",         "type": "vm",            "zone": "vms",  "pos": [11, 8],    "role": "Contrôleur de domaine secondaire (Active Directory)." },
+    { "id": "ad1",     "label": "SRV-AD1",         "type": "vm",            "zone": "vms",  "pos": [11, 12],   "role": "Contrôleur de domaine principal (Active Directory)." }
+  ],
+  "links": [
+    { "from": "wan",     "to": "pfsense", "color": "#cc0000" },
+    { "from": "pfsense", "to": "switch",  "color": "#0066cc" },
+    { "from": "switch",  "to": "wifi",    "color": "#0066cc" },
+    { "from": "switch",  "to": "proxmox", "color": "#0066cc" },
+    { "from": "proxmox", "to": "unifi",   "color": "#0066cc" },
+    { "from": "proxmox", "to": "xivo",    "color": "#0066cc" },
+    { "from": "proxmox", "to": "artica",  "color": "#0066cc" },
+    { "from": "proxmox", "to": "zabbix",  "color": "#0066cc" },
+    { "from": "proxmox", "to": "glpi",    "color": "#0066cc" },
+    { "from": "proxmox", "to": "ad2",     "color": "#0066cc" },
+    { "from": "proxmox", "to": "ad1",     "color": "#0066cc" }
+  ],
+  "chapters": [
+    { "title": "Vue d'ensemble", "text": "L'infrastructure montée en BTS SIO : un pare-feu PfSense, un commutateur, une borne Wi-Fi et un hôte Proxmox qui porte sept machines virtuelles de services.", "focus": "all" },
+    { "title": "Entrée WAN", "text": "Le réseau de l'établissement fournit l'accès Internet. Il arrive sur l'interface WAN du pare-feu.", "focus": ["wan", "pfsense"] },
+    { "title": "Pare-feu PfSense", "text": "PfSense fait office de pare-feu et de routeur. Il isole le réseau de la salle du réseau de l'établissement et n'autorise que les flux prévus.", "focus": ["pfsense", "wan", "switch"] },
+    { "title": "Distribution et Wi-Fi", "text": "Le commutateur Switch-01 relie le pare-feu à l'hôte Proxmox et à la borne Wi-Fi SIO1, qui raccorde les postes sans fil.", "focus": ["switch", "wifi", "pfsense", "proxmox"] },
+    { "title": "Hôte Proxmox", "text": "Un seul serveur physique virtualise l'ensemble des services. Chaque rôle tourne dans sa propre machine virtuelle.", "focus": ["proxmox", "switch"] },
+    { "title": "Annuaire et téléphonie", "text": "Deux contrôleurs de domaine Active Directory assurent la redondance des comptes. XiVO gère la téléphonie sur IP et le contrôleur UniFi les équipements réseau.", "focus": ["ad1", "ad2", "xivo", "unifi"] },
+    { "title": "Supervision, parc et proxy", "text": "Zabbix supervise les machines, GLPI gère le parc et les tickets, et Artica filtre la navigation web.", "focus": ["zabbix", "glpi", "artica"] }
+  ]
+}
