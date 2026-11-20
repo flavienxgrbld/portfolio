@@ -114,16 +114,16 @@
   {
     "name": "ZABBIX",
     "path": "ZABBIX",
-    "sha": "3dfc576a032262ab73ed9fb79fe928c8a7e32ebb",
+    "sha": "8f376d541a379e745825b2959c974b362a913de9",
     "size": 0,
     "url": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ZABBIX?ref=main",
     "html_url": "https://github.com/flavienxgrbld/procedures/tree/main/ZABBIX",
-    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3dfc576a032262ab73ed9fb79fe928c8a7e32ebb",
+    "git_url": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8f376d541a379e745825b2959c974b362a913de9",
     "download_url": null,
     "type": "dir",
     "_links": {
       "self": "https://api.github.com/repos/flavienxgrbld/procedures/contents/ZABBIX?ref=main",
-      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/3dfc576a032262ab73ed9fb79fe928c8a7e32ebb",
+      "git": "https://api.github.com/repos/flavienxgrbld/procedures/git/trees/8f376d541a379e745825b2959c974b362a913de9",
       "html": "https://github.com/flavienxgrbld/procedures/tree/main/ZABBIX"
     }
   },
